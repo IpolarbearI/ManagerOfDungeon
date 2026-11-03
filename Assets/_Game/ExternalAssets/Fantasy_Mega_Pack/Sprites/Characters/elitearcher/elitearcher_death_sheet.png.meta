@@ -1,0 +1,1313 @@
+fileFormatVersion: 2
+guid: b61b1165f408ea54c904f956b46f1db8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1369588741860416904
+    second: elitearcher_death_sheet_0
+  - first:
+      213: 3347386689316893361
+    second: elitearcher_death_sheet_1
+  - first:
+      213: 1838526784189428953
+    second: elitearcher_death_sheet_2
+  - first:
+      213: -6289896523980970736
+    second: elitearcher_death_sheet_3
+  - first:
+      213: -7874328971614786327
+    second: elitearcher_death_sheet_4
+  - first:
+      213: -7762977529032013978
+    second: elitearcher_death_sheet_5
+  - first:
+      213: -4965615731320539369
+    second: elitearcher_death_sheet_6
+  - first:
+      213: -7956142468489699969
+    second: elitearcher_death_sheet_7
+  - first:
+      213: 476770395280177754
+    second: elitearcher_death_sheet_8
+  - first:
+      213: 6642942792992562129
+    second: elitearcher_death_sheet_9
+  - first:
+      213: -7028622467161625226
+    second: elitearcher_death_sheet_10
+  - first:
+      213: -2171911079103790087
+    second: elitearcher_death_sheet_11
+  - first:
+      213: -1173385633106896797
+    second: elitearcher_death_sheet_12
+  - first:
+      213: -151766491503100292
+    second: elitearcher_death_sheet_13
+  - first:
+      213: -296920260794757978
+    second: elitearcher_death_sheet_14
+  - first:
+      213: 5830927873571475299
+    second: elitearcher_death_sheet_15
+  - first:
+      213: -6370688083122942939
+    second: elitearcher_death_sheet_16
+  - first:
+      213: -4695998430857927740
+    second: elitearcher_death_sheet_17
+  - first:
+      213: -6816493101608610359
+    second: elitearcher_death_sheet_18
+  - first:
+      213: -354527898350022195
+    second: elitearcher_death_sheet_19
+  - first:
+      213: -4883917792583569623
+    second: elitearcher_death_sheet_20
+  - first:
+      213: 969625970771184833
+    second: elitearcher_death_sheet_21
+  - first:
+      213: 3394405071447866506
+    second: elitearcher_death_sheet_22
+  - first:
+      213: -7504410039014395384
+    second: elitearcher_death_sheet_23
+  - first:
+      213: -6731971264166805968
+    second: elitearcher_death_sheet_24
+  - first:
+      213: -3501760745401086266
+    second: elitearcher_death_sheet_25
+  - first:
+      213: -7745155807684063891
+    second: elitearcher_death_sheet_26
+  - first:
+      213: -8361965479372604365
+    second: elitearcher_death_sheet_27
+  - first:
+      213: -1365377326060989058
+    second: elitearcher_death_sheet_28
+  - first:
+      213: -5631161417969754296
+    second: elitearcher_death_sheet_29
+  - first:
+      213: -214465923884083825
+    second: elitearcher_death_sheet_30
+  - first:
+      213: 6663675941617643939
+    second: elitearcher_death_sheet_31
+  - first:
+      213: -6075620229562043075
+    second: elitearcher_death_sheet_32
+  - first:
+      213: 2212888782859703578
+    second: elitearcher_death_sheet_33
+  - first:
+      213: 7475144260771019946
+    second: elitearcher_death_sheet_34
+  - first:
+      213: -1702474102715972590
+    second: elitearcher_death_sheet_35
+  - first:
+      213: 1492069483288255720
+    second: elitearcher_death_sheet_36
+  - first:
+      213: -8420622850970112172
+    second: elitearcher_death_sheet_37
+  - first:
+      213: -8335972670257335125
+    second: elitearcher_death_sheet_38
+  - first:
+      213: 5072810800440469391
+    second: elitearcher_death_sheet_39
+  - first:
+      213: -8187921501426278213
+    second: elitearcher_death_sheet_40
+  - first:
+      213: -2302699867758323911
+    second: elitearcher_death_sheet_41
+  - first:
+      213: -6803794917390401090
+    second: elitearcher_death_sheet_42
+  - first:
+      213: -1696688895000490412
+    second: elitearcher_death_sheet_43
+  - first:
+      213: 5353083143199598389
+    second: elitearcher_death_sheet_44
+  - first:
+      213: -3088656173107457069
+    second: elitearcher_death_sheet_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 805
+        width: 122
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88dd6fe44b1c10310800000000000000
+      internalID: 1369588741860416904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 805
+        width: 128
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b2ba9e657e447e20800000000000000
+      internalID: 3347386689316893361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 802
+        width: 124
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4f6a98e52c38910800000000000000
+      internalID: 1838526784189428953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 797
+        width: 187
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015662ecf6cc5b8a0800000000000000
+      internalID: -6289896523980970736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 863
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec65523583c8b290800000000000000
+      internalID: -7874328971614786327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 834
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66705be311d544490800000000000000
+      internalID: -7762977529032013978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 802
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7173c832dc6961bb0800000000000000
+      internalID: -4965615731320539369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 813
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d954f049a169190800000000000000
+      internalID: -7956142468489699969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 568
+        width: 120
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5af8120624dd9600800000000000000
+      internalID: 476770395280177754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 568
+        width: 127
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db109f3649703c50800000000000000
+      internalID: 6642942792992562129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 571
+        width: 124
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d6088fa11557e90800000000000000
+      internalID: -7028622467161625226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 685
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3884e7162dbd1e0800000000000000
+      internalID: -2171911079103790087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 568
+        width: 126
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368dd1acbfb47bfe0800000000000000
+      internalID: -1173385633106896797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 627
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e76291e21d4edf0800000000000000
+      internalID: -151766491503100292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 636
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac46b0989021ebf0800000000000000
+      internalID: -296920260794757978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 612
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36fc627e10e9be050800000000000000
+      internalID: 5830927873571475299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 577
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c84a611f4c697a0800000000000000
+      internalID: -6370688083122942939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 577
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3ebeebe4674deb0800000000000000
+      internalID: -4695998430857927740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 568
+        width: 102
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5d7b0b3a3f661a0800000000000000
+      internalID: -6816493101608610359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 565
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc191eb31c6741bf0800000000000000
+      internalID: -354527898350022195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 340
+        width: 104
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92fa8dcc4a6d83cb0800000000000000
+      internalID: -4883917792583569623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 338
+        width: 99
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc4fc0eeadc47d00800000000000000
+      internalID: 969625970771184833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 336
+        width: 125
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c3f6b9d695b1f20800000000000000
+      internalID: 3394405071447866506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 444
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802fbaf54dafad790800000000000000
+      internalID: -7504410039014395384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 329
+        width: 178
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e33318dcb3392a0800000000000000
+      internalID: -6731971264166805968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 394
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce06f9b72f376fc0800000000000000
+      internalID: -3501760745401086266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 363
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d00f814dda38490800000000000000
+      internalID: -7745155807684063891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 362
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33cbae933b454fb80800000000000000
+      internalID: -8361965479372604365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 341
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7513c75e843d0de0800000000000000
+      internalID: -1365377326060989058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 343
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f170986881ad1b0800000000000000
+      internalID: -5631161417969754296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 338
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f859676e060160df0800000000000000
+      internalID: -214465923884083825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 110
+        width: 120
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1bf6696f12a7c50800000000000000
+      internalID: 6663675941617643939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 105
+        width: 100
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35f6ca579f0faba0800000000000000
+      internalID: -6075620229562043075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 109
+        width: 124
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a159cc5af92c5be10800000000000000
+      internalID: 2212888782859703578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 214
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac7e04a91c0db760800000000000000
+      internalID: 7475144260771019946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 121
+        width: 131
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214005cd2d89f58e0800000000000000
+      internalID: -1702474102715972590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 184
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ecd89b2a45e4b410800000000000000
+      internalID: 1492069483288255720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 135
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fa364a120f32b80800000000000000
+      internalID: -8420622850970112172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 118
+        width: 68
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba472f3b50da05c80800000000000000
+      internalID: -8335972670257335125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 150
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87e40dcb8e366640800000000000000
+      internalID: 5072810800440469391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 130
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb024b2a6c8ae5e80800000000000000
+      internalID: -8187921501426278213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 116
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9371de5abaa2b00e0800000000000000
+      internalID: -2302699867758323911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 113
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1465812901491a0800000000000000
+      internalID: -6803794917390401090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 118
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e452f70762478e0800000000000000
+      internalID: -1696688895000490412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 114
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5372b83c1c8f94a40800000000000000
+      internalID: 5353083143199598389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_death_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 110
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3dc903393e225d0800000000000000
+      internalID: -3088656173107457069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      elitearcher_death_sheet_0: 1369588741860416904
+      elitearcher_death_sheet_1: 3347386689316893361
+      elitearcher_death_sheet_10: -7028622467161625226
+      elitearcher_death_sheet_11: -2171911079103790087
+      elitearcher_death_sheet_12: -1173385633106896797
+      elitearcher_death_sheet_13: -151766491503100292
+      elitearcher_death_sheet_14: -296920260794757978
+      elitearcher_death_sheet_15: 5830927873571475299
+      elitearcher_death_sheet_16: -6370688083122942939
+      elitearcher_death_sheet_17: -4695998430857927740
+      elitearcher_death_sheet_18: -6816493101608610359
+      elitearcher_death_sheet_19: -354527898350022195
+      elitearcher_death_sheet_2: 1838526784189428953
+      elitearcher_death_sheet_20: -4883917792583569623
+      elitearcher_death_sheet_21: 969625970771184833
+      elitearcher_death_sheet_22: 3394405071447866506
+      elitearcher_death_sheet_23: -7504410039014395384
+      elitearcher_death_sheet_24: -6731971264166805968
+      elitearcher_death_sheet_25: -3501760745401086266
+      elitearcher_death_sheet_26: -7745155807684063891
+      elitearcher_death_sheet_27: -8361965479372604365
+      elitearcher_death_sheet_28: -1365377326060989058
+      elitearcher_death_sheet_29: -5631161417969754296
+      elitearcher_death_sheet_3: -6289896523980970736
+      elitearcher_death_sheet_30: -214465923884083825
+      elitearcher_death_sheet_31: 6663675941617643939
+      elitearcher_death_sheet_32: -6075620229562043075
+      elitearcher_death_sheet_33: 2212888782859703578
+      elitearcher_death_sheet_34: 7475144260771019946
+      elitearcher_death_sheet_35: -1702474102715972590
+      elitearcher_death_sheet_36: 1492069483288255720
+      elitearcher_death_sheet_37: -8420622850970112172
+      elitearcher_death_sheet_38: -8335972670257335125
+      elitearcher_death_sheet_39: 5072810800440469391
+      elitearcher_death_sheet_4: -7874328971614786327
+      elitearcher_death_sheet_40: -8187921501426278213
+      elitearcher_death_sheet_41: -2302699867758323911
+      elitearcher_death_sheet_42: -6803794917390401090
+      elitearcher_death_sheet_43: -1696688895000490412
+      elitearcher_death_sheet_44: 5353083143199598389
+      elitearcher_death_sheet_45: -3088656173107457069
+      elitearcher_death_sheet_5: -7762977529032013978
+      elitearcher_death_sheet_6: -4965615731320539369
+      elitearcher_death_sheet_7: -7956142468489699969
+      elitearcher_death_sheet_8: 476770395280177754
+      elitearcher_death_sheet_9: 6642942792992562129
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 84ef0c5c80ce0e64a8f5243262e45017
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4834192772240721612
+    second: bloodskeleton_death_sheet_0
+  - first:
+      213: -2436253721460207600
+    second: bloodskeleton_death_sheet_1
+  - first:
+      213: -5365213187739085963
+    second: bloodskeleton_death_sheet_2
+  - first:
+      213: 5206338119659798175
+    second: bloodskeleton_death_sheet_3
+  - first:
+      213: -4538359046377301081
+    second: bloodskeleton_death_sheet_4
+  - first:
+      213: -6574841369181795151
+    second: bloodskeleton_death_sheet_5
+  - first:
+      213: -797899999781603147
+    second: bloodskeleton_death_sheet_6
+  - first:
+      213: 7197582160855155578
+    second: bloodskeleton_death_sheet_7
+  - first:
+      213: -2832616499324644035
+    second: bloodskeleton_death_sheet_8
+  - first:
+      213: -3774503696129728233
+    second: bloodskeleton_death_sheet_9
+  - first:
+      213: 6238660953033401378
+    second: bloodskeleton_death_sheet_10
+  - first:
+      213: -483231461881682610
+    second: bloodskeleton_death_sheet_11
+  - first:
+      213: 7268439090437135285
+    second: bloodskeleton_death_sheet_12
+  - first:
+      213: -4493168066518534149
+    second: bloodskeleton_death_sheet_13
+  - first:
+      213: 2191792374994312673
+    second: bloodskeleton_death_sheet_14
+  - first:
+      213: 1540630648765467196
+    second: bloodskeleton_death_sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bloodskeleton_death_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 798
+        width: 143
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439b4da494f79ecb0800000000000000
+      internalID: -4834192772240721612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_death_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 801
+        width: 147
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01014ade520b03ed0800000000000000
+      internalID: -2436253721460207600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_death_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 798
+        width: 158
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5731298280fea85b0800000000000000
+      internalID: -5365213187739085963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_death_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 785
+        width: 192
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9eb5ea7fe0a04840800000000000000
+      internalID: 5206338119659798175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_death_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 568
+        width: 144
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab10891e728401c0800000000000000
+      internalID: -4538359046377301081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_death_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 564
+        width: 143
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc40671c9871c4a0800000000000000
+      internalID: -6574841369181795151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_death_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 567
+        width: 162
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8bbba7d2a4de4f0800000000000000
+      internalID: -797899999781603147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_death_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 561
+        width: 192
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73c57347d2f2e360800000000000000
+      internalID: 7197582160855155578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_death_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 339
+        width: 135
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3518dc3d4680b8d0800000000000000
+      internalID: -2832616499324644035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_death_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 337
+        width: 132
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711e9c4f2e44e9bc0800000000000000
+      internalID: -3774503696129728233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_death_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 335
+        width: 153
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224e7ab351d249650800000000000000
+      internalID: 6238660953033401378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_death_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 328
+        width: 207
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45ef32bb873b49f0800000000000000
+      internalID: -483231461881682610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_death_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 113
+        width: 135
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb9119c7deaed460800000000000000
+      internalID: 7268439090437135285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_death_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 109
+        width: 126
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7b807037f05a1c0800000000000000
+      internalID: -4493168066518534149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_death_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 99
+        width: 153
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed12fc6d8fca6e10800000000000000
+      internalID: 2191792374994312673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_death_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 91
+        width: 212
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3aceb5996b616510800000000000000
+      internalID: 1540630648765467196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bloodskeleton_death_sheet_0: -4834192772240721612
+      bloodskeleton_death_sheet_1: -2436253721460207600
+      bloodskeleton_death_sheet_10: 6238660953033401378
+      bloodskeleton_death_sheet_11: -483231461881682610
+      bloodskeleton_death_sheet_12: 7268439090437135285
+      bloodskeleton_death_sheet_13: -4493168066518534149
+      bloodskeleton_death_sheet_14: 2191792374994312673
+      bloodskeleton_death_sheet_15: 1540630648765467196
+      bloodskeleton_death_sheet_2: -5365213187739085963
+      bloodskeleton_death_sheet_3: 5206338119659798175
+      bloodskeleton_death_sheet_4: -4538359046377301081
+      bloodskeleton_death_sheet_5: -6574841369181795151
+      bloodskeleton_death_sheet_6: -797899999781603147
+      bloodskeleton_death_sheet_7: 7197582160855155578
+      bloodskeleton_death_sheet_8: -2832616499324644035
+      bloodskeleton_death_sheet_9: -3774503696129728233
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

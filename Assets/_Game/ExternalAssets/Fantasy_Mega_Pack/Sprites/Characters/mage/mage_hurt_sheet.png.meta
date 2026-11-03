@@ -1,0 +1,2587 @@
+fileFormatVersion: 2
+guid: 5ed179539eb071149a10f8c5f92e4664
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6659132238300277932
+    second: mage_hurt_sheet_0
+  - first:
+      213: -8654200796685623235
+    second: mage_hurt_sheet_1
+  - first:
+      213: 779343279038376353
+    second: mage_hurt_sheet_2
+  - first:
+      213: -6787002154822717349
+    second: mage_hurt_sheet_3
+  - first:
+      213: -3323165125280986215
+    second: mage_hurt_sheet_4
+  - first:
+      213: -4238026044147405841
+    second: mage_hurt_sheet_5
+  - first:
+      213: 282057018747320765
+    second: mage_hurt_sheet_6
+  - first:
+      213: -4605781666500627770
+    second: mage_hurt_sheet_7
+  - first:
+      213: 8079793197126351132
+    second: mage_hurt_sheet_8
+  - first:
+      213: -2115840669379618442
+    second: mage_hurt_sheet_9
+  - first:
+      213: 424483279526355967
+    second: mage_hurt_sheet_10
+  - first:
+      213: -6911300005646358304
+    second: mage_hurt_sheet_11
+  - first:
+      213: -577500044838748490
+    second: mage_hurt_sheet_12
+  - first:
+      213: 8490725925836493664
+    second: mage_hurt_sheet_13
+  - first:
+      213: -4728168514450036199
+    second: mage_hurt_sheet_14
+  - first:
+      213: -1972760941204661735
+    second: mage_hurt_sheet_15
+  - first:
+      213: -4834621117900047006
+    second: mage_hurt_sheet_16
+  - first:
+      213: -9074279969221853972
+    second: mage_hurt_sheet_17
+  - first:
+      213: 1583485322082490946
+    second: mage_hurt_sheet_18
+  - first:
+      213: -5433440377699894351
+    second: mage_hurt_sheet_19
+  - first:
+      213: -8294321364240292330
+    second: mage_hurt_sheet_20
+  - first:
+      213: -7746753874118291318
+    second: mage_hurt_sheet_21
+  - first:
+      213: -1826727519771050013
+    second: mage_hurt_sheet_22
+  - first:
+      213: -6159248311185994146
+    second: mage_hurt_sheet_23
+  - first:
+      213: -3091119189373464336
+    second: mage_hurt_sheet_24
+  - first:
+      213: -8753169690846846781
+    second: mage_hurt_sheet_25
+  - first:
+      213: -3811335566026124813
+    second: mage_hurt_sheet_26
+  - first:
+      213: 5976041898366384989
+    second: mage_hurt_sheet_27
+  - first:
+      213: -4154787234963358678
+    second: mage_hurt_sheet_28
+  - first:
+      213: 3824809435995965198
+    second: mage_hurt_sheet_29
+  - first:
+      213: -5378391287740284512
+    second: mage_hurt_sheet_30
+  - first:
+      213: 8842538843997560830
+    second: mage_hurt_sheet_31
+  - first:
+      213: -3573399757183366742
+    second: mage_hurt_sheet_32
+  - first:
+      213: 495084349603783410
+    second: mage_hurt_sheet_33
+  - first:
+      213: 4565868111984003349
+    second: mage_hurt_sheet_34
+  - first:
+      213: -6754021302761671670
+    second: mage_hurt_sheet_35
+  - first:
+      213: 1927945421063692100
+    second: mage_hurt_sheet_36
+  - first:
+      213: -3730454026881469243
+    second: mage_hurt_sheet_37
+  - first:
+      213: -2147367742601052406
+    second: mage_hurt_sheet_38
+  - first:
+      213: 1452136653810227481
+    second: mage_hurt_sheet_39
+  - first:
+      213: 3346406824634155893
+    second: mage_hurt_sheet_40
+  - first:
+      213: -1462990437117633461
+    second: mage_hurt_sheet_41
+  - first:
+      213: 8843617348391027089
+    second: mage_hurt_sheet_42
+  - first:
+      213: -7218189545366168905
+    second: mage_hurt_sheet_43
+  - first:
+      213: 8489509749432434964
+    second: mage_hurt_sheet_44
+  - first:
+      213: 5816289666672348370
+    second: mage_hurt_sheet_45
+  - first:
+      213: 7970764012912658149
+    second: mage_hurt_sheet_46
+  - first:
+      213: -2396766549194646221
+    second: mage_hurt_sheet_47
+  - first:
+      213: 1794095392252930860
+    second: mage_hurt_sheet_48
+  - first:
+      213: -7624198180187484012
+    second: mage_hurt_sheet_49
+  - first:
+      213: -2984666726846313291
+    second: mage_hurt_sheet_50
+  - first:
+      213: 6278762460270599141
+    second: mage_hurt_sheet_51
+  - first:
+      213: 8074171020710703036
+    second: mage_hurt_sheet_52
+  - first:
+      213: -5640723549758228114
+    second: mage_hurt_sheet_53
+  - first:
+      213: -6143041461666929940
+    second: mage_hurt_sheet_54
+  - first:
+      213: 2783379575594412172
+    second: mage_hurt_sheet_55
+  - first:
+      213: -2694576916431546087
+    second: mage_hurt_sheet_56
+  - first:
+      213: -7306355048059294944
+    second: mage_hurt_sheet_57
+  - first:
+      213: 167686523418343093
+    second: mage_hurt_sheet_58
+  - first:
+      213: -7072661039829655882
+    second: mage_hurt_sheet_59
+  - first:
+      213: 3484888708017664629
+    second: mage_hurt_sheet_60
+  - first:
+      213: 2184931128088891634
+    second: mage_hurt_sheet_61
+  - first:
+      213: -6624730360283149631
+    second: mage_hurt_sheet_62
+  - first:
+      213: -6386876546593852059
+    second: mage_hurt_sheet_63
+  - first:
+      213: 799576012314835846
+    second: mage_hurt_sheet_64
+  - first:
+      213: 3661458904417926564
+    second: mage_hurt_sheet_65
+  - first:
+      213: 4430730673679517063
+    second: mage_hurt_sheet_66
+  - first:
+      213: -6488121965538893919
+    second: mage_hurt_sheet_67
+  - first:
+      213: 2120249414675446469
+    second: mage_hurt_sheet_68
+  - first:
+      213: 1801665895122475233
+    second: mage_hurt_sheet_69
+  - first:
+      213: 2802869134369706705
+    second: mage_hurt_sheet_70
+  - first:
+      213: 2269495804140723682
+    second: mage_hurt_sheet_71
+  - first:
+      213: 8355228683998734311
+    second: mage_hurt_sheet_72
+  - first:
+      213: 975314186827426097
+    second: mage_hurt_sheet_73
+  - first:
+      213: 9066270880164440363
+    second: mage_hurt_sheet_74
+  - first:
+      213: 1511637958760966685
+    second: mage_hurt_sheet_75
+  - first:
+      213: 5954767785081912820
+    second: mage_hurt_sheet_76
+  - first:
+      213: -2482195921913993430
+    second: mage_hurt_sheet_77
+  - first:
+      213: -8102886674344410037
+    second: mage_hurt_sheet_78
+  - first:
+      213: -3462545826021628863
+    second: mage_hurt_sheet_79
+  - first:
+      213: -6342068881116219292
+    second: mage_hurt_sheet_80
+  - first:
+      213: -5494222298707612391
+    second: mage_hurt_sheet_81
+  - first:
+      213: -8676862347796202788
+    second: mage_hurt_sheet_82
+  - first:
+      213: 1456611470691439724
+    second: mage_hurt_sheet_83
+  - first:
+      213: -2610656067100997453
+    second: mage_hurt_sheet_84
+  - first:
+      213: -9058837443844359269
+    second: mage_hurt_sheet_85
+  - first:
+      213: -3394017582374284822
+    second: mage_hurt_sheet_86
+  - first:
+      213: -8272999522577488956
+    second: mage_hurt_sheet_87
+  - first:
+      213: -5029971689702873117
+    second: mage_hurt_sheet_88
+  - first:
+      213: 5718334942327159961
+    second: mage_hurt_sheet_89
+  - first:
+      213: 8319733060740789684
+    second: mage_hurt_sheet_90
+  - first:
+      213: -1839796892863003678
+    second: mage_hurt_sheet_91
+  - first:
+      213: 2923921784272940953
+    second: mage_hurt_sheet_92
+  - first:
+      213: -6536333544515300106
+    second: mage_hurt_sheet_93
+  - first:
+      213: 4520601835032059153
+    second: mage_hurt_sheet_94
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mage_hurt_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 778
+        width: 156
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45392c7c2820693a0800000000000000
+      internalID: -6659132238300277932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 849
+        width: 35
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30a6a23a3a16e780800000000000000
+      internalID: -8654200796685623235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 778
+        width: 107
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9ab294598c0da00800000000000000
+      internalID: 779343279038376353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 913
+        width: 99
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b503bffcf79bfc1a0800000000000000
+      internalID: -6787002154822717349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 848
+        width: 55
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b09a9eceeb1e1d0800000000000000
+      internalID: -3323165125280986215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 790
+        width: 111
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb6db154c18f25c0800000000000000
+      internalID: -4238026044147405841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 912
+        width: 99
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9f6d83d511ae300800000000000000
+      internalID: 282057018747320765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 789
+        width: 144
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2393f0af9f410c0800000000000000
+      internalID: -4605781666500627770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 911
+        width: 96
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19755daa11312070800000000000000
+      internalID: 8079793197126351132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 835
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6799d441f1603a2e0800000000000000
+      internalID: -2115840669379618442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 797
+        width: 12
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3e2413b4114e500800000000000000
+      internalID: 424483279526355967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 855
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e82b4333412610a0800000000000000
+      internalID: -6911300005646358304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 842
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be3d99d4ce4cf7f0800000000000000
+      internalID: -577500044838748490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 782
+        width: 21
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0631fa66e3e15d570800000000000000
+      internalID: 8490725925836493664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 778
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ae40a79cb226eb0800000000000000
+      internalID: -4728168514450036199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 787
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a1bb840685f94e0800000000000000
+      internalID: -1972760941204661735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 786
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d37fb45b9f7ecb0800000000000000
+      internalID: -4834621117900047006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 778
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cecb612127ea11280800000000000000
+      internalID: -9074279969221853972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 522
+        width: 155
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a95c1c28ba9f510800000000000000
+      internalID: 1583485322082490946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 652
+        width: 105
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbfeea93ca8894b0800000000000000
+      internalID: -5433440377699894351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 673
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61626871aa6a4ec80800000000000000
+      internalID: -8294321364240292330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 646
+        width: 38
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a805cc245600e7490800000000000000
+      internalID: -7746753874118291318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 648
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efbd9acff826a6e0800000000000000
+      internalID: -1826727519771050013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 654
+        width: 104
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e85584b44f58aa0800000000000000
+      internalID: -6159248311185994146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 675
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0500789732a15d0800000000000000
+      internalID: -3091119189373464336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 655
+        width: 35
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0ab5eda8e768680800000000000000
+      internalID: -8753169690846846781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 651
+        width: 104
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1533bfe7a6b1bc0800000000000000
+      internalID: -3811335566026124813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 672
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5bbaf2b17a2fe250800000000000000
+      internalID: 5976041898366384989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 610
+        width: 103
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c7ea6d50b3756c0800000000000000
+      internalID: -4154787234963358678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 637
+        width: 59
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e070a16dae3741530800000000000000
+      internalID: 3824809435995965198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 548
+        width: 40
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a14f27ae9d1c55b0800000000000000
+      internalID: -5378391287740284512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 590
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff51159a3207ba70800000000000000
+      internalID: 8842538843997560830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 604
+        width: 122
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa94e908adbb86ec0800000000000000
+      internalID: -3573399757183366742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 562
+        width: 124
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f22df7c794eed600800000000000000
+      internalID: 495084349603783410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 604
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519071a5bd83d5f30800000000000000
+      internalID: 4565868111984003349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 580
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a043873d865e442a0800000000000000
+      internalID: -6754021302761671670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 574
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f97d0552071ca10800000000000000
+      internalID: 1927945421063692100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 522
+        width: 108
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4fdccc3d3ca3cc0800000000000000
+      internalID: -3730454026881469243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 550
+        width: 13
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0fb1245a640332e0800000000000000
+      internalID: -2147367742601052406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 522
+        width: 109
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919dea7c796072410800000000000000
+      internalID: 1452136653810227481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 522
+        width: 109
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5730348e643d07e20800000000000000
+      internalID: 3346406824634155893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 266
+        width: 133
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c5fcdd2f962bbe0800000000000000
+      internalID: -1462990437117633461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 350
+        width: 41
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19144547f17daba70800000000000000
+      internalID: 8843617348391027089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 365
+        width: 100
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bad2032ad6d3db90800000000000000
+      internalID: -7218189545366168905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 356
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411c224432cc0d570800000000000000
+      internalID: 8489509749432434964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 375
+        width: 35
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dcc7c4c2ac97b050800000000000000
+      internalID: 5816289666672348370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 339
+        width: 75
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6402a83a7dd9e60800000000000000
+      internalID: 7970764012912658149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 380
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33dd6b9a589fcbed0800000000000000
+      internalID: -2396766549194646221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 362
+        width: 97
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ba664f048e5e810800000000000000
+      internalID: 1794095392252930860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 373
+        width: 49
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490debc5628613690800000000000000
+      internalID: -7624198180187484012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 339
+        width: 76
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcc565ec655496d0800000000000000
+      internalID: -2984666726846313291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 365
+        width: 97
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb9c79f035a22750800000000000000
+      internalID: 6278762460270599141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 313
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbfe639b3c73d0070800000000000000
+      internalID: 8074171020710703036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 267
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69fa7c31df18b1b0800000000000000
+      internalID: -5640723549758228114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 272
+        width: 77
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2a8dc76588fbaa0800000000000000
+      internalID: -6143041461666929940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 287
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88e16e1afc80a620800000000000000
+      internalID: 2783379575594412172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 287
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919512c2290fa9ad0800000000000000
+      internalID: -2694576916431546087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 266
+        width: 75
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b2b856bcc9a9a90800000000000000
+      internalID: -7306355048059294944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 284
+        width: 25
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b678fd210eb35200800000000000000
+      internalID: 167686523418343093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 281
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be5530c14cd8dd90800000000000000
+      internalID: -7072661039829655882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 274
+        width: 85
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572b923f0dfcc5030800000000000000
+      internalID: 3484888708017664629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 273
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f09e64e84f625e10800000000000000
+      internalID: 2184931128088891634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 280
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cac39e26da3014a0800000000000000
+      internalID: -6624730360283149631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 278
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565fff7be914d57a0800000000000000
+      internalID: -6386876546593852059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 275
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bf2f8952aa81b00800000000000000
+      internalID: 799576012314835846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 281
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad758d697d10d230800000000000000
+      internalID: 3661458904417926564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 266
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785481c921e1d7d30800000000000000
+      internalID: 4430730673679517063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 266
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af15a8a27f85f5a0800000000000000
+      internalID: -6488121965538893919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 10
+        width: 133
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cab5fceb93ac6d10800000000000000
+      internalID: 2120249414675446469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 109
+        width: 100
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e816b2069dc00910800000000000000
+      internalID: 1801665895122475233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 100
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d25302a0aac5e620800000000000000
+      internalID: 2802869134369706705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 94
+        width: 41
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed1c09d86ede7f10800000000000000
+      internalID: 2269495804140723682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 106
+        width: 97
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e726ee583cb3f370800000000000000
+      internalID: 8355228683998734311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 83
+        width: 75
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1396f32e513098d00800000000000000
+      internalID: 975314186827426097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 124
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b296ba1945dd1dd70800000000000000
+      internalID: 9066270880164440363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 119
+        width: 35
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1aa1f8e6ba6af410800000000000000
+      internalID: 1511637958760966685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 109
+        width: 97
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd3fb530c593a250800000000000000
+      internalID: 5954767785081912820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 83
+        width: 76
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27a463d5f77d8dd0800000000000000
+      internalID: -2482195921913993430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 117
+        width: 49
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4484782083cc8f80800000000000000
+      internalID: -8102886674344410037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 16
+        width: 77
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1442875aae092ffc0800000000000000
+      internalID: -3462545826021628863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 57
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468320054f17cf7a0800000000000000
+      internalID: -6342068881116219292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 11
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91da080dde990c3b0800000000000000
+      internalID: -5494222298707612391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 10
+        width: 75
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda35aaaaa7959780800000000000000
+      internalID: -8676862347796202788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 31
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6492564a6ce63410800000000000000
+      internalID: 1456611470691439724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_84
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 31
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b80ab9832615cbd0800000000000000
+      internalID: -2610656067100997453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_85
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 18
+        width: 85
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b36a1375b884280800000000000000
+      internalID: -9058837443844359269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_86
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 25
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae19629bdf606e0d0800000000000000
+      internalID: -3394017582374284822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_87
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 28
+        width: 25
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3eac534c6603d80800000000000000
+      internalID: -8272999522577488956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_88
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 24
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e72dfce563f13ab0800000000000000
+      internalID: -5029971689702873117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_89
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 17
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c3d10455b9b5f40800000000000000
+      internalID: 5718334942327159961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_90
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 19
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5378f8321a57370800000000000000
+      internalID: 8319733060740789684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_91
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 22
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3880e397ab776e0800000000000000
+      internalID: -1839796892863003678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_92
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 25
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f6d960f5bd39820800000000000000
+      internalID: 2923921784272940953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_93
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 10
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f412b1b5474a45a0800000000000000
+      internalID: -6536333544515300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_hurt_sheet_94
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 10
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d9014fa676cbe30800000000000000
+      internalID: 4520601835032059153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mage_hurt_sheet_0: -6659132238300277932
+      mage_hurt_sheet_1: -8654200796685623235
+      mage_hurt_sheet_10: 424483279526355967
+      mage_hurt_sheet_11: -6911300005646358304
+      mage_hurt_sheet_12: -577500044838748490
+      mage_hurt_sheet_13: 8490725925836493664
+      mage_hurt_sheet_14: -4728168514450036199
+      mage_hurt_sheet_15: -1972760941204661735
+      mage_hurt_sheet_16: -4834621117900047006
+      mage_hurt_sheet_17: -9074279969221853972
+      mage_hurt_sheet_18: 1583485322082490946
+      mage_hurt_sheet_19: -5433440377699894351
+      mage_hurt_sheet_2: 779343279038376353
+      mage_hurt_sheet_20: -8294321364240292330
+      mage_hurt_sheet_21: -7746753874118291318
+      mage_hurt_sheet_22: -1826727519771050013
+      mage_hurt_sheet_23: -6159248311185994146
+      mage_hurt_sheet_24: -3091119189373464336
+      mage_hurt_sheet_25: -8753169690846846781
+      mage_hurt_sheet_26: -3811335566026124813
+      mage_hurt_sheet_27: 5976041898366384989
+      mage_hurt_sheet_28: -4154787234963358678
+      mage_hurt_sheet_29: 3824809435995965198
+      mage_hurt_sheet_3: -6787002154822717349
+      mage_hurt_sheet_30: -5378391287740284512
+      mage_hurt_sheet_31: 8842538843997560830
+      mage_hurt_sheet_32: -3573399757183366742
+      mage_hurt_sheet_33: 495084349603783410
+      mage_hurt_sheet_34: 4565868111984003349
+      mage_hurt_sheet_35: -6754021302761671670
+      mage_hurt_sheet_36: 1927945421063692100
+      mage_hurt_sheet_37: -3730454026881469243
+      mage_hurt_sheet_38: -2147367742601052406
+      mage_hurt_sheet_39: 1452136653810227481
+      mage_hurt_sheet_4: -3323165125280986215
+      mage_hurt_sheet_40: 3346406824634155893
+      mage_hurt_sheet_41: -1462990437117633461
+      mage_hurt_sheet_42: 8843617348391027089
+      mage_hurt_sheet_43: -7218189545366168905
+      mage_hurt_sheet_44: 8489509749432434964
+      mage_hurt_sheet_45: 5816289666672348370
+      mage_hurt_sheet_46: 7970764012912658149
+      mage_hurt_sheet_47: -2396766549194646221
+      mage_hurt_sheet_48: 1794095392252930860
+      mage_hurt_sheet_49: -7624198180187484012
+      mage_hurt_sheet_5: -4238026044147405841
+      mage_hurt_sheet_50: -2984666726846313291
+      mage_hurt_sheet_51: 6278762460270599141
+      mage_hurt_sheet_52: 8074171020710703036
+      mage_hurt_sheet_53: -5640723549758228114
+      mage_hurt_sheet_54: -6143041461666929940
+      mage_hurt_sheet_55: 2783379575594412172
+      mage_hurt_sheet_56: -2694576916431546087
+      mage_hurt_sheet_57: -7306355048059294944
+      mage_hurt_sheet_58: 167686523418343093
+      mage_hurt_sheet_59: -7072661039829655882
+      mage_hurt_sheet_6: 282057018747320765
+      mage_hurt_sheet_60: 3484888708017664629
+      mage_hurt_sheet_61: 2184931128088891634
+      mage_hurt_sheet_62: -6624730360283149631
+      mage_hurt_sheet_63: -6386876546593852059
+      mage_hurt_sheet_64: 799576012314835846
+      mage_hurt_sheet_65: 3661458904417926564
+      mage_hurt_sheet_66: 4430730673679517063
+      mage_hurt_sheet_67: -6488121965538893919
+      mage_hurt_sheet_68: 2120249414675446469
+      mage_hurt_sheet_69: 1801665895122475233
+      mage_hurt_sheet_7: -4605781666500627770
+      mage_hurt_sheet_70: 2802869134369706705
+      mage_hurt_sheet_71: 2269495804140723682
+      mage_hurt_sheet_72: 8355228683998734311
+      mage_hurt_sheet_73: 975314186827426097
+      mage_hurt_sheet_74: 9066270880164440363
+      mage_hurt_sheet_75: 1511637958760966685
+      mage_hurt_sheet_76: 5954767785081912820
+      mage_hurt_sheet_77: -2482195921913993430
+      mage_hurt_sheet_78: -8102886674344410037
+      mage_hurt_sheet_79: -3462545826021628863
+      mage_hurt_sheet_8: 8079793197126351132
+      mage_hurt_sheet_80: -6342068881116219292
+      mage_hurt_sheet_81: -5494222298707612391
+      mage_hurt_sheet_82: -8676862347796202788
+      mage_hurt_sheet_83: 1456611470691439724
+      mage_hurt_sheet_84: -2610656067100997453
+      mage_hurt_sheet_85: -9058837443844359269
+      mage_hurt_sheet_86: -3394017582374284822
+      mage_hurt_sheet_87: -8272999522577488956
+      mage_hurt_sheet_88: -5029971689702873117
+      mage_hurt_sheet_89: 5718334942327159961
+      mage_hurt_sheet_9: -2115840669379618442
+      mage_hurt_sheet_90: 8319733060740789684
+      mage_hurt_sheet_91: -1839796892863003678
+      mage_hurt_sheet_92: 2923921784272940953
+      mage_hurt_sheet_93: -6536333544515300106
+      mage_hurt_sheet_94: 4520601835032059153
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

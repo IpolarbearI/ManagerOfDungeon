@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: 957f6cea5382fdd4cb10d69a0ac2ef94
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -920197720149467160
+    second: slime_hurt_sheet_0
+  - first:
+      213: 528101529529439498
+    second: slime_hurt_sheet_1
+  - first:
+      213: -8582619455958450159
+    second: slime_hurt_sheet_2
+  - first:
+      213: 93896339252113387
+    second: slime_hurt_sheet_3
+  - first:
+      213: 487955801844207887
+    second: slime_hurt_sheet_4
+  - first:
+      213: -4045149211311684461
+    second: slime_hurt_sheet_5
+  - first:
+      213: -8264600049566469251
+    second: slime_hurt_sheet_6
+  - first:
+      213: 1593494337039251847
+    second: slime_hurt_sheet_7
+  - first:
+      213: 8753675701650629615
+    second: slime_hurt_sheet_8
+  - first:
+      213: -7398780682662190615
+    second: slime_hurt_sheet_9
+  - first:
+      213: -7692347555692746353
+    second: slime_hurt_sheet_10
+  - first:
+      213: -6924724737253498490
+    second: slime_hurt_sheet_11
+  - first:
+      213: -886962525415983441
+    second: slime_hurt_sheet_12
+  - first:
+      213: 8963103255717219155
+    second: slime_hurt_sheet_13
+  - first:
+      213: -234092563220398724
+    second: slime_hurt_sheet_14
+  - first:
+      213: -8284478548187675967
+    second: slime_hurt_sheet_15
+  - first:
+      213: 4830721670936158667
+    second: slime_hurt_sheet_16
+  - first:
+      213: -8012077803479116927
+    second: slime_hurt_sheet_17
+  - first:
+      213: 4478697980348411534
+    second: slime_hurt_sheet_18
+  - first:
+      213: 7501365892639595231
+    second: slime_hurt_sheet_19
+  - first:
+      213: 4139622349849941939
+    second: slime_hurt_sheet_20
+  - first:
+      213: -4464662995978994287
+    second: slime_hurt_sheet_21
+  - first:
+      213: -359532316223272957
+    second: slime_hurt_sheet_22
+  - first:
+      213: 2861706007821013355
+    second: slime_hurt_sheet_23
+  - first:
+      213: 3011625828550145412
+    second: slime_hurt_sheet_24
+  - first:
+      213: -3602356780055847056
+    second: slime_hurt_sheet_25
+  - first:
+      213: 1668432315398151429
+    second: slime_hurt_sheet_26
+  - first:
+      213: 5338833260941593771
+    second: slime_hurt_sheet_27
+  - first:
+      213: 3582785909155763128
+    second: slime_hurt_sheet_28
+  - first:
+      213: -2069393138566114382
+    second: slime_hurt_sheet_29
+  - first:
+      213: -1371112611745944578
+    second: slime_hurt_sheet_30
+  - first:
+      213: -4860193889057637638
+    second: slime_hurt_sheet_31
+  - first:
+      213: -5278299168292473160
+    second: slime_hurt_sheet_32
+  - first:
+      213: -5163355766579518590
+    second: slime_hurt_sheet_33
+  - first:
+      213: -287651642462489725
+    second: slime_hurt_sheet_34
+  - first:
+      213: -7141027627884057106
+    second: slime_hurt_sheet_35
+  - first:
+      213: -7985428025885070619
+    second: slime_hurt_sheet_36
+  - first:
+      213: 4786199800559837208
+    second: slime_hurt_sheet_37
+  - first:
+      213: -8017160211190610089
+    second: slime_hurt_sheet_38
+  - first:
+      213: 7945197942891236494
+    second: slime_hurt_sheet_39
+  - first:
+      213: -5191193861324852980
+    second: slime_hurt_sheet_40
+  - first:
+      213: 1049101840194980752
+    second: slime_hurt_sheet_41
+  - first:
+      213: 6381894821721720157
+    second: slime_hurt_sheet_42
+  - first:
+      213: 668907731069829910
+    second: slime_hurt_sheet_43
+  - first:
+      213: 5747451483133092320
+    second: slime_hurt_sheet_44
+  - first:
+      213: -3005124082897110031
+    second: slime_hurt_sheet_45
+  - first:
+      213: 4209719912283469681
+    second: slime_hurt_sheet_46
+  - first:
+      213: -3316219977972740596
+    second: slime_hurt_sheet_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slime_hurt_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 900
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efdd578c0dca33f0800000000000000
+      internalID: -920197720149467160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 913
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0551f80b81345700800000000000000
+      internalID: 528101529529439498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 897
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1108d35d31964e880800000000000000
+      internalID: -8582619455958450159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 788
+        width: 144
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befe4da19369d4100800000000000000
+      internalID: 93896339252113387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 879
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01d30b673195c600800000000000000
+      internalID: 487955801844207887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394c054793ebcd7c0800000000000000
+      internalID: -4045149211311684461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 885
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d733aeaea0e3e4d80800000000000000
+      internalID: -8264600049566469251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 779
+        width: 147
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78932d628aa3d1610800000000000000
+      internalID: 1593494337039251847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 783
+        width: 147
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3aad3fbad4b7970800000000000000
+      internalID: 8753675701650629615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 781
+        width: 149
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1e5e66b20425990800000000000000
+      internalID: -7398780682662190615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 868
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89e61667aa4f3590800000000000000
+      internalID: -7692347555692746353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 875
+        width: 49
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68125ac4a8f66ef90800000000000000
+      internalID: -6924724737253498490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 573
+        width: 144
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa63f7f4840e0b3f0800000000000000
+      internalID: -886962525415983441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 567
+        width: 151
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b0c2a2ce6536c70800000000000000
+      internalID: 8963103255717219155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 684
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7dffa4dd0650ccf0800000000000000
+      internalID: -234092563220398724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 694
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c20ee947ae970d80800000000000000
+      internalID: -8284478548187675967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 684
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc16ee4f3cb2a0340800000000000000
+      internalID: 4830721670936158667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 663
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183d5d200b16fc090800000000000000
+      internalID: -8012077803479116927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 676
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e2dee7518872e30800000000000000
+      internalID: 4478697980348411534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 564
+        width: 148
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda930119843a1860800000000000000
+      internalID: 7501365892639595231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 657
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7d2133894e27930800000000000000
+      internalID: 4139622349849941939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 647
+        width: 54
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d37d2f8a45a02c0800000000000000
+      internalID: -4464662995978994287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 566
+        width: 154
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3080d36634fa20bf0800000000000000
+      internalID: -359532316223272957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 458
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61d5cfb372d6b720800000000000000
+      internalID: 2861706007821013355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 472
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4857f1b1cb17bc920800000000000000
+      internalID: 3011625828550145412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 456
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f1d8a389bd10ec0800000000000000
+      internalID: -3602356780055847056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 347
+        width: 144
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50dd613e956772710800000000000000
+      internalID: 1668432315398151429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 435
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bacc6718098571a40800000000000000
+      internalID: 5338833260941593771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 339
+        width: 143
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3118d4dcc98b130800000000000000
+      internalID: 3582785909155763128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 449
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3d22397e90843e0800000000000000
+      internalID: -2069393138566114382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 343
+        width: 147
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb23d51854d8fce0800000000000000
+      internalID: -1371112611745944578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 426
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afaf137886f1d8cb0800000000000000
+      internalID: -4860193889057637638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 422
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6ffaf3fd6bfb6b0800000000000000
+      internalID: -5278299168292473160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 422
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283201479431858b0800000000000000
+      internalID: -5163355766579518590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 336
+        width: 147
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38337ffea5e020cf0800000000000000
+      internalID: -287651642462489725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 133
+        width: 144
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed68bc0539f5ec90800000000000000
+      internalID: -7141027627884057106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 250
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eaeba1e48f0e2190800000000000000
+      internalID: -7985428025885070619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 235
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8102a683c5ffb6240800000000000000
+      internalID: 4786199800559837208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 246
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7578690c3435db090800000000000000
+      internalID: -8017160211190610089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 217
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c42300f63034e60800000000000000
+      internalID: 7945197942891236494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 121
+        width: 143
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c013b8fefac25f7b0800000000000000
+      internalID: -5191193861324852980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 228
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09bc706b0982f8e00800000000000000
+      internalID: 1049101840194980752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 233
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55c0a2178b019850800000000000000
+      internalID: 6381894821721720157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 127
+        width: 143
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6130ee19900784900800000000000000
+      internalID: 668907731069829910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 117
+        width: 145
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1a0ff2cac03cf40800000000000000
+      internalID: 5747451483133092320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb32f48197ab46d0800000000000000
+      internalID: -3005124082897110031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 202
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1777b87c4fdeb6a30800000000000000
+      internalID: 4209719912283469681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_hurt_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 202
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e81e7008b6af1d0800000000000000
+      internalID: -3316219977972740596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      slime_hurt_sheet_0: -920197720149467160
+      slime_hurt_sheet_1: 528101529529439498
+      slime_hurt_sheet_10: -7692347555692746353
+      slime_hurt_sheet_11: -6924724737253498490
+      slime_hurt_sheet_12: -886962525415983441
+      slime_hurt_sheet_13: 8963103255717219155
+      slime_hurt_sheet_14: -234092563220398724
+      slime_hurt_sheet_15: -8284478548187675967
+      slime_hurt_sheet_16: 4830721670936158667
+      slime_hurt_sheet_17: -8012077803479116927
+      slime_hurt_sheet_18: 4478697980348411534
+      slime_hurt_sheet_19: 7501365892639595231
+      slime_hurt_sheet_2: -8582619455958450159
+      slime_hurt_sheet_20: 4139622349849941939
+      slime_hurt_sheet_21: -4464662995978994287
+      slime_hurt_sheet_22: -359532316223272957
+      slime_hurt_sheet_23: 2861706007821013355
+      slime_hurt_sheet_24: 3011625828550145412
+      slime_hurt_sheet_25: -3602356780055847056
+      slime_hurt_sheet_26: 1668432315398151429
+      slime_hurt_sheet_27: 5338833260941593771
+      slime_hurt_sheet_28: 3582785909155763128
+      slime_hurt_sheet_29: -2069393138566114382
+      slime_hurt_sheet_3: 93896339252113387
+      slime_hurt_sheet_30: -1371112611745944578
+      slime_hurt_sheet_31: -4860193889057637638
+      slime_hurt_sheet_32: -5278299168292473160
+      slime_hurt_sheet_33: -5163355766579518590
+      slime_hurt_sheet_34: -287651642462489725
+      slime_hurt_sheet_35: -7141027627884057106
+      slime_hurt_sheet_36: -7985428025885070619
+      slime_hurt_sheet_37: 4786199800559837208
+      slime_hurt_sheet_38: -8017160211190610089
+      slime_hurt_sheet_39: 7945197942891236494
+      slime_hurt_sheet_4: 487955801844207887
+      slime_hurt_sheet_40: -5191193861324852980
+      slime_hurt_sheet_41: 1049101840194980752
+      slime_hurt_sheet_42: 6381894821721720157
+      slime_hurt_sheet_43: 668907731069829910
+      slime_hurt_sheet_44: 5747451483133092320
+      slime_hurt_sheet_45: -3005124082897110031
+      slime_hurt_sheet_46: 4209719912283469681
+      slime_hurt_sheet_47: -3316219977972740596
+      slime_hurt_sheet_5: -4045149211311684461
+      slime_hurt_sheet_6: -8264600049566469251
+      slime_hurt_sheet_7: 1593494337039251847
+      slime_hurt_sheet_8: 8753675701650629615
+      slime_hurt_sheet_9: -7398780682662190615
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

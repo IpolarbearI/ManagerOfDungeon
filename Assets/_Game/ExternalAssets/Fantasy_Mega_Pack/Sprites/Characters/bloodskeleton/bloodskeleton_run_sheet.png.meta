@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 7cd3421ed2501a949823e92021d8bf59
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7011880919376389175
+    second: bloodskeleton_run_sheet_0
+  - first:
+      213: -7226541318226796894
+    second: bloodskeleton_run_sheet_1
+  - first:
+      213: 8440591655566302353
+    second: bloodskeleton_run_sheet_2
+  - first:
+      213: 8301805962769468531
+    second: bloodskeleton_run_sheet_3
+  - first:
+      213: 8251346194542830940
+    second: bloodskeleton_run_sheet_4
+  - first:
+      213: 3517729780746201790
+    second: bloodskeleton_run_sheet_5
+  - first:
+      213: -7840005085132592134
+    second: bloodskeleton_run_sheet_6
+  - first:
+      213: -9155232006213884546
+    second: bloodskeleton_run_sheet_7
+  - first:
+      213: 3497728759656487083
+    second: bloodskeleton_run_sheet_8
+  - first:
+      213: 5775870580451153579
+    second: bloodskeleton_run_sheet_9
+  - first:
+      213: -8640828890423386218
+    second: bloodskeleton_run_sheet_10
+  - first:
+      213: -3194147216464541602
+    second: bloodskeleton_run_sheet_11
+  - first:
+      213: 467804756008310102
+    second: bloodskeleton_run_sheet_12
+  - first:
+      213: 318830139867054298
+    second: bloodskeleton_run_sheet_13
+  - first:
+      213: -8648124107435840472
+    second: bloodskeleton_run_sheet_14
+  - first:
+      213: -1706905152635234651
+    second: bloodskeleton_run_sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bloodskeleton_run_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 799
+        width: 155
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb1b31547bc0be90800000000000000
+      internalID: -7011880919376389175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_run_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 799
+        width: 162
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae986c75fa26bb90800000000000000
+      internalID: -7226541318226796894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_run_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 808
+        width: 160
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19cd72cf361032570800000000000000
+      internalID: 8440591655566302353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_run_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 799
+        width: 157
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c081dc980f53370800000000000000
+      internalID: 8301805962769468531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_run_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 569
+        width: 144
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c552f7c75aba28270800000000000000
+      internalID: 8251346194542830940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_run_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 564
+        width: 146
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebaa03d099c71d030800000000000000
+      internalID: 3517729780746201790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_run_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 579
+        width: 150
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb6a67c9e4b23390800000000000000
+      internalID: -7840005085132592134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_run_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 562
+        width: 151
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75a5513ff412f080800000000000000
+      internalID: -9155232006213884546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_run_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 334
+        width: 154
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba81eff66cd6a8030800000000000000
+      internalID: 3497728759656487083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_run_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 332
+        width: 147
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba69b68e0b3082050800000000000000
+      internalID: 5775870580451153579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_run_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 340
+        width: 136
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f916db7eb951880800000000000000
+      internalID: -8640828890423386218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_run_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 339
+        width: 129
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58045aa70c1ca3d0800000000000000
+      internalID: -3194147216464541602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_run_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 104
+        width: 128
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6551d1272f9fd7600800000000000000
+      internalID: 467804756008310102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_run_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 106
+        width: 141
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0c67ea256bc6400800000000000000
+      internalID: 318830139867054298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_run_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 102
+        width: 149
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c6bcaa1f0bbf780800000000000000
+      internalID: -8648124107435840472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloodskeleton_run_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 102
+        width: 136
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a694e7aecadf48e0800000000000000
+      internalID: -1706905152635234651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bloodskeleton_run_sheet_0: -7011880919376389175
+      bloodskeleton_run_sheet_1: -7226541318226796894
+      bloodskeleton_run_sheet_10: -8640828890423386218
+      bloodskeleton_run_sheet_11: -3194147216464541602
+      bloodskeleton_run_sheet_12: 467804756008310102
+      bloodskeleton_run_sheet_13: 318830139867054298
+      bloodskeleton_run_sheet_14: -8648124107435840472
+      bloodskeleton_run_sheet_15: -1706905152635234651
+      bloodskeleton_run_sheet_2: 8440591655566302353
+      bloodskeleton_run_sheet_3: 8301805962769468531
+      bloodskeleton_run_sheet_4: 8251346194542830940
+      bloodskeleton_run_sheet_5: 3517729780746201790
+      bloodskeleton_run_sheet_6: -7840005085132592134
+      bloodskeleton_run_sheet_7: -9155232006213884546
+      bloodskeleton_run_sheet_8: 3497728759656487083
+      bloodskeleton_run_sheet_9: 5775870580451153579
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

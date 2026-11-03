@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 8da3bb6c4342d7649864bd0ba6fe3d29
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1835112611281985366
+    second: shadowgoblin_idle_sheet_0
+  - first:
+      213: 7561500180230665621
+    second: shadowgoblin_idle_sheet_1
+  - first:
+      213: -1412526075198234884
+    second: shadowgoblin_idle_sheet_2
+  - first:
+      213: 1039834384141405321
+    second: shadowgoblin_idle_sheet_3
+  - first:
+      213: 4302990972598448231
+    second: shadowgoblin_idle_sheet_4
+  - first:
+      213: -3922074182959963034
+    second: shadowgoblin_idle_sheet_5
+  - first:
+      213: -5457792101669582066
+    second: shadowgoblin_idle_sheet_6
+  - first:
+      213: -5604780464473050082
+    second: shadowgoblin_idle_sheet_7
+  - first:
+      213: 8798143884457919220
+    second: shadowgoblin_idle_sheet_8
+  - first:
+      213: -7808268306291078319
+    second: shadowgoblin_idle_sheet_9
+  - first:
+      213: 2150979135175982251
+    second: shadowgoblin_idle_sheet_10
+  - first:
+      213: 6275596766507326973
+    second: shadowgoblin_idle_sheet_11
+  - first:
+      213: -1334893516000588385
+    second: shadowgoblin_idle_sheet_12
+  - first:
+      213: 217502248098879120
+    second: shadowgoblin_idle_sheet_13
+  - first:
+      213: -2105634177985726629
+    second: shadowgoblin_idle_sheet_14
+  - first:
+      213: 1431583229696124340
+    second: shadowgoblin_idle_sheet_15
+  - first:
+      213: 5774383047521441209
+    second: shadowgoblin_idle_sheet_16
+  - first:
+      213: -3062558679541786230
+    second: shadowgoblin_idle_sheet_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shadowgoblin_idle_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 792
+        width: 131
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f5d467231a77910800000000000000
+      internalID: 1835112611281985366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_idle_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 792
+        width: 131
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59573b3f958dfe860800000000000000
+      internalID: 7561500180230665621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_idle_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 788
+        width: 131
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe15dbb403b56ce0800000000000000
+      internalID: -1412526075198234884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_idle_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 788
+        width: 131
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c4cf3fcdb3e6e00800000000000000
+      internalID: 1039834384141405321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_idle_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 565
+        width: 128
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7607179cd7b47bb30800000000000000
+      internalID: 4302990972598448231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_idle_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 565
+        width: 128
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664e0f58f4ef199c0800000000000000
+      internalID: -3922074182959963034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_idle_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 561
+        width: 128
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b4d0a00070244b0800000000000000
+      internalID: -5457792101669582066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_idle_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 561
+        width: 128
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14f80becd1d732b0800000000000000
+      internalID: -5604780464473050082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_idle_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 343
+        width: 123
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2c3e39f39491a70800000000000000
+      internalID: 8798143884457919220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_idle_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 343
+        width: 123
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b449c685573a390800000000000000
+      internalID: -7808268306291078319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_idle_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 339
+        width: 123
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bacf0778020d9dd10800000000000000
+      internalID: 2150979135175982251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_idle_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 339
+        width: 123
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd52457206671750800000000000000
+      internalID: 6275596766507326973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_idle_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 124
+        width: 132
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d00d57b61897de0800000000000000
+      internalID: -1334893516000588385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_idle_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 124
+        width: 132
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09658cb6429b40300800000000000000
+      internalID: 217502248098879120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_idle_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 255
+        width: 65
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b573d3a0fd847c2e0800000000000000
+      internalID: -2105634177985726629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_idle_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 255
+        width: 65
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5a170dc510ed310800000000000000
+      internalID: 1431583229696124340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_idle_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 120
+        width: 132
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b59d88a9cab22050800000000000000
+      internalID: 5774383047521441209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_idle_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 120
+        width: 132
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a895f1a6b1b9f75d0800000000000000
+      internalID: -3062558679541786230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      shadowgoblin_idle_sheet_0: 1835112611281985366
+      shadowgoblin_idle_sheet_1: 7561500180230665621
+      shadowgoblin_idle_sheet_10: 2150979135175982251
+      shadowgoblin_idle_sheet_11: 6275596766507326973
+      shadowgoblin_idle_sheet_12: -1334893516000588385
+      shadowgoblin_idle_sheet_13: 217502248098879120
+      shadowgoblin_idle_sheet_14: -2105634177985726629
+      shadowgoblin_idle_sheet_15: 1431583229696124340
+      shadowgoblin_idle_sheet_16: 5774383047521441209
+      shadowgoblin_idle_sheet_17: -3062558679541786230
+      shadowgoblin_idle_sheet_2: -1412526075198234884
+      shadowgoblin_idle_sheet_3: 1039834384141405321
+      shadowgoblin_idle_sheet_4: 4302990972598448231
+      shadowgoblin_idle_sheet_5: -3922074182959963034
+      shadowgoblin_idle_sheet_6: -5457792101669582066
+      shadowgoblin_idle_sheet_7: -5604780464473050082
+      shadowgoblin_idle_sheet_8: 8798143884457919220
+      shadowgoblin_idle_sheet_9: -7808268306291078319
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

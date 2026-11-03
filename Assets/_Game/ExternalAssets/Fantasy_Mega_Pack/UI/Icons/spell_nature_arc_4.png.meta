@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: a4b3062d1cddd0149b81698f4d34f02a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8140952641971517701
+    second: spell_nature_arc_4_0
+  - first:
+      213: 2177798747574506860
+    second: spell_nature_arc_4_1
+  - first:
+      213: 3398392198751870287
+    second: spell_nature_arc_4_2
+  - first:
+      213: -3147025683290201292
+    second: spell_nature_arc_4_3
+  - first:
+      213: -3242993066734586260
+    second: spell_nature_arc_4_4
+  - first:
+      213: 6477862925402976273
+    second: spell_nature_arc_4_5
+  - first:
+      213: 4728981162535004504
+    second: spell_nature_arc_4_6
+  - first:
+      213: 4782766990479672484
+    second: spell_nature_arc_4_7
+  - first:
+      213: 5050407447007581230
+    second: spell_nature_arc_4_8
+  - first:
+      213: -5984050269042992714
+    second: spell_nature_arc_4_9
+  - first:
+      213: 5716281413380281388
+    second: spell_nature_arc_4_10
+  - first:
+      213: 5011706805142396789
+    second: spell_nature_arc_4_11
+  - first:
+      213: 8928372192971773292
+    second: spell_nature_arc_4_12
+  - first:
+      213: -6005772962340800900
+    second: spell_nature_arc_4_13
+  - first:
+      213: 5101003713861470237
+    second: spell_nature_arc_4_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spell_nature_arc_4_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 41
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6820a64b6850f80800000000000000
+      internalID: -8140952641971517701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_nature_arc_4_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 46
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6518752c68193e10800000000000000
+      internalID: 2177798747574506860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_nature_arc_4_2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 40
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d501603b3892f20800000000000000
+      internalID: 3398392198751870287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_nature_arc_4_3
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 38
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433e47090d48354d0800000000000000
+      internalID: -3147025683290201292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_nature_arc_4_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 42
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66fa38ecf29ef2d0800000000000000
+      internalID: -3242993066734586260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_nature_arc_4_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110315c620ef5e950800000000000000
+      internalID: 6477862925402976273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_nature_arc_4_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 17
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859a966ef47b0a140800000000000000
+      internalID: 4728981162535004504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_nature_arc_4_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 15
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a44107dc3dcf5240800000000000000
+      internalID: 4782766990479672484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_nature_arc_4_8
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24dfd990d6a61640800000000000000
+      internalID: 5050407447007581230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_nature_arc_4_9
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 17
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b99c933cf164fca0800000000000000
+      internalID: -5984050269042992714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_nature_arc_4_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 15
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2413b8c8af445f40800000000000000
+      internalID: 5716281413380281388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_nature_arc_4_11
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 20
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f9bee39c82d8540800000000000000
+      internalID: 5011706805142396789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_nature_arc_4_12
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 13
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65de887433f7eb70800000000000000
+      internalID: 8928372192971773292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_nature_arc_4_13
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 6
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76f70a8f4537aca0800000000000000
+      internalID: -6005772962340800900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_nature_arc_4_14
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 6
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1849aaf9d76ac640800000000000000
+      internalID: 5101003713861470237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spell_nature_arc_4_0: -8140952641971517701
+      spell_nature_arc_4_1: 2177798747574506860
+      spell_nature_arc_4_10: 5716281413380281388
+      spell_nature_arc_4_11: 5011706805142396789
+      spell_nature_arc_4_12: 8928372192971773292
+      spell_nature_arc_4_13: -6005772962340800900
+      spell_nature_arc_4_14: 5101003713861470237
+      spell_nature_arc_4_2: 3398392198751870287
+      spell_nature_arc_4_3: -3147025683290201292
+      spell_nature_arc_4_4: -3242993066734586260
+      spell_nature_arc_4_5: 6477862925402976273
+      spell_nature_arc_4_6: 4728981162535004504
+      spell_nature_arc_4_7: 4782766990479672484
+      spell_nature_arc_4_8: 5050407447007581230
+      spell_nature_arc_4_9: -5984050269042992714
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

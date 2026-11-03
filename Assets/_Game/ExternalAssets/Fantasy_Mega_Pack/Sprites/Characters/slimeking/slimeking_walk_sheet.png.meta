@@ -1,0 +1,2821 @@
+fileFormatVersion: 2
+guid: 4f0507e4fff81794985ee146b35ad5a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2774619490017701321
+    second: slimeking_walk_sheet_0
+  - first:
+      213: 7196708210752743297
+    second: slimeking_walk_sheet_1
+  - first:
+      213: 8991409857737356080
+    second: slimeking_walk_sheet_2
+  - first:
+      213: 2246587719057180350
+    second: slimeking_walk_sheet_3
+  - first:
+      213: 5272155760269536557
+    second: slimeking_walk_sheet_4
+  - first:
+      213: -1481493268244646268
+    second: slimeking_walk_sheet_5
+  - first:
+      213: -2239472455990234400
+    second: slimeking_walk_sheet_6
+  - first:
+      213: 7540037935556816046
+    second: slimeking_walk_sheet_7
+  - first:
+      213: -4448510269338231661
+    second: slimeking_walk_sheet_8
+  - first:
+      213: 4788483248273170860
+    second: slimeking_walk_sheet_9
+  - first:
+      213: 3301770512780571891
+    second: slimeking_walk_sheet_10
+  - first:
+      213: 170113520621219142
+    second: slimeking_walk_sheet_11
+  - first:
+      213: 873956860748599107
+    second: slimeking_walk_sheet_12
+  - first:
+      213: 3094438777479608550
+    second: slimeking_walk_sheet_13
+  - first:
+      213: -1577961370868148410
+    second: slimeking_walk_sheet_14
+  - first:
+      213: 6267475678235766800
+    second: slimeking_walk_sheet_15
+  - first:
+      213: 1013955678739572081
+    second: slimeking_walk_sheet_16
+  - first:
+      213: -7737358456590352812
+    second: slimeking_walk_sheet_17
+  - first:
+      213: 7390232753699408775
+    second: slimeking_walk_sheet_18
+  - first:
+      213: -886914256504579621
+    second: slimeking_walk_sheet_19
+  - first:
+      213: -5877482202535599092
+    second: slimeking_walk_sheet_20
+  - first:
+      213: 618264353790401621
+    second: slimeking_walk_sheet_21
+  - first:
+      213: 2131147735718372694
+    second: slimeking_walk_sheet_22
+  - first:
+      213: -3591857123321244303
+    second: slimeking_walk_sheet_23
+  - first:
+      213: -9103587963126812242
+    second: slimeking_walk_sheet_24
+  - first:
+      213: -2681180406805950763
+    second: slimeking_walk_sheet_25
+  - first:
+      213: 5243533402793678187
+    second: slimeking_walk_sheet_26
+  - first:
+      213: -5975280748138220452
+    second: slimeking_walk_sheet_27
+  - first:
+      213: -8593271321708042457
+    second: slimeking_walk_sheet_28
+  - first:
+      213: -5756014215900194213
+    second: slimeking_walk_sheet_29
+  - first:
+      213: 2665649835337991686
+    second: slimeking_walk_sheet_30
+  - first:
+      213: -1394094191646165443
+    second: slimeking_walk_sheet_31
+  - first:
+      213: -6687101443013399856
+    second: slimeking_walk_sheet_32
+  - first:
+      213: 6108331036038513122
+    second: slimeking_walk_sheet_33
+  - first:
+      213: 6291094132008220922
+    second: slimeking_walk_sheet_34
+  - first:
+      213: 5134627966705493049
+    second: slimeking_walk_sheet_35
+  - first:
+      213: -2816286472289868432
+    second: slimeking_walk_sheet_36
+  - first:
+      213: -7327289278722691726
+    second: slimeking_walk_sheet_37
+  - first:
+      213: -2376256990713793789
+    second: slimeking_walk_sheet_38
+  - first:
+      213: -7320637719814377415
+    second: slimeking_walk_sheet_39
+  - first:
+      213: 8050340169110232243
+    second: slimeking_walk_sheet_40
+  - first:
+      213: -8776561150879687866
+    second: slimeking_walk_sheet_41
+  - first:
+      213: 7544344384625036156
+    second: slimeking_walk_sheet_42
+  - first:
+      213: 2587440453568263270
+    second: slimeking_walk_sheet_43
+  - first:
+      213: -4109911074881300688
+    second: slimeking_walk_sheet_44
+  - first:
+      213: 5398524015569387302
+    second: slimeking_walk_sheet_45
+  - first:
+      213: -1986208222008551010
+    second: slimeking_walk_sheet_46
+  - first:
+      213: 2146231734331502831
+    second: slimeking_walk_sheet_47
+  - first:
+      213: -7376519827775434494
+    second: slimeking_walk_sheet_48
+  - first:
+      213: -3563865274944206510
+    second: slimeking_walk_sheet_49
+  - first:
+      213: -4312821447806951625
+    second: slimeking_walk_sheet_50
+  - first:
+      213: -4256938378673875301
+    second: slimeking_walk_sheet_51
+  - first:
+      213: 261879063923432091
+    second: slimeking_walk_sheet_52
+  - first:
+      213: -7304373266907772625
+    second: slimeking_walk_sheet_53
+  - first:
+      213: -936798140552643814
+    second: slimeking_walk_sheet_54
+  - first:
+      213: 1311474881441884975
+    second: slimeking_walk_sheet_55
+  - first:
+      213: -5877918805908392714
+    second: slimeking_walk_sheet_56
+  - first:
+      213: -4019298232379380126
+    second: slimeking_walk_sheet_57
+  - first:
+      213: -107176712866217939
+    second: slimeking_walk_sheet_58
+  - first:
+      213: 2960215104594685949
+    second: slimeking_walk_sheet_59
+  - first:
+      213: -2449676363280600195
+    second: slimeking_walk_sheet_60
+  - first:
+      213: 6517067893793026033
+    second: slimeking_walk_sheet_61
+  - first:
+      213: -1063742356593378361
+    second: slimeking_walk_sheet_62
+  - first:
+      213: 1761075883871763454
+    second: slimeking_walk_sheet_63
+  - first:
+      213: -1167188854824266651
+    second: slimeking_walk_sheet_64
+  - first:
+      213: 8711455093037728884
+    second: slimeking_walk_sheet_65
+  - first:
+      213: 4288797217744115207
+    second: slimeking_walk_sheet_66
+  - first:
+      213: -4010871718162911701
+    second: slimeking_walk_sheet_67
+  - first:
+      213: -3367858382807185434
+    second: slimeking_walk_sheet_68
+  - first:
+      213: 4576425574238109827
+    second: slimeking_walk_sheet_69
+  - first:
+      213: 5482815673395493431
+    second: slimeking_walk_sheet_70
+  - first:
+      213: 5434595268031623868
+    second: slimeking_walk_sheet_71
+  - first:
+      213: -7629785872769642210
+    second: slimeking_walk_sheet_72
+  - first:
+      213: 2552953107328487579
+    second: slimeking_walk_sheet_73
+  - first:
+      213: -5647148068127492812
+    second: slimeking_walk_sheet_74
+  - first:
+      213: -8183650116584286963
+    second: slimeking_walk_sheet_75
+  - first:
+      213: -428054013580076050
+    second: slimeking_walk_sheet_76
+  - first:
+      213: 8341083103335503042
+    second: slimeking_walk_sheet_77
+  - first:
+      213: 6051501162348784772
+    second: slimeking_walk_sheet_78
+  - first:
+      213: -2734562163329708785
+    second: slimeking_walk_sheet_79
+  - first:
+      213: 2699845776600050270
+    second: slimeking_walk_sheet_80
+  - first:
+      213: -5284477254938081876
+    second: slimeking_walk_sheet_81
+  - first:
+      213: -8592564618091683523
+    second: slimeking_walk_sheet_82
+  - first:
+      213: 4412951503758068576
+    second: slimeking_walk_sheet_83
+  - first:
+      213: -4210124177729585268
+    second: slimeking_walk_sheet_84
+  - first:
+      213: -5044278289536710900
+    second: slimeking_walk_sheet_85
+  - first:
+      213: 4500349812107303947
+    second: slimeking_walk_sheet_86
+  - first:
+      213: 3647830226356737195
+    second: slimeking_walk_sheet_87
+  - first:
+      213: 6795654332802950193
+    second: slimeking_walk_sheet_88
+  - first:
+      213: -6710021700967114835
+    second: slimeking_walk_sheet_89
+  - first:
+      213: -1080860707256218086
+    second: slimeking_walk_sheet_90
+  - first:
+      213: -2107854037861556924
+    second: slimeking_walk_sheet_91
+  - first:
+      213: 4461516055756302479
+    second: slimeking_walk_sheet_92
+  - first:
+      213: 673734949462882588
+    second: slimeking_walk_sheet_93
+  - first:
+      213: -3002016585292983290
+    second: slimeking_walk_sheet_94
+  - first:
+      213: -1633232904570097357
+    second: slimeking_walk_sheet_95
+  - first:
+      213: 5872074989524599156
+    second: slimeking_walk_sheet_96
+  - first:
+      213: 6389864462066524590
+    second: slimeking_walk_sheet_97
+  - first:
+      213: 4859832544973052844
+    second: slimeking_walk_sheet_98
+  - first:
+      213: 4642544974880203198
+    second: slimeking_walk_sheet_99
+  - first:
+      213: 7076495294953951003
+    second: slimeking_walk_sheet_100
+  - first:
+      213: -3002801586275408962
+    second: slimeking_walk_sheet_101
+  - first:
+      213: -3809345636819082052
+    second: slimeking_walk_sheet_102
+  - first:
+      213: -1241638953315432218
+    second: slimeking_walk_sheet_103
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 975
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7329e9e36429e79d0800000000000000
+      internalID: -2774619490017701321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 979
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187ed06ecf7dfd360800000000000000
+      internalID: 7196708210752743297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 990
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033716880a7e7cc70800000000000000
+      internalID: 8991409857737356080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 979
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb68827a0ab7d2f10800000000000000
+      internalID: 2246587719057180350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 979
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d256b1bb57a2940800000000000000
+      internalID: 5272155760269536557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 979
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4863529c8bda07be0800000000000000
+      internalID: -1481493268244646268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 975
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e23e60aaabcbe0e0800000000000000
+      internalID: -2239472455990234400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 975
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac65d5bd8893a860800000000000000
+      internalID: 7540037935556816046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 979
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39cda60ba77b342c0800000000000000
+      internalID: -4448510269338231661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 990
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca12b32d42c147240800000000000000
+      internalID: 4788483248273170860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 987
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f43520b9ce32dd20800000000000000
+      internalID: 3301770512780571891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 975
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d6e10885d5c5200800000000000000
+      internalID: 170113520621219142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 975
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f8fe9622be02c00800000000000000
+      internalID: 873956860748599107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 975
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8bdde4ca7a1fa20800000000000000
+      internalID: 3094438777479608550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 975
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6479d1c5e74f91ae0800000000000000
+      internalID: -1577961370868148410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 815
+        width: 141
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010b4af3ceb8af650800000000000000
+      internalID: 6267475678235766800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 810
+        width: 153
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1752341515b421e00800000000000000
+      internalID: 1013955678739572081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 811
+        width: 154
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e311f5a716f9490800000000000000
+      internalID: -7737358456590352812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 811
+        width: 157
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78bc5bbc8816f8660800000000000000
+      internalID: 7390232753699408775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 772
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd990dace2c01b3f0800000000000000
+      internalID: -886914256504579621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 772
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c046f28b31dfe6ea0800000000000000
+      internalID: -5877482202535599092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 768
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c96f07724849800800000000000000
+      internalID: 618264353790401621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 785
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6552f57039b539d10800000000000000
+      internalID: 2131147735718372694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 768
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1751b701af8272ec0800000000000000
+      internalID: -3591857123321244303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 768
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1fd4cfafe89a180800000000000000
+      internalID: -9103587963126812242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 780
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de089120a88acad0800000000000000
+      internalID: -2681180406805950763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 768
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65996139d5c4c840800000000000000
+      internalID: 5243533402793678187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 772
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54bdf561d9831da0800000000000000
+      internalID: -5975280748138220452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 772
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7276a0313419eb880800000000000000
+      internalID: -8593271321708042457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 785
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a9b2b31978e10b0800000000000000
+      internalID: -5756014215900194213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 772
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60646eae66a4ef420800000000000000
+      internalID: 2665649835337991686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 772
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36be7b08be27ace0800000000000000
+      internalID: -1394094191646165443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 772
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da2f28daa4a233a0800000000000000
+      internalID: -6687101443013399856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1c195c6b625c450800000000000000
+      internalID: 6108331036038513122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 767
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8f4ea08c47e4750800000000000000
+      internalID: 6291094132008220922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 768
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93464496eecd14740800000000000000
+      internalID: 5134627966705493049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 772
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075ac61ff5a8ae8d0800000000000000
+      internalID: -2816286472289868432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 768
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27da43ff83d305a90800000000000000
+      internalID: -7327289278722691726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 772
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303377d5bd6d50fd0800000000000000
+      internalID: -2376256990713793789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 767
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930732db7ced76a90800000000000000
+      internalID: -7320637719814377415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 768
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc9fd43bbd88bf60800000000000000
+      internalID: 8050340169110232243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 768
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b925c2224633680800000000000000
+      internalID: -8776561150879687866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 772
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7bc9c40f35e2b860800000000000000
+      internalID: 7544344384625036156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 768
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6647968326f68e320800000000000000
+      internalID: 2587440453568263270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 617
+        width: 137
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037914317a9a6f6c0800000000000000
+      internalID: -4109911074881300688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 615
+        width: 137
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fbd635df86bea40800000000000000
+      internalID: 5398524015569387302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 616
+        width: 136
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99583d35229f64e0800000000000000
+      internalID: -1986208222008551010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 615
+        width: 137
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0ff722462f8cd10800000000000000
+      internalID: 2146231734331502831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 575
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201d1d29c4651a990800000000000000
+      internalID: -7376519827775434494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 571
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259c9932a6b9a8ec0800000000000000
+      internalID: -3563865274944206510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 575
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fd7c75eb7c524c0800000000000000
+      internalID: -4312821447806951625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 571
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b969a6c49115ce4c0800000000000000
+      internalID: -4256938378673875301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 571
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a94430f9162a300800000000000000
+      internalID: 261879063923432091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 571
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f294a17c637a1aa90800000000000000
+      internalID: -7304373266907772625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 571
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bfc16fd03dff2f0800000000000000
+      internalID: -936798140552643814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 571
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2be038c47b433210800000000000000
+      internalID: 1311474881441884975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 571
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4fd331dff6d6ea0800000000000000
+      internalID: -5877918805908392714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 571
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26eeba48d859838c0800000000000000
+      internalID: -4019298232379380126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 427
+        width: 124
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d204a65f85b338ef0800000000000000
+      internalID: -107176712866217939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 428
+        width: 130
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffac1824fbc41920800000000000000
+      internalID: 2960215104594685949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 433
+        width: 137
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d733df79350010ed0800000000000000
+      internalID: -2449676363280600195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 435
+        width: 142
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ffe2a278b6417a50800000000000000
+      internalID: 6517067893793026033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 382
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbf6be66f3dc31f0800000000000000
+      internalID: -1063742356593378361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 382
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbfea09f29907810800000000000000
+      internalID: 1761075883871763454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 378
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564976aabef4dcfe0800000000000000
+      internalID: -1167188854824266651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 396
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4740849704e45e870800000000000000
+      internalID: 8711455093037728884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 378
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7065255b85ed48b30800000000000000
+      internalID: 4288797217744115207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 378
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e2d3f3c658658c0800000000000000
+      internalID: -4010871718162911701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 396
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7c4fef4a6f241d0800000000000000
+      internalID: -3367858382807185434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 378
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380c97510dab28f30800000000000000
+      internalID: 4576425574238109827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 378
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73abea54ecfd61c40800000000000000
+      internalID: 5482815673395493431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 382
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb23b014a9f8b6b40800000000000000
+      internalID: 5434595268031623868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 396
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11954d4c2e8d1690800000000000000
+      internalID: -7629785872769642210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 392
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b905b823359ed6320800000000000000
+      internalID: 2552953107328487579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 378
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4353a3d70cc41a1b0800000000000000
+      internalID: -5647148068127492812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 378
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05d8eae395dd6e80800000000000000
+      internalID: -8183650116584286963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 378
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb11ef742f3f0af0800000000000000
+      internalID: -428054013580076050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 382
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c45358b3ea71c370800000000000000
+      internalID: 8341083103335503042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 378
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ca9a3be304bf350800000000000000
+      internalID: 6051501162348784772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 382
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d42866332ec0ad0800000000000000
+      internalID: -2734562163329708785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 378
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5aa59eed67c77520800000000000000
+      internalID: 2699845776600050270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 378
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5c8cb5fe3c9a6b0800000000000000
+      internalID: -5284477254938081876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 242
+        width: 129
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d312e05510411c880800000000000000
+      internalID: -8592564618091683523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 246
+        width: 131
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b86880304fd3d30800000000000000
+      internalID: 4412951503758068576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_84
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 246
+        width: 132
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ff426dd52a295c0800000000000000
+      internalID: -4210124177729585268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_85
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 245
+        width: 126
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0703f31f9f1ff9b0800000000000000
+      internalID: -5044278289536710900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_86
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 200
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0cd6ab6f44747e30800000000000000
+      internalID: 4500349812107303947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_87
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 197
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba41dea8342bf9230800000000000000
+      internalID: 3647830226356737195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_88
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 201
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134601b5c930f4e50800000000000000
+      internalID: 6795654332802950193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_89
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 197
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da751be60d631e2a0800000000000000
+      internalID: -6710021700967114835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_90
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 197
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ec054d9e20001f0800000000000000
+      internalID: -1080860707256218086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_91
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 197
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d93e2abe56fb2e0800000000000000
+      internalID: -2107854037861556924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_92
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 210
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f886e0fe63d7aed30800000000000000
+      internalID: 4461516055756302479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_93
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 201
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19308fed56995900800000000000000
+      internalID: 673734949462882588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_94
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 197
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604d7cf22d1b656d0800000000000000
+      internalID: -3002016585292983290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_95
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 197
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331be9793579559e0800000000000000
+      internalID: -1633232904570097357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_96
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 210
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471c115671dcd7150800000000000000
+      internalID: 5872074989524599156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_97
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 197
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea12e509fdb5da850800000000000000
+      internalID: 6389864462066524590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_98
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 201
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab500f73f7917340800000000000000
+      internalID: 4859832544973052844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_99
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 197
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb16281be02ad6040800000000000000
+      internalID: 4642544974880203198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_100
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 39
+        width: 139
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f04765af2c43260800000000000000
+      internalID: 7076495294953951003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_101
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 38
+        width: 136
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb32317edd7e356d0800000000000000
+      internalID: -3002801586275408962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_102
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 37
+        width: 134
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4e6ba735c722bc0800000000000000
+      internalID: -3809345636819082052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_walk_sheet_103
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 38
+        width: 131
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8885053ffc4cee0800000000000000
+      internalID: -1241638953315432218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      slimeking_walk_sheet_0: -2774619490017701321
+      slimeking_walk_sheet_1: 7196708210752743297
+      slimeking_walk_sheet_10: 3301770512780571891
+      slimeking_walk_sheet_100: 7076495294953951003
+      slimeking_walk_sheet_101: -3002801586275408962
+      slimeking_walk_sheet_102: -3809345636819082052
+      slimeking_walk_sheet_103: -1241638953315432218
+      slimeking_walk_sheet_11: 170113520621219142
+      slimeking_walk_sheet_12: 873956860748599107
+      slimeking_walk_sheet_13: 3094438777479608550
+      slimeking_walk_sheet_14: -1577961370868148410
+      slimeking_walk_sheet_15: 6267475678235766800
+      slimeking_walk_sheet_16: 1013955678739572081
+      slimeking_walk_sheet_17: -7737358456590352812
+      slimeking_walk_sheet_18: 7390232753699408775
+      slimeking_walk_sheet_19: -886914256504579621
+      slimeking_walk_sheet_2: 8991409857737356080
+      slimeking_walk_sheet_20: -5877482202535599092
+      slimeking_walk_sheet_21: 618264353790401621
+      slimeking_walk_sheet_22: 2131147735718372694
+      slimeking_walk_sheet_23: -3591857123321244303
+      slimeking_walk_sheet_24: -9103587963126812242
+      slimeking_walk_sheet_25: -2681180406805950763
+      slimeking_walk_sheet_26: 5243533402793678187
+      slimeking_walk_sheet_27: -5975280748138220452
+      slimeking_walk_sheet_28: -8593271321708042457
+      slimeking_walk_sheet_29: -5756014215900194213
+      slimeking_walk_sheet_3: 2246587719057180350
+      slimeking_walk_sheet_30: 2665649835337991686
+      slimeking_walk_sheet_31: -1394094191646165443
+      slimeking_walk_sheet_32: -6687101443013399856
+      slimeking_walk_sheet_33: 6108331036038513122
+      slimeking_walk_sheet_34: 6291094132008220922
+      slimeking_walk_sheet_35: 5134627966705493049
+      slimeking_walk_sheet_36: -2816286472289868432
+      slimeking_walk_sheet_37: -7327289278722691726
+      slimeking_walk_sheet_38: -2376256990713793789
+      slimeking_walk_sheet_39: -7320637719814377415
+      slimeking_walk_sheet_4: 5272155760269536557
+      slimeking_walk_sheet_40: 8050340169110232243
+      slimeking_walk_sheet_41: -8776561150879687866
+      slimeking_walk_sheet_42: 7544344384625036156
+      slimeking_walk_sheet_43: 2587440453568263270
+      slimeking_walk_sheet_44: -4109911074881300688
+      slimeking_walk_sheet_45: 5398524015569387302
+      slimeking_walk_sheet_46: -1986208222008551010
+      slimeking_walk_sheet_47: 2146231734331502831
+      slimeking_walk_sheet_48: -7376519827775434494
+      slimeking_walk_sheet_49: -3563865274944206510
+      slimeking_walk_sheet_5: -1481493268244646268
+      slimeking_walk_sheet_50: -4312821447806951625
+      slimeking_walk_sheet_51: -4256938378673875301
+      slimeking_walk_sheet_52: 261879063923432091
+      slimeking_walk_sheet_53: -7304373266907772625
+      slimeking_walk_sheet_54: -936798140552643814
+      slimeking_walk_sheet_55: 1311474881441884975
+      slimeking_walk_sheet_56: -5877918805908392714
+      slimeking_walk_sheet_57: -4019298232379380126
+      slimeking_walk_sheet_58: -107176712866217939
+      slimeking_walk_sheet_59: 2960215104594685949
+      slimeking_walk_sheet_6: -2239472455990234400
+      slimeking_walk_sheet_60: -2449676363280600195
+      slimeking_walk_sheet_61: 6517067893793026033
+      slimeking_walk_sheet_62: -1063742356593378361
+      slimeking_walk_sheet_63: 1761075883871763454
+      slimeking_walk_sheet_64: -1167188854824266651
+      slimeking_walk_sheet_65: 8711455093037728884
+      slimeking_walk_sheet_66: 4288797217744115207
+      slimeking_walk_sheet_67: -4010871718162911701
+      slimeking_walk_sheet_68: -3367858382807185434
+      slimeking_walk_sheet_69: 4576425574238109827
+      slimeking_walk_sheet_7: 7540037935556816046
+      slimeking_walk_sheet_70: 5482815673395493431
+      slimeking_walk_sheet_71: 5434595268031623868
+      slimeking_walk_sheet_72: -7629785872769642210
+      slimeking_walk_sheet_73: 2552953107328487579
+      slimeking_walk_sheet_74: -5647148068127492812
+      slimeking_walk_sheet_75: -8183650116584286963
+      slimeking_walk_sheet_76: -428054013580076050
+      slimeking_walk_sheet_77: 8341083103335503042
+      slimeking_walk_sheet_78: 6051501162348784772
+      slimeking_walk_sheet_79: -2734562163329708785
+      slimeking_walk_sheet_8: -4448510269338231661
+      slimeking_walk_sheet_80: 2699845776600050270
+      slimeking_walk_sheet_81: -5284477254938081876
+      slimeking_walk_sheet_82: -8592564618091683523
+      slimeking_walk_sheet_83: 4412951503758068576
+      slimeking_walk_sheet_84: -4210124177729585268
+      slimeking_walk_sheet_85: -5044278289536710900
+      slimeking_walk_sheet_86: 4500349812107303947
+      slimeking_walk_sheet_87: 3647830226356737195
+      slimeking_walk_sheet_88: 6795654332802950193
+      slimeking_walk_sheet_89: -6710021700967114835
+      slimeking_walk_sheet_9: 4788483248273170860
+      slimeking_walk_sheet_90: -1080860707256218086
+      slimeking_walk_sheet_91: -2107854037861556924
+      slimeking_walk_sheet_92: 4461516055756302479
+      slimeking_walk_sheet_93: 673734949462882588
+      slimeking_walk_sheet_94: -3002016585292983290
+      slimeking_walk_sheet_95: -1633232904570097357
+      slimeking_walk_sheet_96: 5872074989524599156
+      slimeking_walk_sheet_97: 6389864462066524590
+      slimeking_walk_sheet_98: 4859832544973052844
+      slimeking_walk_sheet_99: 4642544974880203198
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

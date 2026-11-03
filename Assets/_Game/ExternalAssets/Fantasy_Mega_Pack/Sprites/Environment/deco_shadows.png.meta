@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: e9cc73382c90406478e9ddf4fda3f68f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1548026905050519295
+    second: deco_shadows_0
+  - first:
+      213: -8204691433089101053
+    second: deco_shadows_1
+  - first:
+      213: -4052162332589375555
+    second: deco_shadows_2
+  - first:
+      213: 5839100967903213387
+    second: deco_shadows_3
+  - first:
+      213: 3499195899827397535
+    second: deco_shadows_4
+  - first:
+      213: 3646434397587215159
+    second: deco_shadows_5
+  - first:
+      213: 1683847027611279554
+    second: deco_shadows_6
+  - first:
+      213: -810441415324292249
+    second: deco_shadows_7
+  - first:
+      213: 2687165298758530482
+    second: deco_shadows_8
+  - first:
+      213: -6774211301486424946
+    second: deco_shadows_9
+  - first:
+      213: -836316625271249854
+    second: deco_shadows_10
+  - first:
+      213: 7110415621248390374
+    second: deco_shadows_11
+  - first:
+      213: 3445321746124299501
+    second: deco_shadows_12
+  - first:
+      213: 5682425003914621908
+    second: deco_shadows_13
+  - first:
+      213: -5013603071925684163
+    second: deco_shadows_14
+  - first:
+      213: -9033832466037373073
+    second: deco_shadows_15
+  - first:
+      213: 5683000304390234502
+    second: deco_shadows_16
+  - first:
+      213: 7250673366583480323
+    second: deco_shadows_17
+  - first:
+      213: -6534629122866937817
+    second: deco_shadows_18
+  - first:
+      213: 9149483983289229025
+    second: deco_shadows_19
+  - first:
+      213: 1933000244823102675
+    second: deco_shadows_20
+  - first:
+      213: 5761106109041570739
+    second: deco_shadows_21
+  - first:
+      213: -2269332015566580360
+    second: deco_shadows_22
+  - first:
+      213: 7248517856432292922
+    second: deco_shadows_23
+  - first:
+      213: -7574387521684035419
+    second: deco_shadows_24
+  - first:
+      213: -1368949469964945972
+    second: deco_shadows_25
+  - first:
+      213: 2994520378743233526
+    second: deco_shadows_26
+  - first:
+      213: 809201009057867903
+    second: deco_shadows_27
+  - first:
+      213: -1419059114772166592
+    second: deco_shadows_28
+  - first:
+      213: 5683455572174251482
+    second: deco_shadows_29
+  - first:
+      213: -8913340786917231010
+    second: deco_shadows_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: deco_shadows_0
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1351
+        width: 343
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff69842b442bb7510800000000000000
+      internalID: 1548026905050519295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_1
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1351
+        width: 336
+        height: 595
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3039807ac94132e80800000000000000
+      internalID: -8204691433089101053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_2
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1336
+        width: 325
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbfbac9e3d3d3c7c0800000000000000
+      internalID: -4052162332589375555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_3
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 1335
+        width: 440
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47b287b467a80150800000000000000
+      internalID: 5839100967903213387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_4
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 953
+        width: 357
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9327b0a124af8030800000000000000
+      internalID: 3499195899827397535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_5
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 963
+        width: 368
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73393f4d3ccba9230800000000000000
+      internalID: 3646434397587215159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_6
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1092
+        width: 476
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c02ed043f93e5710800000000000000
+      internalID: 1683847027611279554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_7
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 935
+        width: 284
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ba450a3dbb0c4f0800000000000000
+      internalID: -810441415324292249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_8
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 785
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5324d1a9aba4520800000000000000
+      internalID: 2687165298758530482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_9
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 783
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c077d66ba2df1a0800000000000000
+      internalID: -6774211301486424946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_10
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 778
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24424f6d57ec464f0800000000000000
+      internalID: -836316625271249854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_11
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 788
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e416edb5554da260800000000000000
+      internalID: 7110415621248390374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_12
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 803
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: decdaaebfdd30df20800000000000000
+      internalID: 3445321746124299501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_13
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 618
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3f02d2f670cde40800000000000000
+      internalID: 5682425003914621908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_14
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 542
+        width: 147
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38ff0db19a1c6ab0800000000000000
+      internalID: -5013603071925684163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_15
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 629
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6783754c3161a280800000000000000
+      internalID: -9033832466037373073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_16
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 556
+        width: 122
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681ed91caa21ede40800000000000000
+      internalID: 5683000304390234502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_17
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 528
+        width: 138
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300189dd2019f9460800000000000000
+      internalID: 7250673366583480323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_18
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 528
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72008984f655055a0800000000000000
+      internalID: -6534629122866937817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_19
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 605
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee941ee43f79fe70800000000000000
+      internalID: 9149483983289229025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_20
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 614
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d49c6f2b7563da10800000000000000
+      internalID: 1933000244823102675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_21
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 585
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b371c68b7f83ff40800000000000000
+      internalID: 5761106109041570739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_22
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 577
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8759bb62e86b180e0800000000000000
+      internalID: -2269332015566580360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_23
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 570
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3409bc0698e79460800000000000000
+      internalID: 7248517856432292922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_24
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 542
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a82fda0eae52e690800000000000000
+      internalID: -7574387521684035419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 165
+        width: 285
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5b747c5b3800de0800000000000000
+      internalID: -1368949469964945972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_26
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 186
+        width: 252
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb98a73b6cae8920800000000000000
+      internalID: 2994520378743233526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_27
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 174
+        width: 249
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7828c8c70cda3b00800000000000000
+      internalID: 809201009057867903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_28
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 171
+        width: 247
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04889bce04d7e4ce0800000000000000
+      internalID: -1419059114772166592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_29
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 284
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5292c0bb0bfde40800000000000000
+      internalID: 5683455572174251482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_shadows_30
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 262
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e563cc977c37d4480800000000000000
+      internalID: -8913340786917231010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      deco_shadows_0: 1548026905050519295
+      deco_shadows_1: -8204691433089101053
+      deco_shadows_10: -836316625271249854
+      deco_shadows_11: 7110415621248390374
+      deco_shadows_12: 3445321746124299501
+      deco_shadows_13: 5682425003914621908
+      deco_shadows_14: -5013603071925684163
+      deco_shadows_15: -9033832466037373073
+      deco_shadows_16: 5683000304390234502
+      deco_shadows_17: 7250673366583480323
+      deco_shadows_18: -6534629122866937817
+      deco_shadows_19: 9149483983289229025
+      deco_shadows_2: -4052162332589375555
+      deco_shadows_20: 1933000244823102675
+      deco_shadows_21: 5761106109041570739
+      deco_shadows_22: -2269332015566580360
+      deco_shadows_23: 7248517856432292922
+      deco_shadows_24: -7574387521684035419
+      deco_shadows_25: -1368949469964945972
+      deco_shadows_26: 2994520378743233526
+      deco_shadows_27: 809201009057867903
+      deco_shadows_28: -1419059114772166592
+      deco_shadows_29: 5683455572174251482
+      deco_shadows_3: 5839100967903213387
+      deco_shadows_30: -8913340786917231010
+      deco_shadows_4: 3499195899827397535
+      deco_shadows_5: 3646434397587215159
+      deco_shadows_6: 1683847027611279554
+      deco_shadows_7: -810441415324292249
+      deco_shadows_8: 2687165298758530482
+      deco_shadows_9: -6774211301486424946
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

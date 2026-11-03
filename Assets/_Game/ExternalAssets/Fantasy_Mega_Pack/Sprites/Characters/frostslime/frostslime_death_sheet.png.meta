@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 694e85b235a60ba40a3875871d159059
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3528691694603020476
+    second: frostslime_death_sheet_0
+  - first:
+      213: -7718344979786100392
+    second: frostslime_death_sheet_1
+  - first:
+      213: 3639425962518552585
+    second: frostslime_death_sheet_2
+  - first:
+      213: -3595534635479597663
+    second: frostslime_death_sheet_3
+  - first:
+      213: -4306845758026717136
+    second: frostslime_death_sheet_4
+  - first:
+      213: 2514578006390836738
+    second: frostslime_death_sheet_5
+  - first:
+      213: -6449429500798532219
+    second: frostslime_death_sheet_6
+  - first:
+      213: 3856778278070535014
+    second: frostslime_death_sheet_7
+  - first:
+      213: -3522891358443276915
+    second: frostslime_death_sheet_8
+  - first:
+      213: 2823951664716109901
+    second: frostslime_death_sheet_9
+  - first:
+      213: -4105389212197719017
+    second: frostslime_death_sheet_10
+  - first:
+      213: 8072553458603097197
+    second: frostslime_death_sheet_11
+  - first:
+      213: -4833889926815751503
+    second: frostslime_death_sheet_12
+  - first:
+      213: 1658679865372547599
+    second: frostslime_death_sheet_13
+  - first:
+      213: 1713104674408767005
+    second: frostslime_death_sheet_14
+  - first:
+      213: -4970077269798027182
+    second: frostslime_death_sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: frostslime_death_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 791
+        width: 138
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447d05d7991970fc0800000000000000
+      internalID: -3528691694603020476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_death_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 787
+        width: 154
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8511ee9622ee2e490800000000000000
+      internalID: -7718344979786100392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_death_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 787
+        width: 170
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900a04261a6d18230800000000000000
+      internalID: 3639425962518552585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_death_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 789
+        width: 175
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1adff9a8c481a1ec0800000000000000
+      internalID: -3595534635479597663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_death_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 576
+        width: 138
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0386b6a0a920b34c0800000000000000
+      internalID: -4306845758026717136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_death_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 572
+        width: 158
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e8feebf5395e220800000000000000
+      internalID: 2514578006390836738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_death_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 568
+        width: 171
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5858af02a060f76a0800000000000000
+      internalID: -6449429500798532219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_death_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 572
+        width: 169
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66346d9e867068530800000000000000
+      internalID: 3856778278070535014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_death_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 350
+        width: 138
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85f1bd79fc2c1fc0800000000000000
+      internalID: -3522891358443276915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_death_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 348
+        width: 139
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48d64eb311b03720800000000000000
+      internalID: 2823951664716109901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_death_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 345
+        width: 156
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714fb36434ab607c0800000000000000
+      internalID: -4105389212197719017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_death_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 351
+        width: 172
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c7362b998770070800000000000000
+      internalID: 8072553458603097197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_death_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 135
+        width: 139
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b2eeccf8b29aecb0800000000000000
+      internalID: -4833889926815751503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_death_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 135
+        width: 133
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a9f9bac80d40710800000000000000
+      internalID: 1658679865372547599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_death_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 126
+        width: 146
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e123dff9b26c710800000000000000
+      internalID: 1713104674408767005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_death_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 134
+        width: 173
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25002734e0db60bb0800000000000000
+      internalID: -4970077269798027182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      frostslime_death_sheet_0: -3528691694603020476
+      frostslime_death_sheet_1: -7718344979786100392
+      frostslime_death_sheet_10: -4105389212197719017
+      frostslime_death_sheet_11: 8072553458603097197
+      frostslime_death_sheet_12: -4833889926815751503
+      frostslime_death_sheet_13: 1658679865372547599
+      frostslime_death_sheet_14: 1713104674408767005
+      frostslime_death_sheet_15: -4970077269798027182
+      frostslime_death_sheet_2: 3639425962518552585
+      frostslime_death_sheet_3: -3595534635479597663
+      frostslime_death_sheet_4: -4306845758026717136
+      frostslime_death_sheet_5: 2514578006390836738
+      frostslime_death_sheet_6: -6449429500798532219
+      frostslime_death_sheet_7: 3856778278070535014
+      frostslime_death_sheet_8: -3522891358443276915
+      frostslime_death_sheet_9: 2823951664716109901
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

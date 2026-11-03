@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8482730c8d85fc4438956280456fb12b, type: 3}
+  m_Name: IronHelm
+  m_EditorClassIdentifier: Assembly-CSharp::FantasyDungeonPixelPack.ItemSO
+  itemName: IronHelm
+  description: 
+  icon: {fileID: 9209351874404348272, guid: 28e5892fb7c21a24a9b7115b397228b1, type: 3}
+  type: 1
+  rarity: 1
+  stackable: 0
+  maxStack: 1
+  value: 35
+  bonusAttack: 0
+  bonusDefense: 3
+  bonusMaxHP: 0
+  bonusMaxMP: 0
+  healHP: 0
+  restoreMP: 0

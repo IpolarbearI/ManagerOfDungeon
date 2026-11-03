@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: d3aa7fe2dbd633442b2d2dab7cb45979
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4257914084556801504
+    second: elitearcher_attack_sheet_0
+  - first:
+      213: 7901304989060325886
+    second: elitearcher_attack_sheet_1
+  - first:
+      213: 259658170790530602
+    second: elitearcher_attack_sheet_2
+  - first:
+      213: -7300417308178794811
+    second: elitearcher_attack_sheet_3
+  - first:
+      213: -8793722199398658151
+    second: elitearcher_attack_sheet_4
+  - first:
+      213: -2632195332876661265
+    second: elitearcher_attack_sheet_5
+  - first:
+      213: 4541558650873079508
+    second: elitearcher_attack_sheet_6
+  - first:
+      213: 2498582336685059975
+    second: elitearcher_attack_sheet_7
+  - first:
+      213: 2555786405931146902
+    second: elitearcher_attack_sheet_8
+  - first:
+      213: 8397541929904083237
+    second: elitearcher_attack_sheet_9
+  - first:
+      213: 5450682665963940336
+    second: elitearcher_attack_sheet_10
+  - first:
+      213: -765524211466019214
+    second: elitearcher_attack_sheet_11
+  - first:
+      213: -7259072808769135661
+    second: elitearcher_attack_sheet_12
+  - first:
+      213: 8408915323666093980
+    second: elitearcher_attack_sheet_13
+  - first:
+      213: -6004695500041713902
+    second: elitearcher_attack_sheet_14
+  - first:
+      213: 8151226379546588863
+    second: elitearcher_attack_sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: elitearcher_attack_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 799
+        width: 106
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02afbd113b9d8e4c0800000000000000
+      internalID: -4257914084556801504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_attack_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 798
+        width: 142
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef166fe460317ad60800000000000000
+      internalID: 7901304989060325886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_attack_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 797
+        width: 138
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e4ff80bbd7a9300800000000000000
+      internalID: 259658170790530602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_attack_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 869
+        width: 75
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6b3e13325bfaa90800000000000000
+      internalID: -7300417308178794811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_attack_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 571
+        width: 103
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f4063304c66f580800000000000000
+      internalID: -8793722199398658151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_attack_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 569
+        width: 136
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed027c6a40987bd0800000000000000
+      internalID: -2632195332876661265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_attack_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 566
+        width: 136
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d664efd78bd60f30800000000000000
+      internalID: 4541558650873079508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_attack_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 640
+        width: 75
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78fad2ca56fbca220800000000000000
+      internalID: 2498582336685059975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_attack_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 346
+        width: 82
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e5c4fe13af77320800000000000000
+      internalID: 2555786405931146902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_attack_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 342
+        width: 97
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5219166a4ef0a8470800000000000000
+      internalID: 8397541929904083237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_attack_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 338
+        width: 116
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9e8287107b4ab40800000000000000
+      internalID: 5450682665963940336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_attack_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 396
+        width: 74
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e5b9c19cf4065f0800000000000000
+      internalID: -765524211466019214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_attack_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 112
+        width: 77
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db5e9a9db7924b90800000000000000
+      internalID: -7259072808769135661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_attack_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 107
+        width: 106
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97d47d3fe772b470800000000000000
+      internalID: 8408915323666093980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_attack_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 105
+        width: 126
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21780a7c1490baca0800000000000000
+      internalID: -6004695500041713902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_attack_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 156
+        width: 75
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6faa48439fe1170800000000000000
+      internalID: 8151226379546588863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      elitearcher_attack_sheet_0: -4257914084556801504
+      elitearcher_attack_sheet_1: 7901304989060325886
+      elitearcher_attack_sheet_10: 5450682665963940336
+      elitearcher_attack_sheet_11: -765524211466019214
+      elitearcher_attack_sheet_12: -7259072808769135661
+      elitearcher_attack_sheet_13: 8408915323666093980
+      elitearcher_attack_sheet_14: -6004695500041713902
+      elitearcher_attack_sheet_15: 8151226379546588863
+      elitearcher_attack_sheet_2: 259658170790530602
+      elitearcher_attack_sheet_3: -7300417308178794811
+      elitearcher_attack_sheet_4: -8793722199398658151
+      elitearcher_attack_sheet_5: -2632195332876661265
+      elitearcher_attack_sheet_6: 4541558650873079508
+      elitearcher_attack_sheet_7: 2498582336685059975
+      elitearcher_attack_sheet_8: 2555786405931146902
+      elitearcher_attack_sheet_9: 8397541929904083237
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

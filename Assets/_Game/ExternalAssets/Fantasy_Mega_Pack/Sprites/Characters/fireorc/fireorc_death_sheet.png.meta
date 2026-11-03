@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 90bc623e155f7d740b08d14634560c03
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2126366722618665121
+    second: fireorc_death_sheet_0
+  - first:
+      213: -2454686239506377042
+    second: fireorc_death_sheet_1
+  - first:
+      213: -235838482391064237
+    second: fireorc_death_sheet_2
+  - first:
+      213: -3102141391355517878
+    second: fireorc_death_sheet_3
+  - first:
+      213: -864468229985270301
+    second: fireorc_death_sheet_4
+  - first:
+      213: -5898099433783736077
+    second: fireorc_death_sheet_5
+  - first:
+      213: -4975520468023604666
+    second: fireorc_death_sheet_6
+  - first:
+      213: -5163726598153250779
+    second: fireorc_death_sheet_7
+  - first:
+      213: 1176362966398257186
+    second: fireorc_death_sheet_8
+  - first:
+      213: -1028890926896867658
+    second: fireorc_death_sheet_9
+  - first:
+      213: 3434007461535220202
+    second: fireorc_death_sheet_10
+  - first:
+      213: -7333204320285077062
+    second: fireorc_death_sheet_11
+  - first:
+      213: -9199825401794780974
+    second: fireorc_death_sheet_12
+  - first:
+      213: 6213488660824474230
+    second: fireorc_death_sheet_13
+  - first:
+      213: -4800289453873967409
+    second: fireorc_death_sheet_14
+  - first:
+      213: 7190872688240603285
+    second: fireorc_death_sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fireorc_death_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 793
+        width: 153
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8a5eba44f528d10800000000000000
+      internalID: 2126366722618665121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_death_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 776
+        width: 147
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6de23eed33fedd0800000000000000
+      internalID: -2454686239506377042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_death_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 785
+        width: 170
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351a6b856222abcf0800000000000000
+      internalID: -235838482391064237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_death_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 767
+        width: 173
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44e73527daf2f4d0800000000000000
+      internalID: -3102141391355517878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_death_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 564
+        width: 152
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e50e1899bac004f0800000000000000
+      internalID: -864468229985270301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_death_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 561
+        width: 159
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8436f70ddb52ea0800000000000000
+      internalID: -5898099433783736077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_death_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 561
+        width: 187
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a84caee7663fab0800000000000000
+      internalID: -4975520468023604666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_death_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 548
+        width: 196
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528d6df7402c658b0800000000000000
+      internalID: -5163726598153250779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_death_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 344
+        width: 143
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228c713a2e7435010800000000000000
+      internalID: 1176362966398257186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_death_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 341
+        width: 155
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b690bd3725a8b1f0800000000000000
+      internalID: -1028890926896867658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_death_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 326
+        width: 183
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae109d4979b08af20800000000000000
+      internalID: 3434007461535220202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_death_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 312
+        width: 195
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab15c0016893b3a90800000000000000
+      internalID: -7333204320285077062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_death_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 109
+        width: 137
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d028623a87a35080800000000000000
+      internalID: -9199825401794780974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_death_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 113
+        width: 143
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6724c5c340fba3650800000000000000
+      internalID: 6213488660824474230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_death_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 90
+        width: 183
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcec9cabc22f16db0800000000000000
+      internalID: -4800289453873967409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_death_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 84
+        width: 212
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590b3af6c9c1bc360800000000000000
+      internalID: 7190872688240603285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fireorc_death_sheet_0: 2126366722618665121
+      fireorc_death_sheet_1: -2454686239506377042
+      fireorc_death_sheet_10: 3434007461535220202
+      fireorc_death_sheet_11: -7333204320285077062
+      fireorc_death_sheet_12: -9199825401794780974
+      fireorc_death_sheet_13: 6213488660824474230
+      fireorc_death_sheet_14: -4800289453873967409
+      fireorc_death_sheet_15: 7190872688240603285
+      fireorc_death_sheet_2: -235838482391064237
+      fireorc_death_sheet_3: -3102141391355517878
+      fireorc_death_sheet_4: -864468229985270301
+      fireorc_death_sheet_5: -5898099433783736077
+      fireorc_death_sheet_6: -4975520468023604666
+      fireorc_death_sheet_7: -5163726598153250779
+      fireorc_death_sheet_8: 1176362966398257186
+      fireorc_death_sheet_9: -1028890926896867658
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

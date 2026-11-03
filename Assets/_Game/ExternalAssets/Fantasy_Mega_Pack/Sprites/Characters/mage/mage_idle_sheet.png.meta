@@ -1,0 +1,3315 @@
+fileFormatVersion: 2
+guid: 91e8bbbe3d1f17d45818995a89df51c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2629114710341848990
+    second: mage_idle_sheet_0
+  - first:
+      213: 5753703306878904408
+    second: mage_idle_sheet_1
+  - first:
+      213: 6591598094052793723
+    second: mage_idle_sheet_2
+  - first:
+      213: -7693049857373963917
+    second: mage_idle_sheet_3
+  - first:
+      213: -5141930610165360581
+    second: mage_idle_sheet_4
+  - first:
+      213: -1433261407338258787
+    second: mage_idle_sheet_5
+  - first:
+      213: 2303720746195608257
+    second: mage_idle_sheet_6
+  - first:
+      213: 6994841032083626825
+    second: mage_idle_sheet_7
+  - first:
+      213: -8576874071515080326
+    second: mage_idle_sheet_8
+  - first:
+      213: -6224654996535064700
+    second: mage_idle_sheet_9
+  - first:
+      213: -4353835623215687273
+    second: mage_idle_sheet_10
+  - first:
+      213: 3554887899298946126
+    second: mage_idle_sheet_11
+  - first:
+      213: -6049320367654396931
+    second: mage_idle_sheet_12
+  - first:
+      213: -7479145942952255469
+    second: mage_idle_sheet_13
+  - first:
+      213: 6351810643577132433
+    second: mage_idle_sheet_14
+  - first:
+      213: -4175335075848036880
+    second: mage_idle_sheet_15
+  - first:
+      213: 7072179816836566032
+    second: mage_idle_sheet_16
+  - first:
+      213: -8985994975489865771
+    second: mage_idle_sheet_17
+  - first:
+      213: -759650549071239016
+    second: mage_idle_sheet_18
+  - first:
+      213: -8044638365262215665
+    second: mage_idle_sheet_19
+  - first:
+      213: -6984091360478094110
+    second: mage_idle_sheet_20
+  - first:
+      213: 7371772094040946789
+    second: mage_idle_sheet_21
+  - first:
+      213: -5541722162529699430
+    second: mage_idle_sheet_22
+  - first:
+      213: 7214974267721889059
+    second: mage_idle_sheet_23
+  - first:
+      213: -4319362988891981932
+    second: mage_idle_sheet_24
+  - first:
+      213: 5918602200641384001
+    second: mage_idle_sheet_25
+  - first:
+      213: -4829374756946633194
+    second: mage_idle_sheet_26
+  - first:
+      213: 229976922956031443
+    second: mage_idle_sheet_27
+  - first:
+      213: 1592483152614813966
+    second: mage_idle_sheet_28
+  - first:
+      213: 2750037174373051828
+    second: mage_idle_sheet_29
+  - first:
+      213: 3945470727958597565
+    second: mage_idle_sheet_30
+  - first:
+      213: -4513623840822700180
+    second: mage_idle_sheet_31
+  - first:
+      213: -4600088019503982993
+    second: mage_idle_sheet_32
+  - first:
+      213: 8925190052885497101
+    second: mage_idle_sheet_33
+  - first:
+      213: 7309299258214192744
+    second: mage_idle_sheet_34
+  - first:
+      213: -5660780308445108329
+    second: mage_idle_sheet_35
+  - first:
+      213: 3281877134076642013
+    second: mage_idle_sheet_36
+  - first:
+      213: 4336398483898451309
+    second: mage_idle_sheet_37
+  - first:
+      213: 7825982398314055158
+    second: mage_idle_sheet_38
+  - first:
+      213: 7092803790100610795
+    second: mage_idle_sheet_39
+  - first:
+      213: -8287357665990571983
+    second: mage_idle_sheet_40
+  - first:
+      213: 4728911823894469546
+    second: mage_idle_sheet_41
+  - first:
+      213: 2901553511258022540
+    second: mage_idle_sheet_42
+  - first:
+      213: 5158093107214818025
+    second: mage_idle_sheet_43
+  - first:
+      213: -2535463535535587856
+    second: mage_idle_sheet_44
+  - first:
+      213: 5744011608553009111
+    second: mage_idle_sheet_45
+  - first:
+      213: -4466350299602979565
+    second: mage_idle_sheet_46
+  - first:
+      213: 6772175087990247733
+    second: mage_idle_sheet_47
+  - first:
+      213: 7437996783109335898
+    second: mage_idle_sheet_48
+  - first:
+      213: -1438789381053016327
+    second: mage_idle_sheet_49
+  - first:
+      213: -1489856056938435022
+    second: mage_idle_sheet_50
+  - first:
+      213: -2073468639224362416
+    second: mage_idle_sheet_51
+  - first:
+      213: -4222055505706174455
+    second: mage_idle_sheet_52
+  - first:
+      213: -5302131973097413643
+    second: mage_idle_sheet_53
+  - first:
+      213: 6002369641222547060
+    second: mage_idle_sheet_54
+  - first:
+      213: -3596052627176498449
+    second: mage_idle_sheet_55
+  - first:
+      213: -8452606406356812521
+    second: mage_idle_sheet_56
+  - first:
+      213: -5684469744560081264
+    second: mage_idle_sheet_57
+  - first:
+      213: -5001441626446463092
+    second: mage_idle_sheet_58
+  - first:
+      213: 2059897372264564815
+    second: mage_idle_sheet_59
+  - first:
+      213: -5115434867974923181
+    second: mage_idle_sheet_60
+  - first:
+      213: 3838319508593049030
+    second: mage_idle_sheet_61
+  - first:
+      213: -8153086029797338349
+    second: mage_idle_sheet_62
+  - first:
+      213: -4961966132344276283
+    second: mage_idle_sheet_63
+  - first:
+      213: 8271993085378007752
+    second: mage_idle_sheet_64
+  - first:
+      213: -4357761797832759899
+    second: mage_idle_sheet_65
+  - first:
+      213: 7636203535457412902
+    second: mage_idle_sheet_66
+  - first:
+      213: -4005898036756283587
+    second: mage_idle_sheet_67
+  - first:
+      213: -3298484259109360378
+    second: mage_idle_sheet_68
+  - first:
+      213: -948306067956968440
+    second: mage_idle_sheet_69
+  - first:
+      213: 1862826276622516686
+    second: mage_idle_sheet_70
+  - first:
+      213: -8838708352628721293
+    second: mage_idle_sheet_71
+  - first:
+      213: -40977356693829363
+    second: mage_idle_sheet_72
+  - first:
+      213: 2741130960198191351
+    second: mage_idle_sheet_73
+  - first:
+      213: 9150430805253341560
+    second: mage_idle_sheet_74
+  - first:
+      213: -4431378415927626661
+    second: mage_idle_sheet_75
+  - first:
+      213: -1895013552489118984
+    second: mage_idle_sheet_76
+  - first:
+      213: 5970119244368410194
+    second: mage_idle_sheet_77
+  - first:
+      213: -5336228864619674853
+    second: mage_idle_sheet_78
+  - first:
+      213: -3641564099615606764
+    second: mage_idle_sheet_79
+  - first:
+      213: -682668598295898368
+    second: mage_idle_sheet_80
+  - first:
+      213: -3995831477294811267
+    second: mage_idle_sheet_81
+  - first:
+      213: 1467833697883431547
+    second: mage_idle_sheet_82
+  - first:
+      213: 1423016739124539790
+    second: mage_idle_sheet_83
+  - first:
+      213: -4859700338325987750
+    second: mage_idle_sheet_84
+  - first:
+      213: -2034777541262414222
+    second: mage_idle_sheet_85
+  - first:
+      213: -5437833573305325183
+    second: mage_idle_sheet_86
+  - first:
+      213: -4780129376719268361
+    second: mage_idle_sheet_87
+  - first:
+      213: 6411169296111504941
+    second: mage_idle_sheet_88
+  - first:
+      213: 1917878529750138970
+    second: mage_idle_sheet_89
+  - first:
+      213: 7242051737255953317
+    second: mage_idle_sheet_90
+  - first:
+      213: 3188595664804395843
+    second: mage_idle_sheet_91
+  - first:
+      213: 143926957806062976
+    second: mage_idle_sheet_92
+  - first:
+      213: -7191366949034146790
+    second: mage_idle_sheet_93
+  - first:
+      213: -4828349395224118585
+    second: mage_idle_sheet_94
+  - first:
+      213: 450574568967012320
+    second: mage_idle_sheet_95
+  - first:
+      213: -2616330573528725553
+    second: mage_idle_sheet_96
+  - first:
+      213: -3809592325757496250
+    second: mage_idle_sheet_97
+  - first:
+      213: 4249072894200274846
+    second: mage_idle_sheet_98
+  - first:
+      213: -6890134412038404931
+    second: mage_idle_sheet_99
+  - first:
+      213: 5167902486384493033
+    second: mage_idle_sheet_100
+  - first:
+      213: -5253482968185360496
+    second: mage_idle_sheet_101
+  - first:
+      213: 5869071168756776665
+    second: mage_idle_sheet_102
+  - first:
+      213: -1035679154851124354
+    second: mage_idle_sheet_103
+  - first:
+      213: -7803004764495191850
+    second: mage_idle_sheet_104
+  - first:
+      213: -6176717842184842547
+    second: mage_idle_sheet_105
+  - first:
+      213: -4639261510197883777
+    second: mage_idle_sheet_106
+  - first:
+      213: 8356841608141226934
+    second: mage_idle_sheet_107
+  - first:
+      213: -744866088983127971
+    second: mage_idle_sheet_108
+  - first:
+      213: 8101338857825288179
+    second: mage_idle_sheet_109
+  - first:
+      213: 6953839472386479379
+    second: mage_idle_sheet_110
+  - first:
+      213: 7552354252682791568
+    second: mage_idle_sheet_111
+  - first:
+      213: 254104958734920993
+    second: mage_idle_sheet_112
+  - first:
+      213: -1794694710402216304
+    second: mage_idle_sheet_113
+  - first:
+      213: -1724888062720630326
+    second: mage_idle_sheet_114
+  - first:
+      213: -1350574824993246504
+    second: mage_idle_sheet_115
+  - first:
+      213: -6364646362116922367
+    second: mage_idle_sheet_116
+  - first:
+      213: 6738261806358211245
+    second: mage_idle_sheet_117
+  - first:
+      213: -5757971903580791501
+    second: mage_idle_sheet_118
+  - first:
+      213: 8676974535436036181
+    second: mage_idle_sheet_119
+  - first:
+      213: -9074608268104935522
+    second: mage_idle_sheet_120
+  - first:
+      213: 661486109517910862
+    second: mage_idle_sheet_121
+  - first:
+      213: 3371742820423869454
+    second: mage_idle_sheet_122
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mage_idle_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 846
+        width: 57
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f0eaf36ed7c7420800000000000000
+      internalID: 2629114710341848990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 910
+        width: 99
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858e1855ca249df40800000000000000
+      internalID: 5753703306878904408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 843
+        width: 55
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d9822fa8f0a7b50800000000000000
+      internalID: 6591598094052793723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 910
+        width: 103
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379fadb0aebcc3590800000000000000
+      internalID: -7693049857373963917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 856
+        width: 58
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38d2696a5134a8b0800000000000000
+      internalID: -5141930610165360581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 909
+        width: 101
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e935108580c1ce0800000000000000
+      internalID: -1433261407338258787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 832
+        width: 56
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2efa220d578ff10800000000000000
+      internalID: 2303720746195608257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 915
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94bdba1cbdaa21160800000000000000
+      internalID: 6994841032083626825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 866
+        width: 95
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79d5146972d8f880800000000000000
+      internalID: -8576874071515080326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 827
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487ca22a2459d99a0800000000000000
+      internalID: -6224654996535064700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 787
+        width: 105
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79999cb71911493c0800000000000000
+      internalID: -4353835623215687273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 787
+        width: 49
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c5c06b5bf755130800000000000000
+      internalID: 3554887899298946126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 826
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb9c612d2f7c0ca0800000000000000
+      internalID: -6049320367654396931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 832
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310e60f146cb43890800000000000000
+      internalID: -7479145942952255469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 783
+        width: 106
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195d5f2802a262850800000000000000
+      internalID: 6351810643577132433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 787
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd59d1deda3e06c0800000000000000
+      internalID: -4175335075848036880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 826
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c0b3ac21e652260800000000000000
+      internalID: 7072179816836566032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 831
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d74b7cfd255b4380800000000000000
+      internalID: -8985994975489865771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 784
+        width: 43
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898ad25b9dd2575f0800000000000000
+      internalID: -759650549071239016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 870
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0601147704bb5090800000000000000
+      internalID: -8044638365262215665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 860
+        width: 80
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec14d339e5831f90800000000000000
+      internalID: -6984091360478094110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 781
+        width: 49
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568b27689abcd4660800000000000000
+      internalID: 7371772094040946789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 825
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99f182fd09d713b0800000000000000
+      internalID: -5541722162529699430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 837
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325b523bedcb02460800000000000000
+      internalID: 7214974267721889059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 790
+        width: 49
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497bf1f1f3a8e04c0800000000000000
+      internalID: -4319362988891981932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 787
+        width: 46
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e2318e759132250800000000000000
+      internalID: 5918602200641384001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 830
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e15f4ee3d9afcb0800000000000000
+      internalID: -4829374756946633194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 835
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5e45ffaca013300800000000000000
+      internalID: 229976922956031443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 848
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01766e6df2a91610800000000000000
+      internalID: 1592483152614813966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 855
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bdef916d381a2620800000000000000
+      internalID: 2750037174373051828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 836
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf8cab19b021c630800000000000000
+      internalID: 3945470727958597565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 779
+        width: 15
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67570ee7036c51c0800000000000000
+      internalID: -4513623840822700180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 779
+        width: 16
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f665fed81543920c0800000000000000
+      internalID: -4600088019503982993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 778
+        width: 19
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05071fb015acdb70800000000000000
+      internalID: 8925190052885497101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 839
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86612e2f2f8df6560800000000000000
+      internalID: 7309299258214192744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 784
+        width: 14
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7976a933d4ed071b0800000000000000
+      internalID: -5660780308445108329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 846
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd28d158dd19b8d20800000000000000
+      internalID: 3281877134076642013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 778
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d654f45227bfd2c30800000000000000
+      internalID: 4336398483898451309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 831
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f508f507897b9c60800000000000000
+      internalID: 7825982398314055158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 826
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beebd72c773be6260800000000000000
+      internalID: 7092803790100610795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 786
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13885007c146dfc80800000000000000
+      internalID: -8287357665990571983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 789
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabdf5dbf3870a140800000000000000
+      internalID: 4728911823894469546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 781
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82625f9b83644820800000000000000
+      internalID: 2901553511258022540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 782
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea1eed2a5a359740800000000000000
+      internalID: 5158093107214818025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 778
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fdf17f095930dcd0800000000000000
+      internalID: -2535463535535587856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 778
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dfa589ff14d6bf40800000000000000
+      internalID: 5744011608553009111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 783
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31574b5f0165402c0800000000000000
+      internalID: -4466350299602979565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 778
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531986cac599bfd50800000000000000
+      internalID: 6772175087990247733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 787
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5beab18aa2193760800000000000000
+      internalID: 7437996783109335898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 778
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f61bb35ea4680ce0800000000000000
+      internalID: -1438789381053016327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 522
+        width: 148
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e68bf4fc7f25be0800000000000000
+      internalID: -1489856056938435022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 652
+        width: 105
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a8e12224f8933e0800000000000000
+      internalID: -2073468639224362416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 675
+        width: 51
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908b66013ee3865c0800000000000000
+      internalID: -4222055505706174455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 647
+        width: 50
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3a947ff0b0b66b0800000000000000
+      internalID: -5302131973097413643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 586
+        width: 58
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476a8a30363bc4350800000000000000
+      internalID: 6002369641222547060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 653
+        width: 107
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fead8833031481ec0800000000000000
+      internalID: -3596052627176498449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 675
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d39ead14f42ba80800000000000000
+      internalID: -8452606406356812521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 648
+        width: 49
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0967a0b82e4bc11b0800000000000000
+      internalID: -5684469744560081264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 654
+        width: 104
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f7ecae65f479ab0800000000000000
+      internalID: -5001441626446463092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 675
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48079b0fb9369c10800000000000000
+      internalID: 2059897372264564815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 612
+        width: 104
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c15be17135209b0800000000000000
+      internalID: -5115434867974923181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 639
+        width: 61
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cdf32cb143744530800000000000000
+      internalID: 3838319508593049030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 612
+        width: 105
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313dabae37b6ade80800000000000000
+      internalID: -8153086029797338349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 653
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cab91e971e832bb0800000000000000
+      internalID: -4961966132344276283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 639
+        width: 59
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2917e52e50cc270800000000000000
+      internalID: 8271993085378007752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 612
+        width: 101
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a52968bbbe1683c0800000000000000
+      internalID: -4357761797832759899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 639
+        width: 58
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627658b38ae39f960800000000000000
+      internalID: 7636203535457412902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 571
+        width: 32
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ff4b0b5f03868c0800000000000000
+      internalID: -4005898036756283587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 574
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60da19eda0e6932d0800000000000000
+      internalID: -3298484259109360378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 522
+        width: 109
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804d311d7a0f6d2f0800000000000000
+      internalID: -948306067956968440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 553
+        width: 44
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1495001a61ad910800000000000000
+      internalID: 1862826276622516686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 553
+        width: 13
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37979403599965580800000000000000
+      internalID: -8838708352628721293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 522
+        width: 111
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d090e6aaf4b6e6ff0800000000000000
+      internalID: -40977356693829363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 569
+        width: 37
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8407dc5147a0620800000000000000
+      internalID: 2741130960198191351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 600
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871cae8165cdcfe70800000000000000
+      internalID: 9150430805253341560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 553
+        width: 13
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54fc452fc49082c0800000000000000
+      internalID: -4431378415927626661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 576
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2c557d63f83b5e0800000000000000
+      internalID: -1895013552489118984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 522
+        width: 113
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2567d4b52df1ad250800000000000000
+      internalID: 5970119244368410194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 576
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b138824ce18e1f5b0800000000000000
+      internalID: -5336228864619674853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 573
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418b897ceb0967dc0800000000000000
+      internalID: -3641564099615606764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 550
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007524bd68ca686f0800000000000000
+      internalID: -682668598295898368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 315
+        width: 140
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77b4853174fb88c0800000000000000
+      internalID: -3995831477294811267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 271
+        width: 81
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72a0b7a8face5410800000000000000
+      internalID: 1467833697883431547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 138
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81f3fc4f229fb310800000000000000
+      internalID: 1423016739124539790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_84
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 334
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5edb334a40ee8cb0800000000000000
+      internalID: -4859700338325987750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_85
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 272
+        width: 85
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e6c106b9403c3e0800000000000000
+      internalID: -2034777541262414222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_86
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 334
+        width: 141
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189617b0d2fe884b0800000000000000
+      internalID: -5437833573305325183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_87
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 315
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f51d3878a199adb0800000000000000
+      internalID: -4780129376719268361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_88
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 271
+        width: 77
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e0e99c18c09f850800000000000000
+      internalID: 6411169296111504941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_89
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 332
+        width: 142
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a500b188c5cad9a10800000000000000
+      internalID: 1917878529750138970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_90
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 316
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3442c5fafe08460800000000000000
+      internalID: 7242051737255953317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_91
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 272
+        width: 77
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b340dfcda204c20800000000000000
+      internalID: 3188595664804395843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_92
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 266
+        width: 28
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d02a93ec45ff100800000000000000
+      internalID: 143926957806062976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_93
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 266
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14c5518cd1233c90800000000000000
+      internalID: -7191366949034146790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_94
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 266
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cab1368ec14efcb0800000000000000
+      internalID: -4828349395224118585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_95
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 328
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef7a18ee23c04600800000000000000
+      internalID: 450574568967012320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_96
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 266
+        width: 25
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc783dd843de0bbd0800000000000000
+      internalID: -2616330573528725553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_97
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 277
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6449b2cb6fb912bc0800000000000000
+      internalID: -3809592325757496250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_98
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 275
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f5c83e84db7fa30800000000000000
+      internalID: 4249072894200274846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_99
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 277
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db481cbf1435160a0800000000000000
+      internalID: -6890134412038404931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_100
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 277
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e14ece3ee318b740800000000000000
+      internalID: 5167902486384493033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_101
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 278
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f2fb71311e717b0800000000000000
+      internalID: -5253482968185360496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_102
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 15
+        width: 81
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9defb3fd121237150800000000000000
+      internalID: 5869071168756776665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_103
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 59
+        width: 140
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b62d1cb4780a1f0800000000000000
+      internalID: -1035679154851124354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_104
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 16
+        width: 85
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0659f328826b390800000000000000
+      internalID: -7803004764495191850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_105
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 96
+        width: 138
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc251c229d3e74aa0800000000000000
+      internalID: -6176717842184842547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_106
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 78
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c43808c380e9fb0800000000000000
+      internalID: -4639261510197883777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_107
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 15
+        width: 77
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b346798a2779f370800000000000000
+      internalID: 8356841608141226934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_108
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 78
+        width: 141
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d581de01d34b9a5f0800000000000000
+      internalID: -744866088983127971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_109
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 59
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffbeb9b4ccbd6070800000000000000
+      internalID: 8101338857825288179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_110
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 16
+        width: 77
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3159fa83820018060800000000000000
+      internalID: 6953839472386479379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_111
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 76
+        width: 142
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a8111cd2a5fc860800000000000000
+      internalID: 7552354252682791568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_112
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 60
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d6f091d13c68300800000000000000
+      internalID: 254104958734920993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_113
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 10
+        width: 28
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e043a6ba6f717e0800000000000000
+      internalID: -1794694710402216304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_114
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 10
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1a9302277ff08e0800000000000000
+      internalID: -1724888062720630326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_115
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 10
+        width: 32
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d231b13a5bc14de0800000000000000
+      internalID: -1350574824993246504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_116
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 10
+        width: 25
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104e901eadb3ca7a0800000000000000
+      internalID: -6364646362116922367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_117
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 72
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa209b796d138d50800000000000000
+      internalID: 6738261806358211245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_118
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 21
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d136c8f039710b0800000000000000
+      internalID: -5757971903580791501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_119
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 21
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55866cd0e5eca6870800000000000000
+      internalID: 8676974535436036181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_120
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 19
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9758c70cd3801280800000000000000
+      internalID: -9074608268104935522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_121
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 21
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e439ba5ac121e2900800000000000000
+      internalID: 661486109517910862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mage_idle_sheet_122
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 22
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04a65d1b36dace20800000000000000
+      internalID: 3371742820423869454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mage_idle_sheet_0: 2629114710341848990
+      mage_idle_sheet_1: 5753703306878904408
+      mage_idle_sheet_10: -4353835623215687273
+      mage_idle_sheet_100: 5167902486384493033
+      mage_idle_sheet_101: -5253482968185360496
+      mage_idle_sheet_102: 5869071168756776665
+      mage_idle_sheet_103: -1035679154851124354
+      mage_idle_sheet_104: -7803004764495191850
+      mage_idle_sheet_105: -6176717842184842547
+      mage_idle_sheet_106: -4639261510197883777
+      mage_idle_sheet_107: 8356841608141226934
+      mage_idle_sheet_108: -744866088983127971
+      mage_idle_sheet_109: 8101338857825288179
+      mage_idle_sheet_11: 3554887899298946126
+      mage_idle_sheet_110: 6953839472386479379
+      mage_idle_sheet_111: 7552354252682791568
+      mage_idle_sheet_112: 254104958734920993
+      mage_idle_sheet_113: -1794694710402216304
+      mage_idle_sheet_114: -1724888062720630326
+      mage_idle_sheet_115: -1350574824993246504
+      mage_idle_sheet_116: -6364646362116922367
+      mage_idle_sheet_117: 6738261806358211245
+      mage_idle_sheet_118: -5757971903580791501
+      mage_idle_sheet_119: 8676974535436036181
+      mage_idle_sheet_12: -6049320367654396931
+      mage_idle_sheet_120: -9074608268104935522
+      mage_idle_sheet_121: 661486109517910862
+      mage_idle_sheet_122: 3371742820423869454
+      mage_idle_sheet_13: -7479145942952255469
+      mage_idle_sheet_14: 6351810643577132433
+      mage_idle_sheet_15: -4175335075848036880
+      mage_idle_sheet_16: 7072179816836566032
+      mage_idle_sheet_17: -8985994975489865771
+      mage_idle_sheet_18: -759650549071239016
+      mage_idle_sheet_19: -8044638365262215665
+      mage_idle_sheet_2: 6591598094052793723
+      mage_idle_sheet_20: -6984091360478094110
+      mage_idle_sheet_21: 7371772094040946789
+      mage_idle_sheet_22: -5541722162529699430
+      mage_idle_sheet_23: 7214974267721889059
+      mage_idle_sheet_24: -4319362988891981932
+      mage_idle_sheet_25: 5918602200641384001
+      mage_idle_sheet_26: -4829374756946633194
+      mage_idle_sheet_27: 229976922956031443
+      mage_idle_sheet_28: 1592483152614813966
+      mage_idle_sheet_29: 2750037174373051828
+      mage_idle_sheet_3: -7693049857373963917
+      mage_idle_sheet_30: 3945470727958597565
+      mage_idle_sheet_31: -4513623840822700180
+      mage_idle_sheet_32: -4600088019503982993
+      mage_idle_sheet_33: 8925190052885497101
+      mage_idle_sheet_34: 7309299258214192744
+      mage_idle_sheet_35: -5660780308445108329
+      mage_idle_sheet_36: 3281877134076642013
+      mage_idle_sheet_37: 4336398483898451309
+      mage_idle_sheet_38: 7825982398314055158
+      mage_idle_sheet_39: 7092803790100610795
+      mage_idle_sheet_4: -5141930610165360581
+      mage_idle_sheet_40: -8287357665990571983
+      mage_idle_sheet_41: 4728911823894469546
+      mage_idle_sheet_42: 2901553511258022540
+      mage_idle_sheet_43: 5158093107214818025
+      mage_idle_sheet_44: -2535463535535587856
+      mage_idle_sheet_45: 5744011608553009111
+      mage_idle_sheet_46: -4466350299602979565
+      mage_idle_sheet_47: 6772175087990247733
+      mage_idle_sheet_48: 7437996783109335898
+      mage_idle_sheet_49: -1438789381053016327
+      mage_idle_sheet_5: -1433261407338258787
+      mage_idle_sheet_50: -1489856056938435022
+      mage_idle_sheet_51: -2073468639224362416
+      mage_idle_sheet_52: -4222055505706174455
+      mage_idle_sheet_53: -5302131973097413643
+      mage_idle_sheet_54: 6002369641222547060
+      mage_idle_sheet_55: -3596052627176498449
+      mage_idle_sheet_56: -8452606406356812521
+      mage_idle_sheet_57: -5684469744560081264
+      mage_idle_sheet_58: -5001441626446463092
+      mage_idle_sheet_59: 2059897372264564815
+      mage_idle_sheet_6: 2303720746195608257
+      mage_idle_sheet_60: -5115434867974923181
+      mage_idle_sheet_61: 3838319508593049030
+      mage_idle_sheet_62: -8153086029797338349
+      mage_idle_sheet_63: -4961966132344276283
+      mage_idle_sheet_64: 8271993085378007752
+      mage_idle_sheet_65: -4357761797832759899
+      mage_idle_sheet_66: 7636203535457412902
+      mage_idle_sheet_67: -4005898036756283587
+      mage_idle_sheet_68: -3298484259109360378
+      mage_idle_sheet_69: -948306067956968440
+      mage_idle_sheet_7: 6994841032083626825
+      mage_idle_sheet_70: 1862826276622516686
+      mage_idle_sheet_71: -8838708352628721293
+      mage_idle_sheet_72: -40977356693829363
+      mage_idle_sheet_73: 2741130960198191351
+      mage_idle_sheet_74: 9150430805253341560
+      mage_idle_sheet_75: -4431378415927626661
+      mage_idle_sheet_76: -1895013552489118984
+      mage_idle_sheet_77: 5970119244368410194
+      mage_idle_sheet_78: -5336228864619674853
+      mage_idle_sheet_79: -3641564099615606764
+      mage_idle_sheet_8: -8576874071515080326
+      mage_idle_sheet_80: -682668598295898368
+      mage_idle_sheet_81: -3995831477294811267
+      mage_idle_sheet_82: 1467833697883431547
+      mage_idle_sheet_83: 1423016739124539790
+      mage_idle_sheet_84: -4859700338325987750
+      mage_idle_sheet_85: -2034777541262414222
+      mage_idle_sheet_86: -5437833573305325183
+      mage_idle_sheet_87: -4780129376719268361
+      mage_idle_sheet_88: 6411169296111504941
+      mage_idle_sheet_89: 1917878529750138970
+      mage_idle_sheet_9: -6224654996535064700
+      mage_idle_sheet_90: 7242051737255953317
+      mage_idle_sheet_91: 3188595664804395843
+      mage_idle_sheet_92: 143926957806062976
+      mage_idle_sheet_93: -7191366949034146790
+      mage_idle_sheet_94: -4828349395224118585
+      mage_idle_sheet_95: 450574568967012320
+      mage_idle_sheet_96: -2616330573528725553
+      mage_idle_sheet_97: -3809592325757496250
+      mage_idle_sheet_98: 4249072894200274846
+      mage_idle_sheet_99: -6890134412038404931
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 89f080133128dd443bd46445b55f1853
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8542410487972979615
+    second: elitearcher_hurt_sheet_0
+  - first:
+      213: -4484466522342213555
+    second: elitearcher_hurt_sheet_1
+  - first:
+      213: -6052492668923187612
+    second: elitearcher_hurt_sheet_2
+  - first:
+      213: -7944781722987424504
+    second: elitearcher_hurt_sheet_3
+  - first:
+      213: 1670372297292576796
+    second: elitearcher_hurt_sheet_4
+  - first:
+      213: 2654216215231671353
+    second: elitearcher_hurt_sheet_5
+  - first:
+      213: -1930368609109546272
+    second: elitearcher_hurt_sheet_6
+  - first:
+      213: -7295158772501170568
+    second: elitearcher_hurt_sheet_7
+  - first:
+      213: 1436759939237822310
+    second: elitearcher_hurt_sheet_8
+  - first:
+      213: 6305387441146769693
+    second: elitearcher_hurt_sheet_9
+  - first:
+      213: -9065019129592236659
+    second: elitearcher_hurt_sheet_10
+  - first:
+      213: 3670827109979449054
+    second: elitearcher_hurt_sheet_11
+  - first:
+      213: -2472033972067014392
+    second: elitearcher_hurt_sheet_12
+  - first:
+      213: 4753220509813121457
+    second: elitearcher_hurt_sheet_13
+  - first:
+      213: 2996222827968386080
+    second: elitearcher_hurt_sheet_14
+  - first:
+      213: 7072778028457483647
+    second: elitearcher_hurt_sheet_15
+  - first:
+      213: -5957225535996375357
+    second: elitearcher_hurt_sheet_16
+  - first:
+      213: 6134691463397456686
+    second: elitearcher_hurt_sheet_17
+  - first:
+      213: -6202372008053018079
+    second: elitearcher_hurt_sheet_18
+  - first:
+      213: -537508300143640220
+    second: elitearcher_hurt_sheet_19
+  - first:
+      213: 8262678588726093059
+    second: elitearcher_hurt_sheet_20
+  - first:
+      213: -2375393451348693617
+    second: elitearcher_hurt_sheet_21
+  - first:
+      213: -1369894600874970562
+    second: elitearcher_hurt_sheet_22
+  - first:
+      213: 5629827688526382637
+    second: elitearcher_hurt_sheet_23
+  - first:
+      213: 9158536259156145166
+    second: elitearcher_hurt_sheet_24
+  - first:
+      213: -1824292004801621365
+    second: elitearcher_hurt_sheet_25
+  - first:
+      213: -1306799469855296177
+    second: elitearcher_hurt_sheet_26
+  - first:
+      213: -2102193684589676106
+    second: elitearcher_hurt_sheet_27
+  - first:
+      213: -8531141281905629915
+    second: elitearcher_hurt_sheet_28
+  - first:
+      213: 4179242669966386251
+    second: elitearcher_hurt_sheet_29
+  - first:
+      213: 8211977903601500003
+    second: elitearcher_hurt_sheet_30
+  - first:
+      213: -8748172164914644403
+    second: elitearcher_hurt_sheet_31
+  - first:
+      213: 288542120254230226
+    second: elitearcher_hurt_sheet_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 805
+        width: 122
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f936335441dbc8670800000000000000
+      internalID: 8542410487972979615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 800
+        width: 159
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4839a82579f3c1c0800000000000000
+      internalID: -4484466522342213555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 796
+        width: 151
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e6d2f2cf9310ca0800000000000000
+      internalID: -6052492668923187612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 869
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805915fbd177eb190800000000000000
+      internalID: -7944781722987424504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 875
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18f6ce11ca5e2710800000000000000
+      internalID: 1670372297292576796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 788
+        width: 165
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c27f9c59ba5d420800000000000000
+      internalID: 2654216215231671353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 568
+        width: 120
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eae5704af3f535e0800000000000000
+      internalID: -1930368609109546272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 569
+        width: 147
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8763ef07fb362ca90800000000000000
+      internalID: -7295158772501170568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 557
+        width: 145
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f38cd6d8560f310800000000000000
+      internalID: 1436759939237822310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 628
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1133c8687c318750800000000000000
+      internalID: 6305387441146769693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 631
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85b8825125923280800000000000000
+      internalID: -9065019129592236659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 547
+        width: 165
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6e232cec561f230800000000000000
+      internalID: 3670827109979449054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 614
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8096f36233291bdd0800000000000000
+      internalID: -2472033972067014392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 340
+        width: 104
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1238abed4d6f140800000000000000
+      internalID: 4753220509813121457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 334
+        width: 130
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024d8f099c8b49920800000000000000
+      internalID: 2996222827968386080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 471
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d5569c42e872260800000000000000
+      internalID: 7072778028457483647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 463
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cecc0010fea35da0800000000000000
+      internalID: -5957225535996375357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 321
+        width: 151
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b3d6a026dc22550800000000000000
+      internalID: 6134691463397456686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 451
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1227c2f258fbce9a0800000000000000
+      internalID: -6202372008053018079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 379
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4614d128c036a88f0800000000000000
+      internalID: -537508300143640220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 388
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305ae3e166eeaa270800000000000000
+      internalID: 8262678588726093059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 303
+        width: 163
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d629acd38e80fd0800000000000000
+      internalID: -2375393451348693617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 368
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e323f175e182dfce0800000000000000
+      internalID: -1369894600874970562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 110
+        width: 120
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d260641647a212e40800000000000000
+      internalID: 5629827688526382637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 237
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0479852438a91f70800000000000000
+      internalID: 9158536259156145166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 91
+        width: 122
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82d63f4610dea6e0800000000000000
+      internalID: -1824292004801621365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 207
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f453b9e4ec05ddde0800000000000000
+      internalID: -1306799469855296177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 213
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b976f45bf183d2e0800000000000000
+      internalID: -2102193684589676106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 83
+        width: 151
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525285b343c4b9980800000000000000
+      internalID: -8531141281905629915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 138
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b446085d017aff930800000000000000
+      internalID: 4179242669966386251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 141
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f3687f46ec6f170800000000000000
+      internalID: 8211977903601500003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 58
+        width: 165
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a7d4c04cf389680800000000000000
+      internalID: -8748172164914644403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_hurt_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 122
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2decd74978b110400800000000000000
+      internalID: 288542120254230226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      elitearcher_hurt_sheet_0: 8542410487972979615
+      elitearcher_hurt_sheet_1: -4484466522342213555
+      elitearcher_hurt_sheet_10: -9065019129592236659
+      elitearcher_hurt_sheet_11: 3670827109979449054
+      elitearcher_hurt_sheet_12: -2472033972067014392
+      elitearcher_hurt_sheet_13: 4753220509813121457
+      elitearcher_hurt_sheet_14: 2996222827968386080
+      elitearcher_hurt_sheet_15: 7072778028457483647
+      elitearcher_hurt_sheet_16: -5957225535996375357
+      elitearcher_hurt_sheet_17: 6134691463397456686
+      elitearcher_hurt_sheet_18: -6202372008053018079
+      elitearcher_hurt_sheet_19: -537508300143640220
+      elitearcher_hurt_sheet_2: -6052492668923187612
+      elitearcher_hurt_sheet_20: 8262678588726093059
+      elitearcher_hurt_sheet_21: -2375393451348693617
+      elitearcher_hurt_sheet_22: -1369894600874970562
+      elitearcher_hurt_sheet_23: 5629827688526382637
+      elitearcher_hurt_sheet_24: 9158536259156145166
+      elitearcher_hurt_sheet_25: -1824292004801621365
+      elitearcher_hurt_sheet_26: -1306799469855296177
+      elitearcher_hurt_sheet_27: -2102193684589676106
+      elitearcher_hurt_sheet_28: -8531141281905629915
+      elitearcher_hurt_sheet_29: 4179242669966386251
+      elitearcher_hurt_sheet_3: -7944781722987424504
+      elitearcher_hurt_sheet_30: 8211977903601500003
+      elitearcher_hurt_sheet_31: -8748172164914644403
+      elitearcher_hurt_sheet_32: 288542120254230226
+      elitearcher_hurt_sheet_4: 1670372297292576796
+      elitearcher_hurt_sheet_5: 2654216215231671353
+      elitearcher_hurt_sheet_6: -1930368609109546272
+      elitearcher_hurt_sheet_7: -7295158772501170568
+      elitearcher_hurt_sheet_8: 1436759939237822310
+      elitearcher_hurt_sheet_9: 6305387441146769693
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

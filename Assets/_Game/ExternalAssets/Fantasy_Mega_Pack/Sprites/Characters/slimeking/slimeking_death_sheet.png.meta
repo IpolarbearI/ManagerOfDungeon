@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 68a3af863d1e9ad47be0f666e2b90178
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4747084929141479367
+    second: slimeking_death_sheet_0
+  - first:
+      213: 4305961412968451995
+    second: slimeking_death_sheet_1
+  - first:
+      213: 6859636156703556480
+    second: slimeking_death_sheet_2
+  - first:
+      213: -4631767607484101164
+    second: slimeking_death_sheet_3
+  - first:
+      213: -4422807954022865904
+    second: slimeking_death_sheet_4
+  - first:
+      213: -99538321983020278
+    second: slimeking_death_sheet_5
+  - first:
+      213: -5529535572227627667
+    second: slimeking_death_sheet_6
+  - first:
+      213: -1247618579469921083
+    second: slimeking_death_sheet_7
+  - first:
+      213: -1597165958309793526
+    second: slimeking_death_sheet_8
+  - first:
+      213: 3501540657992280723
+    second: slimeking_death_sheet_9
+  - first:
+      213: -5532534237910833403
+    second: slimeking_death_sheet_10
+  - first:
+      213: -8106529609292271452
+    second: slimeking_death_sheet_11
+  - first:
+      213: -3299863247918374634
+    second: slimeking_death_sheet_12
+  - first:
+      213: -5557505219855550299
+    second: slimeking_death_sheet_13
+  - first:
+      213: 6943709393286216843
+    second: slimeking_death_sheet_14
+  - first:
+      213: 660163051948655342
+    second: slimeking_death_sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slimeking_death_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 793
+        width: 173
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93869e77867fe1eb0800000000000000
+      internalID: -4747084929141479367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_death_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 786
+        width: 190
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f06845719d1cb30800000000000000
+      internalID: 4305961412968451995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_death_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 786
+        width: 203
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083cdb89db2523f50800000000000000
+      internalID: 6859636156703556480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_death_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 783
+        width: 193
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ddcfb1b6e7a8bfb0800000000000000
+      internalID: -4631767607484101164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_death_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 541
+        width: 169
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014e1be49970f92c0800000000000000
+      internalID: -4422807954022865904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_death_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 539
+        width: 181
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03e9ac6c6e5e9ef0800000000000000
+      internalID: -99538321983020278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_death_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 537
+        width: 205
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d656c7c91b42343b0800000000000000
+      internalID: -5529535572227627667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_death_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 538
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4948b13819faee0800000000000000
+      internalID: -1247618579469921083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_death_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 313
+        width: 148
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a013997e50ab5d9e0800000000000000
+      internalID: -1597165958309793526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_death_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 312
+        width: 175
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39aa73e2da8f79030800000000000000
+      internalID: 3501540657992280723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_death_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 312
+        width: 199
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50763a95c6d7833b0800000000000000
+      internalID: -5532534237910833403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_death_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 305
+        width: 207
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0b2f44542df7f80800000000000000
+      internalID: -8106529609292271452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_death_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 81
+        width: 146
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61165740cd78432d0800000000000000
+      internalID: -3299863247918374634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_death_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 77
+        width: 169
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8712d8276cfd2b0800000000000000
+      internalID: -5557505219855550299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_death_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 70
+        width: 200
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c3e5267e20d5060800000000000000
+      internalID: 6943709393286216843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_death_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 68
+        width: 198
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2cc3d4cce592900800000000000000
+      internalID: 660163051948655342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      slimeking_death_sheet_0: -4747084929141479367
+      slimeking_death_sheet_1: 4305961412968451995
+      slimeking_death_sheet_10: -5532534237910833403
+      slimeking_death_sheet_11: -8106529609292271452
+      slimeking_death_sheet_12: -3299863247918374634
+      slimeking_death_sheet_13: -5557505219855550299
+      slimeking_death_sheet_14: 6943709393286216843
+      slimeking_death_sheet_15: 660163051948655342
+      slimeking_death_sheet_2: 6859636156703556480
+      slimeking_death_sheet_3: -4631767607484101164
+      slimeking_death_sheet_4: -4422807954022865904
+      slimeking_death_sheet_5: -99538321983020278
+      slimeking_death_sheet_6: -5529535572227627667
+      slimeking_death_sheet_7: -1247618579469921083
+      slimeking_death_sheet_8: -1597165958309793526
+      slimeking_death_sheet_9: 3501540657992280723
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

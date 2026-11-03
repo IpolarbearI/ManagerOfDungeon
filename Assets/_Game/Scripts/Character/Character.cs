@@ -17,16 +17,49 @@ namespace ManagerOfDungeon
         public IReadOnlyList<IBuff> Buffs => _buffs;
 
         public int MaxHealth => _baseMaxHealth + ArmorBonusHealth() + BuffBonus(buff => buff.HealthBonus);
-        public int AttackPower => _baseAttackPower + (Weapon != null ? Weapon.AttackBonus : 0) + BuffBonus(buff => buff.AttackBonus);
+        public int AttackPower
+        {
+            get
+            {
+                int flat = _baseAttackPower + BuffBonus(buff => buff.AttackBonus);
+                float percent = Weapon != null ? Weapon.AttackPowerPercent : 0f;
+                return (int)(flat * (1f + percent));
+            }
+        }
         public int SkillAttackPower => _baseSkillAttackPower + BuffBonus(buff => buff.SkillAttackBonus);
+        public float AttackSpeed { get; }
+        public float MoveSpeed { get; }
+        public float BaseAttackRange { get; }
+        public int AssetValue { get; }
+        public int MerchantBuyPrice { get; }
+        public int MerchantSellPrice { get; }
         public bool IsAlive => Health > 0;
+        public bool IsRanged => Weapon != null && Weapon.IsRanged;
+        public float AttackRange => IsRanged ? Weapon.AttackRange : BaseAttackRange;
 
-        public Character(string name, int maxHealth, int attackPower, int skillAttackPower, Skill skill)
+        public Character(
+            string name,
+            int maxHealth,
+            int attackPower,
+            int skillAttackPower,
+            Skill skill,
+            float attackSpeed = 1f,
+            float moveSpeed = 5f,
+            int assetValue = 0,
+            int merchantBuyPrice = 0,
+            int merchantSellPrice = 0,
+            float attackRange = CombatRanges.Melee)
         {
             Name = name ?? string.Empty;
             _baseMaxHealth = maxHealth < 1 ? 1 : maxHealth;
             _baseAttackPower = attackPower < 0 ? 0 : attackPower;
             _baseSkillAttackPower = skillAttackPower < 0 ? 0 : skillAttackPower;
+            AttackSpeed = attackSpeed < 0f ? 0f : attackSpeed;
+            MoveSpeed = moveSpeed < 0f ? 0f : moveSpeed;
+            BaseAttackRange = attackRange < 0.1f ? CombatRanges.Melee : attackRange;
+            AssetValue = assetValue < 0 ? 0 : assetValue;
+            MerchantBuyPrice = merchantBuyPrice < 0 ? 0 : merchantBuyPrice;
+            MerchantSellPrice = merchantSellPrice < 0 ? 0 : merchantSellPrice;
             Skill = skill;
             Health = MaxHealth;
         }

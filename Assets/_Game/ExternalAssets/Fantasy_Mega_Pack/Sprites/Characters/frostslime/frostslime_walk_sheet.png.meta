@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 3411c0ce20887ed46981db6123fb1e00
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7747789574940462700
+    second: frostslime_walk_sheet_0
+  - first:
+      213: -8100844019027092992
+    second: frostslime_walk_sheet_1
+  - first:
+      213: 9136579614670729546
+    second: frostslime_walk_sheet_2
+  - first:
+      213: -3268699530575979942
+    second: frostslime_walk_sheet_3
+  - first:
+      213: 7947581865788022284
+    second: frostslime_walk_sheet_4
+  - first:
+      213: -5061006219753126483
+    second: frostslime_walk_sheet_5
+  - first:
+      213: 93985862980732218
+    second: frostslime_walk_sheet_6
+  - first:
+      213: -4775286148833503939
+    second: frostslime_walk_sheet_7
+  - first:
+      213: 6296146519599864437
+    second: frostslime_walk_sheet_8
+  - first:
+      213: -9038603194513253885
+    second: frostslime_walk_sheet_9
+  - first:
+      213: -8763253998317322074
+    second: frostslime_walk_sheet_10
+  - first:
+      213: 1891302077112196827
+    second: frostslime_walk_sheet_11
+  - first:
+      213: 4181759390680782598
+    second: frostslime_walk_sheet_12
+  - first:
+      213: 8177783160395413622
+    second: frostslime_walk_sheet_13
+  - first:
+      213: 2724815876939573217
+    second: frostslime_walk_sheet_14
+  - first:
+      213: -5723562895101187325
+    second: frostslime_walk_sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: frostslime_walk_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 791
+        width: 139
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491f23f5e625a7490800000000000000
+      internalID: -7747789574940462700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_walk_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 791
+        width: 126
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ada09e845049f80800000000000000
+      internalID: -8100844019027092992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_walk_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 786
+        width: 138
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41368a70c6abce70800000000000000
+      internalID: 9136579614670729546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_walk_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 786
+        width: 141
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a5882681f33a2d0800000000000000
+      internalID: -3268699530575979942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_walk_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 576
+        width: 139
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e91ad499b7b4e60800000000000000
+      internalID: 7947581865788022284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_walk_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 572
+        width: 125
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5829158a1b3c9b0800000000000000
+      internalID: -5061006219753126483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_walk_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 567
+        width: 138
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3500e8f4a7ed4100800000000000000
+      internalID: 93985862980732218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_walk_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 567
+        width: 143
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d359fe55c86cabdb0800000000000000
+      internalID: -4775286148833503939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_walk_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 350
+        width: 138
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57adf82b6e7606750800000000000000
+      internalID: 6296146519599864437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_walk_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 350
+        width: 134
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a935d784e609280800000000000000
+      internalID: -9038603194513253885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_walk_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 346
+        width: 138
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a046c11beaa26680800000000000000
+      internalID: -8763253998317322074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_walk_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 346
+        width: 142
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde1b35f7314f3a10800000000000000
+      internalID: 1891302077112196827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_walk_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 136
+        width: 139
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6079ea98208980a30800000000000000
+      internalID: 4181759390680782598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_walk_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 136
+        width: 134
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6783a85e4725d7170800000000000000
+      internalID: 8177783160395413622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_walk_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 130
+        width: 138
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7e3577a9d70d520800000000000000
+      internalID: 2724815876939573217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_walk_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 130
+        width: 138
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b23e32fd1d190b0800000000000000
+      internalID: -5723562895101187325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      frostslime_walk_sheet_0: -7747789574940462700
+      frostslime_walk_sheet_1: -8100844019027092992
+      frostslime_walk_sheet_10: -8763253998317322074
+      frostslime_walk_sheet_11: 1891302077112196827
+      frostslime_walk_sheet_12: 4181759390680782598
+      frostslime_walk_sheet_13: 8177783160395413622
+      frostslime_walk_sheet_14: 2724815876939573217
+      frostslime_walk_sheet_15: -5723562895101187325
+      frostslime_walk_sheet_2: 9136579614670729546
+      frostslime_walk_sheet_3: -3268699530575979942
+      frostslime_walk_sheet_4: 7947581865788022284
+      frostslime_walk_sheet_5: -5061006219753126483
+      frostslime_walk_sheet_6: 93985862980732218
+      frostslime_walk_sheet_7: -4775286148833503939
+      frostslime_walk_sheet_8: 6296146519599864437
+      frostslime_walk_sheet_9: -9038603194513253885
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

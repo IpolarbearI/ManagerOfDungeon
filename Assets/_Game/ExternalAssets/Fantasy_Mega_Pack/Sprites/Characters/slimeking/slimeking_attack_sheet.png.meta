@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 05572a9bef1d6b44bb60be79ae4dc9c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7906213426239790193
+    second: slimeking_attack_sheet_0
+  - first:
+      213: -3620556220182695426
+    second: slimeking_attack_sheet_1
+  - first:
+      213: 8749637470517018548
+    second: slimeking_attack_sheet_2
+  - first:
+      213: 3465173648895027058
+    second: slimeking_attack_sheet_3
+  - first:
+      213: -6562198578836877868
+    second: slimeking_attack_sheet_4
+  - first:
+      213: -7718152579568512419
+    second: slimeking_attack_sheet_5
+  - first:
+      213: 4692252290195577836
+    second: slimeking_attack_sheet_6
+  - first:
+      213: -8707960994275191375
+    second: slimeking_attack_sheet_7
+  - first:
+      213: 5230615491193674445
+    second: slimeking_attack_sheet_8
+  - first:
+      213: 1647882363860426573
+    second: slimeking_attack_sheet_9
+  - first:
+      213: 1144352238826477248
+    second: slimeking_attack_sheet_10
+  - first:
+      213: 6644712830222879591
+    second: slimeking_attack_sheet_11
+  - first:
+      213: -1829390345853018720
+    second: slimeking_attack_sheet_12
+  - first:
+      213: 6310279322248292291
+    second: slimeking_attack_sheet_13
+  - first:
+      213: -7720710138868699333
+    second: slimeking_attack_sheet_14
+  - first:
+      213: -1081932285565248042
+    second: slimeking_attack_sheet_15
+  - first:
+      213: -3113474861570076179
+    second: slimeking_attack_sheet_16
+  - first:
+      213: 938972935894821606
+    second: slimeking_attack_sheet_17
+  - first:
+      213: -5131770419495179411
+    second: slimeking_attack_sheet_18
+  - first:
+      213: -1210153885880629000
+    second: slimeking_attack_sheet_19
+  - first:
+      213: 5164169416509167919
+    second: slimeking_attack_sheet_20
+  - first:
+      213: 2199279580294407018
+    second: slimeking_attack_sheet_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slimeking_attack_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 793
+        width: 173
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c5275e83388bd60800000000000000
+      internalID: 7906213426239790193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_attack_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 788
+        width: 175
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1fdaedc4331cdc0800000000000000
+      internalID: -3620556220182695426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_attack_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 762
+        width: 178
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf3d9ffbe4fc6970800000000000000
+      internalID: 8749637470517018548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_attack_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 786
+        width: 209
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277ae6b0315c61030800000000000000
+      internalID: 3465173648895027058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_attack_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 757
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ddcada19236ee4a0800000000000000
+      internalID: -6562198578836877868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_attack_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 517
+        width: 170
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52dd841f1d93e490800000000000000
+      internalID: -7718152579568512419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_attack_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 521
+        width: 171
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cebde99e89a3e1140800000000000000
+      internalID: 4692252290195577836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_attack_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 519
+        width: 176
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5154acc9b172780800000000000000
+      internalID: -8707960994275191375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_attack_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 515
+        width: 171
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca11458311e69840800000000000000
+      internalID: 5230615491193674445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_attack_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 626
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f188177447ed610800000000000000
+      internalID: 1647882363860426573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_attack_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 301
+        width: 148
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6dc255c4e81ef00800000000000000
+      internalID: 1144352238826477248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_attack_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 301
+        width: 164
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b4ae72d13c63c50800000000000000
+      internalID: 6644712830222879591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_attack_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 298
+        width: 227
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0add6e74c23bc96e0800000000000000
+      internalID: -1829390345853018720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_attack_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 358
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c72a1c3c9d929750800000000000000
+      internalID: 6310279322248292291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_attack_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 298
+        width: 211
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f69f6e8078ad490800000000000000
+      internalID: -7720710138868699333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_attack_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 304
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd5bdf81543cf0f0800000000000000
+      internalID: -1081932285565248042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_attack_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 81
+        width: 146
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1d10bfb17bac4d0800000000000000
+      internalID: -3113474861570076179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_attack_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 76
+        width: 162
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea67b909e6e70d00800000000000000
+      internalID: 938972935894821606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_attack_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 80
+        width: 217
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6be1252ef948c8b0800000000000000
+      internalID: -5131770419495179411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_attack_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 79
+        width: 205
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8c684d37ba43fe0800000000000000
+      internalID: -1210153885880629000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_attack_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 138
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2917fe29b0daa740800000000000000
+      internalID: 5164169416509167919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_attack_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 87
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63e7314029658e10800000000000000
+      internalID: 2199279580294407018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      slimeking_attack_sheet_0: 7906213426239790193
+      slimeking_attack_sheet_1: -3620556220182695426
+      slimeking_attack_sheet_10: 1144352238826477248
+      slimeking_attack_sheet_11: 6644712830222879591
+      slimeking_attack_sheet_12: -1829390345853018720
+      slimeking_attack_sheet_13: 6310279322248292291
+      slimeking_attack_sheet_14: -7720710138868699333
+      slimeking_attack_sheet_15: -1081932285565248042
+      slimeking_attack_sheet_16: -3113474861570076179
+      slimeking_attack_sheet_17: 938972935894821606
+      slimeking_attack_sheet_18: -5131770419495179411
+      slimeking_attack_sheet_19: -1210153885880629000
+      slimeking_attack_sheet_2: 8749637470517018548
+      slimeking_attack_sheet_20: 5164169416509167919
+      slimeking_attack_sheet_21: 2199279580294407018
+      slimeking_attack_sheet_3: 3465173648895027058
+      slimeking_attack_sheet_4: -6562198578836877868
+      slimeking_attack_sheet_5: -7718152579568512419
+      slimeking_attack_sheet_6: 4692252290195577836
+      slimeking_attack_sheet_7: -8707960994275191375
+      slimeking_attack_sheet_8: 5230615491193674445
+      slimeking_attack_sheet_9: 1647882363860426573
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

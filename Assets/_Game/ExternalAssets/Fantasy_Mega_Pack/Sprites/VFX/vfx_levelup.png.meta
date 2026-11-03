@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 76b446f9a99523445b3822a6788ede22
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2162885039894603520
+    second: vfx_levelup_0
+  - first:
+      213: 1208788764861261846
+    second: vfx_levelup_1
+  - first:
+      213: -2620738514571293975
+    second: vfx_levelup_2
+  - first:
+      213: -2952028694337476303
+    second: vfx_levelup_3
+  - first:
+      213: -7140056604059002075
+    second: vfx_levelup_4
+  - first:
+      213: -4993999539186978184
+    second: vfx_levelup_5
+  - first:
+      213: -2997202435401320299
+    second: vfx_levelup_6
+  - first:
+      213: 8186674448486952544
+    second: vfx_levelup_7
+  - first:
+      213: 6126575359051433430
+    second: vfx_levelup_8
+  - first:
+      213: 4364771847632028679
+    second: vfx_levelup_9
+  - first:
+      213: 1943389027888119284
+    second: vfx_levelup_10
+  - first:
+      213: -1652365908467474790
+    second: vfx_levelup_11
+  - first:
+      213: 5538643076965859252
+    second: vfx_levelup_12
+  - first:
+      213: 2738468115600411080
+    second: vfx_levelup_13
+  - first:
+      213: -757165648072267944
+    second: vfx_levelup_14
+  - first:
+      213: 7110165221840189924
+    second: vfx_levelup_15
+  - first:
+      213: 3203827237277210558
+    second: vfx_levelup_16
+  - first:
+      213: 4356338115498990668
+    second: vfx_levelup_17
+  - first:
+      213: 487681099042306965
+    second: vfx_levelup_18
+  - first:
+      213: -4941153809681891603
+    second: vfx_levelup_19
+  - first:
+      213: -93780194463936608
+    second: vfx_levelup_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vfx_levelup_0
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 1445
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00953130483ebf1e0800000000000000
+      internalID: -2162885039894603520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_levelup_1
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1488
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618e90a2afa76c010800000000000000
+      internalID: 1208788764861261846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_levelup_2
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 1487
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea0bcdc43441abd0800000000000000
+      internalID: -2620738514571293975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_levelup_3
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1124
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13921430b894807d0800000000000000
+      internalID: -2952028694337476303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_levelup_4
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 557
+        width: 295
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b91e6295c69ec90800000000000000
+      internalID: -7140056604059002075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_levelup_5
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 557
+        width: 323
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872bb42e0efb1bab0800000000000000
+      internalID: -4993999539186978184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_levelup_6
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 557
+        width: 297
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598f7fdc34cc766d0800000000000000
+      internalID: -2997202435401320299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_levelup_7
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1079
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ee4d93909ec9170800000000000000
+      internalID: 8186674448486952544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_levelup_8
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 932
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d50ced34d7f50550800000000000000
+      internalID: 6126575359051433430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_levelup_9
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 900
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7048bbfaed8c29c30800000000000000
+      internalID: 4364771847632028679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_levelup_10
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 871
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fdb9ab360e48fa10800000000000000
+      internalID: 1943389027888119284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_levelup_11
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 854
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e94daf5fd9119e0800000000000000
+      internalID: -1652365908467474790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_levelup_12
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 781
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bff93498863ddc40800000000000000
+      internalID: 5538643076965859252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_levelup_13
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 557
+        width: 290
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9881bfd3ef00620800000000000000
+      internalID: 2738468115600411080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_levelup_14
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 729
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857268ecad10e75f0800000000000000
+      internalID: -757165648072267944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_levelup_15
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 737
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9fe1619916ca260800000000000000
+      internalID: 7110165221840189924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_levelup_16
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 719
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb711afc5e7467c20800000000000000
+      internalID: 3203827237277210558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_levelup_17
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 714
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4cdfc76f62d47c30800000000000000
+      internalID: 4356338115498990668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_levelup_18
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 703
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bb610306794c600800000000000000
+      internalID: 487681099042306965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_levelup_19
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 709
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deeb7591ace7d6bb0800000000000000
+      internalID: -4941153809681891603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_levelup_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 557
+        width: 282
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af8206f863d2bef0800000000000000
+      internalID: -93780194463936608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vfx_levelup_0: -2162885039894603520
+      vfx_levelup_1: 1208788764861261846
+      vfx_levelup_10: 1943389027888119284
+      vfx_levelup_11: -1652365908467474790
+      vfx_levelup_12: 5538643076965859252
+      vfx_levelup_13: 2738468115600411080
+      vfx_levelup_14: -757165648072267944
+      vfx_levelup_15: 7110165221840189924
+      vfx_levelup_16: 3203827237277210558
+      vfx_levelup_17: 4356338115498990668
+      vfx_levelup_18: 487681099042306965
+      vfx_levelup_19: -4941153809681891603
+      vfx_levelup_2: -2620738514571293975
+      vfx_levelup_20: -93780194463936608
+      vfx_levelup_3: -2952028694337476303
+      vfx_levelup_4: -7140056604059002075
+      vfx_levelup_5: -4993999539186978184
+      vfx_levelup_6: -2997202435401320299
+      vfx_levelup_7: 8186674448486952544
+      vfx_levelup_8: 6126575359051433430
+      vfx_levelup_9: 4364771847632028679
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

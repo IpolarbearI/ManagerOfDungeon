@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: f690e4c15bcd53940bba8150fd8f774d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9210085385211048516
+    second: fireorc_walk_sheet_0
+  - first:
+      213: -3478718215043416195
+    second: fireorc_walk_sheet_1
+  - first:
+      213: 7482684774420706509
+    second: fireorc_walk_sheet_2
+  - first:
+      213: -3999213623393311868
+    second: fireorc_walk_sheet_3
+  - first:
+      213: -7410246403557900875
+    second: fireorc_walk_sheet_4
+  - first:
+      213: 820919433775271312
+    second: fireorc_walk_sheet_5
+  - first:
+      213: 172222098528632921
+    second: fireorc_walk_sheet_6
+  - first:
+      213: 8667348387567031186
+    second: fireorc_walk_sheet_7
+  - first:
+      213: 6684836103057121505
+    second: fireorc_walk_sheet_8
+  - first:
+      213: -8147849343833049482
+    second: fireorc_walk_sheet_9
+  - first:
+      213: -8599459374922957904
+    second: fireorc_walk_sheet_10
+  - first:
+      213: 1386309054294259677
+    second: fireorc_walk_sheet_11
+  - first:
+      213: -637813478755921498
+    second: fireorc_walk_sheet_12
+  - first:
+      213: -4169187914963812672
+    second: fireorc_walk_sheet_13
+  - first:
+      213: 6144638938879668956
+    second: fireorc_walk_sheet_14
+  - first:
+      213: 7526527708898992316
+    second: fireorc_walk_sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fireorc_walk_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 795
+        width: 153
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44275885cdbc0df70800000000000000
+      internalID: 9210085385211048516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_walk_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 791
+        width: 156
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ff7a6e63c19bfc0800000000000000
+      internalID: -3478718215043416195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_walk_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 791
+        width: 156
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4f1994826d7d760800000000000000
+      internalID: 7482684774420706509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_walk_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 791
+        width: 155
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4832db4f560ff78c0800000000000000
+      internalID: -3999213623393311868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_walk_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 564
+        width: 152
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdb0d93824892990800000000000000
+      internalID: -7410246403557900875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_walk_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 564
+        width: 149
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09dc36720ed746b00800000000000000
+      internalID: 820919433775271312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_walk_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 567
+        width: 154
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950854d061bd36200800000000000000
+      internalID: 172222098528632921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_walk_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 565
+        width: 149
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293dc79df6b984870800000000000000
+      internalID: 8667348387567031186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_walk_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 344
+        width: 142
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e02d68940f45cc50800000000000000
+      internalID: 6684836103057121505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_walk_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 341
+        width: 147
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6767e61e0360dee80800000000000000
+      internalID: -8147849343833049482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_walk_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 341
+        width: 136
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb7059a24598a880800000000000000
+      internalID: -8599459374922957904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_walk_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 342
+        width: 137
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7fd1a6db82d3310800000000000000
+      internalID: 1386309054294259677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_walk_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 109
+        width: 137
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a11cc535080627f0800000000000000
+      internalID: -637813478755921498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_walk_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 108
+        width: 139
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cefabe3ea11426c0800000000000000
+      internalID: -4169187914963812672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_walk_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 111
+        width: 127
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2b4f82f84264550800000000000000
+      internalID: 6144638938879668956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_walk_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 111
+        width: 134
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb02f01f219937860800000000000000
+      internalID: 7526527708898992316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fireorc_walk_sheet_0: 9210085385211048516
+      fireorc_walk_sheet_1: -3478718215043416195
+      fireorc_walk_sheet_10: -8599459374922957904
+      fireorc_walk_sheet_11: 1386309054294259677
+      fireorc_walk_sheet_12: -637813478755921498
+      fireorc_walk_sheet_13: -4169187914963812672
+      fireorc_walk_sheet_14: 6144638938879668956
+      fireorc_walk_sheet_15: 7526527708898992316
+      fireorc_walk_sheet_2: 7482684774420706509
+      fireorc_walk_sheet_3: -3999213623393311868
+      fireorc_walk_sheet_4: -7410246403557900875
+      fireorc_walk_sheet_5: 820919433775271312
+      fireorc_walk_sheet_6: 172222098528632921
+      fireorc_walk_sheet_7: 8667348387567031186
+      fireorc_walk_sheet_8: 6684836103057121505
+      fireorc_walk_sheet_9: -8147849343833049482
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

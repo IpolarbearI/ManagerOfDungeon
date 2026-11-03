@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 9da65f17749dd0941920646ed722911b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1870815313132352738
+    second: elitearcher_run_sheet_0
+  - first:
+      213: 7672359671578926172
+    second: elitearcher_run_sheet_1
+  - first:
+      213: -2189542230811218751
+    second: elitearcher_run_sheet_2
+  - first:
+      213: 5204915615360864887
+    second: elitearcher_run_sheet_3
+  - first:
+      213: 5857186263958476410
+    second: elitearcher_run_sheet_4
+  - first:
+      213: 4352861360720483369
+    second: elitearcher_run_sheet_5
+  - first:
+      213: 385649504270702770
+    second: elitearcher_run_sheet_6
+  - first:
+      213: -2602448441174629154
+    second: elitearcher_run_sheet_7
+  - first:
+      213: 7560315113843809389
+    second: elitearcher_run_sheet_8
+  - first:
+      213: 8450099436625868356
+    second: elitearcher_run_sheet_9
+  - first:
+      213: -4165627595750326612
+    second: elitearcher_run_sheet_10
+  - first:
+      213: -8749455448369659083
+    second: elitearcher_run_sheet_11
+  - first:
+      213: -4469124929508981820
+    second: elitearcher_run_sheet_12
+  - first:
+      213: 7277894566412353366
+    second: elitearcher_run_sheet_13
+  - first:
+      213: -1825488922199025920
+    second: elitearcher_run_sheet_14
+  - first:
+      213: 7128499285216875929
+    second: elitearcher_run_sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: elitearcher_run_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 799
+        width: 126
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b826c72678906e0800000000000000
+      internalID: -1870815313132352738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_run_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 795
+        width: 126
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c9e7da872b97a60800000000000000
+      internalID: 7672359671578926172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_run_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 796
+        width: 131
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cce7c711fe2d91e0800000000000000
+      internalID: -2189542230811218751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_run_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 795
+        width: 131
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772d773ec239b3840800000000000000
+      internalID: 5204915615360864887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_run_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 559
+        width: 123
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76da86dfd7e84150800000000000000
+      internalID: 5857186263958476410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_run_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 559
+        width: 119
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924944a5858786c30800000000000000
+      internalID: 4352861360720483369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_run_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 559
+        width: 121
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b85cdd4e2a1a5500800000000000000
+      internalID: 385649504270702770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_run_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 559
+        width: 125
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4648d5eee32ebd0800000000000000
+      internalID: -2602448441174629154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_run_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 335
+        width: 116
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c5dae2a82abe860800000000000000
+      internalID: 7560315113843809389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_run_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 335
+        width: 132
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44630d4caa8c44570800000000000000
+      internalID: 8450099436625868356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_run_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 332
+        width: 134
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caebcb8a5c7b036c0800000000000000
+      internalID: -4165627595750326612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_run_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 333
+        width: 129
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53302d550a0b39680800000000000000
+      internalID: -8749455448369659083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_run_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 103
+        width: 128
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c346c71e8a7af1c0800000000000000
+      internalID: -4469124929508981820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_run_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 101
+        width: 135
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ff0c75c86400560800000000000000
+      internalID: 7277894566412353366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_run_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 102
+        width: 139
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0079ae24f7f8aa6e0800000000000000
+      internalID: -1825488922199025920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_run_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 102
+        width: 116
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9955afcd4548de260800000000000000
+      internalID: 7128499285216875929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      elitearcher_run_sheet_0: -1870815313132352738
+      elitearcher_run_sheet_1: 7672359671578926172
+      elitearcher_run_sheet_10: -4165627595750326612
+      elitearcher_run_sheet_11: -8749455448369659083
+      elitearcher_run_sheet_12: -4469124929508981820
+      elitearcher_run_sheet_13: 7277894566412353366
+      elitearcher_run_sheet_14: -1825488922199025920
+      elitearcher_run_sheet_15: 7128499285216875929
+      elitearcher_run_sheet_2: -2189542230811218751
+      elitearcher_run_sheet_3: 5204915615360864887
+      elitearcher_run_sheet_4: 5857186263958476410
+      elitearcher_run_sheet_5: 4352861360720483369
+      elitearcher_run_sheet_6: 385649504270702770
+      elitearcher_run_sheet_7: -2602448441174629154
+      elitearcher_run_sheet_8: 7560315113843809389
+      elitearcher_run_sheet_9: 8450099436625868356
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

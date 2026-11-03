@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f37c9a36fc6d98444886007913ec94e5, type: 3}
+  m_Name: SurvivalWaves
+  m_EditorClassIdentifier: Assembly-CSharp::FantasyDungeonPixelPack.WaveConfigSO
+  waves:
+  - enemyPrefabs:
+    - {fileID: 4844539319234874843, guid: 7ff45bc2ef175e345817b19158b5dae9, type: 3}
+    - {fileID: 609782747154068704, guid: f6db52c84fd8ebd4c9dfa25da683c969, type: 3}
+    count: 3
+    spawnInterval: 0.7
+  - enemyPrefabs:
+    - {fileID: 609782747154068704, guid: f6db52c84fd8ebd4c9dfa25da683c969, type: 3}
+    - {fileID: 632378543025619522, guid: 6c1257b1eb5ec2649aaf5834afa6923d, type: 3}
+    count: 4
+    spawnInterval: 0.65
+  - enemyPrefabs:
+    - {fileID: 632378543025619522, guid: 6c1257b1eb5ec2649aaf5834afa6923d, type: 3}
+    - {fileID: 1875706686848295619, guid: fa65f11d592f7a642977e0b7fe6bfb46, type: 3}
+    count: 5
+    spawnInterval: 0.59999996
+  - enemyPrefabs:
+    - {fileID: 1875706686848295619, guid: fa65f11d592f7a642977e0b7fe6bfb46, type: 3}
+    - {fileID: 4777344933893056679, guid: 8f1843dcd3a9f98499dfc8725eabee17, type: 3}
+    count: 6
+    spawnInterval: 0.55
+  - enemyPrefabs:
+    - {fileID: 4777344933893056679, guid: 8f1843dcd3a9f98499dfc8725eabee17, type: 3}
+    - {fileID: 4844539319234874843, guid: 7ff45bc2ef175e345817b19158b5dae9, type: 3}
+    count: 7
+    spawnInterval: 0.5
+  - enemyPrefabs:
+    - {fileID: 4844539319234874843, guid: 7ff45bc2ef175e345817b19158b5dae9, type: 3}
+    - {fileID: 609782747154068704, guid: f6db52c84fd8ebd4c9dfa25da683c969, type: 3}
+    count: 8
+    spawnInterval: 0.45
+  - enemyPrefabs:
+    - {fileID: 609782747154068704, guid: f6db52c84fd8ebd4c9dfa25da683c969, type: 3}
+    - {fileID: 632378543025619522, guid: 6c1257b1eb5ec2649aaf5834afa6923d, type: 3}
+    count: 9
+    spawnInterval: 0.39999998
+  - enemyPrefabs:
+    - {fileID: 632378543025619522, guid: 6c1257b1eb5ec2649aaf5834afa6923d, type: 3}
+    - {fileID: 1875706686848295619, guid: fa65f11d592f7a642977e0b7fe6bfb46, type: 3}
+    count: 10
+    spawnInterval: 0.35
+  timeBetweenWaves: 3

@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: cb22ae25f24dc0f41b2c4b717d7edd34
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3934592927661319515
+    second: slimeking_spit_sheet_0
+  - first:
+      213: 8099784053672641009
+    second: slimeking_spit_sheet_1
+  - first:
+      213: -5275929801056911693
+    second: slimeking_spit_sheet_2
+  - first:
+      213: 4394559193451942732
+    second: slimeking_spit_sheet_3
+  - first:
+      213: 6610685925397852145
+    second: slimeking_spit_sheet_4
+  - first:
+      213: -2063984990581653368
+    second: slimeking_spit_sheet_5
+  - first:
+      213: 7271651928365812935
+    second: slimeking_spit_sheet_6
+  - first:
+      213: 5373367948211342518
+    second: slimeking_spit_sheet_7
+  - first:
+      213: -6164384560814812329
+    second: slimeking_spit_sheet_8
+  - first:
+      213: -891903829810654637
+    second: slimeking_spit_sheet_9
+  - first:
+      213: 88424835941287090
+    second: slimeking_spit_sheet_10
+  - first:
+      213: -4444593235822578914
+    second: slimeking_spit_sheet_11
+  - first:
+      213: -4578957019886476067
+    second: slimeking_spit_sheet_12
+  - first:
+      213: -7357171610110571421
+    second: slimeking_spit_sheet_13
+  - first:
+      213: 3770677280365635861
+    second: slimeking_spit_sheet_14
+  - first:
+      213: -6601584203177916356
+    second: slimeking_spit_sheet_15
+  - first:
+      213: 1829621143305281071
+    second: slimeking_spit_sheet_16
+  - first:
+      213: 6246818449037302120
+    second: slimeking_spit_sheet_17
+  - first:
+      213: 499857800074903181
+    second: slimeking_spit_sheet_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slimeking_spit_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 778
+        width: 199
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa9bf224948569c0800000000000000
+      internalID: -3934592927661319515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_spit_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 969
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1088caea6386070800000000000000
+      internalID: 8099784053672641009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_spit_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 778
+        width: 258
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3befa1c8cc128c6b0800000000000000
+      internalID: -5275929801056911693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_spit_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 778
+        width: 201
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4351269d4c9cfc30800000000000000
+      internalID: 4394559193451942732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_spit_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 778
+        width: 200
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff630103dfddbb50800000000000000
+      internalID: 6610685925397852145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_spit_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 522
+        width: 193
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88084a626904b53e0800000000000000
+      internalID: -2063984990581653368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_spit_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 522
+        width: 193
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc4788e6e81ae460800000000000000
+      internalID: 7271651928365812935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_spit_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 522
+        width: 225
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc4b98fda9029a40800000000000000
+      internalID: 5373367948211342518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_spit_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 522
+        width: 193
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7531bb9f6e4b37aa0800000000000000
+      internalID: -6164384560814812329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_spit_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 266
+        width: 207
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352535a31325f93f0800000000000000
+      internalID: -891903829810654637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_spit_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 266
+        width: 199
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b44a977be52a3100800000000000000
+      internalID: 88424835941287090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_spit_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 475
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13f0bf1002a152c0800000000000000
+      internalID: -4444593235822578914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_spit_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 266
+        width: 224
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4a2ebc9d64470c0800000000000000
+      internalID: -4578957019886476067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_spit_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 266
+        width: 195
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c45cb866316e990800000000000000
+      internalID: -7357171610110571421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_spit_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 10
+        width: 207
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51964d23203245430800000000000000
+      internalID: 3770677280365635861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_spit_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 10
+        width: 199
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3800c6d4267264a0800000000000000
+      internalID: -6601584203177916356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_spit_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 219
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e51407cbe146910800000000000000
+      internalID: 1829621143305281071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_spit_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 10
+        width: 222
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8699937484821b650800000000000000
+      internalID: 6246818449037302120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_spit_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 10
+        width: 195
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e3ca3550adfe600800000000000000
+      internalID: 499857800074903181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      slimeking_spit_sheet_0: -3934592927661319515
+      slimeking_spit_sheet_1: 8099784053672641009
+      slimeking_spit_sheet_10: 88424835941287090
+      slimeking_spit_sheet_11: -4444593235822578914
+      slimeking_spit_sheet_12: -4578957019886476067
+      slimeking_spit_sheet_13: -7357171610110571421
+      slimeking_spit_sheet_14: 3770677280365635861
+      slimeking_spit_sheet_15: -6601584203177916356
+      slimeking_spit_sheet_16: 1829621143305281071
+      slimeking_spit_sheet_17: 6246818449037302120
+      slimeking_spit_sheet_18: 499857800074903181
+      slimeking_spit_sheet_2: -5275929801056911693
+      slimeking_spit_sheet_3: 4394559193451942732
+      slimeking_spit_sheet_4: 6610685925397852145
+      slimeking_spit_sheet_5: -2063984990581653368
+      slimeking_spit_sheet_6: 7271651928365812935
+      slimeking_spit_sheet_7: 5373367948211342518
+      slimeking_spit_sheet_8: -6164384560814812329
+      slimeking_spit_sheet_9: -891903829810654637
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

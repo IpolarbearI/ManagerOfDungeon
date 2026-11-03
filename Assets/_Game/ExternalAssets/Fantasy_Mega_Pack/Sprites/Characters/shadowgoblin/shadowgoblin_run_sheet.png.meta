@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: e072b90ec213d41419b28f9f0fcd3311
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8240115066032885273
+    second: shadowgoblin_run_sheet_0
+  - first:
+      213: 9167294746726678661
+    second: shadowgoblin_run_sheet_1
+  - first:
+      213: -5539619870658522879
+    second: shadowgoblin_run_sheet_2
+  - first:
+      213: -5370747326250660673
+    second: shadowgoblin_run_sheet_3
+  - first:
+      213: -832272924166401936
+    second: shadowgoblin_run_sheet_4
+  - first:
+      213: 7417334249952659837
+    second: shadowgoblin_run_sheet_5
+  - first:
+      213: -4785779974625914920
+    second: shadowgoblin_run_sheet_6
+  - first:
+      213: 6833971796486606695
+    second: shadowgoblin_run_sheet_7
+  - first:
+      213: 3084918363276784377
+    second: shadowgoblin_run_sheet_8
+  - first:
+      213: -582025627179433790
+    second: shadowgoblin_run_sheet_9
+  - first:
+      213: -911103963674116768
+    second: shadowgoblin_run_sheet_10
+  - first:
+      213: 8825003230693877353
+    second: shadowgoblin_run_sheet_11
+  - first:
+      213: -6968678919732863247
+    second: shadowgoblin_run_sheet_12
+  - first:
+      213: -4367331349784542005
+    second: shadowgoblin_run_sheet_13
+  - first:
+      213: -4117814554823170028
+    second: shadowgoblin_run_sheet_14
+  - first:
+      213: 7170870405622851543
+    second: shadowgoblin_run_sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shadowgoblin_run_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 789
+        width: 128
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1f3c4610b35ad80800000000000000
+      internalID: -8240115066032885273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_run_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 780
+        width: 125
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580c2f17006c83f70800000000000000
+      internalID: 9167294746726678661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_run_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 783
+        width: 133
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10114bae3115f13b0800000000000000
+      internalID: -5539619870658522879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_run_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 782
+        width: 129
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc437023c54775b0800000000000000
+      internalID: -5370747326250660673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_run_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 563
+        width: 128
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070d2ee5f2c2374f0800000000000000
+      internalID: -832272924166401936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_run_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 560
+        width: 129
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7944cc933aafe660800000000000000
+      internalID: 7417334249952659837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_run_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 550
+        width: 129
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df8e3f187e759db0800000000000000
+      internalID: -4785779974625914920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_run_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 564
+        width: 125
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f4f96142527de50800000000000000
+      internalID: 6833971796486606695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_run_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 339
+        width: 143
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2313428e4dfca20800000000000000
+      internalID: 3084918363276784377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_run_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 338
+        width: 143
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0cbc996ca3ce7f0800000000000000
+      internalID: -582025627179433790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_run_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 337
+        width: 147
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06df0c3b5cb1b53f0800000000000000
+      internalID: -911103963674116768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_run_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 341
+        width: 143
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966ee237ea5b87a70800000000000000
+      internalID: 8825003230693877353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_run_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 111
+        width: 153
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fed193b1774a4f90800000000000000
+      internalID: -6968678919732863247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_run_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 112
+        width: 148
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc44aa7c64f1463c0800000000000000
+      internalID: -4367331349784542005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_run_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 107
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418e4d0ca759ad6c0800000000000000
+      internalID: -4117814554823170028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_run_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 108
+        width: 145
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7e28914ac048360800000000000000
+      internalID: 7170870405622851543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      shadowgoblin_run_sheet_0: -8240115066032885273
+      shadowgoblin_run_sheet_1: 9167294746726678661
+      shadowgoblin_run_sheet_10: -911103963674116768
+      shadowgoblin_run_sheet_11: 8825003230693877353
+      shadowgoblin_run_sheet_12: -6968678919732863247
+      shadowgoblin_run_sheet_13: -4367331349784542005
+      shadowgoblin_run_sheet_14: -4117814554823170028
+      shadowgoblin_run_sheet_15: 7170870405622851543
+      shadowgoblin_run_sheet_2: -5539619870658522879
+      shadowgoblin_run_sheet_3: -5370747326250660673
+      shadowgoblin_run_sheet_4: -832272924166401936
+      shadowgoblin_run_sheet_5: 7417334249952659837
+      shadowgoblin_run_sheet_6: -4785779974625914920
+      shadowgoblin_run_sheet_7: 6833971796486606695
+      shadowgoblin_run_sheet_8: 3084918363276784377
+      shadowgoblin_run_sheet_9: -582025627179433790
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

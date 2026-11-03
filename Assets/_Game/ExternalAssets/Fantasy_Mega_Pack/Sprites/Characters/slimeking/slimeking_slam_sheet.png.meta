@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 720c64a3751211243b87c5b21697d0a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9188931584936693997
+    second: slimeking_slam_sheet_0
+  - first:
+      213: -1063218653805254931
+    second: slimeking_slam_sheet_1
+  - first:
+      213: 5312433503023144617
+    second: slimeking_slam_sheet_2
+  - first:
+      213: -7959271876911842072
+    second: slimeking_slam_sheet_3
+  - first:
+      213: -8861837108792107825
+    second: slimeking_slam_sheet_4
+  - first:
+      213: 4585767407866249984
+    second: slimeking_slam_sheet_5
+  - first:
+      213: 6286466634894345382
+    second: slimeking_slam_sheet_6
+  - first:
+      213: -9047108600240650068
+    second: slimeking_slam_sheet_7
+  - first:
+      213: -3100255855096307009
+    second: slimeking_slam_sheet_8
+  - first:
+      213: 2608567102978997390
+    second: slimeking_slam_sheet_9
+  - first:
+      213: 3620774239328185116
+    second: slimeking_slam_sheet_10
+  - first:
+      213: 4440008616729844574
+    second: slimeking_slam_sheet_11
+  - first:
+      213: -3918514120533864678
+    second: slimeking_slam_sheet_12
+  - first:
+      213: -9118973952868465954
+    second: slimeking_slam_sheet_13
+  - first:
+      213: -5894376732445151736
+    second: slimeking_slam_sheet_14
+  - first:
+      213: 4893583252157682912
+    second: slimeking_slam_sheet_15
+  - first:
+      213: 6635415364619235129
+    second: slimeking_slam_sheet_16
+  - first:
+      213: -1958076798338713660
+    second: slimeking_slam_sheet_17
+  - first:
+      213: -7150749669851200759
+    second: slimeking_slam_sheet_18
+  - first:
+      213: 2057476121231919532
+    second: slimeking_slam_sheet_19
+  - first:
+      213: 5037261741515295187
+    second: slimeking_slam_sheet_20
+  - first:
+      213: -2966155539313313342
+    second: slimeking_slam_sheet_21
+  - first:
+      213: 5368801851880872889
+    second: slimeking_slam_sheet_22
+  - first:
+      213: -2282642737151890952
+    second: slimeking_slam_sheet_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 778
+        width: 246
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f2b76986b5a7080800000000000000
+      internalID: -9188931584936693997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 778
+        width: 166
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de66e5d7440be31f0800000000000000
+      internalID: -1063218653805254931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 804
+        width: 258
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae1490ef1e89b940800000000000000
+      internalID: 5312433503023144617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 778
+        width: 219
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ecb9e1e56cfa8190800000000000000
+      internalID: -7959271876911842072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 870
+        width: 17
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc52110a1e640580800000000000000
+      internalID: -8861837108792107825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 778
+        width: 258
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0038e68392be3af30800000000000000
+      internalID: 4585767407866249984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 522
+        width: 218
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a40939e8140e3750800000000000000
+      internalID: 6286466634894345382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 522
+        width: 168
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8464669a6327280800000000000000
+      internalID: -9047108600240650068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 522
+        width: 258
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2e824c9bda9f4d0800000000000000
+      internalID: -3100255855096307009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 605
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c35d995fd733420800000000000000
+      internalID: 2608567102978997390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 522
+        width: 201
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1baa0bacf29f3230800000000000000
+      internalID: 3620774239328185116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 608
+        width: 17
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b1bdf00541e9d30800000000000000
+      internalID: 4440008616729844574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 266
+        width: 246
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f0a362b24ae99c0800000000000000
+      internalID: -3918514120533864678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 266
+        width: 168
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed24c371185e27180800000000000000
+      internalID: -9118973952868465954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 266
+        width: 258
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e67427797f23ea0800000000000000
+      internalID: -5894376732445151736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 381
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4d8af5a0089e340800000000000000
+      internalID: 4893583252157682912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 266
+        width: 213
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f6c414e1bb51c50800000000000000
+      internalID: 6635415364619235129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 359
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c73618b68383d4e0800000000000000
+      internalID: -1958076798338713660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 10
+        width: 246
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90307c2cf0f63cc90800000000000000
+      internalID: -7150749669851200759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 10
+        width: 168
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca980eb91af9d8c10800000000000000
+      internalID: 2057476121231919532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 10
+        width: 258
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d94fa78dd2f7e540800000000000000
+      internalID: 5037261741515295187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 10
+        width: 213
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c93caa904916d6d0800000000000000
+      internalID: -2966155539313313342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 125
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb91d2d6d0d18a40800000000000000
+      internalID: 5368801851880872889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slimeking_slam_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 103
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9afe6468c6250e0800000000000000
+      internalID: -2282642737151890952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      slimeking_slam_sheet_0: -9188931584936693997
+      slimeking_slam_sheet_1: -1063218653805254931
+      slimeking_slam_sheet_10: 3620774239328185116
+      slimeking_slam_sheet_11: 4440008616729844574
+      slimeking_slam_sheet_12: -3918514120533864678
+      slimeking_slam_sheet_13: -9118973952868465954
+      slimeking_slam_sheet_14: -5894376732445151736
+      slimeking_slam_sheet_15: 4893583252157682912
+      slimeking_slam_sheet_16: 6635415364619235129
+      slimeking_slam_sheet_17: -1958076798338713660
+      slimeking_slam_sheet_18: -7150749669851200759
+      slimeking_slam_sheet_19: 2057476121231919532
+      slimeking_slam_sheet_2: 5312433503023144617
+      slimeking_slam_sheet_20: 5037261741515295187
+      slimeking_slam_sheet_21: -2966155539313313342
+      slimeking_slam_sheet_22: 5368801851880872889
+      slimeking_slam_sheet_23: -2282642737151890952
+      slimeking_slam_sheet_3: -7959271876911842072
+      slimeking_slam_sheet_4: -8861837108792107825
+      slimeking_slam_sheet_5: 4585767407866249984
+      slimeking_slam_sheet_6: 6286466634894345382
+      slimeking_slam_sheet_7: -9047108600240650068
+      slimeking_slam_sheet_8: -3100255855096307009
+      slimeking_slam_sheet_9: 2608567102978997390
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

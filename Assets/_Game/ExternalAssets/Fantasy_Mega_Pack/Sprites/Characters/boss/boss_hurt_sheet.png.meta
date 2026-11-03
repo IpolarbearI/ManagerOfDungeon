@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: e41c49ed80a596048a82b988bf2a66a7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2195627416312816284
+    second: boss_hurt_sheet_0
+  - first:
+      213: 1294219689831080887
+    second: boss_hurt_sheet_1
+  - first:
+      213: -7505369568737456890
+    second: boss_hurt_sheet_2
+  - first:
+      213: -4007534081227566058
+    second: boss_hurt_sheet_3
+  - first:
+      213: 2809489380643318305
+    second: boss_hurt_sheet_4
+  - first:
+      213: -7971089237559205173
+    second: boss_hurt_sheet_5
+  - first:
+      213: -2329025170674927430
+    second: boss_hurt_sheet_6
+  - first:
+      213: 5762968392781055965
+    second: boss_hurt_sheet_7
+  - first:
+      213: 4628588943995349149
+    second: boss_hurt_sheet_8
+  - first:
+      213: -5706194034091218417
+    second: boss_hurt_sheet_9
+  - first:
+      213: 5689718272682862
+    second: boss_hurt_sheet_10
+  - first:
+      213: 5679578671555441010
+    second: boss_hurt_sheet_11
+  - first:
+      213: 6766194994009420017
+    second: boss_hurt_sheet_12
+  - first:
+      213: 3747433300617463693
+    second: boss_hurt_sheet_13
+  - first:
+      213: 8450540767961168464
+    second: boss_hurt_sheet_14
+  - first:
+      213: 6654043856899429120
+    second: boss_hurt_sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss_hurt_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 769
+        width: 197
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c922f60908f687e10800000000000000
+      internalID: 2195627416312816284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_hurt_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 776
+        width: 206
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3a2b963fdf5f110800000000000000
+      internalID: 1294219689831080887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_hurt_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 776
+        width: 211
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d8063742297d790800000000000000
+      internalID: -7505369568737456890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_hurt_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 765
+        width: 220
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614d8276cf06268c0800000000000000
+      internalID: -4007534081227566058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_hurt_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 525
+        width: 184
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a2a75d4bf4df620800000000000000
+      internalID: 2809489380643318305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_hurt_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 525
+        width: 184
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc228523290016190800000000000000
+      internalID: -7971089237559205173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_hurt_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 537
+        width: 200
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab83afc62f3adafd0800000000000000
+      internalID: -2329025170674927430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_hurt_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 531
+        width: 207
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7c48f383d2aff40800000000000000
+      internalID: 5762968392781055965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_hurt_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 323
+        width: 209
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98a42a0f1d0c3040800000000000000
+      internalID: 4628588943995349149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_hurt_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 318
+        width: 196
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a2a8a32c68fc0b0800000000000000
+      internalID: -5706194034091218417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_hurt_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 321
+        width: 191
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6be384c4c6341000800000000000000
+      internalID: 5689718272682862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_hurt_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 319
+        width: 198
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27172f7c5bae1de40800000000000000
+      internalID: 5679578671555441010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_hurt_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 104
+        width: 184
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f035fa8f7a56ed50800000000000000
+      internalID: 6766194994009420017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_hurt_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 101
+        width: 186
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8706ce6bbe810430800000000000000
+      internalID: 3747433300617463693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_hurt_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 102
+        width: 192
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a384a3e0a564570800000000000000
+      internalID: 8450540767961168464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_hurt_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 95
+        width: 185
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0035c5a12a9e75c50800000000000000
+      internalID: 6654043856899429120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boss_hurt_sheet_0: 2195627416312816284
+      boss_hurt_sheet_1: 1294219689831080887
+      boss_hurt_sheet_10: 5689718272682862
+      boss_hurt_sheet_11: 5679578671555441010
+      boss_hurt_sheet_12: 6766194994009420017
+      boss_hurt_sheet_13: 3747433300617463693
+      boss_hurt_sheet_14: 8450540767961168464
+      boss_hurt_sheet_15: 6654043856899429120
+      boss_hurt_sheet_2: -7505369568737456890
+      boss_hurt_sheet_3: -4007534081227566058
+      boss_hurt_sheet_4: 2809489380643318305
+      boss_hurt_sheet_5: -7971089237559205173
+      boss_hurt_sheet_6: -2329025170674927430
+      boss_hurt_sheet_7: 5762968392781055965
+      boss_hurt_sheet_8: 4628588943995349149
+      boss_hurt_sheet_9: -5706194034091218417
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -58,6 +58,24 @@ namespace ManagerOfDungeon
             "Assets/_Game/InternalAssets/운영기록/image 118.png";
         public const string UiLogClose =
             "Assets/_Game/InternalAssets/운영기록/_레이어_1.png";
+        public const string UiLobbyLogo =
+            "Assets/_Game/InternalAssets/_레이어_1.png";
+        public const string UiDungeonMap =
+            "Assets/_Game/InternalAssets/dungeon_1920x1080.png";
+        public const string UiGoblinFront =
+            "Assets/_Game/InternalAssets/goblin_front.png";
+        public const string UiDesk =
+            "Assets/_Game/InternalAssets/desk.png";
+        public const string UiInteractionBackground =
+            "Assets/_Game/InternalAssets/interaction_background_1920x1080.png";
+        public const string AudioDungeon =
+            "Assets/_Game/Audio/Music/dungeon.mp3";
+        public const string AudioBattle =
+            "Assets/_Game/Audio/Music/battle.mp3";
+        public const string KoreanFontPath =
+            "Assets/_Game/Fonts/MalgunGothic.ttf";
+
+        static Font _koreanFont;
 
         static Material _spriteMaterial;
         static Sprite _frame61;
@@ -78,6 +96,11 @@ namespace ManagerOfDungeon
         static Sprite _logThumb;
         static Sprite _logIcon;
         static Sprite _logClose;
+        static Sprite _lobbyLogo;
+        static Sprite _dungeonMap;
+        static Sprite _goblinFront;
+        static Sprite _desk;
+        static Sprite _interactionBackground;
 
         public static Material SpriteMaterial()
         {
@@ -169,6 +192,11 @@ namespace ManagerOfDungeon
         public static Sprite LogThumb() => CacheFull(ref _logThumb, UiLogThumb);
         public static Sprite LogIcon() => CacheFull(ref _logIcon, UiLogIcon);
         public static Sprite LogClose() => CacheFull(ref _logClose, UiLogClose);
+        public static Sprite LobbyLogo() => CacheFull(ref _lobbyLogo, UiLobbyLogo);
+        public static Sprite DungeonMap() => CacheFull(ref _dungeonMap, UiDungeonMap);
+        public static Sprite GoblinFront() => CacheFull(ref _goblinFront, UiGoblinFront);
+        public static Sprite Desk() => CacheFull(ref _desk, UiDesk);
+        public static Sprite InteractionBackground() => CacheFull(ref _interactionBackground, UiInteractionBackground);
 
         static Sprite CacheFull(ref Sprite cache, string path)
         {
@@ -250,6 +278,35 @@ namespace ManagerOfDungeon
             return sprite;
 #else
             return LoadSprite(path);
+#endif
+        }
+
+        public static Font KoreanFont()
+        {
+            if (_koreanFont != null)
+                return _koreanFont;
+#if UNITY_EDITOR
+            _koreanFont = AssetDatabase.LoadAssetAtPath<Font>(KoreanFontPath);
+#endif
+            if (_koreanFont == null)
+            {
+                _koreanFont = Font.CreateDynamicFontFromOSFont(
+                    new[] { "Malgun Gothic", "맑은 고딕", "Gulim", "Dotum", "Arial Unicode MS", "Arial" },
+                    40);
+            }
+
+            return _koreanFont;
+        }
+
+        public static AudioClip DungeonBgm() => LoadAudio(AudioDungeon);
+        public static AudioClip BattleBgm() => LoadAudio(AudioBattle);
+
+        public static AudioClip LoadAudio(string path)
+        {
+#if UNITY_EDITOR
+            return AssetDatabase.LoadAssetAtPath<AudioClip>(path);
+#else
+            return null;
 #endif
         }
     }

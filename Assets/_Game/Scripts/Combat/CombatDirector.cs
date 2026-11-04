@@ -86,6 +86,7 @@ namespace ManagerOfDungeon
             ShowTargetDebug = true;
             _inBattle = true;
             _battleEnded = false;
+            GameMusic.PlayBattle();
         }
 
         public void StopBattle()
@@ -99,7 +100,6 @@ namespace ManagerOfDungeon
                 return false;
 
             _battleEnded = false;
-            _inBattle = false;
             return true;
         }
 

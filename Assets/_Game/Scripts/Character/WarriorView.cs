@@ -23,7 +23,7 @@ namespace ManagerOfDungeon
             var instance = Instantiate(prefab, worldPosition, Quaternion.identity, parent);
             instance.name = "Warrior";
             StripDemoComponents(instance);
-            instance.transform.localScale = new Vector3(1.15f, 1.15f, 1f);
+            instance.transform.localScale = new Vector3(0.575f, 0.575f, 1f);
 
             var view = instance.GetComponent<WarriorView>();
             if (view == null)

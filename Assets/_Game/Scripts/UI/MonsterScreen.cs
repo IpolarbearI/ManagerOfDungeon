@@ -10,7 +10,7 @@ namespace ManagerOfDungeon
     public sealed class MonsterScreen : MonoBehaviour
     {
         const string CanvasName = "MonsterCanvas";
-        const int UiVersion = 5;
+        const int UiVersion = 10;
 
         static readonly Color FieldColor = new Color(0.78f, 0.78f, 0.78f, 1f);
         static readonly Color PanelColor = new Color(0.95f, 0.95f, 0.95f, 1f);
@@ -63,9 +63,13 @@ namespace ManagerOfDungeon
                 RebuildUi();
 
             ApplyFonts();
+            ApplyMonsterArt();
             BindButtons();
             if (Application.isPlaying)
+            {
+                GameMusic.Stop();
                 BeginWorryIfNeeded();
+            }
         }
 
         void RebuildUi()
@@ -103,13 +107,13 @@ namespace ManagerOfDungeon
             scaler.matchWidthOrHeight = 0.5f;
 
             CreateFill(canvasGo.transform, "Field", FieldColor);
+            CreatePortrait(canvasGo.transform);
             CreateDesk(canvasGo.transform);
             CreateTimeBar(canvasGo.transform);
             CreateCircleButton(canvasGo.transform, "Back", "<", new Vector2(48f, -48f), new Vector2(0f, 1f), true);
             CreateCircleButton(canvasGo.transform, "Extra", "", new Vector2(-48f, -48f), new Vector2(1f, 1f), false);
             CreateWorryFive(canvasGo.transform);
             CreateStatPanel(canvasGo.transform, goblin);
-            CreatePortrait(canvasGo.transform);
             CreateCornerButton(canvasGo.transform, "Box", new Vector2(-70f, 150f));
             CreateCornerButton(canvasGo.transform, "Gift", new Vector2(-70f, 70f));
             CreateDialoguePanel(canvasGo.transform);
@@ -118,13 +122,16 @@ namespace ManagerOfDungeon
 
         void CreateDesk(Transform parent)
         {
-            var desk = CreateImage(parent, "Desk", DeskColor, _squareSprite);
+            var desk = CreateImage(parent, "Desk", Color.white, _squareSprite);
             var rect = desk.GetComponent<RectTransform>();
-            rect.anchorMin = new Vector2(0f, 0f);
-            rect.anchorMax = new Vector2(1f, 0f);
+            rect.anchorMin = new Vector2(0.5f, 0f);
+            rect.anchorMax = new Vector2(0.5f, 0f);
             rect.pivot = new Vector2(0.5f, 0f);
-            rect.anchoredPosition = Vector2.zero;
-            rect.sizeDelta = new Vector2(0f, 220f);
+            rect.anchoredPosition = new Vector2(0f, -20f);
+            rect.sizeDelta = new Vector2(1920f, 520f);
+            var image = desk.GetComponent<Image>();
+            image.preserveAspect = true;
+            image.raycastTarget = false;
         }
 
         void CreateWorryFive(Transform parent)
@@ -240,17 +247,42 @@ namespace ManagerOfDungeon
 
         void CreatePortrait(Transform parent)
         {
-            var goblin = PackAssets.LoadSprite(PackAssets.GoblinIdle) ?? _squareSprite;
-            var body = CreateImage(parent, "Portrait", Color.white, goblin);
+            var body = CreateImage(parent, "Portrait", Color.white, _squareSprite);
             var bodyRect = body.GetComponent<RectTransform>();
-            bodyRect.anchorMin = new Vector2(0.5f, 0.5f);
-            bodyRect.anchorMax = new Vector2(0.5f, 0.5f);
-            bodyRect.pivot = new Vector2(0.5f, 0.5f);
-            bodyRect.anchoredPosition = new Vector2(280f, 40f);
-            bodyRect.sizeDelta = new Vector2(560f, 620f);
+            bodyRect.anchorMin = new Vector2(0.5f, 0f);
+            bodyRect.anchorMax = new Vector2(0.5f, 0f);
+            bodyRect.pivot = new Vector2(0.5f, 0f);
+            bodyRect.anchoredPosition = new Vector2(0f, 170f);
+            bodyRect.sizeDelta = new Vector2(820f, 1020f);
             var image = body.GetComponent<Image>();
             image.preserveAspect = true;
             image.raycastTarget = false;
+        }
+
+        void ApplyMonsterArt()
+        {
+            ApplyUiArt("Field", PackAssets.InteractionBackground(), false);
+            ApplyUiArt("Portrait", PackAssets.GoblinFront(), true);
+            ApplyUiArt("Desk", PackAssets.Desk(), true);
+        }
+
+        void ApplyUiArt(string path, Sprite sprite, bool preserveAspect)
+        {
+            if (sprite == null)
+                return;
+
+            var node = FindUi(path);
+            if (node == null)
+                return;
+
+            var image = node.GetComponent<Image>();
+            if (image == null)
+                return;
+
+            image.sprite = sprite;
+            image.color = Color.white;
+            image.preserveAspect = preserveAspect;
+            image.type = Image.Type.Simple;
         }
 
         void CreateDialoguePanel(Transform parent)
@@ -483,7 +515,11 @@ namespace ManagerOfDungeon
             if (text == null)
                 text = node.GetComponentInChildren<Text>();
             if (text != null)
+            {
+                text.font = _font;
                 text.text = value;
+                RequestGlyphs(value, text.fontSize);
+            }
         }
 
         static void SetChildName(Transform parent, string rowName, string childName, string expectedText)
@@ -557,6 +593,7 @@ namespace ManagerOfDungeon
             text.horizontalOverflow = HorizontalWrapMode.Overflow;
             text.verticalOverflow = VerticalWrapMode.Overflow;
             text.raycastTarget = false;
+            RequestGlyphs(content, fontSize);
         }
 
         void AddOutline(GameObject go)
@@ -571,9 +608,16 @@ namespace ManagerOfDungeon
             var texts = GetComponentsInChildren<Text>(true);
             for (int i = 0; i < texts.Length; i++)
             {
-                if (texts[i].font == null)
-                    texts[i].font = _font;
+                texts[i].font = _font;
+                RequestGlyphs(texts[i].text, texts[i].fontSize);
             }
+        }
+
+        void RequestGlyphs(string content, int fontSize)
+        {
+            if (_font == null || string.IsNullOrEmpty(content))
+                return;
+            _font.RequestCharactersInTexture(content, Mathf.Max(16, fontSize), FontStyle.Normal);
         }
 
         static void Stretch(RectTransform rect)
@@ -654,16 +698,14 @@ namespace ManagerOfDungeon
 
         static Font ResolveFont()
         {
-            var font = Font.CreateDynamicFontFromOSFont(
-                new[] { "Malgun Gothic", "맑은 고딕", "Gulim", "Apple SD Gothic Neo", "Arial" },
-                32);
+            var font = PackAssets.KoreanFont();
             if (font == null)
                 font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
             if (font != null)
             {
                 font.hideFlags = HideFlags.DontSave;
                 font.RequestCharactersInTexture(
-                    "고블린종족공격력속도이동유대감전략기본전투점사해금이유없이화가나요마왕갑자기무슨있었어머몰라그냥답답하고짜증그래도괜찮아같이있어줄게다음해결책상DayEasyIVLvEXP<>0123456789.:+ ",
+                    "고블린종족공격력속도이동유대감전략기본전투점사해금이유없이화가나요마왕갑자기무슨있었어머몰라그냥답답하고짜증그래도괜찮아같이있어줄게다음해결책상의고민ABCDEFGHIJKLMNOPQRSTUVWXYZDayEasyIVLvEXP HP<>0123456789.:+ ",
                     32,
                     FontStyle.Normal);
             }

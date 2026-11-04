@@ -9,7 +9,7 @@ namespace ManagerOfDungeon
     public sealed class DungeonRoomScreen : MonoBehaviour
     {
         const string CanvasName = "DungeonCanvas";
-        const int UiVersion = 17;
+        const int UiVersion = 21;
         const float Frame61Width = 2191f;
         const float Frame61Height = 124f;
 
@@ -69,6 +69,7 @@ namespace ManagerOfDungeon
 
             ApplyFonts();
             ApplyUiFrames();
+            ApplyDungeonMap();
             if (Application.isPlaying)
             {
                 var leftover = transform.Find("WarriorVisuals");
@@ -84,7 +85,10 @@ namespace ManagerOfDungeon
         void Start()
         {
             if (Application.isPlaying)
+            {
+                GameMusic.PlayBattle();
                 BindDemo();
+            }
         }
 
         void RebuildUi()
@@ -125,10 +129,6 @@ namespace ManagerOfDungeon
             scaler.matchWidthOrHeight = 0.5f;
 
             CreateTopBar(canvasGo.transform);
-            CreateToken(canvasGo.transform, "Entrance", "입구", false, new Vector2(110f, 260f), new Vector2(90f, 0f), new Vector2(0f, 0.5f));
-            CreateToken(canvasGo.transform, "Core", "코어", true, new Vector2(220f, 220f), new Vector2(-90f, 0f), new Vector2(1f, 0.5f));
-            CreateRoundButton(canvasGo.transform, "PrevRoom", "<", new Vector2(90f, -80f), new Vector2(0f, 0.5f));
-            CreateRoundButton(canvasGo.transform, "NextRoom", ">", new Vector2(-90f, -80f), new Vector2(1f, 0.5f));
             CreateDesignDock(canvasGo.transform);
             CreateStoragePanel(canvasGo.transform);
             CreateLogPanel(canvasGo.transform);
@@ -915,7 +915,11 @@ namespace ManagerOfDungeon
             if (text == null)
                 text = node.GetComponentInChildren<Text>();
             if (text != null)
+            {
+                text.font = _font;
                 text.text = value;
+                RequestGlyphs(value, text.fontSize);
+            }
         }
 
         void SetButtonInteractable(string path, bool interactable)
@@ -1044,6 +1048,7 @@ namespace ManagerOfDungeon
             text.horizontalOverflow = HorizontalWrapMode.Overflow;
             text.verticalOverflow = VerticalWrapMode.Overflow;
             text.raycastTarget = false;
+            RequestGlyphs(content, fontSize);
         }
 
         void ApplyFonts()
@@ -1051,9 +1056,16 @@ namespace ManagerOfDungeon
             var texts = GetComponentsInChildren<Text>(true);
             for (int i = 0; i < texts.Length; i++)
             {
-                if (texts[i].font == null)
-                    texts[i].font = _font;
+                texts[i].font = _font;
+                RequestGlyphs(texts[i].text, texts[i].fontSize);
             }
+        }
+
+        void RequestGlyphs(string content, int fontSize)
+        {
+            if (_font == null || string.IsNullOrEmpty(content))
+                return;
+            _font.RequestCharactersInTexture(content, Mathf.Max(16, fontSize), FontStyle.Normal);
         }
 
         static void Stretch(RectTransform rect)
@@ -1105,8 +1117,47 @@ namespace ManagerOfDungeon
             }
 
             cam.clearFlags = CameraClearFlags.SolidColor;
-            cam.backgroundColor = FieldColor;
+            cam.backgroundColor = new Color(0.12f, 0.10f, 0.12f, 1f);
             cam.orthographic = true;
+        }
+
+        void ApplyDungeonMap()
+        {
+            var sprite = PackAssets.DungeonMap();
+            var cam = Camera.main;
+            if (sprite == null || cam == null)
+                return;
+
+            var existing = transform.Find("DungeonMapArt");
+            GameObject go;
+            if (existing != null)
+            {
+                go = existing.gameObject;
+            }
+            else
+            {
+                go = new GameObject("DungeonMapArt");
+                go.transform.SetParent(transform, false);
+                go.AddComponent<SpriteRenderer>();
+            }
+
+            var renderer = go.GetComponent<SpriteRenderer>();
+            renderer.sprite = sprite;
+            renderer.color = Color.white;
+            renderer.sortingOrder = -20;
+            renderer.drawMode = SpriteDrawMode.Simple;
+            PackAssets.ApplySpriteMaterial(renderer);
+
+            float worldHeight = cam.orthographicSize * 2f;
+            float worldWidth = worldHeight * cam.aspect;
+            float spriteWidth = sprite.rect.width / sprite.pixelsPerUnit;
+            float spriteHeight = sprite.rect.height / sprite.pixelsPerUnit;
+            if (spriteWidth < 0.01f || spriteHeight < 0.01f)
+                return;
+
+            var camPos = cam.transform.position;
+            go.transform.position = new Vector3(camPos.x, camPos.y, 1f);
+            go.transform.localScale = new Vector3(worldWidth / spriteWidth, worldHeight / spriteHeight, 1f);
         }
 
         static void EnsureEventSystem()
@@ -1154,16 +1205,14 @@ namespace ManagerOfDungeon
 
         static Font ResolveFont()
         {
-            var font = Font.CreateDynamicFontFromOSFont(
-                new[] { "Malgun Gothic", "맑은 고딕", "Gulim", "Apple SD Gothic Neo", "Arial" },
-                32);
+            var font = PackAssets.KoreanFont();
             if (font == null)
                 font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
             if (font != null)
             {
                 font.hideFlags = HideFlags.DontSave;
                 font.RequestCharactersInTexture(
-                    "Day방입구코어기사고블린오크웨어울프설계알림고민메뉴코인전투시작점사부터장착가시바닥이유없이화가난다해결다음유대감전략기본공격원거리근거리사거리장비고목활정보용사몬스터선택설치관찰비교종료착용전환행동중함정지형보관함업그레이드기록이전이▦▲≡▣◆☰◀※♥X<>0123456789:/+%.LvATKHP EXP",
+                    "Day방입구코어기사고블린오크웨어울프설계알림고민메뉴코인전투시작점사부터장착가시바닥이유없이화가난다해결다음유대감전략기본공격원거리근거리사거리장비고목활정보용사몬스터선택설치관찰비교종료착용전환행동중함정지형보관함업그레이드기록이전이에게생겼습니다아직없습니다후에생깁니다왼쪽위를눌러하세요의을를AB시연끝났돌아갑니다자동전투조작하지않습니다설치한뒤켜타겟선차와비교하세요준비중입니다사용할수없습니다먼저활을중앙에만abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ▦▲≡▣◆☰◀※♥X<>0123456789:/+%.LvATKHP EXP",
                     32,
                     FontStyle.Normal);
             }

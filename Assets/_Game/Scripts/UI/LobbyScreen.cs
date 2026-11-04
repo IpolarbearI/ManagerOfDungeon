@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem.UI;
@@ -10,16 +11,18 @@ namespace ManagerOfDungeon
     public sealed class LobbyScreen : MonoBehaviour
     {
         const string CanvasName = "LobbyCanvas";
-        const int UiVersion = 3;
+        const int UiVersion = 6;
 
-        static readonly Color TextColor = new Color(0.45f, 0.45f, 0.45f, 1f);
-        static readonly Color TextHover = new Color(0.22f, 0.22f, 0.22f, 1f);
-        static readonly Color Background = Color.white;
+        static readonly Color TextColor = new Color(0.90f, 0.84f, 0.68f, 1f);
+        static readonly Color TextHover = new Color(1f, 0.96f, 0.82f, 1f);
+        static readonly Color Background = Color.black;
         static readonly string[] MenuLabels = { "튜토리얼", "새 게임", "이어하기", "환경설정", "종료" };
 
         [SerializeField] int builtVersion;
 
         Font _font;
+        bool _introDone;
+        Coroutine _intro;
 
         void OnEnable()
         {
@@ -54,14 +57,25 @@ namespace ManagerOfDungeon
                 RebuildUi();
 
             ApplyFonts();
+            ApplyLogo();
             BindButtons();
+            if (Application.isPlaying)
+            {
+                GameMusic.PlayDungeon();
+                StartIntro();
+            }
+            else
+                ShowMenuImmediate();
         }
 
         void RebuildUi()
         {
             var existing = transform.Find(CanvasName);
             if (existing != null)
+            {
+                existing.name = CanvasName + "_Old";
                 DestroyGo(existing.gameObject);
+            }
 
             BuildUi();
             builtVersion = UiVersion;
@@ -119,10 +133,29 @@ namespace ManagerOfDungeon
             scaler.matchWidthOrHeight = 0.5f;
 
             CreateFill(canvasGo.transform, Background);
-            CreateLabel(canvasGo.transform, "던전 입구", 36, TextAnchor.UpperLeft, new Vector2(80f, -72f), new Vector2(0f, 1f), new Vector2(0f, 1f));
+
+            var splash = CreateFillObject(canvasGo.transform, "Splash", Color.black);
+            splash.AddComponent<Button>().onClick.AddListener(SkipIntro);
+            var logo = CreateFillObject(splash.transform, "Logo", Color.white);
+            var logoRect = logo.GetComponent<RectTransform>();
+            logoRect.anchorMin = new Vector2(0.5f, 0.5f);
+            logoRect.anchorMax = new Vector2(0.5f, 0.5f);
+            logoRect.pivot = new Vector2(0.5f, 0.5f);
+            logoRect.sizeDelta = new Vector2(1400f, 900f);
+            var logoImage = logo.GetComponent<Image>();
+            logoImage.preserveAspect = true;
+            logoImage.raycastTarget = false;
+            splash.AddComponent<CanvasGroup>();
+
+            var menuRoot = new GameObject("MenuRoot");
+            menuRoot.transform.SetParent(canvasGo.transform, false);
+            Stretch(menuRoot.AddComponent<RectTransform>());
+            menuRoot.AddComponent<CanvasGroup>();
+
+            CreateLabel(menuRoot.transform, "던전 입구", 36, TextAnchor.UpperLeft, new Vector2(80f, -72f), new Vector2(0f, 1f), new Vector2(0f, 1f));
 
             var center = new GameObject("Center");
-            center.transform.SetParent(canvasGo.transform, false);
+            center.transform.SetParent(menuRoot.transform, false);
             var centerRect = center.AddComponent<RectTransform>();
             centerRect.anchorMin = new Vector2(0.5f, 0.5f);
             centerRect.anchorMax = new Vector2(0.5f, 0.5f);
@@ -186,16 +219,11 @@ namespace ManagerOfDungeon
             layout.minWidth = 320f;
 
             var image = go.AddComponent<Image>();
-            image.color = new Color(1f, 1f, 1f, 0.01f);
+            image.color = new Color(1f, 1f, 1f, 0f);
 
             var button = go.AddComponent<Button>();
-            button.transition = Selectable.Transition.ColorTint;
+            button.transition = Selectable.Transition.None;
             button.targetGraphic = image;
-            var colors = button.colors;
-            colors.normalColor = Color.white;
-            colors.highlightedColor = new Color(0.92f, 0.92f, 0.92f, 1f);
-            colors.pressedColor = new Color(0.85f, 0.85f, 0.85f, 1f);
-            button.colors = colors;
 
             var textGo = new GameObject("Text");
             textGo.transform.SetParent(go.transform, false);
@@ -206,7 +234,10 @@ namespace ManagerOfDungeon
             textRect.offsetMax = Vector2.zero;
 
             var text = textGo.AddComponent<Text>();
-            ConfigureText(text, label, 36, TextAnchor.MiddleCenter);
+            ConfigureText(text, label, 40, TextAnchor.MiddleCenter);
+            var outline = textGo.AddComponent<Outline>();
+            outline.effectColor = new Color(0f, 0f, 0f, 0.8f);
+            outline.effectDistance = new Vector2(1.5f, -1.5f);
 
             var hover = go.AddComponent<LobbyButtonHover>();
             hover.Bind(text, TextColor, TextHover);
@@ -223,7 +254,7 @@ namespace ManagerOfDungeon
 
         void Bind(string buttonName, UnityEngine.Events.UnityAction onClick)
         {
-            var child = transform.Find($"{CanvasName}/Center/Menu/{buttonName}");
+            var child = transform.Find($"{CanvasName}/MenuRoot/Center/Menu/{buttonName}");
             if (child == null)
                 return;
 
@@ -239,7 +270,11 @@ namespace ManagerOfDungeon
         {
             var texts = GetComponentsInChildren<Text>(true);
             for (int i = 0; i < texts.Length; i++)
+            {
                 ConfigureText(texts[i], texts[i].text, texts[i].fontSize, texts[i].alignment);
+                if (_font != null && !string.IsNullOrEmpty(texts[i].text))
+                    _font.RequestCharactersInTexture(texts[i].text, Mathf.Max(16, texts[i].fontSize), FontStyle.Normal);
+            }
         }
 
         void ConfigureText(Text text, string content, int fontSize, TextAnchor alignment)
@@ -255,18 +290,104 @@ namespace ManagerOfDungeon
             text.supportRichText = true;
         }
 
+        void ApplyLogo()
+        {
+            var logo = transform.Find($"{CanvasName}/Splash/Logo");
+            if (logo == null)
+                return;
+
+            var image = logo.GetComponent<Image>();
+            var sprite = PackAssets.LobbyLogo();
+            if (image == null || sprite == null)
+                return;
+
+            image.sprite = sprite;
+            image.color = Color.white;
+            image.preserveAspect = true;
+            image.type = Image.Type.Simple;
+        }
+
+        void StartIntro()
+        {
+            if (_intro != null)
+                StopCoroutine(_intro);
+            _introDone = false;
+            SetGroup("Splash", 1f, true);
+            SetGroup("MenuRoot", 0f, false);
+            _intro = StartCoroutine(PlayIntro());
+        }
+
+        void ShowMenuImmediate()
+        {
+            _introDone = true;
+            SetGroup("Splash", 0f, false);
+            SetGroup("MenuRoot", 1f, true);
+        }
+
+        void SkipIntro()
+        {
+            if (!Application.isPlaying || _introDone)
+                return;
+
+            if (_intro != null)
+                StopCoroutine(_intro);
+            ShowMenuImmediate();
+        }
+
+        IEnumerator PlayIntro()
+        {
+            SetGroup("Splash", 1f, true);
+            SetGroup("MenuRoot", 0f, false);
+            yield return new WaitForSeconds(1.8f);
+
+            float t = 0f;
+            while (t < 0.45f && !_introDone)
+            {
+                t += Time.unscaledDeltaTime;
+                SetGroup("Splash", 1f - Mathf.Clamp01(t / 0.45f), true);
+                yield return null;
+            }
+
+            ShowMenuImmediate();
+        }
+
+        void SetGroup(string name, float alpha, bool visible)
+        {
+            var node = transform.Find($"{CanvasName}/{name}");
+            if (node == null)
+                return;
+
+            var group = node.GetComponent<CanvasGroup>();
+            if (group == null)
+                group = node.gameObject.AddComponent<CanvasGroup>();
+
+            group.alpha = alpha;
+            group.interactable = visible && alpha > 0.9f;
+            group.blocksRaycasts = visible && alpha > 0.05f;
+        }
+
         void CreateFill(Transform parent, Color color)
         {
-            var go = new GameObject("Background");
+            CreateFillObject(parent, "Background", color).GetComponent<Image>().raycastTarget = false;
+        }
+
+        GameObject CreateFillObject(Transform parent, string objectName, Color color)
+        {
+            var go = new GameObject(objectName);
             go.transform.SetParent(parent, false);
             var rect = go.AddComponent<RectTransform>();
+            Stretch(rect);
+            var image = go.AddComponent<Image>();
+            image.color = color;
+            return go;
+        }
+
+        static void Stretch(RectTransform rect)
+        {
             rect.anchorMin = Vector2.zero;
             rect.anchorMax = Vector2.one;
             rect.offsetMin = Vector2.zero;
             rect.offsetMax = Vector2.zero;
-            var image = go.AddComponent<Image>();
-            image.color = color;
-            image.raycastTarget = false;
         }
 
         void CreateLabel(
@@ -327,28 +448,19 @@ namespace ManagerOfDungeon
 
         static Font ResolveFont()
         {
-            var font = Font.CreateDynamicFontFromOSFont(
-                new[]
-                {
-                    "Malgun Gothic",
-                    "맑은 고딕",
-                    "Gulim",
-                    "Dotum",
-                    "Apple SD Gothic Neo",
-                    "Arial Unicode MS",
-                    "Arial"
-                },
-                40);
-
+            var font = PackAssets.KoreanFont();
             if (font == null)
                 font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
 
             if (font != null)
             {
-                font.hideFlags = HideFlags.DontSave;
                 font.RequestCharactersInTexture(
                     "던전 입구Manager of Dungeon튜토리얼새 게임이어하기환경설정종료abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
                     40,
+                    FontStyle.Normal);
+                font.RequestCharactersInTexture(
+                    "던전 입구Manager of Dungeon튜토리얼새 게임이어하기환경설정종료",
+                    48,
                     FontStyle.Normal);
             }
 

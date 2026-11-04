@@ -18,7 +18,7 @@ namespace ManagerOfDungeon
                 PackAssets.GoblinPrefab,
                 PackAssets.GoblinIdle,
                 ResourceIds.CharGoblinIdle,
-                1.45f,
+                0.725f,
                 Vector3.left);
         }
 
@@ -30,7 +30,7 @@ namespace ManagerOfDungeon
                 PackAssets.ArcherPrefab,
                 PackAssets.ArcherIdle,
                 ResourceIds.CharHeroArcher,
-                1.65f,
+                0.825f,
                 Vector3.right);
         }
 

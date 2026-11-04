@@ -352,7 +352,7 @@ namespace ManagerOfDungeon
             var go = new GameObject("Select");
             go.transform.SetParent(transform, false);
             go.transform.localPosition = Vector3.zero;
-            go.transform.localScale = new Vector3(1.35f, 1.35f, 1f);
+            go.transform.localScale = new Vector3(0.7f, 0.7f, 1f);
             _selectRing = go.AddComponent<SpriteRenderer>();
             _selectRing.sprite = CreateSquareSprite();
             _selectRing.color = new Color(1f, 0.92f, 0.2f, 0.35f);
@@ -433,7 +433,7 @@ namespace ManagerOfDungeon
 
             var root = new GameObject("HealthBar");
             root.transform.SetParent(transform, false);
-            root.transform.localPosition = new Vector3(0f, 1.8f, 0f);
+            root.transform.localPosition = new Vector3(0f, 0.95f, 0f);
             _hpRoot = root.transform;
 
             _hpBack = CreateBarPiece(root.transform, "Back", new Vector3(0f, 0f, 0f), new Vector3(1.05f, 0.12f, 1f), new Color(0.1f, 0.1f, 0.1f, 0.92f), 30, new Vector2(0.5f, 0.5f));

@@ -37,8 +37,16 @@ namespace ManagerOfDungeon
         public bool Battle1Finished { get; set; }
         public bool Battle2Finished { get; set; }
         public string BowActorId { get; set; } = string.Empty;
+        public string WorryActorId { get; set; } = "goblin_a";
         public readonly List<Vector3> SpikePositions = new List<Vector3>();
         public string StrategyWarning { get; private set; } = string.Empty;
+
+        public string WorryMonsterName => WorryActorId == "goblin_b" ? "고블린 B" : "고블린 A";
+
+        public void AssignWorryTarget(string actorId)
+        {
+            WorryActorId = actorId == "goblin_b" ? "goblin_b" : "goblin_a";
+        }
 
         public bool FocusUnlocked => BondLevel >= 2;
 

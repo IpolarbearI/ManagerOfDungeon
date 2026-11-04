@@ -9,7 +9,9 @@ namespace ManagerOfDungeon
     public sealed class DungeonRoomScreen : MonoBehaviour
     {
         const string CanvasName = "DungeonCanvas";
-        const int UiVersion = 8;
+        const int UiVersion = 17;
+        const float Frame61Width = 2191f;
+        const float Frame61Height = 124f;
 
         static readonly Color FieldColor = new Color(0.73f, 0.73f, 0.73f, 1f);
         static readonly Color BarColor = new Color(0.16f, 0.16f, 0.18f, 1f);
@@ -28,6 +30,8 @@ namespace ManagerOfDungeon
         bool _demoBound;
         bool _designMenuOpen;
         bool _trapPaletteOpen;
+        bool _storageOpen;
+        bool _logOpen;
         AlphaDemoDirector _director;
 
         void OnEnable()
@@ -64,6 +68,7 @@ namespace ManagerOfDungeon
                 RebuildUi();
 
             ApplyFonts();
+            ApplyUiFrames();
             if (Application.isPlaying)
             {
                 var leftover = transform.Find("WarriorVisuals");
@@ -84,9 +89,15 @@ namespace ManagerOfDungeon
 
         void RebuildUi()
         {
+            _storageOpen = false;
+            _logOpen = false;
+            _designMenuOpen = false;
+            _trapPaletteOpen = false;
+
             var existing = transform.Find(CanvasName);
             if (existing != null)
             {
+                existing.name = CanvasName + "_Old";
                 if (Application.isPlaying)
                     Destroy(existing.gameObject);
                 else
@@ -119,6 +130,8 @@ namespace ManagerOfDungeon
             CreateRoundButton(canvasGo.transform, "PrevRoom", "<", new Vector2(90f, -80f), new Vector2(0f, 0.5f));
             CreateRoundButton(canvasGo.transform, "NextRoom", ">", new Vector2(-90f, -80f), new Vector2(1f, 0.5f));
             CreateDesignDock(canvasGo.transform);
+            CreateStoragePanel(canvasGo.transform);
+            CreateLogPanel(canvasGo.transform);
             CreateUnitCard(canvasGo.transform);
             CreateBottomBar(canvasGo.transform);
         }
@@ -127,15 +140,12 @@ namespace ManagerOfDungeon
         {
             var bar = CreatePanel(parent, "TopBar", BarColor, new Vector2(0f, 1f), new Vector2(1f, 1f), new Vector2(0.5f, 1f));
             var rect = bar.GetComponent<RectTransform>();
-            rect.offsetMin = new Vector2(0f, -56f);
+            rect.offsetMin = new Vector2(0f, -88f);
             rect.offsetMax = Vector2.zero;
 
-            CreateBarText(bar.transform, "DayTime", "Day 1\n06:00", 22, TextAnchor.MiddleLeft, new Vector2(24f, 0f), new Vector2(0f, 0.5f), new Vector2(160f, 56f));
-            CreateBarChip(bar.transform, "Alert", "알림", new Vector2(190f, 0f), new Vector2(0f, 0.5f));
-            CreateBarChip(bar.transform, "Report", "고민", new Vector2(280f, 0f), new Vector2(0f, 0.5f));
-            CreateBarText(bar.transform, "Room", "방 1/1", 24, TextAnchor.MiddleCenter, Vector2.zero, new Vector2(0.5f, 0.5f), new Vector2(200f, 56f));
-            CreateBarText(bar.transform, "Resources", "20    420    코인", 22, TextAnchor.MiddleRight, new Vector2(-130f, 0f), new Vector2(1f, 0.5f), new Vector2(360f, 56f));
-            CreateBarChip(bar.transform, "Menu", "메뉴", new Vector2(-24f, 0f), new Vector2(1f, 0.5f));
+            CreateBarChip(bar.transform, "Alert", "", new Vector2(190f, 0f), new Vector2(0f, 0.5f));
+            CreateBarChip(bar.transform, "Report", "", new Vector2(280f, 0f), new Vector2(0f, 0.5f));
+            CreateBarChip(bar.transform, "Menu", "", new Vector2(-24f, 0f), new Vector2(1f, 0.5f));
         }
 
         void CreateDesignDock(Transform parent)
@@ -147,18 +157,18 @@ namespace ManagerOfDungeon
             dockRect.anchorMax = new Vector2(0f, 0f);
             dockRect.pivot = new Vector2(0f, 0f);
             dockRect.anchoredPosition = new Vector2(24f, 136f);
-            dockRect.sizeDelta = new Vector2(760f, 120f);
+            dockRect.sizeDelta = new Vector2(760f, 140f);
 
             CreateToolButton(dock.transform, "Design", "설계", "▦", 0f);
             var menu = new GameObject("DesignMenu");
             menu.transform.SetParent(dock.transform, false);
             Stretch(menu.AddComponent<RectTransform>());
-            CreateToolButton(menu.transform, "Trap", "함정", "▲", 96f);
-            CreateToolButton(menu.transform, "Terrain", "지형", "≡", 192f);
-            CreateToolButton(menu.transform, "Storage", "보관함", "▣", 288f);
-            CreateToolButton(menu.transform, "Core", "코어\n업그레이드", "◆", 384f);
-            CreateToolButton(menu.transform, "Log", "기록", "☰", 480f);
-            CreateToolButton(menu.transform, "Back", "이전", "◀", 576f);
+            CreateToolButton(menu.transform, "Trap", "함정", "▲", 92f);
+            CreateToolButton(menu.transform, "Terrain", "지형", "≡", 184f);
+            CreateToolButton(menu.transform, "Storage", "보관함", "▣", 276f);
+            CreateToolButton(menu.transform, "Core", "코어 강화", "◆", 368f);
+            CreateToolButton(menu.transform, "Log", "기록", "☰", 460f);
+            CreateToolButton(menu.transform, "Back", "이전", "◀", 552f);
             menu.SetActive(false);
 
             var palette = new GameObject("TrapPalette");
@@ -173,6 +183,80 @@ namespace ManagerOfDungeon
             palette.SetActive(false);
         }
 
+        void CreateStoragePanel(Transform parent)
+        {
+            var root = CreatePanel(parent, "StoragePanel", Color.clear, Vector2.zero, Vector2.one, new Vector2(0.5f, 0.5f));
+            Stretch(root.GetComponent<RectTransform>());
+            root.GetComponent<Image>().raycastTarget = false;
+
+            var dim = CreatePanel(root.transform, "Dim", new Color(0f, 0f, 0f, 0.45f), Vector2.zero, Vector2.one, new Vector2(0.5f, 0.5f));
+            Stretch(dim.GetComponent<RectTransform>());
+            dim.AddComponent<Button>();
+
+            var window = CreatePanel(root.transform, "Window", Color.clear, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f));
+            var windowRect = window.GetComponent<RectTransform>();
+            windowRect.sizeDelta = new Vector2(1180f, 590f);
+            window.GetComponent<Image>().raycastTarget = false;
+
+            CreateUiArt(window.transform, "Title", new Vector2(0f, 1f), new Vector2(28f, -18f), new Vector2(116f, 56f));
+            CreateUiArt(window.transform, "Chest", new Vector2(0f, 1f), new Vector2(160f, -14f), new Vector2(64f, 64f));
+            CreateUiArt(window.transform, "Tabs", new Vector2(0f, 1f), new Vector2(430f, -22f), new Vector2(340f, 48f));
+            var close = CreateUiArt(window.transform, "Close", new Vector2(1f, 1f), new Vector2(-12f, -10f), new Vector2(46f, 44f));
+            close.GetComponent<Image>().raycastTarget = true;
+            close.AddComponent<Button>();
+            CreateUiArt(window.transform, "Grid", new Vector2(0f, 1f), new Vector2(24f, -86f), new Vector2(659f, 475f));
+            CreateUiArt(window.transform, "Scroll", new Vector2(0f, 1f), new Vector2(700f, -110f), new Vector2(48f, 424f));
+            CreateUiArt(window.transform, "Thumb", new Vector2(0f, 1f), new Vector2(706f, -130f), new Vector2(37f, 76f));
+            CreateUiArt(window.transform, "Detail", new Vector2(1f, 1f), new Vector2(-24f, -86f), new Vector2(372f, 439f));
+
+            var manage = CreatePanel(window.transform, "Manage", new Color(1f, 1f, 1f, 0.01f), new Vector2(1f, 1f), new Vector2(1f, 1f), new Vector2(1f, 1f));
+            var manageRect = manage.GetComponent<RectTransform>();
+            manageRect.anchoredPosition = new Vector2(-70f, -470f);
+            manageRect.sizeDelta = new Vector2(280f, 56f);
+            manage.AddComponent<Button>();
+
+            root.SetActive(false);
+        }
+
+        void CreateLogPanel(Transform parent)
+        {
+            var root = CreatePanel(parent, "LogPanel", Color.clear, Vector2.zero, Vector2.one, new Vector2(0.5f, 0.5f));
+            Stretch(root.GetComponent<RectTransform>());
+            root.GetComponent<Image>().raycastTarget = false;
+
+            var dim = CreatePanel(root.transform, "Dim", new Color(0f, 0f, 0f, 0.45f), Vector2.zero, Vector2.one, new Vector2(0.5f, 0.5f));
+            Stretch(dim.GetComponent<RectTransform>());
+            dim.AddComponent<Button>();
+
+            var window = CreatePanel(root.transform, "Window", Color.clear, new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f), new Vector2(0.5f, 0.5f));
+            var windowRect = window.GetComponent<RectTransform>();
+            windowRect.sizeDelta = new Vector2(1740f, 620f);
+            window.GetComponent<Image>().raycastTarget = false;
+
+            CreateUiArt(window.transform, "Title", new Vector2(0f, 1f), new Vector2(28f, -16f), new Vector2(172f, 56f));
+            CreateUiArt(window.transform, "Icon", new Vector2(0f, 1f), new Vector2(214f, -18f), new Vector2(50f, 50f));
+            var close = CreateUiArt(window.transform, "Close", new Vector2(1f, 1f), new Vector2(-12f, -10f), new Vector2(46f, 44f));
+            close.GetComponent<Image>().raycastTarget = true;
+            close.AddComponent<Button>();
+            CreateUiArt(window.transform, "Table", new Vector2(0.5f, 1f), new Vector2(-28f, -82f), new Vector2(1604f, 502f));
+            CreateUiArt(window.transform, "Scroll", new Vector2(1f, 1f), new Vector2(-18f, -110f), new Vector2(48f, 424f));
+            CreateUiArt(window.transform, "Thumb", new Vector2(1f, 1f), new Vector2(-24f, -130f), new Vector2(37f, 76f));
+
+            root.SetActive(false);
+        }
+
+        GameObject CreateUiArt(Transform parent, string objectName, Vector2 anchor, Vector2 anchoredPosition, Vector2 size)
+        {
+            var go = CreatePanel(parent, objectName, Color.white, anchor, anchor, anchor);
+            var rect = go.GetComponent<RectTransform>();
+            rect.anchoredPosition = anchoredPosition;
+            rect.sizeDelta = size;
+            var image = go.GetComponent<Image>();
+            image.preserveAspect = true;
+            image.raycastTarget = false;
+            return go;
+        }
+
         void CreateToolButton(Transform parent, string objectName, string label, string icon, float x)
         {
             var go = new GameObject(objectName);
@@ -182,12 +266,12 @@ namespace ManagerOfDungeon
             wrap.anchorMax = new Vector2(0f, 0f);
             wrap.pivot = new Vector2(0f, 0f);
             wrap.anchoredPosition = new Vector2(x, 0f);
-            wrap.sizeDelta = new Vector2(88f, 118f);
+            wrap.sizeDelta = new Vector2(92f, 132f);
 
-            var iconGo = CreatePanel(go.transform, "Icon", ToolColor, new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f));
+            var iconGo = CreatePanel(go.transform, "Icon", Color.white, new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f));
             var iconRect = iconGo.GetComponent<RectTransform>();
             iconRect.anchoredPosition = Vector2.zero;
-            iconRect.sizeDelta = new Vector2(72f, 72f);
+            iconRect.sizeDelta = new Vector2(88f, 100f);
             iconGo.AddComponent<Button>();
             CreateCenteredText(iconGo.transform, icon, 28, ToolIcon);
 
@@ -282,11 +366,16 @@ namespace ManagerOfDungeon
             BindButton("DesignDock/Design/Icon", ToggleDesignMenu);
             BindButton("DesignDock/DesignMenu/Trap/Icon", OpenTrapPalette);
             BindButton("DesignDock/DesignMenu/Terrain/Icon", LockedTool);
-            BindButton("DesignDock/DesignMenu/Storage/Icon", LockedTool);
+            BindButton("DesignDock/DesignMenu/Storage/Icon", OpenStorage);
             BindButton("DesignDock/DesignMenu/Core/Icon", LockedTool);
-            BindButton("DesignDock/DesignMenu/Log/Icon", LockedTool);
+            BindButton("DesignDock/DesignMenu/Log/Icon", OpenLog);
             BindButton("DesignDock/DesignMenu/Back/Icon", CloseDesignStep);
             BindButton("DesignDock/TrapPalette/Spike/Icon", () => _director.BeginSpikePlacement());
+            BindButton("StoragePanel/Dim", CloseStorage);
+            BindButton("StoragePanel/Window/Close", CloseStorage);
+            BindButton("StoragePanel/Window/Manage", () => _director.SetStatus("장비 관리는 준비 중입니다."));
+            BindButton("LogPanel/Dim", CloseLog);
+            BindButton("LogPanel/Window/Close", CloseLog);
             BindButton("DemoBar/StartBattle", () => _director.TryStartBattle());
             BindButton("TopBar/Report", () => _director.OpenWorry());
             BindButton("UnitCard/EquipToggle", () => _director.TryEquipBow());
@@ -294,6 +383,7 @@ namespace ManagerOfDungeon
             BindButton("UnitCard/CardClose", () => _director.Select(null));
             BindButton("UnitCard/CardBond", () => _director.OpenWorry());
             ApplyPackIcons();
+            ApplyUiFrames();
             RefreshWorryBlink();
 
             if (!_demoBound)
@@ -313,10 +403,191 @@ namespace ManagerOfDungeon
             ApplySpikeIcon();
         }
 
+        void ApplyUiFrames()
+        {
+            ApplyBarFrame("TopBar", PackAssets.UiTopBar(), false);
+            SkinTopBarChips();
+            PlaceTopHudHit("TopBar/Alert", 215f, 26f, 74f, 71f);
+            PlaceTopHudHit("TopBar/Report", 305f, 26f, 74f, 71f);
+            EnsureWorryBlink();
+            ApplyDesignIcon("DesignDock/Design/Icon", 0);
+            ApplyDesignIcon("DesignDock/DesignMenu/Trap/Icon", 1);
+            ApplyDesignIcon("DesignDock/DesignMenu/Terrain/Icon", 2);
+            ApplyDesignIcon("DesignDock/DesignMenu/Storage/Icon", 3);
+            ApplyDesignIcon("DesignDock/DesignMenu/Core/Icon", 4);
+            ApplyDesignIcon("DesignDock/DesignMenu/Log/Icon", 5);
+            ApplyDesignIcon("DesignDock/DesignMenu/Back/Icon", 6);
+            ApplyButtonFrame("DesignDock/TrapPalette/Spike/Icon", PackAssets.UiButtonBox(), true);
+            try
+            {
+                ApplyStorageArt();
+                ApplyLogArt();
+            }
+            catch (System.Exception)
+            {
+            }
+        }
+
+        void ApplyDesignIcon(string path, int index)
+        {
+            ApplyButtonFrame(path, PackAssets.UiDesignIcon(index), true);
+            HideChildLabel(path);
+            var node = FindUi(path);
+            if (node == null || node.parent == null)
+                return;
+
+            var caption = node.parent.Find("Caption");
+            if (caption != null)
+                caption.gameObject.SetActive(false);
+        }
+
+        void ApplyBarFrame(string path, Sprite sprite, bool preserveAspect)
+        {
+            if (sprite == null)
+                return;
+
+            var node = FindUi(path);
+            if (node == null)
+                return;
+
+            var image = node.GetComponent<Image>();
+            if (image == null)
+                return;
+
+            image.sprite = sprite;
+            image.color = Color.white;
+            image.type = Image.Type.Simple;
+            image.preserveAspect = preserveAspect;
+            image.raycastTarget = true;
+        }
+
+        void ApplyButtonFrame(string path, Sprite sprite, bool preserveAspect)
+        {
+            ApplyBarFrame(path, sprite, preserveAspect);
+            var node = FindUi(path);
+            if (node == null)
+                return;
+
+            var outline = node.GetComponent<Outline>();
+            if (outline != null)
+                outline.enabled = false;
+        }
+
+        void SkinTopBarChips()
+        {
+            SkinChip("TopBar/Alert");
+            SkinChip("TopBar/Report");
+            SkinChip("TopBar/Menu");
+        }
+
+        void SkinChip(string path)
+        {
+            var node = FindUi(path);
+            if (node == null)
+                return;
+
+            var image = node.GetComponent<Image>();
+            if (image != null)
+            {
+                image.sprite = null;
+                image.color = new Color(1f, 1f, 1f, 0.01f);
+            }
+        }
+
+        void PlaceTopHudHit(string path, float x, float y, float width, float height)
+        {
+            var node = FindUi(path);
+            if (node == null)
+                return;
+
+            var rect = node.GetComponent<RectTransform>();
+            rect.anchorMin = new Vector2(x / Frame61Width, y / Frame61Height);
+            rect.anchorMax = new Vector2((x + width) / Frame61Width, (y + height) / Frame61Height);
+            rect.pivot = new Vector2(0.5f, 0.5f);
+            rect.anchoredPosition = Vector2.zero;
+            rect.sizeDelta = Vector2.zero;
+            rect.offsetMin = Vector2.zero;
+            rect.offsetMax = Vector2.zero;
+        }
+
+        void EnsureWorryBlink()
+        {
+            var report = FindUi("TopBar/Report");
+            if (report == null)
+                return;
+
+            var blink = report.Find("Blink");
+            if (blink == null)
+            {
+                var go = new GameObject("Blink");
+                go.transform.SetParent(report, false);
+                go.AddComponent<RectTransform>();
+                var image = go.AddComponent<Image>();
+                image.sprite = _squareSprite;
+                image.color = new Color(0f, 0f, 0f, 0f);
+                image.raycastTarget = false;
+                blink = go.transform;
+            }
+
+            var rect = blink.GetComponent<RectTransform>();
+            rect.anchorMin = new Vector2(0.16f, 0.16f);
+            rect.anchorMax = new Vector2(0.84f, 0.84f);
+            rect.offsetMin = Vector2.zero;
+            rect.offsetMax = Vector2.zero;
+        }
+
+        void HideChildLabel(string path)
+        {
+            var node = FindUi(path + "/Label");
+            if (node != null)
+                node.gameObject.SetActive(false);
+        }
+
+        void ApplyStorageArt()
+        {
+            ApplyUiArt("StoragePanel/Window/Title", PackAssets.StorageTitle());
+            ApplyUiArt("StoragePanel/Window/Chest", PackAssets.StorageChest());
+            ApplyUiArt("StoragePanel/Window/Tabs", PackAssets.StorageTabs());
+            ApplyUiArt("StoragePanel/Window/Close", PackAssets.StorageClose());
+            ApplyUiArt("StoragePanel/Window/Grid", PackAssets.StorageGrid());
+            ApplyUiArt("StoragePanel/Window/Scroll", PackAssets.StorageScroll());
+            ApplyUiArt("StoragePanel/Window/Thumb", PackAssets.StorageThumb());
+            ApplyUiArt("StoragePanel/Window/Detail", PackAssets.StorageDetail());
+        }
+
+        void ApplyLogArt()
+        {
+            ApplyUiArt("LogPanel/Window/Title", PackAssets.LogTitle());
+            ApplyUiArt("LogPanel/Window/Icon", PackAssets.LogIcon());
+            ApplyUiArt("LogPanel/Window/Close", PackAssets.LogClose());
+            ApplyUiArt("LogPanel/Window/Table", PackAssets.LogTable());
+            ApplyUiArt("LogPanel/Window/Scroll", PackAssets.LogScroll());
+            ApplyUiArt("LogPanel/Window/Thumb", PackAssets.LogThumb());
+        }
+
+        void ApplyUiArt(string path, Sprite sprite)
+        {
+            if (sprite == null)
+                return;
+
+            var node = FindUi(path);
+            if (node == null)
+                return;
+
+            var image = node.GetComponent<Image>();
+            if (image == null)
+                return;
+
+            image.sprite = sprite;
+            image.color = Color.white;
+            image.preserveAspect = true;
+            image.type = Image.Type.Simple;
+        }
+
         void ApplySpikeIcon()
         {
             var sprite = PackAssets.LoadSprite(PackAssets.SpikeIdle);
-            var icon = transform.Find($"{CanvasName}/DesignDock/TrapPalette/Spike/Icon");
+            var icon = FindUi("DesignDock/TrapPalette/Spike/Icon");
             if (icon == null || sprite == null)
                 return;
 
@@ -352,7 +623,7 @@ namespace ManagerOfDungeon
             if (sprite == null)
                 return;
 
-            var node = transform.Find($"{CanvasName}/{path}");
+            var node = FindUi(path);
             if (node == null)
                 return;
 
@@ -375,36 +646,33 @@ namespace ManagerOfDungeon
 
         void RefreshWorryBlink()
         {
-            var node = transform.Find($"{CanvasName}/TopBar/Report");
-            if (node == null)
+            var report = FindUi("TopBar/Report");
+            if (report == null)
                 return;
 
-            var image = node.GetComponent<Image>();
-            var label = node.Find("Label") != null ? node.Find("Label").GetComponent<Text>() : node.GetComponentInChildren<Text>();
-            bool blink = _director != null
+            var blink = report.Find("Blink");
+            var image = blink != null ? blink.GetComponent<Image>() : null;
+            bool active = _director != null
                 && _director.Session != null
                 && _director.Session.Phase == DemoPhase.Worry
                 && !_director.Session.WorryComplete;
 
-            if (!blink)
+            if (image == null)
+                return;
+
+            if (!active)
             {
-                if (image != null)
-                    image.color = ChipColor;
-                if (label != null)
-                    label.color = TextDark;
+                image.color = new Color(0f, 0f, 0f, 0f);
                 return;
             }
 
             float pulse = (Mathf.Sin(Time.unscaledTime * 8f) + 1f) * 0.5f;
-            if (image != null)
-                image.color = Color.Lerp(ChipColor, Color.black, pulse);
-            if (label != null)
-                label.color = Color.Lerp(TextDark, Color.white, pulse);
+            image.color = Color.Lerp(new Color(0f, 0f, 0f, 0.08f), new Color(0f, 0f, 0f, 0.5f), pulse);
         }
 
         void BindButton(string path, UnityEngine.Events.UnityAction action)
         {
-            var node = transform.Find($"{CanvasName}/{path}");
+            var node = FindUi(path);
             if (node == null)
                 return;
 
@@ -427,7 +695,6 @@ namespace ManagerOfDungeon
             RefreshDesignDock();
 
             var session = _director.Session;
-            SetText("TopBar/Report/Label", "고민");
             SetButtonInteractable("DemoBar/StartBattle", session.Phase == DemoPhase.PlaceTrap || session.Phase == DemoPhase.Strategy);
         }
 
@@ -435,6 +702,8 @@ namespace ManagerOfDungeon
         {
             _designMenuOpen = false;
             _trapPaletteOpen = false;
+            _storageOpen = false;
+            _logOpen = false;
             RefreshDesignDock();
         }
 
@@ -450,7 +719,11 @@ namespace ManagerOfDungeon
                 _director?.CancelSpikePlacement();
             }
             else
+            {
+                _storageOpen = false;
+                _logOpen = false;
                 _director?.Select(null);
+            }
 
             RefreshDesignDock();
         }
@@ -466,6 +739,46 @@ namespace ManagerOfDungeon
             }
 
             _trapPaletteOpen = true;
+            RefreshDesignDock();
+        }
+
+        void OpenStorage()
+        {
+            if (_director != null && _director.Combat != null && _director.Combat.InBattle)
+                return;
+
+            _storageOpen = true;
+            _logOpen = false;
+            _designMenuOpen = false;
+            _trapPaletteOpen = false;
+            _director?.CancelSpikePlacement();
+            _director?.Select(null);
+            RefreshDesignDock();
+        }
+
+        void CloseStorage()
+        {
+            _storageOpen = false;
+            RefreshDesignDock();
+        }
+
+        void OpenLog()
+        {
+            if (_director != null && _director.Combat != null && _director.Combat.InBattle)
+                return;
+
+            _logOpen = true;
+            _storageOpen = false;
+            _designMenuOpen = false;
+            _trapPaletteOpen = false;
+            _director?.CancelSpikePlacement();
+            _director?.Select(null);
+            RefreshDesignDock();
+        }
+
+        void CloseLog()
+        {
+            _logOpen = false;
             RefreshDesignDock();
         }
 
@@ -496,28 +809,66 @@ namespace ManagerOfDungeon
             {
                 _designMenuOpen = false;
                 _trapPaletteOpen = false;
+                _storageOpen = false;
+                _logOpen = false;
             }
 
-            SetActive("DesignDock/DesignMenu", _designMenuOpen && !inBattle);
-            SetActive("DesignDock/TrapPalette", _designMenuOpen && _trapPaletteOpen && !inBattle);
+            bool overlay = _storageOpen || _logOpen;
+            SetActive("DesignDock", !inBattle);
+            SetActive("DesignDock/DesignMenu", _designMenuOpen && !inBattle && !overlay);
+            SetActive("DesignDock/TrapPalette", _designMenuOpen && _trapPaletteOpen && !inBattle && !overlay);
+            SetActive("StoragePanel", _storageOpen && !inBattle);
+            SetActive("LogPanel", _logOpen && !inBattle);
         }
 
         void SetActive(string path, bool active)
         {
-            var node = transform.Find($"{CanvasName}/{path}");
+            var node = FindUi(path);
             if (node != null)
                 node.gameObject.SetActive(active);
         }
 
+        Transform FindUi(string path)
+        {
+            var canvas = FindNamedChild(transform, CanvasName);
+            if (canvas == null)
+                return null;
+            if (string.IsNullOrEmpty(path))
+                return canvas;
+
+            var current = canvas;
+            var parts = path.Split('/');
+            for (int i = 0; i < parts.Length; i++)
+            {
+                current = FindNamedChild(current, parts[i]);
+                if (current == null)
+                    return null;
+            }
+
+            return current;
+        }
+
+        static Transform FindNamedChild(Transform parent, string name)
+        {
+            for (int i = 0; i < parent.childCount; i++)
+            {
+                var child = parent.GetChild(i);
+                if (child.name == name)
+                    return child;
+            }
+
+            return null;
+        }
+
         void RefreshUnitCard()
         {
-            var card = transform.Find($"{CanvasName}/UnitCard");
+            var card = FindUi("UnitCard");
             if (card == null)
                 return;
 
             var selected = _director.Selected;
             bool inBattle = _director.Combat != null && _director.Combat.InBattle;
-            bool show = selected != null && !inBattle && !_designMenuOpen;
+            bool show = selected != null && !inBattle && !_designMenuOpen && !_storageOpen && !_logOpen;
             card.gameObject.SetActive(show);
             if (!show)
                 return;
@@ -526,7 +877,7 @@ namespace ManagerOfDungeon
             SetText("UnitCard/Title", $"{selected.UnitName} - {species}");
             SetText("UnitCard/HpTrack/HpValue", $"{selected.DisplayHealth} / {selected.DisplayMaxHealth}");
 
-            var fill = transform.Find($"{CanvasName}/UnitCard/HpTrack/Fill");
+            var fill = FindUi("UnitCard/HpTrack/Fill");
             if (fill != null)
             {
                 var image = fill.GetComponent<Image>();
@@ -542,7 +893,7 @@ namespace ManagerOfDungeon
             SetButtonInteractable("UnitCard/EquipSlot", canEquip);
             SetText("UnitCard/EquipToggle/Label", selected.HasOldWoodBow() ? "고목활 착용 중" : "장비 착용 전환");
 
-            var slot = transform.Find($"{CanvasName}/UnitCard/EquipSlot");
+            var slot = FindUi("UnitCard/EquipSlot");
             if (slot != null)
             {
                 var image = slot.GetComponent<Image>();
@@ -556,7 +907,7 @@ namespace ManagerOfDungeon
 
         void SetText(string path, string value)
         {
-            var node = transform.Find($"{CanvasName}/{path}");
+            var node = FindUi(path);
             if (node == null)
                 return;
 
@@ -569,7 +920,7 @@ namespace ManagerOfDungeon
 
         void SetButtonInteractable(string path, bool interactable)
         {
-            var node = transform.Find($"{CanvasName}/{path}");
+            var node = FindUi(path);
             if (node == null)
                 return;
 
@@ -659,8 +1010,9 @@ namespace ManagerOfDungeon
             var go = CreatePanel(parent, objectName, ChipColor, anchor, anchor, new Vector2(0.5f, 0.5f));
             var rect = go.GetComponent<RectTransform>();
             rect.anchoredPosition = anchoredPosition;
-            rect.sizeDelta = new Vector2(78f, 32f);
-            CreateCenteredText(go.transform, label, 18, TextDark);
+            rect.sizeDelta = new Vector2(78f, 48f);
+            if (!string.IsNullOrEmpty(label))
+                CreateCenteredText(go.transform, label, 18, TextDark);
             if (objectName == "Report")
                 go.AddComponent<Button>();
         }

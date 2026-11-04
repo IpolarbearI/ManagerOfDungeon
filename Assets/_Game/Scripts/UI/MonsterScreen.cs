@@ -10,7 +10,7 @@ namespace ManagerOfDungeon
     public sealed class MonsterScreen : MonoBehaviour
     {
         const string CanvasName = "MonsterCanvas";
-        const int UiVersion = 3;
+        const int UiVersion = 5;
 
         static readonly Color FieldColor = new Color(0.78f, 0.78f, 0.78f, 1f);
         static readonly Color PanelColor = new Color(0.95f, 0.95f, 0.95f, 1f);
@@ -73,6 +73,7 @@ namespace ManagerOfDungeon
             var existing = transform.Find(CanvasName);
             if (existing != null)
             {
+                existing.name = CanvasName + "_Old";
                 if (Application.isPlaying)
                     Destroy(existing.gameObject);
                 else
@@ -89,7 +90,7 @@ namespace ManagerOfDungeon
 
         void BuildUi()
         {
-            var goblin = new Goblin("고블린 A");
+            var goblin = new Goblin(DemoSession.Current.WorryMonsterName);
 
             var canvasGo = new GameObject(CanvasName);
             canvasGo.transform.SetParent(transform, false);
@@ -111,11 +112,8 @@ namespace ManagerOfDungeon
             CreatePortrait(canvasGo.transform);
             CreateCornerButton(canvasGo.transform, "Box", new Vector2(-70f, 150f));
             CreateCornerButton(canvasGo.transform, "Gift", new Vector2(-70f, 70f));
-            CreateActionButton(canvasGo.transform, "UnlockFocus", "점사 해금", new Vector2(-160f, 240f));
-            var unlock = canvasGo.transform.Find("UnlockFocus");
-            if (unlock != null)
-                unlock.gameObject.SetActive(false);
             CreateDialoguePanel(canvasGo.transform);
+            CreateUnlockButton(canvasGo.transform);
         }
 
         void CreateDesk(Transform parent)
@@ -137,9 +135,9 @@ namespace ManagerOfDungeon
             rect.anchorMax = new Vector2(0f, 1f);
             rect.pivot = new Vector2(0f, 1f);
             rect.anchoredPosition = new Vector2(120f, -24f);
-            rect.sizeDelta = new Vector2(200f, 56f);
+            rect.sizeDelta = new Vector2(320f, 56f);
             AddOutline(go);
-            CreateLabel(go.transform, "고민 5", 24, TextDark);
+            CreateLabel(go.transform, $"{DemoSession.Current.WorryMonsterName}의 고민", 22, TextDark);
             go.SetActive(false);
         }
 
@@ -268,7 +266,20 @@ namespace ManagerOfDungeon
             CreateBarText(go.transform, "Speaker", "고블린", 22, new Vector2(24f, -24f));
             CreateBarText(go.transform, "Body", "", 22, new Vector2(24f, -70f));
             CreateActionButton(go.transform, "NextLine", "다음", new Vector2(-24f, 28f));
-            go.SetActive(false);
+        }
+
+        void CreateUnlockButton(Transform parent)
+        {
+            var go = CreateImage(parent, "UnlockFocus", Color.white, _squareSprite);
+            var rect = go.GetComponent<RectTransform>();
+            rect.anchorMin = new Vector2(0.5f, 0f);
+            rect.anchorMax = new Vector2(0.5f, 0f);
+            rect.pivot = new Vector2(0.5f, 0f);
+            rect.anchoredPosition = new Vector2(0f, 48f);
+            rect.sizeDelta = new Vector2(280f, 64f);
+            AddOutline(go);
+            CreateLabel(go.transform, "점사 해금", 26, TextDark);
+            go.AddComponent<Button>();
         }
 
         void CreateActionButton(Transform parent, string objectName, string label, Vector2 anchoredPosition)
@@ -336,7 +347,7 @@ namespace ManagerOfDungeon
 
         void BindButton(string path, UnityEngine.Events.UnityAction action)
         {
-            var node = transform.Find($"{CanvasName}/{path}");
+            var node = FindUi(path);
             if (node == null)
                 return;
 
@@ -389,10 +400,12 @@ namespace ManagerOfDungeon
         void RefreshSessionUi()
         {
             var session = DemoSession.Current;
+            SetText("StatPanel/Header", session.WorryMonsterName);
+            SetText("WorryFive", $"{session.WorryMonsterName}의 고민");
             SetText("StatPanel/Bond/BondValue", $"Lv.{session.BondLevel} EXP {session.BondExp}");
             SetText("StatPanel/전략/StrategyValue", session.FocusFire ? "점사" : "기본 전투");
 
-            var fill = transform.Find($"{CanvasName}/StatPanel/Bond/Track/Fill");
+            var fill = FindUi("StatPanel/Bond/Track/Fill");
             if (fill != null)
             {
                 var rect = fill.GetComponent<RectTransform>();
@@ -400,14 +413,14 @@ namespace ManagerOfDungeon
                 rect.anchorMax = new Vector2(t, 1f);
             }
 
-            var worryFive = transform.Find($"{CanvasName}/WorryFive");
+            var worryFive = FindUi("WorryFive");
             if (worryFive != null)
                 worryFive.gameObject.SetActive(session.Phase == DemoPhase.Worry || _dialogueOpen);
 
-            var unlock = transform.Find($"{CanvasName}/UnlockFocus");
+            var unlock = FindUi("UnlockFocus");
             if (unlock != null)
             {
-                bool show = session.WorryComplete && !session.FocusFire;
+                bool show = session.WorryComplete && !session.FocusFire && !_dialogueOpen;
                 unlock.gameObject.SetActive(show);
                 SetText("UnlockFocus/Label", "점사 해금");
                 var unlockButton = unlock.GetComponent<Button>();
@@ -415,7 +428,7 @@ namespace ManagerOfDungeon
                     unlockButton.interactable = true;
             }
 
-            var panel = transform.Find($"{CanvasName}/Dialogue");
+            var panel = FindUi("Dialogue");
             if (panel != null)
             {
                 panel.gameObject.SetActive(_dialogueOpen);
@@ -430,9 +443,39 @@ namespace ManagerOfDungeon
             }
         }
 
+        Transform FindUi(string path)
+        {
+            var canvas = FindNamedChild(transform, CanvasName);
+            if (canvas == null || string.IsNullOrEmpty(path))
+                return canvas;
+
+            var current = canvas;
+            var parts = path.Split('/');
+            for (int i = 0; i < parts.Length; i++)
+            {
+                current = FindNamedChild(current, parts[i]);
+                if (current == null)
+                    return null;
+            }
+
+            return current;
+        }
+
+        static Transform FindNamedChild(Transform parent, string name)
+        {
+            for (int i = 0; i < parent.childCount; i++)
+            {
+                var child = parent.GetChild(i);
+                if (child.name == name)
+                    return child;
+            }
+
+            return null;
+        }
+
         void SetText(string path, string value)
         {
-            var node = transform.Find($"{CanvasName}/{path}");
+            var node = FindUi(path);
             if (node == null)
                 return;
 

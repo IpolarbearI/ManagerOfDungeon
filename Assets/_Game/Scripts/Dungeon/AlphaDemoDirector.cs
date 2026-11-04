@@ -178,7 +178,7 @@ namespace ManagerOfDungeon
 
             if (_session.Phase != DemoPhase.Worry && !_session.WorryComplete)
             {
-                _status = "아직 고민이 없습니다. 1차 전투 후에 고민 5가 생깁니다.";
+                _status = "아직 고민이 없습니다. 1차 전투 후에 고블린에게 고민이 생깁니다.";
                 _hud?.RefreshDemoUi();
                 return;
             }
@@ -219,7 +219,7 @@ namespace ManagerOfDungeon
                 case DemoPhase.Battle1:
                     return "자동전투를 관찰하세요. 용사를 직접 조작하지 않습니다.";
                 case DemoPhase.Worry:
-                    return "왼쪽 위 고민을 눌러 고민 5를 해결하세요.";
+                    return $"왼쪽 위 고민을 눌러 {_session.WorryMonsterName}의 고민을 해결하세요.";
                 case DemoPhase.Strategy:
                     return _session.FocusFire
                         ? "전투 시작으로 2차 전투를 보세요."
@@ -282,8 +282,9 @@ namespace ManagerOfDungeon
             {
                 _session.Battle1Finished = true;
                 _combat.RestoreUnits();
+                _session.AssignWorryTarget(_session.BowActorId);
                 _session.Phase = DemoPhase.Worry;
-                _status = "왼쪽 위 고민에 고민 5가 생겼습니다.";
+                _status = $"{_session.WorryMonsterName}에게 고민이 생겼습니다.";
             }
             else if (_session.Phase == DemoPhase.Battle2 && !_session.Battle2Finished)
             {
@@ -318,12 +319,12 @@ namespace ManagerOfDungeon
                 _session.Phase = DemoPhase.Strategy;
         }
 
-        static string StatusForPhase(DemoPhase phase)
+        string StatusForPhase(DemoPhase phase)
         {
             switch (phase)
             {
                 case DemoPhase.Worry:
-                    return "왼쪽 위 고민에 고민 5가 있습니다.";
+                    return $"{_session.WorryMonsterName}에게 고민이 있습니다.";
                 case DemoPhase.Strategy:
                     return "점사 해금 완료. 전투 시작으로 2차 전투를 보세요.";
                 case DemoPhase.Complete:

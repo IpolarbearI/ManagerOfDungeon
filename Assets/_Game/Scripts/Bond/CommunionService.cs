@@ -7,35 +7,50 @@ namespace ManagerOfDungeon
         readonly ILlmClient _llm;
         readonly IMonsterMemoryStore _memory;
         readonly CommunionPromptBuilder _prompts;
-        readonly WorryChanceTracker _worryChance = new WorryChanceTracker();
-        readonly Dictionary<string, int> _talksToday = new Dictionary<string, int>();
-        readonly Dictionary<string, int> _giftTalkBonus = new Dictionary<string, int>();
+        readonly ICommunionLedger _ledger;
+        readonly WorryChanceTracker _worryChance;
 
         CommunionRequest _pending;
         CommunionResult _pendingResult;
         int _pendingDay;
 
         public CommunionService()
-            : this(new FakeLlmClient(), new InMemoryMonsterMemoryStore(), new CommunionPromptBuilder())
+            : this(new FakeLlmClient(), new InMemoryMonsterMemoryStore(), new CommunionPromptBuilder(), new InMemoryCommunionLedger())
         {
         }
 
         public CommunionService(ILlmClient llm, IMonsterMemoryStore memory, CommunionPromptBuilder prompts)
+            : this(llm, memory, prompts, new InMemoryCommunionLedger())
+        {
+        }
+
+        public CommunionService(ILlmClient llm, IMonsterMemoryStore memory, CommunionPromptBuilder prompts, ICommunionLedger ledger)
         {
             _llm = llm ?? new FakeLlmClient();
             _memory = memory ?? new InMemoryMonsterMemoryStore();
             _prompts = prompts ?? new CommunionPromptBuilder();
+            _ledger = ledger ?? new InMemoryCommunionLedger();
+            _worryChance = new WorryChanceTracker(_ledger);
+        }
+
+        /// <summary>본 게임용: 기록·기억을 모두 GameState에 남긴다.</summary>
+        public static CommunionService ForGame(GameState state, ILlmClient llm = null)
+        {
+            var store = new GameStateCommunion(state);
+            return new CommunionService(llm ?? new FakeLlmClient(), store, new CommunionPromptBuilder(), store);
         }
 
         public IMonsterMemoryStore Memory => _memory;
+        public bool HasPending => _pending != null;
+        public CommunionRequest Pending => _pending;
 
         public bool CanTalk(string actorId, int dayIndex)
         {
             if (string.IsNullOrEmpty(actorId))
                 return false;
 
-            int used = TalksUsed(actorId, dayIndex);
-            int bonus = BonusTalks(actorId);
+            int used = _ledger.GetTalksUsed(actorId, dayIndex);
+            int bonus = _ledger.GetGiftBonus(actorId);
             return used < BondRules.TalksPerDay + bonus;
         }
 
@@ -74,11 +89,11 @@ namespace ManagerOfDungeon
                 return CommunionResult.Fail("선물 대상이 없습니다.");
 
             string actorId = request.Profile.ActorId;
-            int bonus = BonusTalks(actorId);
+            int bonus = _ledger.GetGiftBonus(actorId);
             if (bonus >= BondRules.GiftBonusTalksMax)
                 return CommunionResult.Fail("추가 대화 기회는 최대 1회입니다.");
 
-            _giftTalkBonus[actorId] = bonus + 1;
+            _ledger.SetGiftBonus(actorId, bonus + 1);
             var giftRequest = new CommunionRequest(
                 request.Profile,
                 request.Bond,
@@ -103,11 +118,11 @@ namespace ManagerOfDungeon
 
             if (_pending.Kind == CommunionKind.Talk)
             {
-                string key = DayKey(actorId, _pendingDay);
-                _talksToday[key] = TalksUsed(actorId, _pendingDay) + 1;
-                int bonus = BonusTalks(actorId);
-                if (TalksUsed(actorId, _pendingDay) > BondRules.TalksPerDay && bonus > 0)
-                    _giftTalkBonus[actorId] = bonus - 1;
+                int used = _ledger.GetTalksUsed(actorId, _pendingDay) + 1;
+                _ledger.SetTalksUsed(actorId, _pendingDay, used);
+                int bonus = _ledger.GetGiftBonus(actorId);
+                if (used > BondRules.TalksPerDay && bonus > 0)
+                    _ledger.SetGiftBonus(actorId, bonus - 1);
             }
             else if (_pending.Kind == CommunionKind.Worry)
             {
@@ -138,6 +153,7 @@ namespace ManagerOfDungeon
         {
             var memories = _memory.GetRecent(request.Profile.ActorId);
             var prompt = _prompts.Build(request, memories, title);
+            // TODO(LLM): 실제 LLM을 붙이면 메인 스레드가 멈춘다. 코루틴/async로 바꾸고 실패 시 아래 대체 대사를 쓴다.
             string json = _llm.Complete(prompt).GetAwaiter().GetResult();
             var parsed = LlmDialogueParser.Parse(json, request.Profile.Name);
             bool fallback = !parsed.Ok;
@@ -155,26 +171,6 @@ namespace ManagerOfDungeon
             _pendingResult = result;
             _pendingDay = request.DayIndex;
             return result;
-        }
-
-        int TalksUsed(string actorId, int dayIndex)
-        {
-            string key = DayKey(actorId, dayIndex);
-            if (_talksToday.TryGetValue(key, out int used))
-                return used;
-            return 0;
-        }
-
-        int BonusTalks(string actorId)
-        {
-            if (_giftTalkBonus.TryGetValue(actorId, out int bonus))
-                return bonus;
-            return 0;
-        }
-
-        static string DayKey(string actorId, int dayIndex)
-        {
-            return actorId + "#" + dayIndex;
         }
     }
 }

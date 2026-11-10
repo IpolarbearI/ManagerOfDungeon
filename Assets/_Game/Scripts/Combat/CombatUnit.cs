@@ -20,6 +20,12 @@ namespace ManagerOfDungeon
         public CombatUnit CurrentTarget { get; private set; }
         public Vector3 HomePosition { get; private set; }
 
+        /// <summary>몬스터별 점사 전략(본 게임). 시연은 CombatDirector.UseFocusFire 전역값을 쓴다.</summary>
+        public bool FocusFireEnabled { get; set; }
+        /// <summary>용사 AI 단계 (04-11 + 11-10). 0 = 기본공격만, 1 = 가까운 적, 2 = 처치 가능 → 낮은 HP → 가까운 적.</summary>
+        public int HeroAiLevel { get; private set; }
+        public string HeroJobId { get; private set; } = string.Empty;
+
         Character _character;
         Monster _monster;
         SpriteRenderer _body;
@@ -57,6 +63,38 @@ namespace ManagerOfDungeon
                 home);
         }
 
+        /// <summary>본 게임 용사: 데이터(HeroState)에서 바로 능력치를 받는다.</summary>
+        public void SetupHero(string actorId, HeroState hero, Vector3 home)
+        {
+            var def = GameDefs.GetHero(hero.jobId);
+            _character = null;
+            _monster = null;
+            ActorId = actorId;
+            HeroJobId = hero.jobId;
+            HeroAiLevel = hero.aiLevel < 0 ? 0 : hero.aiLevel;
+            bool ranged = def != null && def.IsRanged;
+            Setup(
+                (def != null ? def.DisplayName : "용사") + (HeroAiLevel >= 2 ? " ★" : string.Empty),
+                hero.MaxHealth(),
+                hero.AttackPower(),
+                hero.AttackSpeed(),
+                def != null ? def.MoveSpeed : 5f,
+                ranged ? CombatRanges.Ranged : CombatRanges.Melee,
+                ranged,
+                CombatTeam.Attacker,
+                ranged ? new Color(0.35f, 0.85f, 0.45f) : new Color(0.35f, 0.55f, 1f),
+                hero.jobId == GameDefs.Warrior,
+                false,
+                hero.jobId == GameDefs.Archer,
+                home);
+        }
+
+        public void SetHomePosition(Vector3 home)
+        {
+            HomePosition = home;
+            transform.position = home;
+        }
+
         public void SetupFromMonster(string actorId, Monster monster, CombatTeam team, Color color, Vector3 home)
         {
             _monster = monster;
@@ -83,7 +121,7 @@ namespace ManagerOfDungeon
             if (!IsAlive || combat == null)
                 return;
 
-            if (applyFocus && combat.UseFocusFire && !IsRanged && Team == CombatTeam.Defender)
+            if (applyFocus && (combat.UseFocusFire || FocusFireEnabled) && !IsRanged && Team == CombatTeam.Defender)
             {
                 var focus = combat.FindRangedAllyTarget(this);
                 CurrentTarget = focus != null ? focus : combat.FindNearestEnemy(this);
@@ -333,15 +371,31 @@ namespace ManagerOfDungeon
                 if (outOfRange && _heroRetarget <= 0f)
                 {
                     _heroRetarget = CombatRanges.HeroRetargetInterval;
-                    return combat.FindNearestEnemy(this);
+                    return HeroPick(combat);
                 }
 
                 if (CurrentTarget != null && CurrentTarget.IsAlive)
+                {
+                    // Lv.2: 사거리 안에서도 즉시 처치 가능한 적이 생기면 갈아탄다.
+                    if (HeroAiLevel >= 2)
+                    {
+                        var killable = combat.FindKillableEnemy(this);
+                        if (killable != null)
+                            return killable;
+                    }
+
                     return CurrentTarget;
-                return combat.FindNearestEnemy(this);
+                }
+
+                return HeroPick(combat);
             }
 
             return combat.FindNearestEnemy(this);
+        }
+
+        CombatUnit HeroPick(CombatDirector combat)
+        {
+            return HeroAiLevel >= 2 ? combat.FindHeroLv2Target(this) : combat.FindNearestEnemy(this);
         }
 
         void EnsureSelectRing()
@@ -394,10 +448,76 @@ namespace ManagerOfDungeon
             _aimLine.SetPosition(1, CurrentTarget.transform.position);
         }
 
+        // ───────────── 머리 위 표시: 고민 아이콘 · '♥ Lv.N ↑' ─────────────
+
+        TextMesh _worryIcon;
+        TextMesh _floatText;
+        float _floatStart;
+        const float FloatDuration = 2.2f;
+
+        public void SetWorryIcon(bool show)
+        {
+            if (show && _worryIcon == null)
+                _worryIcon = CreateHeadText("WorryIcon", "?", new Color(1f, 0.82f, 0.25f, 1f), 0.11f);
+            if (_worryIcon != null)
+                _worryIcon.gameObject.SetActive(show);
+        }
+
+        public void ShowFloatingText(string text, Color color)
+        {
+            if (_floatText == null)
+                _floatText = CreateHeadText("FloatText", text, color, 0.07f);
+            _floatText.text = text;
+            _floatText.color = color;
+            _floatText.gameObject.SetActive(true);
+            _floatStart = Time.unscaledTime;
+        }
+
+        TextMesh CreateHeadText(string objectName, string content, Color color, float scale)
+        {
+            EnsureHealthBar();
+            var go = new GameObject(objectName);
+            go.transform.SetParent(_hpRoot, false);
+            go.transform.localPosition = new Vector3(0f, 0.55f, 0f);
+            go.transform.localScale = new Vector3(scale, scale, 1f);
+            var mesh = go.AddComponent<TextMesh>();
+            mesh.anchor = TextAnchor.LowerCenter;
+            mesh.alignment = TextAlignment.Center;
+            mesh.fontSize = 48;
+            mesh.characterSize = 0.45f;
+            mesh.fontStyle = FontStyle.Bold;
+            mesh.text = content;
+            mesh.color = color;
+            var renderer = go.GetComponent<MeshRenderer>();
+            if (renderer != null)
+                renderer.sortingOrder = 40;
+            return mesh;
+        }
+
+        void AnimateHeadTexts()
+        {
+            if (_floatText == null || !_floatText.gameObject.activeSelf)
+                return;
+
+            float t = (Time.unscaledTime - _floatStart) / FloatDuration;
+            if (t >= 1f)
+            {
+                _floatText.gameObject.SetActive(false);
+                return;
+            }
+
+            _floatText.transform.localPosition = new Vector3(0f, 0.55f + t * 0.5f, 0f);
+            var c = _floatText.color;
+            c.a = t < 0.7f ? 1f : 1f - (t - 0.7f) / 0.3f;
+            _floatText.color = c;
+        }
+
         void LateUpdate()
         {
             if (_hpRoot == null)
                 return;
+
+            AnimateHeadTexts();
 
             float top = 1.7f;
             var sprite = VisualSprite();

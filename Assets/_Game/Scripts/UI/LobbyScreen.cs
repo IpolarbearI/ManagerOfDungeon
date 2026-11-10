@@ -245,9 +245,10 @@ namespace ManagerOfDungeon
 
         void BindButtons()
         {
-            Bind("튜토리얼", StartNewGame);
+            // TODO: 기획서의 별도 튜토리얼 씬(고블린1 vs 전사1)이 생기기 전까지 A1 쇼케이스를 연결
+            Bind("튜토리얼", StartShowcase);
             Bind("새 게임", StartNewGame);
-            Bind("이어하기", LoadDungeon);
+            Bind("이어하기", ContinueGame);
             Bind("환경설정", LoadSetting);
             Bind("종료", Quit);
         }
@@ -412,9 +413,26 @@ namespace ManagerOfDungeon
             ConfigureText(text, content, fontSize, alignment);
         }
 
+        static void StartShowcase()
+        {
+            GameSession.StartShowcase();
+            LoadDungeon();
+        }
+
         static void StartNewGame()
         {
-            DemoSession.ResetCurrent();
+            GameSession.StartNewGame(System.Environment.TickCount);
+            LoadDungeon();
+        }
+
+        static void ContinueGame()
+        {
+            if (!GameSession.Continue())
+            {
+                Debug.Log("[Lobby] 저장 파일이 없습니다. 새 게임을 시작하세요.");
+                return;
+            }
+
             LoadDungeon();
         }
 

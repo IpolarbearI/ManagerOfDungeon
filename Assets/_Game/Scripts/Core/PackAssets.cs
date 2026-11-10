@@ -20,12 +20,17 @@ namespace ManagerOfDungeon
             "Assets/_Game/ExternalAssets/Fantasy_Mega_Pack/UI/Icons/icons_ranged_1.png";
         public const string HeldBow =
             "Assets/_Game/ExternalAssets/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Bow.png";
+        public const string ScrapSwordIcon =
+            "Assets/_Game/ExternalAssets/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Iron Sword.png";
         public const string GoblinIdle =
             "Assets/_Game/ExternalAssets/Fantasy_Mega_Pack/Sprites/Characters/goblin/idle/down_0.png";
         public const string ArcherIdle =
             "Assets/_Game/ExternalAssets/Fantasy_Mega_Pack/Sprites/Characters/villager/idle/down_0.png";
         public const string UiFrame61 =
             "Assets/_Game/InternalAssets/Frame 61.png";
+        /// <summary>상단 바 아트에서 Day·시간·솔·자산 숫자를 지운 버전(숫자는 코드가 실시간으로 그림).</summary>
+        public const string UiFrame61Hud =
+            "Assets/_Game/InternalAssets/Frame 61_hud.png";
         public const string UiFrame64 =
             "Assets/_Game/InternalAssets/Frame 64.png";
         public const string UiFrame7 =
@@ -72,6 +77,8 @@ namespace ManagerOfDungeon
             "Assets/_Game/Audio/Music/dungeon.mp3";
         public const string AudioBattle =
             "Assets/_Game/Audio/Music/battle.mp3";
+        public const string WarriorPrefab =
+            "Assets/_Game/ExternalAssets/Hero Knight - Pixel Art/Demo/HeroKnight.prefab";
         public const string KoreanFontPath =
             "Assets/_Game/Fonts/MalgunGothic.ttf";
 
@@ -128,10 +135,11 @@ namespace ManagerOfDungeon
         public static GameObject LoadPrefab(string path)
         {
 #if UNITY_EDITOR
-            return AssetDatabase.LoadAssetAtPath<GameObject>(path);
-#else
-            return null;
+            var prefab = AssetDatabase.LoadAssetAtPath<GameObject>(path);
+            if (prefab != null)
+                return prefab;
 #endif
+            return ArtCatalog.Main<GameObject>(path);
         }
 
         public static Sprite LoadSprite(string path)
@@ -149,11 +157,13 @@ namespace ManagerOfDungeon
                     return sprite;
             }
 #endif
-            return null;
+            return ArtCatalog.FirstSprite(path);
         }
 
         public static Sprite UiTopBar()
         {
+            if (_frame61 == null)
+                _frame61 = LoadFullSprite(UiFrame61Hud);
             if (_frame61 == null)
                 _frame61 = LoadFullSprite(UiFrame61);
             return _frame61;
@@ -224,8 +234,7 @@ namespace ManagerOfDungeon
                 return;
 
             _frame7Buttons = new Sprite[7];
-#if UNITY_EDITOR
-            var tex = AssetDatabase.LoadAssetAtPath<Texture2D>(UiFrame7);
+            var tex = LoadTexture(UiFrame7);
             if (tex == null)
                 return;
 
@@ -244,7 +253,16 @@ namespace ManagerOfDungeon
                 sprite.hideFlags = HideFlags.DontSave;
                 _frame7Buttons[i] = sprite;
             }
+        }
+
+        public static Texture2D LoadTexture(string path)
+        {
+#if UNITY_EDITOR
+            var tex = AssetDatabase.LoadAssetAtPath<Texture2D>(path);
+            if (tex != null)
+                return tex;
 #endif
+            return ArtCatalog.Texture(path);
         }
 
         public static Sprite LoadNamedSprite(string path, string spriteName)
@@ -257,16 +275,19 @@ namespace ManagerOfDungeon
                 if (sprite != null && sprite.name == spriteName)
                     return sprite;
             }
+#else
+            var named = ArtCatalog.NamedSprite(path, spriteName);
+            if (named != null)
+                return named;
 #endif
             return LoadSprite(path);
         }
 
         public static Sprite LoadFullSprite(string path)
         {
-#if UNITY_EDITOR
-            var tex = AssetDatabase.LoadAssetAtPath<Texture2D>(path);
+            var tex = LoadTexture(path);
             if (tex == null)
-                return null;
+                return LoadSprite(path);
 
             var sprite = Sprite.Create(
                 tex,
@@ -276,9 +297,6 @@ namespace ManagerOfDungeon
             sprite.name = System.IO.Path.GetFileNameWithoutExtension(path) + "_Full";
             sprite.hideFlags = HideFlags.DontSave;
             return sprite;
-#else
-            return LoadSprite(path);
-#endif
         }
 
         public static Font KoreanFont()
@@ -288,6 +306,8 @@ namespace ManagerOfDungeon
 #if UNITY_EDITOR
             _koreanFont = AssetDatabase.LoadAssetAtPath<Font>(KoreanFontPath);
 #endif
+            if (_koreanFont == null)
+                _koreanFont = ArtCatalog.Main<Font>(KoreanFontPath);
             if (_koreanFont == null)
             {
                 _koreanFont = Font.CreateDynamicFontFromOSFont(
@@ -304,10 +324,11 @@ namespace ManagerOfDungeon
         public static AudioClip LoadAudio(string path)
         {
 #if UNITY_EDITOR
-            return AssetDatabase.LoadAssetAtPath<AudioClip>(path);
-#else
-            return null;
+            var clip = AssetDatabase.LoadAssetAtPath<AudioClip>(path);
+            if (clip != null)
+                return clip;
 #endif
+            return ArtCatalog.Main<AudioClip>(path);
         }
     }
 }

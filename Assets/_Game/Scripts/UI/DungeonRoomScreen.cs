@@ -32,7 +32,13 @@ namespace ManagerOfDungeon
         bool _trapPaletteOpen;
         bool _storageOpen;
         bool _logOpen;
-        AlphaDemoDirector _director;
+        IDungeonScreenHost _host;
+        Text _hudDay;
+        Text _hudClock;
+        Text _hudRoom;
+        Text _hudSol;
+        Text _hudAsset;
+        Image[] _hudCoinShade;
 
         void OnEnable()
         {
@@ -358,10 +364,26 @@ namespace ManagerOfDungeon
 
         void BindDemo()
         {
-            _director = GetComponent<AlphaDemoDirector>();
+            // 본 게임이면 GameDirector, 아니면 A1 쇼케이스(AlphaDemoDirector)가 이 화면을 움직인다.
+            _host = null;
+            var game = GetComponent<GameDirector>();
+            if (game != null)
+            {
+                _host = game;
+            }
+            else
+            {
+                var demo = GetComponent<AlphaDemoDirector>();
+                if (demo != null)
+                    _host = demo;
+            }
+
             var combat = GetComponent<CombatDirector>();
-            if (_director == null || combat == null)
+            if (_host == null || combat == null)
                 return;
+
+            AddButtonIfMissing(FindUi("TopBar/Alert"));
+            AddButtonIfMissing(FindUi("TopBar/Menu"));
 
             BindButton("DesignDock/Design/Icon", ToggleDesignMenu);
             BindButton("DesignDock/DesignMenu/Trap/Icon", OpenTrapPalette);
@@ -370,18 +392,20 @@ namespace ManagerOfDungeon
             BindButton("DesignDock/DesignMenu/Core/Icon", LockedTool);
             BindButton("DesignDock/DesignMenu/Log/Icon", OpenLog);
             BindButton("DesignDock/DesignMenu/Back/Icon", CloseDesignStep);
-            BindButton("DesignDock/TrapPalette/Spike/Icon", () => _director.BeginSpikePlacement());
+            BindButton("DesignDock/TrapPalette/Spike/Icon", () => _host.BeginSpikePlacement());
             BindButton("StoragePanel/Dim", CloseStorage);
             BindButton("StoragePanel/Window/Close", CloseStorage);
-            BindButton("StoragePanel/Window/Manage", () => _director.SetStatus("장비 관리는 준비 중입니다."));
+            BindButton("StoragePanel/Window/Manage", () => _host.SetStatus("장비 관리는 준비 중입니다."));
             BindButton("LogPanel/Dim", CloseLog);
             BindButton("LogPanel/Window/Close", CloseLog);
-            BindButton("DemoBar/StartBattle", () => _director.TryStartBattle());
-            BindButton("TopBar/Report", () => _director.OpenWorry());
-            BindButton("UnitCard/EquipToggle", () => _director.TryEquipBow());
-            BindButton("UnitCard/EquipSlot", () => _director.TryEquipBow());
-            BindButton("UnitCard/CardClose", () => _director.Select(null));
-            BindButton("UnitCard/CardBond", () => _director.OpenWorry());
+            BindButton("DemoBar/StartBattle", () => _host.TryStartBattle());
+            BindButton("TopBar/Report", () => _host.OnReportButton());
+            BindButton("TopBar/Alert", () => _host.OnAlertButton());
+            BindButton("TopBar/Menu", () => _host.OnMenuButton());
+            BindButton("UnitCard/EquipToggle", () => _host.OnCardPrimary());
+            BindButton("UnitCard/EquipSlot", () => _host.OnCardSlot());
+            BindButton("UnitCard/CardClose", () => _host.ClearSelection());
+            BindButton("UnitCard/CardBond", () => _host.OnCardBond());
             ApplyPackIcons();
             ApplyUiFrames();
             RefreshWorryBlink();
@@ -389,7 +413,7 @@ namespace ManagerOfDungeon
             if (!_demoBound)
             {
                 _demoBound = true;
-                _director.Bind(this, combat);
+                _host.Bind(this, combat);
             }
             else
             {
@@ -407,6 +431,8 @@ namespace ManagerOfDungeon
         {
             ApplyBarFrame("TopBar", PackAssets.UiTopBar(), false);
             SkinTopBarChips();
+            PlaceTopHudHit("TopBar/Menu", 2100f, 26f, 70f, 71f);
+            EnsureTopHud();
             PlaceTopHudHit("TopBar/Alert", 215f, 26f, 74f, 71f);
             PlaceTopHudHit("TopBar/Report", 305f, 26f, 74f, 71f);
             EnsureWorryBlink();
@@ -642,6 +668,7 @@ namespace ManagerOfDungeon
                 return;
 
             RefreshWorryBlink();
+            RefreshTopHud();
         }
 
         void RefreshWorryBlink()
@@ -652,10 +679,7 @@ namespace ManagerOfDungeon
 
             var blink = report.Find("Blink");
             var image = blink != null ? blink.GetComponent<Image>() : null;
-            bool active = _director != null
-                && _director.Session != null
-                && _director.Session.Phase == DemoPhase.Worry
-                && !_director.Session.WorryComplete;
+            bool active = _host != null && _host.WorryPending;
 
             if (image == null)
                 return;
@@ -686,16 +710,17 @@ namespace ManagerOfDungeon
 
         public void RefreshDemoUi()
         {
-            if (_director == null)
+            if (_host == null)
                 return;
 
-            SetText("DemoBar/Hint", _director.Hint());
-            SetText("DemoBar/Status", _director.Status);
+            SetText("DemoBar/Hint", _host.Hint());
+            SetText("DemoBar/Status", _host.Status);
+            RefreshTopHud();
             RefreshUnitCard();
             RefreshDesignDock();
 
-            var session = _director.Session;
-            SetButtonInteractable("DemoBar/StartBattle", session.Phase == DemoPhase.PlaceTrap || session.Phase == DemoPhase.Strategy);
+            SetActive("DemoBar/StartBattle", _host.StartBattleVisible);
+            SetButtonInteractable("DemoBar/StartBattle", _host.StartBattleInteractable);
         }
 
         public void HideDesignMenus()
@@ -709,20 +734,20 @@ namespace ManagerOfDungeon
 
         void ToggleDesignMenu()
         {
-            if (_director != null && _director.Combat != null && _director.Combat.InBattle)
+            if (_host != null && _host.InBattle)
                 return;
 
             _designMenuOpen = !_designMenuOpen;
             if (!_designMenuOpen)
             {
                 _trapPaletteOpen = false;
-                _director?.CancelSpikePlacement();
+                _host?.CancelSpikePlacement();
             }
             else
             {
                 _storageOpen = false;
                 _logOpen = false;
-                _director?.Select(null);
+                _host?.ClearSelection();
             }
 
             RefreshDesignDock();
@@ -730,11 +755,9 @@ namespace ManagerOfDungeon
 
         void OpenTrapPalette()
         {
-            if (_director != null && _director.Session != null
-                && (int)_director.Session.Phase < (int)DemoPhase.PlaceTrap
-                && _director.Session.Phase != DemoPhase.EquipBow)
+            if (_host != null && !_host.CanOpenTrapPalette(out var reason))
             {
-                _director.SetStatus("먼저 고목 활을 장착하세요.");
+                _host.SetStatus(reason);
                 return;
             }
 
@@ -744,15 +767,15 @@ namespace ManagerOfDungeon
 
         void OpenStorage()
         {
-            if (_director != null && _director.Combat != null && _director.Combat.InBattle)
+            if (_host != null && _host.InBattle)
                 return;
 
             _storageOpen = true;
             _logOpen = false;
             _designMenuOpen = false;
             _trapPaletteOpen = false;
-            _director?.CancelSpikePlacement();
-            _director?.Select(null);
+            _host?.CancelSpikePlacement();
+            _host?.ClearSelection();
             RefreshDesignDock();
         }
 
@@ -764,15 +787,15 @@ namespace ManagerOfDungeon
 
         void OpenLog()
         {
-            if (_director != null && _director.Combat != null && _director.Combat.InBattle)
+            if (_host != null && _host.InBattle)
                 return;
 
             _logOpen = true;
             _storageOpen = false;
             _designMenuOpen = false;
             _trapPaletteOpen = false;
-            _director?.CancelSpikePlacement();
-            _director?.Select(null);
+            _host?.CancelSpikePlacement();
+            _host?.ClearSelection();
             RefreshDesignDock();
         }
 
@@ -787,24 +810,24 @@ namespace ManagerOfDungeon
             if (_trapPaletteOpen)
             {
                 _trapPaletteOpen = false;
-                _director?.CancelSpikePlacement();
+                _host?.CancelSpikePlacement();
                 RefreshDesignDock();
                 return;
             }
 
             _designMenuOpen = false;
-            _director?.CancelSpikePlacement();
+            _host?.CancelSpikePlacement();
             RefreshDesignDock();
         }
 
         void LockedTool()
         {
-            _director?.SetStatus("아직 사용할 수 없습니다.");
+            _host?.SetStatus("아직 사용할 수 없습니다.");
         }
 
         void RefreshDesignDock()
         {
-            bool inBattle = _director != null && _director.Combat != null && _director.Combat.InBattle;
+            bool inBattle = _host != null && _host.InBattle;
             if (inBattle)
             {
                 _designMenuOpen = false;
@@ -863,46 +886,153 @@ namespace ManagerOfDungeon
         void RefreshUnitCard()
         {
             var card = FindUi("UnitCard");
-            if (card == null)
+            if (card == null || _host == null)
                 return;
 
-            var selected = _director.Selected;
-            bool inBattle = _director.Combat != null && _director.Combat.InBattle;
-            bool show = selected != null && !inBattle && !_designMenuOpen && !_storageOpen && !_logOpen;
+            var view = _host.Card;
+            bool show = view != null && !_host.InBattle && !_designMenuOpen && !_storageOpen && !_logOpen;
             card.gameObject.SetActive(show);
             if (!show)
                 return;
 
-            string species = selected.Team == CombatTeam.Defender ? "고블린" : (selected.UnitName.Contains("궁") ? "궁수" : "전사");
-            SetText("UnitCard/Title", $"{selected.UnitName} - {species}");
-            SetText("UnitCard/HpTrack/HpValue", $"{selected.DisplayHealth} / {selected.DisplayMaxHealth}");
-
-            var fill = FindUi("UnitCard/HpTrack/Fill");
-            if (fill != null)
+            SetText("UnitCard/Title", view.Title);
+            SetActive("UnitCard/HpTrack", view.ShowHp);
+            if (view.ShowHp)
             {
-                var image = fill.GetComponent<Image>();
-                if (image != null)
-                    image.fillAmount = selected.DisplayMaxHealth <= 0 ? 0f : selected.Health / selected.MaxHealth;
+                SetText("UnitCard/HpTrack/HpValue", $"{Mathf.FloorToInt(view.Hp)} / {Mathf.FloorToInt(view.MaxHp)}");
+                var fill = FindUi("UnitCard/HpTrack/Fill");
+                if (fill != null)
+                {
+                    var image = fill.GetComponent<Image>();
+                    if (image != null)
+                        image.fillAmount = view.MaxHp <= 0f ? 0f : view.Hp / view.MaxHp;
+                }
             }
 
-            bool canEquip = selected.Team == CombatTeam.Defender
-                && (_director.Session.Phase == DemoPhase.Inspect
-                    || _director.Session.Phase == DemoPhase.EquipBow
-                    || _director.Session.Phase == DemoPhase.PlaceTrap);
-            SetButtonInteractable("UnitCard/EquipToggle", canEquip);
-            SetButtonInteractable("UnitCard/EquipSlot", canEquip);
-            SetText("UnitCard/EquipToggle/Label", selected.HasOldWoodBow() ? "고목활 착용 중" : "장비 착용 전환");
+            SetButtonInteractable("UnitCard/EquipToggle", view.PrimaryInteractable);
+            SetButtonInteractable("UnitCard/EquipSlot", view.SlotInteractable);
+            SetText("UnitCard/EquipToggle/Label", view.PrimaryLabel);
 
             var slot = FindUi("UnitCard/EquipSlot");
             if (slot != null)
             {
                 var image = slot.GetComponent<Image>();
                 if (image != null)
-                    image.color = selected.HasOldWoodBow() ? Color.white : new Color(1f, 1f, 1f, 0.55f);
+                {
+                    if (view.SlotSprite != null)
+                        image.sprite = view.SlotSprite;
+                    image.color = view.SlotFilled ? Color.white : new Color(1f, 1f, 1f, 0.55f);
+                }
             }
 
-            string action = _director.Session.FocusFire ? "점사 공격 중" : "기본 공격 중";
-            SetText("UnitCard/Action", $"행동 : {action}");
+            SetActive("UnitCard/CardBond", view.ShowBond);
+            SetText("UnitCard/Action", view.Action);
+        }
+
+        // ───────────── 상단 바 실시간 값 (Day·시간·방·솔·자산·코인) ─────────────
+
+        void EnsureTopHud()
+        {
+            var bar = FindUi("TopBar");
+            if (bar == null)
+                return;
+
+            var gold = new Color(1f, 0.878f, 0.588f, 1f);
+            _hudDay = EnsureHudText(bar, "HudDay", 84f, 30f, 190f, 54f, TextAnchor.MiddleLeft, gold);
+            _hudClock = EnsureHudText(bar, "HudClock", 84f, 62f, 190f, 92f, TextAnchor.MiddleLeft, gold);
+            _hudRoom = EnsureHudText(bar, "HudRoom", 1030f, 62f, 1160f, 88f, TextAnchor.MiddleCenter, gold);
+            _hudSol = EnsureHudText(bar, "HudSol", 1614f, 42f, 1684f, 78f, TextAnchor.MiddleLeft, gold);
+            _hudAsset = EnsureHudText(bar, "HudAsset", 1722f, 42f, 1800f, 78f, TextAnchor.MiddleLeft, gold);
+
+            // 코인 슬롯 3칸(아트 기준). 잃은 코인·없는 칸은 어둡게 덮는다.
+            float[] coinX = { 1938f, 1984f, 2029f };
+            _hudCoinShade = new Image[coinX.Length];
+            for (int i = 0; i < coinX.Length; i++)
+            {
+                string name = "HudCoinShade" + i;
+                var node = bar.Find(name);
+                GameObject go;
+                if (node != null)
+                {
+                    go = node.gameObject;
+                }
+                else
+                {
+                    go = new GameObject(name);
+                    go.transform.SetParent(bar, false);
+                    go.AddComponent<RectTransform>();
+                    go.AddComponent<Image>();
+                }
+
+                PlaceOnTopBar(go.GetComponent<RectTransform>(), coinX[i], 41f, coinX[i] + 40f, 77f);
+                var image = go.GetComponent<Image>();
+                image.sprite = _circleSprite;
+                image.color = new Color(0.10f, 0.07f, 0.05f, 0.78f);
+                image.raycastTarget = false;
+                _hudCoinShade[i] = image;
+            }
+        }
+
+        Text EnsureHudText(Transform bar, string name, float x0, float yTop0, float x1, float yTop1, TextAnchor anchor, Color color)
+        {
+            var node = bar.Find(name);
+            GameObject go;
+            if (node != null)
+            {
+                go = node.gameObject;
+            }
+            else
+            {
+                go = new GameObject(name);
+                go.transform.SetParent(bar, false);
+                go.AddComponent<RectTransform>();
+                go.AddComponent<Text>();
+            }
+
+            PlaceOnTopBar(go.GetComponent<RectTransform>(), x0, yTop0, x1, yTop1);
+            var text = go.GetComponent<Text>();
+            text.font = _font;
+            text.alignment = anchor;
+            text.color = color;
+            text.raycastTarget = false;
+            text.resizeTextForBestFit = true;
+            text.resizeTextMinSize = 8;
+            text.resizeTextMaxSize = 40;
+            text.horizontalOverflow = HorizontalWrapMode.Overflow;
+            text.verticalOverflow = VerticalWrapMode.Truncate;
+            return text;
+        }
+
+        /// <summary>상단 바 아트(2191×124) 픽셀 좌표(위에서부터 y)를 앵커로 변환.</summary>
+        static void PlaceOnTopBar(RectTransform rect, float x0, float yTop0, float x1, float yTop1)
+        {
+            rect.anchorMin = new Vector2(x0 / Frame61Width, 1f - yTop1 / Frame61Height);
+            rect.anchorMax = new Vector2(x1 / Frame61Width, 1f - yTop0 / Frame61Height);
+            rect.pivot = new Vector2(0.5f, 0.5f);
+            rect.offsetMin = Vector2.zero;
+            rect.offsetMax = Vector2.zero;
+        }
+
+        void RefreshTopHud()
+        {
+            if (_host == null || _hudDay == null)
+                return;
+
+            var info = _host.HudInfo;
+            _hudDay.text = "DAY " + info.Day;
+            _hudClock.text = info.Clock;
+            _hudRoom.text = info.Room;
+            _hudSol.text = info.Sol.ToString();
+            _hudAsset.text = info.Asset.ToString();
+            RequestGlyphs(_hudRoom.text, 24);
+            if (_hudCoinShade != null)
+            {
+                for (int i = 0; i < _hudCoinShade.Length; i++)
+                {
+                    if (_hudCoinShade[i] != null)
+                        _hudCoinShade[i].enabled = i >= info.Coins;
+                }
+            }
         }
 
         void SetText(string path, string value)

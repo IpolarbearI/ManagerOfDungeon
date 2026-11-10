@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 namespace ManagerOfDungeon
 {
-    public sealed class AlphaDemoDirector : MonoBehaviour
+    public sealed class AlphaDemoDirector : MonoBehaviour, IDungeonScreenHost
     {
         DemoSession _session;
         CombatDirector _combat;
@@ -230,6 +230,105 @@ namespace ManagerOfDungeon
                     return "시연 완료.";
             }
         }
+
+        // ───────────── IDungeonScreenHost (기존 시연 동작 그대로) ─────────────
+
+        public bool InBattle => _combat != null && _combat.InBattle;
+
+        public DungeonHudInfo HudInfo => new DungeonHudInfo
+        {
+            Day = 1,
+            Clock = "06:00",
+            Sol = 20,
+            Asset = 420,
+            Coins = 3,
+            CoinSlots = 3,
+            Room = "방 1/3"
+        };
+
+        public bool WorryPending => _session != null && _session.Phase == DemoPhase.Worry && !_session.WorryComplete;
+
+        public void OnAlertButton()
+        {
+        }
+
+        public void OnReportButton()
+        {
+            OpenWorry();
+        }
+
+        public void OnMenuButton()
+        {
+        }
+
+        public bool CanOpenTrapPalette(out string reason)
+        {
+            if (_session != null
+                && (int)_session.Phase < (int)DemoPhase.PlaceTrap
+                && _session.Phase != DemoPhase.EquipBow)
+            {
+                reason = "먼저 고목 활을 장착하세요.";
+                return false;
+            }
+
+            reason = string.Empty;
+            return true;
+        }
+
+        public void ClearSelection()
+        {
+            Select(null);
+        }
+
+        public UnitCardView Card
+        {
+            get
+            {
+                if (_selected == null)
+                    return null;
+
+                string species = _selected.Team == CombatTeam.Defender
+                    ? "고블린"
+                    : (_selected.UnitName.Contains("궁") ? "궁수" : "전사");
+                bool canEquip = _selected.Team == CombatTeam.Defender
+                    && (_session.Phase == DemoPhase.Inspect
+                        || _session.Phase == DemoPhase.EquipBow
+                        || _session.Phase == DemoPhase.PlaceTrap);
+
+                var card = new UnitCardView();
+                card.Title = $"{_selected.UnitName} - {species}";
+                card.ShowHp = true;
+                card.Hp = _selected.Health;
+                card.MaxHp = _selected.MaxHealth;
+                card.PrimaryLabel = _selected.HasOldWoodBow() ? "고목활 착용 중" : "장비 착용 전환";
+                card.PrimaryInteractable = canEquip;
+                card.SlotFilled = _selected.HasOldWoodBow();
+                card.SlotInteractable = canEquip;
+                card.ShowBond = true;
+                card.Action = "행동 : " + (_session.FocusFire ? "점사 공격 중" : "기본 공격 중");
+                return card;
+            }
+        }
+
+        public void OnCardPrimary()
+        {
+            TryEquipBow();
+        }
+
+        public void OnCardSlot()
+        {
+            TryEquipBow();
+        }
+
+        public void OnCardBond()
+        {
+            OpenWorry();
+        }
+
+        public bool StartBattleVisible => true;
+
+        public bool StartBattleInteractable =>
+            _session != null && (_session.Phase == DemoPhase.PlaceTrap || _session.Phase == DemoPhase.Strategy);
 
         void Update()
         {

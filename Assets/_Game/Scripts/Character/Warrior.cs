@@ -5,13 +5,13 @@ namespace ManagerOfDungeon
         public Warrior(string name = "전사")
             : base(
                 name,
-                maxHealth: 1500,
-                attackPower: 70,
-                skillAttackPower: 70,
+                maxHealth: 470,
+                attackPower: 45,
+                skillAttackPower: 45,
                 skill: new Skill("강타"),
                 attackSpeed: 1.0f,
                 moveSpeed: 8f,
-                assetValue: 300,
+                assetValue: 50,
                 merchantBuyPrice: 350,
                 merchantSellPrice: 250)
         {

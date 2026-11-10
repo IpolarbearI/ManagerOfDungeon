@@ -6,7 +6,7 @@ namespace ManagerOfDungeon
             : base(
                 "old_wood_bow",
                 "고목활",
-                fixedValue: 50,
+                fixedValue: 20,
                 merchantBuyPrice: 60,
                 merchantSellPrice: 30,
                 isRanged: true,

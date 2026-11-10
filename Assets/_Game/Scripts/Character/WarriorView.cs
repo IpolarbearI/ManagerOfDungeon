@@ -1,15 +1,9 @@
 using UnityEngine;
 
-#if UNITY_EDITOR
-using UnityEditor;
-#endif
-
 namespace ManagerOfDungeon
 {
     public sealed class WarriorView : MonoBehaviour
     {
-        const string PrefabPath = "Assets/_Game/ExternalAssets/Hero Knight - Pixel Art/Demo/HeroKnight.prefab";
-
         Animator _animator;
         SpriteRenderer _spriteRenderer;
         int _attackIndex = 1;
@@ -105,11 +99,7 @@ namespace ManagerOfDungeon
 
         static GameObject LoadPrefab()
         {
-#if UNITY_EDITOR
-            return AssetDatabase.LoadAssetAtPath<GameObject>(PrefabPath);
-#else
-            return null;
-#endif
+            return PackAssets.LoadPrefab(PackAssets.WarriorPrefab);
         }
 
         static void StripDemoComponents(GameObject instance)

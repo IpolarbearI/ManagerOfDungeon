@@ -12,6 +12,23 @@ namespace ManagerOfDungeon
         Sprite _active;
         float _flash;
 
+        /// <summary>GameState의 TrapState.id (본 게임). 시연에서는 비어 있다.</summary>
+        public string TrapId { get; private set; } = string.Empty;
+        /// <summary>이번 전투에서 한 번 이상 발동했는가 → 정산 때 소모 처리.</summary>
+        public bool Triggered { get; private set; }
+        /// <summary>이미 소모된 함정(실루엣). 발동하지 않는다.</summary>
+        public bool Spent { get; private set; }
+
+        public void Setup(Vector3 worldPosition, string trapId, bool spent)
+        {
+            Setup(worldPosition);
+            TrapId = trapId ?? string.Empty;
+            Spent = spent;
+            Triggered = false;
+            if (_body != null)
+                _body.color = spent ? new Color(1f, 1f, 1f, 0.3f) : Color.white;
+        }
+
         public void Setup(Vector3 worldPosition)
         {
             transform.position = new Vector3(worldPosition.x, worldPosition.y, 0f);
@@ -32,7 +49,7 @@ namespace ManagerOfDungeon
 
         public void Tick(IReadOnlyList<CombatUnit> units, float deltaTime)
         {
-            if (units == null)
+            if (units == null || Spent)
                 return;
 
             if (_flash > 0f)
@@ -73,6 +90,7 @@ namespace ManagerOfDungeon
                 float damage = unit.MaxHealth * CombatRanges.SpikeHeroMaxHealthPercent;
                 unit.TakeHit(damage);
                 _cooldownByHero[unit] = CombatRanges.SpikeCooldown;
+                Triggered = true;
                 FlashActive();
             }
         }

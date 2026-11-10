@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem.UI;
@@ -28,6 +29,14 @@ namespace ManagerOfDungeon
         readonly IDialogueProvider _dialogue = new ScriptedDialogueProvider();
         int _dialogueIndex;
         bool _dialogueOpen;
+
+        // 본 게임(A2) 교감: GameSession.InteractionMonsterId의 몬스터와 CommunionService로 대화
+        CommunionService _communion;
+        MonsterState _gameMonster;
+        IReadOnlyList<DialogueLine> _gameLines;
+        int _gameExp;
+
+        bool IsGameMode => GameSession.IsGame && _gameMonster != null;
 
         void OnEnable()
         {
@@ -68,7 +77,10 @@ namespace ManagerOfDungeon
             if (Application.isPlaying)
             {
                 GameMusic.Stop();
-                BeginWorryIfNeeded();
+                if (GameSession.IsGame)
+                    BeginGameInteraction();
+                else
+                    BeginWorryIfNeeded();
             }
         }
 
@@ -373,8 +385,8 @@ namespace ManagerOfDungeon
         void BindButtons()
         {
             BindButton("Back", LoadDungeon);
-            BindButton("Dialogue/NextLine", AdvanceDialogue);
-            BindButton("UnlockFocus", UnlockFocus);
+            BindButton("Dialogue/NextLine", () => { if (IsGameMode) AdvanceGameDialogue(); else AdvanceDialogue(); });
+            BindButton("UnlockFocus", () => { if (IsGameMode) ToggleGameFocus(); else UnlockFocus(); });
         }
 
         void BindButton(string path, UnityEngine.Events.UnityAction action)
@@ -471,6 +483,194 @@ namespace ManagerOfDungeon
                     SetText("Dialogue/Speaker", lines[index].Speaker);
                     SetText("Dialogue/Body", lines[index].Text);
                     SetText("Dialogue/NextLine/Label", index >= lines.Count - 1 ? "유대감 +20" : "다음");
+                }
+            }
+        }
+
+        // ───────────── 본 게임(A2) 교감 ─────────────
+
+        void BeginGameInteraction()
+        {
+            var state = GameSession.Current;
+            if (state == null || state.monsters.Count == 0)
+                return;
+
+            _gameMonster = state.FindMonster(GameSession.InteractionMonsterId);
+            if (_gameMonster == null)
+                _gameMonster = state.monsters[0];
+
+            _communion = CommunionService.ForGame(state);
+            var def = GameDefs.GetMonster(_gameMonster.speciesId);
+            var profile = new MonsterProfile(_gameMonster.id, def != null ? def.DisplayName : _gameMonster.speciesId, _gameMonster.name, _gameMonster.personalityId);
+
+            CommunionResult result = null;
+            if (_gameMonster.hasWorry)
+            {
+                result = _communion.StartWorry(new CommunionRequest(profile, _gameMonster.CreateBond(), CommunionKind.Worry,
+                    _gameMonster.worryTopicId, string.Empty, state.day, state.monsters.Count - 1));
+            }
+            else if (_communion.CanTalk(_gameMonster.id, state.day))
+            {
+                var topics = TalkCatalog.All;
+                string topicId = topics[state.rng.Range(0, topics.Count)].Id;
+                result = _communion.StartTalk(new CommunionRequest(profile, _gameMonster.CreateBond(), CommunionKind.Talk,
+                    topicId, string.Empty, state.day, state.monsters.Count - 1));
+            }
+
+            if (result != null && result.Ok)
+            {
+                _gameLines = result.Lines;
+                _gameExp = result.ExpGranted;
+            }
+            else
+            {
+                _gameLines = new[] { new DialogueLine(_gameMonster.name, "오늘은 벌써 이야기를 많이 했어요. 내일 또 와 주세요.") };
+                _gameExp = 0;
+            }
+
+            _dialogueOpen = true;
+            _dialogueIndex = 0;
+            RefreshGameUi();
+        }
+
+        void AdvanceGameDialogue()
+        {
+            if (!_dialogueOpen || _gameLines == null)
+                return;
+
+            if (_dialogueIndex < _gameLines.Count - 1)
+            {
+                _dialogueIndex++;
+                RefreshGameUi();
+                return;
+            }
+
+            _dialogueOpen = false;
+            var pending = _communion != null ? _communion.Pending : null;
+            if (pending != null)
+            {
+                int levelBefore = _gameMonster.bondLevel;
+                bool wasWorry = pending.Kind == CommunionKind.Worry;
+                _communion.Complete();
+                _gameMonster.StoreBond(pending.Bond);
+                if (wasWorry)
+                {
+                    _gameMonster.hasWorry = false;
+                    _gameMonster.worryTopicId = string.Empty;
+                }
+
+                string message = _gameMonster.bondLevel > levelBefore
+                    ? $"{_gameMonster.name} 유대감 Lv.{_gameMonster.bondLevel} 달성!"
+                    : $"{_gameMonster.name} 유대감 EXP +{_gameExp}";
+                if (_gameMonster.bondLevel > levelBefore)
+                {
+                    var up = new BondLevelUp();
+                    up.MonsterId = _gameMonster.id;
+                    up.MonsterName = _gameMonster.name;
+                    up.FromLevel = levelBefore;
+                    up.ToLevel = _gameMonster.bondLevel;
+                    GameSession.PendingLevelUps.Add(up);
+                }
+
+                GameSession.Current.AddLog(message);
+                GameSession.PendingStatus = message;
+            }
+
+            RefreshGameUi();
+        }
+
+        void ToggleGameFocus()
+        {
+            string message;
+            if (_gameMonster.focusFire)
+                StrategyRules.TrySetDefault(_gameMonster, true, out message);
+            else
+                StrategyRules.TrySetFocusFire(_gameMonster, true, out message);
+            GameSession.PendingStatus = message;
+            RefreshGameUi();
+        }
+
+        void RefreshGameUi()
+        {
+            var m = _gameMonster;
+            if (m == null)
+                return;
+
+            var state = GameSession.Current;
+            var def = GameDefs.GetMonster(m.speciesId);
+            var monster = def != null ? def.CreateMonster(m.name) : new Goblin(m.name);
+            monster.SetBondLevel(m.bondLevel);
+            var weaponDef = GameDefs.GetEquipment(m.weaponId);
+            var weapon = weaponDef != null ? weaponDef.CreateWeapon() : null;
+            if (weapon != null)
+                monster.EquipWeapon(weapon);
+
+            SetText("TimeBar", GameClock.Format(state.clockMinutes));
+            SetText("StatPanel/Header", m.name);
+            SetRowValue("StatPanel/종족", def != null ? def.DisplayName : m.speciesId);
+            SetRowValue("StatPanel/HP", monster.MaxHealth.ToString());
+            SetRowValue("StatPanel/공격력", monster.AttackPower.ToString());
+            SetRowValue("StatPanel/공격속도", monster.AttackSpeed.ToString("0.##"));
+            SetRowValue("StatPanel/이동속도", monster.MoveSpeed.ToString("0.##"));
+            int need = BondRules.ExpToNextLevel(m.bondLevel);
+            SetText("StatPanel/Bond/BondValue", need > 0 ? $"Lv.{m.bondLevel} EXP {m.bondExp}/{need}" : $"Lv.{m.bondLevel} (최대)");
+            SetText("StatPanel/전략/StrategyValue", StrategyRules.Describe(m));
+
+            var fill = FindUi("StatPanel/Bond/Track/Fill");
+            if (fill != null)
+            {
+                var rect = fill.GetComponent<RectTransform>();
+                float t = need > 0 ? Mathf.Clamp01(m.bondExp / (float)need) : 1f;
+                rect.anchorMax = new Vector2(t, 1f);
+            }
+
+            bool worryTalk = _dialogueOpen && m.hasWorry;
+            var worryFive = FindUi("WorryFive");
+            if (worryFive != null)
+            {
+                worryFive.gameObject.SetActive(worryTalk);
+                SetText("WorryFive", $"{m.name}의 고민");
+            }
+
+            var unlock = FindUi("UnlockFocus");
+            if (unlock != null)
+            {
+                bool show = !_dialogueOpen && StrategyRules.FocusFireUnlocked(m);
+                unlock.gameObject.SetActive(show);
+                SetText("UnlockFocus/Label", m.focusFire ? "점사 끄기" : "점사 켜기");
+            }
+
+            var panel = FindUi("Dialogue");
+            if (panel != null)
+            {
+                panel.gameObject.SetActive(_dialogueOpen);
+                if (_dialogueOpen && _gameLines != null && _gameLines.Count > 0)
+                {
+                    int index = Mathf.Clamp(_dialogueIndex, 0, _gameLines.Count - 1);
+                    bool last = index >= _gameLines.Count - 1;
+                    SetText("Dialogue/Speaker", _gameLines[index].Speaker);
+                    SetText("Dialogue/Body", _gameLines[index].Text);
+                    SetText("Dialogue/NextLine/Label", last ? (_gameExp > 0 ? $"유대감 +{_gameExp}" : "닫기") : "다음");
+                }
+            }
+        }
+
+        /// <summary>행(키 | 값)의 오른쪽 값 글자만 바꾼다.</summary>
+        void SetRowValue(string rowPath, string value)
+        {
+            var row = FindUi(rowPath);
+            if (row == null)
+                return;
+
+            var texts = row.GetComponentsInChildren<Text>(true);
+            for (int i = 0; i < texts.Length; i++)
+            {
+                if (texts[i].alignment == TextAnchor.MiddleRight)
+                {
+                    texts[i].font = _font;
+                    texts[i].text = value;
+                    RequestGlyphs(value, texts[i].fontSize);
+                    return;
                 }
             }
         }

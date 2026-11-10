@@ -5,6 +5,19 @@ namespace ManagerOfDungeon
         public int Level { get; private set; } = BondRules.MinLevel;
         public int Exp { get; private set; }
 
+        public BondProgress()
+        {
+        }
+
+        /// <summary>저장된 값에서 복원.</summary>
+        public BondProgress(int level, int exp)
+        {
+            Level = level < BondRules.MinLevel ? BondRules.MinLevel : (level > BondRules.MaxLevel ? BondRules.MaxLevel : level);
+            Exp = exp < 0 ? 0 : exp;
+        }
+
+        public int ExpToNext => BondRules.ExpToNextLevel(Level);
+
         public bool CanUnlockMeleeFocusFire => Level >= BondRules.MeleeFocusFireLevel;
 
         public int AddExp(int amount)

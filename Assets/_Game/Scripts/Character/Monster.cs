@@ -4,6 +4,11 @@ namespace ManagerOfDungeon
     {
         readonly int _baseMaxHealth;
         readonly int _baseAttackPower;
+        float _bondHpBonus;
+        float _bondAtkBonus;
+
+        /// <summary>유대감 레벨. 레벨마다 HP·공격력 보너스(BalanceConfig).</summary>
+        public int BondLevel { get; private set; } = 1;
 
         public string Name { get; }
         public int Health { get; private set; }
@@ -16,13 +21,13 @@ namespace ManagerOfDungeon
         public bool IsRanged => Weapon != null && Weapon.IsRanged;
         public float AttackRange => IsRanged ? Weapon.AttackRange : BaseAttackRange;
 
-        public int MaxHealth => _baseMaxHealth + (Armor != null ? Armor.HealthBonus : 0);
+        public int MaxHealth => (int)((_baseMaxHealth + (Armor != null ? Armor.HealthBonus : 0)) * (1f + _bondHpBonus));
         public int AttackPower
         {
             get
             {
                 float percent = Weapon != null ? Weapon.AttackPowerPercent : 0f;
-                return (int)(_baseAttackPower * (1f + percent));
+                return (int)(_baseAttackPower * (1f + percent) * (1f + _bondAtkBonus));
             }
         }
         public bool IsAlive => Health > 0;
@@ -43,6 +48,15 @@ namespace ManagerOfDungeon
             MoveSpeed = moveSpeed < 0f ? 0f : moveSpeed;
             BaseAttackRange = attackRange < 0.1f ? CombatRanges.Melee : attackRange;
             AssetValue = assetValue < 0 ? 0 : assetValue;
+            Health = MaxHealth;
+        }
+
+        public void SetBondLevel(int level)
+        {
+            BondLevel = level < 1 ? 1 : level;
+            int steps = BondLevel - 1;
+            _bondHpBonus = steps * BalanceConfig.BondHpBonusPerLevel;
+            _bondAtkBonus = steps * BalanceConfig.BondAtkBonusPerLevel;
             Health = MaxHealth;
         }
 

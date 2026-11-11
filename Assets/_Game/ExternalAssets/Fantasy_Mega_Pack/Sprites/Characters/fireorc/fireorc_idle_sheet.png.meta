@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: b7cdbc0ff614b774a8f77a8d438f6a01
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1148017760207881790
+    second: fireorc_idle_sheet_0
+  - first:
+      213: -7085876431860500428
+    second: fireorc_idle_sheet_1
+  - first:
+      213: -2080022967823341799
+    second: fireorc_idle_sheet_2
+  - first:
+      213: -1858994919913775636
+    second: fireorc_idle_sheet_3
+  - first:
+      213: 7817794742070050390
+    second: fireorc_idle_sheet_4
+  - first:
+      213: 871574276935941158
+    second: fireorc_idle_sheet_5
+  - first:
+      213: 7766126580632640909
+    second: fireorc_idle_sheet_6
+  - first:
+      213: -8090107326059241066
+    second: fireorc_idle_sheet_7
+  - first:
+      213: -1776027650518279433
+    second: fireorc_idle_sheet_8
+  - first:
+      213: 6142809818686893636
+    second: fireorc_idle_sheet_9
+  - first:
+      213: 8897466310266587185
+    second: fireorc_idle_sheet_10
+  - first:
+      213: 8477127974196663723
+    second: fireorc_idle_sheet_11
+  - first:
+      213: 7025868321590238121
+    second: fireorc_idle_sheet_12
+  - first:
+      213: 6845298526022776201
+    second: fireorc_idle_sheet_13
+  - first:
+      213: 8979608728466750497
+    second: fireorc_idle_sheet_14
+  - first:
+      213: -6223800327828645352
+    second: fireorc_idle_sheet_15
+  - first:
+      213: 2948423305422943321
+    second: fireorc_idle_sheet_16
+  - first:
+      213: 3750412346933209521
+    second: fireorc_idle_sheet_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fireorc_idle_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 798
+        width: 154
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c938f6fdeb6110f0800000000000000
+      internalID: -1148017760207881790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_idle_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 798
+        width: 154
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43874a48de8e9ad90800000000000000
+      internalID: -7085876431860500428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_idle_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 794
+        width: 154
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9176c3691264223e0800000000000000
+      internalID: -2080022967823341799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_idle_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 794
+        width: 154
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced984f38f58336e0800000000000000
+      internalID: -1858994919913775636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_idle_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 564
+        width: 153
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e7000c5e26e7c60800000000000000
+      internalID: 7817794742070050390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_idle_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 564
+        width: 153
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c7224ef24781c00800000000000000
+      internalID: 871574276935941158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_idle_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 560
+        width: 153
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8dd3577af2d6cb60800000000000000
+      internalID: 7766126580632640909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_idle_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 560
+        width: 153
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691247b004a2abf80800000000000000
+      internalID: -8090107326059241066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_idle_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 340
+        width: 141
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa169bf2484a57e0800000000000000
+      internalID: -1776027650518279433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_idle_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 340
+        width: 141
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e2d9debf4af3550800000000000000
+      internalID: 6142809818686893636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_idle_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 336
+        width: 141
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1380278e7762a7b70800000000000000
+      internalID: 8897466310266587185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_idle_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 336
+        width: 141
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5d4819afec4a570800000000000000
+      internalID: 8477127974196663723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_idle_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 106
+        width: 139
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab5e0b8306e08160800000000000000
+      internalID: 7025868321590238121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_idle_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 106
+        width: 139
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985b711ddb26ffe50800000000000000
+      internalID: 6845298526022776201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_idle_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 255
+        width: 60
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12cf142009afd9c70800000000000000
+      internalID: 8979608728466750497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_idle_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 255
+        width: 60
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a50d2b39e90a9a0800000000000000
+      internalID: -6223800327828645352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_idle_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 102
+        width: 139
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954b737ff57eae820800000000000000
+      internalID: 2948423305422943321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_idle_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 102
+        width: 139
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b96134b8242c0430800000000000000
+      internalID: 3750412346933209521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fireorc_idle_sheet_0: -1148017760207881790
+      fireorc_idle_sheet_1: -7085876431860500428
+      fireorc_idle_sheet_10: 8897466310266587185
+      fireorc_idle_sheet_11: 8477127974196663723
+      fireorc_idle_sheet_12: 7025868321590238121
+      fireorc_idle_sheet_13: 6845298526022776201
+      fireorc_idle_sheet_14: 8979608728466750497
+      fireorc_idle_sheet_15: -6223800327828645352
+      fireorc_idle_sheet_16: 2948423305422943321
+      fireorc_idle_sheet_17: 3750412346933209521
+      fireorc_idle_sheet_2: -2080022967823341799
+      fireorc_idle_sheet_3: -1858994919913775636
+      fireorc_idle_sheet_4: 7817794742070050390
+      fireorc_idle_sheet_5: 871574276935941158
+      fireorc_idle_sheet_6: 7766126580632640909
+      fireorc_idle_sheet_7: -8090107326059241066
+      fireorc_idle_sheet_8: -1776027650518279433
+      fireorc_idle_sheet_9: 6142809818686893636
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

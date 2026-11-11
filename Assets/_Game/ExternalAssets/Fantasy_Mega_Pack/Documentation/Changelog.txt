@@ -1,0 +1,15 @@
+CHANGELOG — Fantasy Dungeon Pixel Pack
+
+v1.1 (Expansion)
+- +2 characters: Cave Bat (flying), Slime King (boss) -> 10 combat chars + 2 NPC (240 clips)
+- Item icons 16 -> 224 (weapons/armor/potions/scrolls/gems/keys/consumables + spell glyphs)
+- 8 hero skins (Paladin/Dark/Mage/Ranger/Crimson/Frost/Royal/Assassin)
+- NEW C# systems: Inventory, ItemSO, Stats(HP/MP/XP/Level), LootTable+Dropper+Pickup,
+  FloatingDamageNumbers, Interaction+Chest, EnemySpawner, DialogueRunner, PlayerDodge (i-frames)
+- 8-direction movement support; playable RPG demo level
+- Reorganized into Asset-Store-standard folder layout
+
+v1.0 (Launch)
+- 6 combat characters + 2 NPC, 6 anims x 4 directions
+- Dungeon tileset (3 biomes), props, traps, decor, VFX, UI kit
+- 5 C# systems + playable demo scene

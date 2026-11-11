@@ -1,0 +1,414 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 853430dbf0240884fad9d0621685ab70, type: 3}
+  m_Name: ArtCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::ManagerOfDungeon.ArtCatalog
+  entries:
+  - path: Assets/_Game/ExternalAssets/Fantasy_Mega_Pack/Prefabs/Characters/Goblin.prefab
+    main: {fileID: 609782747154068704, guid: f6db52c84fd8ebd4c9dfa25da683c969, type: 3}
+    subAssets: []
+  - path: Assets/_Game/ExternalAssets/Fantasy_Mega_Pack/Prefabs/Characters/Villager.prefab
+    main: {fileID: 3752026503528316723, guid: a1a2de120797d9d45ba559586e8b2ce9, type: 3}
+    subAssets: []
+  - path: Assets/_Game/ExternalAssets/Fantasy_Mega_Pack/Sprites/Tiles/Traps/spikes_0.png
+    main: {fileID: 2800000, guid: 77f97e84c46f35043811340e21ed9919, type: 3}
+    subAssets:
+    - {fileID: 21300000, guid: 77f97e84c46f35043811340e21ed9919, type: 3}
+  - path: Assets/_Game/ExternalAssets/Fantasy_Mega_Pack/Sprites/Tiles/Traps/spikes_1.png
+    main: {fileID: 2800000, guid: 47ad172ffc5613442b3e72cd8183c179, type: 3}
+    subAssets:
+    - {fileID: 21300000, guid: 47ad172ffc5613442b3e72cd8183c179, type: 3}
+  - path: Assets/_Game/ExternalAssets/Fantasy_Mega_Pack/UI/Icons/icons_ranged_1.png
+    main: {fileID: 2800000, guid: afb71b94fe29acf468575bdc09632527, type: 3}
+    subAssets:
+    - {fileID: 1429270535029793349, guid: afb71b94fe29acf468575bdc09632527, type: 3}
+  - path: Assets/_Game/ExternalAssets/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Bow.png
+    main: {fileID: 2800000, guid: bbf8638a8a75d9c42b93639213c92c9b, type: 3}
+    subAssets:
+    - {fileID: 21300000, guid: bbf8638a8a75d9c42b93639213c92c9b, type: 3}
+  - path: Assets/_Game/ExternalAssets/Fantasy_Mega_Pack/Sprites/Characters/goblin/idle/down_0.png
+    main: {fileID: 2800000, guid: 7da6b1fe577cad449929ec98d95bd34e, type: 3}
+    subAssets:
+    - {fileID: 21300000, guid: 7da6b1fe577cad449929ec98d95bd34e, type: 3}
+  - path: Assets/_Game/ExternalAssets/Fantasy_Mega_Pack/Sprites/Characters/villager/idle/down_0.png
+    main: {fileID: 2800000, guid: 2913829ee2ea61f4d8be7e2e47230dde, type: 3}
+    subAssets:
+    - {fileID: 21300000, guid: 2913829ee2ea61f4d8be7e2e47230dde, type: 3}
+  - path: Assets/_Game/InternalAssets/Frame 61.png
+    main: {fileID: 2800000, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    subAssets:
+    - {fileID: -8942886369186947870, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: -8084273155479039942, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: -7910082873967325320, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: -6872297390563391755, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: -6284668997836667068, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: -6234862557566520978, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: -6041179261999898901, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: -5860330182125523964, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: -3453035641704689465, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: -3196397971821877137, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: -3185663484864709741, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: -2988554458543197421, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: -1581618312351837819, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: -168432809526816980, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: -107535560633518982, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: 383645836448737680, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: 1232050934714052924, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: 1525803202895955610, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: 3724051488651759524, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: 3779849365346482930, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: 3914932417355257181, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: 4059945962575876491, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: 4540538041607923918, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: 6125823513456083432, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: 6299214599261039054, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: 6998628631722268903, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: 7665987529139012993, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: 7849271092960042331, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: 8000838443366865535, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: 8367548727326562205, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+    - {fileID: 8432007226476252852, guid: a1c7576c178d5a74ea07d97c9f48b0f6, type: 3}
+  - path: Assets/_Game/InternalAssets/Frame 64.png
+    main: {fileID: 2800000, guid: f2fa576f5aa7bc844b1983ca1355d1d0, type: 3}
+    subAssets:
+    - {fileID: -8612900123232860941, guid: f2fa576f5aa7bc844b1983ca1355d1d0, type: 3}
+    - {fileID: -2722277492936663813, guid: f2fa576f5aa7bc844b1983ca1355d1d0, type: 3}
+    - {fileID: 1005910088749233537, guid: f2fa576f5aa7bc844b1983ca1355d1d0, type: 3}
+    - {fileID: 1795313884571859504, guid: f2fa576f5aa7bc844b1983ca1355d1d0, type: 3}
+  - path: Assets/_Game/InternalAssets/Frame 7.png
+    main: {fileID: 2800000, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+    subAssets:
+    - {fileID: -8177743707768080411, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+    - {fileID: -6991123247401807765, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+    - {fileID: -5629073347443685593, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+    - {fileID: -5080451990949499070, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+    - {fileID: -4483173830572164514, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+    - {fileID: -4264294345147402232, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+    - {fileID: -3193943338120266107, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+    - {fileID: -2601959475790026006, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+    - {fileID: -1499900109277536864, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+    - {fileID: -959735044253177555, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+    - {fileID: -949533252679330466, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+    - {fileID: -475741618239871938, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+    - {fileID: 351973500326076512, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+    - {fileID: 2074224391718163736, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+    - {fileID: 2477677363991104084, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+    - {fileID: 2638761518035780015, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+    - {fileID: 2843086202274223947, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+    - {fileID: 4449099852622891569, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+    - {fileID: 4805588727073748608, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+    - {fileID: 4871682636698472173, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+    - {fileID: 7057608853431271283, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+    - {fileID: 8081708521415214481, guid: b162ecf71c765e34d9b301c094507a65, type: 3}
+  - path: "Assets/_Game/InternalAssets/\uBCF4\uAD00\uD568/\uBCF4\uAD00\uD568.png"
+    main: {fileID: 2800000, guid: 704bd4a6b96decf419842811fa41dd0e, type: 3}
+    subAssets:
+    - {fileID: -9102364180506740220, guid: 704bd4a6b96decf419842811fa41dd0e, type: 3}
+    - {fileID: -3517604508397256850, guid: 704bd4a6b96decf419842811fa41dd0e, type: 3}
+    - {fileID: -2669403575792910028, guid: 704bd4a6b96decf419842811fa41dd0e, type: 3}
+    - {fileID: -2257199302456717037, guid: 704bd4a6b96decf419842811fa41dd0e, type: 3}
+    - {fileID: -689732048478734702, guid: 704bd4a6b96decf419842811fa41dd0e, type: 3}
+    - {fileID: 3595959906430991114, guid: 704bd4a6b96decf419842811fa41dd0e, type: 3}
+  - path: "Assets/_Game/InternalAssets/\uBCF4\uAD00\uD568/Frame 6.png"
+    main: {fileID: 2800000, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+    subAssets:
+    - {fileID: -9062711172055231000, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+    - {fileID: -8966297235279745274, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+    - {fileID: -8769625168975232107, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+    - {fileID: -8619357963359741451, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+    - {fileID: -7979495359293695941, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+    - {fileID: -7148817097711799422, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+    - {fileID: -6835499325016288514, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+    - {fileID: -6457581787033957293, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+    - {fileID: -5292092812342323978, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+    - {fileID: -4530717473176390824, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+    - {fileID: -3967006406927105298, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+    - {fileID: -3227451541206154408, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+    - {fileID: -2365085818805390288, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+    - {fileID: -1587091821131203458, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+    - {fileID: -239433241005109056, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+    - {fileID: 1611089711439682735, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+    - {fileID: 2251956662334343557, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+    - {fileID: 2350530938882229059, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+    - {fileID: 2969910405753769436, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+    - {fileID: 5725222549433765664, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+    - {fileID: 7393553111090135311, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+    - {fileID: 7769866548954299147, guid: 4edd24311af1d514e8e1bd65ded8254d, type: 3}
+  - path: "Assets/_Game/InternalAssets/\uBCF4\uAD00\uD568/Frame 11.png"
+    main: {fileID: 2800000, guid: bbefe200871060942a7956befdaee072, type: 3}
+    subAssets:
+    - {fileID: -7681134565299966110, guid: bbefe200871060942a7956befdaee072, type: 3}
+    - {fileID: -5290345967903917082, guid: bbefe200871060942a7956befdaee072, type: 3}
+    - {fileID: -4981395215111865939, guid: bbefe200871060942a7956befdaee072, type: 3}
+    - {fileID: -4616041557217463475, guid: bbefe200871060942a7956befdaee072, type: 3}
+    - {fileID: -4288180370486387113, guid: bbefe200871060942a7956befdaee072, type: 3}
+    - {fileID: -3879484044689247144, guid: bbefe200871060942a7956befdaee072, type: 3}
+    - {fileID: -2969660843416851964, guid: bbefe200871060942a7956befdaee072, type: 3}
+    - {fileID: -2546960460531667071, guid: bbefe200871060942a7956befdaee072, type: 3}
+    - {fileID: -2426374434411978851, guid: bbefe200871060942a7956befdaee072, type: 3}
+    - {fileID: -1575447551086271570, guid: bbefe200871060942a7956befdaee072, type: 3}
+    - {fileID: -1353942323606297124, guid: bbefe200871060942a7956befdaee072, type: 3}
+    - {fileID: -257547541549718038, guid: bbefe200871060942a7956befdaee072, type: 3}
+    - {fileID: 474452679928607617, guid: bbefe200871060942a7956befdaee072, type: 3}
+    - {fileID: 1094713418728742939, guid: bbefe200871060942a7956befdaee072, type: 3}
+    - {fileID: 1566197134440749307, guid: bbefe200871060942a7956befdaee072, type: 3}
+    - {fileID: 1866579786289231093, guid: bbefe200871060942a7956befdaee072, type: 3}
+    - {fileID: 3340377333988123441, guid: bbefe200871060942a7956befdaee072, type: 3}
+    - {fileID: 4347341491811462203, guid: bbefe200871060942a7956befdaee072, type: 3}
+    - {fileID: 5212988176812970291, guid: bbefe200871060942a7956befdaee072, type: 3}
+    - {fileID: 5364181476133186712, guid: bbefe200871060942a7956befdaee072, type: 3}
+    - {fileID: 6655067998128302178, guid: bbefe200871060942a7956befdaee072, type: 3}
+    - {fileID: 6983912287021189665, guid: bbefe200871060942a7956befdaee072, type: 3}
+    - {fileID: 8183722623175846178, guid: bbefe200871060942a7956befdaee072, type: 3}
+  - path: "Assets/_Game/InternalAssets/\uBCF4\uAD00\uD568/Frame 29.png"
+    main: {fileID: 2800000, guid: 7e573a6807ec58d469a188e14bada9d8, type: 3}
+    subAssets:
+    - {fileID: -3771544434552693020, guid: 7e573a6807ec58d469a188e14bada9d8, type: 3}
+  - path: "Assets/_Game/InternalAssets/\uBCF4\uAD00\uD568/image 83.png"
+    main: {fileID: 2800000, guid: 1dd8cd2360a0ca241982e5100128d2c8, type: 3}
+    subAssets:
+    - {fileID: -4295745122836614774, guid: 1dd8cd2360a0ca241982e5100128d2c8, type: 3}
+  - path: "Assets/_Game/InternalAssets/\uBCF4\uAD00\uD568/image 84.png"
+    main: {fileID: 2800000, guid: 0a54a1736f448c24d816c0213ab131a6, type: 3}
+    subAssets:
+    - {fileID: 1029661276091759382, guid: 0a54a1736f448c24d816c0213ab131a6, type: 3}
+  - path: "Assets/_Game/InternalAssets/\uBCF4\uAD00\uD568/image 101.png"
+    main: {fileID: 2800000, guid: 6dd9e93689b133d46b92b2cc69fb0b09, type: 3}
+    subAssets:
+    - {fileID: 5257384840434419513, guid: 6dd9e93689b133d46b92b2cc69fb0b09, type: 3}
+  - path: "Assets/_Game/InternalAssets/\uBCF4\uAD00\uD568/_\uB808\uC774\uC5B4_1.png"
+    main: {fileID: 2800000, guid: 0c2f554b64ba1804f99936dd91cac067, type: 3}
+    subAssets:
+    - {fileID: 70190572986340529, guid: 0c2f554b64ba1804f99936dd91cac067, type: 3}
+  - path: "Assets/_Game/InternalAssets/\uC6B4\uC601\uAE30\uB85D/\uC6B4\uC601 \uAE30\uB85D.png"
+    main: {fileID: 2800000, guid: 959d210d6f8480a40b149ac085715edb, type: 3}
+    subAssets:
+    - {fileID: -8608060372009963316, guid: 959d210d6f8480a40b149ac085715edb, type: 3}
+    - {fileID: -6150948032357608347, guid: 959d210d6f8480a40b149ac085715edb, type: 3}
+    - {fileID: -2525907238410759151, guid: 959d210d6f8480a40b149ac085715edb, type: 3}
+    - {fileID: -2097521495261425517, guid: 959d210d6f8480a40b149ac085715edb, type: 3}
+    - {fileID: -1286038243679544867, guid: 959d210d6f8480a40b149ac085715edb, type: 3}
+    - {fileID: 377037707044446579, guid: 959d210d6f8480a40b149ac085715edb, type: 3}
+    - {fileID: 2429252897770108385, guid: 959d210d6f8480a40b149ac085715edb, type: 3}
+    - {fileID: 5319798651654518304, guid: 959d210d6f8480a40b149ac085715edb, type: 3}
+  - path: "Assets/_Game/InternalAssets/\uC6B4\uC601\uAE30\uB85D/Frame 79.png"
+    main: {fileID: 2800000, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    subAssets:
+    - {fileID: -8849713383277772055, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -8764420308555642607, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -8327104476043746948, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -8292556478393716160, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -8285262763011166400, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -8280795757101636512, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -8164987693299168870, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -8062666795511706992, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -8045413624451094966, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -7899228372756840823, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -7562892804321094398, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -7480544685785241590, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -7354379408349619826, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -7069821286291029840, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -7012161978596866456, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -6936380743418860433, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -6856797345160962294, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -6536479678273324986, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -6100248841125999122, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -6063395957996817370, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -6020895257443200744, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -5950090849428768438, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -5705561383494642253, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -5519185140510017129, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -5428528281159493050, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -5212275724367685543, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -5148014316787948681, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -4983985838529150408, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -4950215547011859576, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -4939964395367349794, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -4832743150982123125, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -4720054096943145174, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -4671330810405166278, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -4572969095815128090, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -4546819541839742351, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -4495367595043981888, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -4463431522153256623, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -4423361358505376069, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -4223363530080943014, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -3901558018334413758, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -3705616222939752446, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -3685885446242656241, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -3605583176649358018, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -3601204333924128583, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -3137921025766978997, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -3114842011696401906, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -2792870554370088024, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -2472522084311640582, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -2074874004094369798, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -1909748889499586171, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -1750634734665531785, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -1386063956194730056, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -1287185759624774923, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -834710599641337591, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -552148294546397399, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -534673777315836004, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -526154142571526856, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: -294014900418021220, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 29772491452044219, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 365102504810110376, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 811969764141013840, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 846296160654742490, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 1189437193597244562, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 1335621433953829765, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 1633186766130541768, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 1751914411248097186, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 1837371593206889472, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 1912307394855667694, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 2078426653943742722, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 2114311261945363301, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 2128502743607276746, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 2128530662495389351, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 2172442949959006479, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 2196257638605346188, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 2400308878228982598, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 2552911665660573804, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 2595496318450934699, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 2982985823676317468, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 3004672030630298973, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 3029636988213662913, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 3095898018320282272, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 3200524992678697546, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 3457236117458829938, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 3699286551606729013, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 3718864248951426845, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 3795341778306647281, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 3901687008268635053, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 3985162332047384388, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 5000041623659351888, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 5021912685986304399, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 5065139675068713468, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 5125957980501464822, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 5178596565618384994, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 5218278905764584411, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 5323375558091217308, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 5513322136069373087, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 5519174566610787499, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 5548230684181771782, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 5768807715627180149, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 5874359085186544514, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 6014693228724498007, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 6073817169795544958, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 6151624220098857258, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 6258403094880672956, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 6575462706493262521, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 6618302941996226646, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 6762033408706920923, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 6995851526311261890, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 7170957544265621294, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 7642330614379996812, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 8614470082337554993, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 8623965936217693885, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 8932737666014587079, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 9030907973387647894, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+    - {fileID: 9084440664001888919, guid: ecff0a726b3c4f945a03df5d992dfba4, type: 3}
+  - path: "Assets/_Game/InternalAssets/\uC6B4\uC601\uAE30\uB85D/image 83.png"
+    main: {fileID: 2800000, guid: 26c9e10887d314a4c8cbf75ed168f0e4, type: 3}
+    subAssets:
+    - {fileID: -4295745122836614774, guid: 26c9e10887d314a4c8cbf75ed168f0e4, type: 3}
+  - path: "Assets/_Game/InternalAssets/\uC6B4\uC601\uAE30\uB85D/image 84.png"
+    main: {fileID: 2800000, guid: 351e635fd25821e4eaf0f600fbb317e1, type: 3}
+    subAssets:
+    - {fileID: 1029661276091759382, guid: 351e635fd25821e4eaf0f600fbb317e1, type: 3}
+  - path: "Assets/_Game/InternalAssets/\uC6B4\uC601\uAE30\uB85D/image 118.png"
+    main: {fileID: 2800000, guid: 7ee6bfc8e5a93cc4ba87e08a15b14c44, type: 3}
+    subAssets:
+    - {fileID: 8493074471119139224, guid: 7ee6bfc8e5a93cc4ba87e08a15b14c44, type: 3}
+  - path: "Assets/_Game/InternalAssets/\uC6B4\uC601\uAE30\uB85D/_\uB808\uC774\uC5B4_1.png"
+    main: {fileID: 2800000, guid: 2943284db742bbd4c8557fb5203ada76, type: 3}
+    subAssets:
+    - {fileID: 70190572986340529, guid: 2943284db742bbd4c8557fb5203ada76, type: 3}
+  - path: "Assets/_Game/InternalAssets/_\uB808\uC774\uC5B4_1.png"
+    main: {fileID: 2800000, guid: 8792e70348fc0564d98492b259b6a584, type: 3}
+    subAssets:
+    - {fileID: -8931769259915327884, guid: 8792e70348fc0564d98492b259b6a584, type: 3}
+    - {fileID: -7243144968942038916, guid: 8792e70348fc0564d98492b259b6a584, type: 3}
+    - {fileID: -6551893885701049646, guid: 8792e70348fc0564d98492b259b6a584, type: 3}
+    - {fileID: -3355616578849468352, guid: 8792e70348fc0564d98492b259b6a584, type: 3}
+    - {fileID: -1597550832414019030, guid: 8792e70348fc0564d98492b259b6a584, type: 3}
+    - {fileID: -1057515915023708835, guid: 8792e70348fc0564d98492b259b6a584, type: 3}
+    - {fileID: 70190572986340529, guid: 8792e70348fc0564d98492b259b6a584, type: 3}
+    - {fileID: 192199527552555476, guid: 8792e70348fc0564d98492b259b6a584, type: 3}
+    - {fileID: 381406397418543038, guid: 8792e70348fc0564d98492b259b6a584, type: 3}
+    - {fileID: 794136170427305595, guid: 8792e70348fc0564d98492b259b6a584, type: 3}
+    - {fileID: 3293410048247097797, guid: 8792e70348fc0564d98492b259b6a584, type: 3}
+    - {fileID: 4783800731544822865, guid: 8792e70348fc0564d98492b259b6a584, type: 3}
+    - {fileID: 4941802040528138971, guid: 8792e70348fc0564d98492b259b6a584, type: 3}
+    - {fileID: 4961344875656541598, guid: 8792e70348fc0564d98492b259b6a584, type: 3}
+    - {fileID: 5220136350223083807, guid: 8792e70348fc0564d98492b259b6a584, type: 3}
+    - {fileID: 7644443481363907982, guid: 8792e70348fc0564d98492b259b6a584, type: 3}
+  - path: Assets/_Game/InternalAssets/dungeon_1920x1080.png
+    main: {fileID: 2800000, guid: 4dd568f39a0776741b3fad226776d515, type: 3}
+    subAssets:
+    - {fileID: -7643896553722096639, guid: 4dd568f39a0776741b3fad226776d515, type: 3}
+  - path: Assets/_Game/InternalAssets/goblin_front.png
+    main: {fileID: 2800000, guid: 217ab0d25905367488627a1653851ae6, type: 3}
+    subAssets:
+    - {fileID: 4143589500559539958, guid: 217ab0d25905367488627a1653851ae6, type: 3}
+  - path: Assets/_Game/InternalAssets/desk.png
+    main: {fileID: 2800000, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    subAssets:
+    - {fileID: 8033975403568566451, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: 4614441487362770172, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: 3868446081044299931, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: -8277674692312434340, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: -6657234822361563341, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: -5468088961775616726, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: 584364368102803430, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: -4384448977280392971, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: -7538679165963673666, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: 4988037001267614049, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: -2694200288302705821, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: 4683522133584329249, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: 5463319837459261983, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: -5668028612955499280, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: 3531687338103697702, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: 3473717369179819062, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: 7870815130467652138, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: 5906726059481789287, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: 5002739746092977205, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: -7959434367375522724, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: -8237025133968402502, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: -1947961800979772983, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: 961889429380985092, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: 5965336805790931662, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: -6891240553330729296, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: 1830985701188079511, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: -3730860900839046591, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: -8614656736951286434, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: -3598040457445776752, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+    - {fileID: 4324427735820787274, guid: f76f1bfd527162443b1a857fd21fb691, type: 3}
+  - path: Assets/_Game/InternalAssets/interaction_background_1920x1080.png
+    main: {fileID: 2800000, guid: d400de8312456d94b9e46eefeefbf375, type: 3}
+    subAssets:
+    - {fileID: -6567766516238142780, guid: d400de8312456d94b9e46eefeefbf375, type: 3}
+  - path: Assets/_Game/Audio/Music/dungeon.mp3
+    main: {fileID: 8300000, guid: eb710737e4500744296e93995310a496, type: 3}
+    subAssets: []
+  - path: Assets/_Game/Audio/Music/battle.mp3
+    main: {fileID: 8300000, guid: 80e699f63024bc54391ff81bf73f9d45, type: 3}
+    subAssets: []
+  - path: Assets/_Game/ExternalAssets/Hero Knight - Pixel Art/Demo/HeroKnight.prefab
+    main: {fileID: 6323719953710832613, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
+    subAssets: []
+  - path: Assets/_Game/Fonts/MalgunGothic.ttf
+    main: {fileID: 12800000, guid: a03f95a9141d15f48bccf837c19827c7, type: 3}
+    subAssets:
+    - {fileID: 2100000, guid: a03f95a9141d15f48bccf837c19827c7, type: 3}
+    - {fileID: 2800000, guid: a03f95a9141d15f48bccf837c19827c7, type: 3}

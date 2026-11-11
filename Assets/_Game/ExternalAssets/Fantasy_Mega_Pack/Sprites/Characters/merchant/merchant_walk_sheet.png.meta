@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 22741f41507a0c44580021e2a63a3283
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -714274177311677736
+    second: merchant_walk_sheet_0
+  - first:
+      213: -6984094079232724718
+    second: merchant_walk_sheet_1
+  - first:
+      213: 4828996753665290261
+    second: merchant_walk_sheet_2
+  - first:
+      213: -8086180511058243080
+    second: merchant_walk_sheet_3
+  - first:
+      213: -6449118359810389115
+    second: merchant_walk_sheet_4
+  - first:
+      213: 6171528316217992805
+    second: merchant_walk_sheet_5
+  - first:
+      213: -7422368830116813526
+    second: merchant_walk_sheet_6
+  - first:
+      213: -6943413147582369582
+    second: merchant_walk_sheet_7
+  - first:
+      213: -7463553065430960706
+    second: merchant_walk_sheet_8
+  - first:
+      213: -3974119617584397171
+    second: merchant_walk_sheet_9
+  - first:
+      213: 6291859460604730684
+    second: merchant_walk_sheet_10
+  - first:
+      213: 2015761706915451274
+    second: merchant_walk_sheet_11
+  - first:
+      213: -2931873048768608417
+    second: merchant_walk_sheet_12
+  - first:
+      213: -2229000202800538199
+    second: merchant_walk_sheet_13
+  - first:
+      213: -3317287777234346847
+    second: merchant_walk_sheet_14
+  - first:
+      213: -7534604378124650956
+    second: merchant_walk_sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: merchant_walk_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 782
+        width: 118
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d26a1d8b636616f0800000000000000
+      internalID: -714274177311677736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: merchant_walk_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 781
+        width: 117
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211bc613073831f90800000000000000
+      internalID: -6984094079232724718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: merchant_walk_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 782
+        width: 118
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510fbbb56fa040340800000000000000
+      internalID: 4828996753665290261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: merchant_walk_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 782
+        width: 117
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1dfa8eaad18cf80800000000000000
+      internalID: -8086180511058243080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: merchant_walk_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 569
+        width: 118
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b4d0945012086a0800000000000000
+      internalID: -6449118359810389115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: merchant_walk_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 569
+        width: 117
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56620713e4ca5a550800000000000000
+      internalID: 6171528316217992805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: merchant_walk_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 569
+        width: 118
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25a4f8dfd27ef890800000000000000
+      internalID: -7422368830116813526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: merchant_walk_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 569
+        width: 118
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d07391b78a04af90800000000000000
+      internalID: -6943413147582369582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: merchant_walk_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 360
+        width: 85
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5b5b4d7022c6890800000000000000
+      internalID: -7463553065430960706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: merchant_walk_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 362
+        width: 93
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8488fa734719d8c0800000000000000
+      internalID: -3974119617584397171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: merchant_walk_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 364
+        width: 89
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d960ef7dc215750800000000000000
+      internalID: 6291859460604730684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: merchant_walk_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 360
+        width: 91
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81d78ca79c69fb10800000000000000
+      internalID: 2015761706915451274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: merchant_walk_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 153
+        width: 86
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f570b91fef4ef47d0800000000000000
+      internalID: -2931873048768608417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: merchant_walk_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 153
+        width: 90
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9addcc310200111e0800000000000000
+      internalID: -2229000202800538199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: merchant_walk_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 155
+        width: 87
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac9334a750a6f1d0800000000000000
+      internalID: -3317287777234346847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: merchant_walk_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 152
+        width: 89
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436f6c6fc35bf6790800000000000000
+      internalID: -7534604378124650956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      merchant_walk_sheet_0: -714274177311677736
+      merchant_walk_sheet_1: -6984094079232724718
+      merchant_walk_sheet_10: 6291859460604730684
+      merchant_walk_sheet_11: 2015761706915451274
+      merchant_walk_sheet_12: -2931873048768608417
+      merchant_walk_sheet_13: -2229000202800538199
+      merchant_walk_sheet_14: -3317287777234346847
+      merchant_walk_sheet_15: -7534604378124650956
+      merchant_walk_sheet_2: 4828996753665290261
+      merchant_walk_sheet_3: -8086180511058243080
+      merchant_walk_sheet_4: -6449118359810389115
+      merchant_walk_sheet_5: 6171528316217992805
+      merchant_walk_sheet_6: -7422368830116813526
+      merchant_walk_sheet_7: -6943413147582369582
+      merchant_walk_sheet_8: -7463553065430960706
+      merchant_walk_sheet_9: -3974119617584397171
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

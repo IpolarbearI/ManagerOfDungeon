@@ -1,0 +1,2249 @@
+fileFormatVersion: 2
+guid: 5301ee720f59398498fd08638fbb498b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9073853649328537750
+    second: vfx_heal_0
+  - first:
+      213: -5488660742347517914
+    second: vfx_heal_1
+  - first:
+      213: -1887372544237538743
+    second: vfx_heal_2
+  - first:
+      213: 359775454195999623
+    second: vfx_heal_3
+  - first:
+      213: -1000112765536524242
+    second: vfx_heal_4
+  - first:
+      213: -1623753192621354827
+    second: vfx_heal_5
+  - first:
+      213: 4098167688279528406
+    second: vfx_heal_6
+  - first:
+      213: -3889093567159869394
+    second: vfx_heal_7
+  - first:
+      213: -2165974963186089844
+    second: vfx_heal_8
+  - first:
+      213: -8399848126189933353
+    second: vfx_heal_9
+  - first:
+      213: 1910958113787858595
+    second: vfx_heal_10
+  - first:
+      213: 2852936340760568575
+    second: vfx_heal_11
+  - first:
+      213: -1327477427210308425
+    second: vfx_heal_12
+  - first:
+      213: -4456161014264770693
+    second: vfx_heal_13
+  - first:
+      213: 4702566397847024391
+    second: vfx_heal_14
+  - first:
+      213: 2786962076417755568
+    second: vfx_heal_15
+  - first:
+      213: -283191518109023478
+    second: vfx_heal_16
+  - first:
+      213: -9129055049262809873
+    second: vfx_heal_17
+  - first:
+      213: 6232501069401755974
+    second: vfx_heal_18
+  - first:
+      213: 2537096679557552604
+    second: vfx_heal_19
+  - first:
+      213: 6343321432470373055
+    second: vfx_heal_20
+  - first:
+      213: -3618720809579312468
+    second: vfx_heal_21
+  - first:
+      213: -3672704196790013650
+    second: vfx_heal_22
+  - first:
+      213: 3016306614475315081
+    second: vfx_heal_23
+  - first:
+      213: 8270373414749073760
+    second: vfx_heal_24
+  - first:
+      213: -2071803026291740087
+    second: vfx_heal_25
+  - first:
+      213: -384487084317837281
+    second: vfx_heal_26
+  - first:
+      213: -6034830286830672398
+    second: vfx_heal_27
+  - first:
+      213: -4763862488294730603
+    second: vfx_heal_28
+  - first:
+      213: 7128697550310904939
+    second: vfx_heal_29
+  - first:
+      213: -7167056596209310408
+    second: vfx_heal_30
+  - first:
+      213: -3412116247104014343
+    second: vfx_heal_31
+  - first:
+      213: -8127932612206382787
+    second: vfx_heal_32
+  - first:
+      213: -5028672074689526241
+    second: vfx_heal_33
+  - first:
+      213: -5824835346569867052
+    second: vfx_heal_34
+  - first:
+      213: -4751548338076621664
+    second: vfx_heal_35
+  - first:
+      213: -5394820846917137488
+    second: vfx_heal_36
+  - first:
+      213: -7050792202821200852
+    second: vfx_heal_37
+  - first:
+      213: 8374347759454576098
+    second: vfx_heal_38
+  - first:
+      213: 1842862903771314234
+    second: vfx_heal_39
+  - first:
+      213: -7217503439638453140
+    second: vfx_heal_40
+  - first:
+      213: -5523785874630368449
+    second: vfx_heal_41
+  - first:
+      213: -965929572377713976
+    second: vfx_heal_42
+  - first:
+      213: 5673554364486298224
+    second: vfx_heal_43
+  - first:
+      213: 8185129342112867397
+    second: vfx_heal_44
+  - first:
+      213: -6462707986682115899
+    second: vfx_heal_45
+  - first:
+      213: -2584932425583604452
+    second: vfx_heal_46
+  - first:
+      213: 8515715404786541446
+    second: vfx_heal_47
+  - first:
+      213: -4823893305992877987
+    second: vfx_heal_48
+  - first:
+      213: 6873209839562684713
+    second: vfx_heal_49
+  - first:
+      213: -39910872801319466
+    second: vfx_heal_50
+  - first:
+      213: -4722835273442809254
+    second: vfx_heal_51
+  - first:
+      213: -5730639561699318848
+    second: vfx_heal_52
+  - first:
+      213: -1504838158393435636
+    second: vfx_heal_53
+  - first:
+      213: 5327424464226829657
+    second: vfx_heal_54
+  - first:
+      213: 4010056452607975072
+    second: vfx_heal_55
+  - first:
+      213: -4004289538704146013
+    second: vfx_heal_56
+  - first:
+      213: -5295884872761911621
+    second: vfx_heal_57
+  - first:
+      213: 3786171920779719626
+    second: vfx_heal_58
+  - first:
+      213: -3474622693309816285
+    second: vfx_heal_59
+  - first:
+      213: 4659311802143841449
+    second: vfx_heal_60
+  - first:
+      213: -2397993026077759961
+    second: vfx_heal_61
+  - first:
+      213: -8226055879599603777
+    second: vfx_heal_62
+  - first:
+      213: -6601279782321573900
+    second: vfx_heal_63
+  - first:
+      213: -2312476226854789105
+    second: vfx_heal_64
+  - first:
+      213: -1131195436772293705
+    second: vfx_heal_65
+  - first:
+      213: -8053233252907766132
+    second: vfx_heal_66
+  - first:
+      213: 880998901990250508
+    second: vfx_heal_67
+  - first:
+      213: 648777161476981619
+    second: vfx_heal_68
+  - first:
+      213: -2936932890215944491
+    second: vfx_heal_69
+  - first:
+      213: -4681229200651358585
+    second: vfx_heal_70
+  - first:
+      213: -8342839324829094983
+    second: vfx_heal_71
+  - first:
+      213: -965169016921264913
+    second: vfx_heal_72
+  - first:
+      213: -7553480987711686261
+    second: vfx_heal_73
+  - first:
+      213: -8710280224997695235
+    second: vfx_heal_74
+  - first:
+      213: -4462830767214958611
+    second: vfx_heal_75
+  - first:
+      213: -8954522726839506627
+    second: vfx_heal_76
+  - first:
+      213: 8336118226807917636
+    second: vfx_heal_77
+  - first:
+      213: -9093542315259992266
+    second: vfx_heal_78
+  - first:
+      213: -5838933861554194103
+    second: vfx_heal_79
+  - first:
+      213: 7543337300062344229
+    second: vfx_heal_80
+  - first:
+      213: -5976495413041924139
+    second: vfx_heal_81
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vfx_heal_0
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1385
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6900c1891ddcced70800000000000000
+      internalID: 9073853649328537750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_1
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 1354
+        width: 75
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6209ebf822c54d3b0800000000000000
+      internalID: -5488660742347517914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_2
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1320
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94275e5bba4bec5e0800000000000000
+      internalID: -1887372544237538743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_3
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 1315
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783e1429edd2ef400800000000000000
+      internalID: 359775454195999623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_4
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 1322
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28acd21db2ee12f0800000000000000
+      internalID: -1000112765536524242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_5
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1277
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0d5e603154779e0800000000000000
+      internalID: -1623753192621354827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_6
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1214
+        width: 73
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d392e9accd9fd830800000000000000
+      internalID: 4098167688279528406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_7
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1289
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20ed27810a270ac0800000000000000
+      internalID: -3889093567159869394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_8
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 1254
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8047ee2f39e0f1e0800000000000000
+      internalID: -2165974963186089844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_9
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1265
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dce73f22aebd6b80800000000000000
+      internalID: -8399848126189933353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_10
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 1257
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aec9f0a746158a10800000000000000
+      internalID: 1910958113787858595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_11
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 1208
+        width: 73
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff226d58c7aa79720800000000000000
+      internalID: 2852936340760568575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_12
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1197
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4b7cf205ad39de0800000000000000
+      internalID: -1327477427210308425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_13
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 1203
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7fcdc2da298822c0800000000000000
+      internalID: -4456161014264770693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_14
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 1207
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7033c5c393fd24140800000000000000
+      internalID: 4702566397847024391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_15
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 1203
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b98d571e374da620800000000000000
+      internalID: 2786962076417755568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_16
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1168
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0345bf80d6e11cf0800000000000000
+      internalID: -283191518109023478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_17
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 1098
+        width: 75
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec34bdecc41f4180800000000000000
+      internalID: -9129055049262809873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_18
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 1170
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6411fef83ba4e7650800000000000000
+      internalID: 6232501069401755974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_19
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 1098
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9d9d9ecf3953320800000000000000
+      internalID: 2537096679557552604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_20
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 1168
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2c4860c31080850800000000000000
+      internalID: 6343321432470373055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_21
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1120
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa06b3b898b7cdc0800000000000000
+      internalID: -3618720809579312468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_22
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 1153
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21be39edfee70dc0800000000000000
+      internalID: -3672704196790013650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_23
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1129
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987567182e21cd920800000000000000
+      internalID: 3016306614475315081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_24
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1130
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061f3f96dc446c270800000000000000
+      internalID: 8270373414749073760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_25
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1089
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9423d4ddf1a7f33e0800000000000000
+      internalID: -2071803026291740087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_26
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1087
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18728ea8070aaaf0800000000000000
+      internalID: -384487084317837281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_27
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1108
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f560b9f3d9ff3ca0800000000000000
+      internalID: -6034830286830672398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_28
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1015
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59452629e4c53edb0800000000000000
+      internalID: -4763862488294730603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_29
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 1055
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b649a7d07a83ee260800000000000000
+      internalID: 7128697550310904939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_30
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 1052
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835e2d99fff798c90800000000000000
+      internalID: -7167056596209310408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_31
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 1014
+        width: 74
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7b607f95ab5a0d0800000000000000
+      internalID: -3412116247104014343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_32
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 1025
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3130235a58c33f80800000000000000
+      internalID: -8127932612206382787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_33
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1030
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1644302461963ab0800000000000000
+      internalID: -5028672074689526241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_34
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 972
+        width: 73
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d050941d170a2fa0800000000000000
+      internalID: -5824835346569867052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_35
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 476
+        width: 322
+        height: 556
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a468d716fb1f0eb0800000000000000
+      internalID: -4751548338076621664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_36
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1009
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbc1a0d50fb125b0800000000000000
+      internalID: -5394820846917137488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_37
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 983
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c249fb529dd862e90800000000000000
+      internalID: -7050792202821200852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_38
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 949
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2edd0e30be8a73470800000000000000
+      internalID: 8374347759454576098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_39
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 957
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38b80d0c0a239910800000000000000
+      internalID: 1842862903771314234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_40
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 928
+        width: 75
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64a0339cd646db90800000000000000
+      internalID: -7217503439638453140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_41
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 916
+        width: 74
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33265763029753b0800000000000000
+      internalID: -5523785874630368449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_42
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 889
+        width: 74
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2a160fb245892f0800000000000000
+      internalID: -965929572377713976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_43
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 966
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07aa21d72a38cbe40800000000000000
+      internalID: 5673554364486298224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_44
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 918
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544a34d15cb679170800000000000000
+      internalID: 8185129342112867397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_45
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 917
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c88bb6b359df46a0800000000000000
+      internalID: -6462707986682115899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_46
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 923
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d43bc87a9702cd0800000000000000
+      internalID: -2584932425583604452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_47
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 897
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683af9eda06ed2670800000000000000
+      internalID: 8515715404786541446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_48
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 884
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58e8e5a8961e0db0800000000000000
+      internalID: -4823893305992877987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_49
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 867
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9297ad9eeeb826f50800000000000000
+      internalID: 6873209839562684713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_50
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 873
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5600cc545327ff0800000000000000
+      internalID: -39910872801319466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_51
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 873
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5aa1c9675e157eb0800000000000000
+      internalID: -4722835273442809254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_52
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 869
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3ac1d4eada870b0800000000000000
+      internalID: -5730639561699318848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_53
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 839
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a918cfaadbd1be0800000000000000
+      internalID: -1504838158393435636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_54
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 868
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95547f50350dee940800000000000000
+      internalID: 5327424464226829657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_55
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 794
+        width: 84
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae16f2f81596a730800000000000000
+      internalID: 4010056452607975072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_56
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 857
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a10ab351e7ed68c0800000000000000
+      internalID: -4004289538704146013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_57
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 835
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb659ab54cc3186b0800000000000000
+      internalID: -5295884872761911621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_58
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 833
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac332ac4d4f2b8430800000000000000
+      internalID: 3786171920779719626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_59
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 855
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322e1ccd119a7cfc0800000000000000
+      internalID: -3474622693309816285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_60
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 828
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac9190e56339a040800000000000000
+      internalID: 4659311802143841449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_61
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 787
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72665c24c0e98bed0800000000000000
+      internalID: -2397993026077759961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_62
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 813
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfb3f1d2cd27dd80800000000000000
+      internalID: -8226055879599603777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_63
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 787
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff21c7530b8364a0800000000000000
+      internalID: -6601279782321573900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_64
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 813
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00e8caaf1f68efd0800000000000000
+      internalID: -2312476226854789105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_65
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 801
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b305ab5ebf2d40f0800000000000000
+      internalID: -1131195436772293705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_66
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 797
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ea11b360b2d3090800000000000000
+      internalID: -8053233252907766132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_67
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 769
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0853a865dfe93c00800000000000000
+      internalID: 880998901990250508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_68
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 784
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373c838146be00900800000000000000
+      internalID: 648777161476981619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_69
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 757
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de648dc81bed37d0800000000000000
+      internalID: -2936932890215944491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_70
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 477
+        width: 283
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e6dfe18dee80fb0800000000000000
+      internalID: -4681229200651358585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_71
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 756
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bbe66916d7483c80800000000000000
+      internalID: -8342839324829094983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_72
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 685
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fece13e84e70b92f0800000000000000
+      internalID: -965169016921264913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_73
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 715
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8937cdcf05ac2790800000000000000
+      internalID: -7553480987711686261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_74
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 478
+        width: 282
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df027eec84ede1780800000000000000
+      internalID: -8710280224997695235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_75
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 714
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7e773ff07d012c0800000000000000
+      internalID: -4462830767214958611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_76
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 726
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39a195e5052bb380800000000000000
+      internalID: -8954522726839506627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_77
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 481
+        width: 274
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c8b825c57dfa370800000000000000
+      internalID: 8336118226807917636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_78
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 692
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637e1f4a17f3dc180800000000000000
+      internalID: -9093542315259992266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_79
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 705
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949ff03c690f7fea0800000000000000
+      internalID: -5838933861554194103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_80
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 479
+        width: 276
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5249b2fde415fa860800000000000000
+      internalID: 7543337300062344229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vfx_heal_81
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 681
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d772ef26193f0da0800000000000000
+      internalID: -5976495413041924139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vfx_heal_0: 9073853649328537750
+      vfx_heal_1: -5488660742347517914
+      vfx_heal_10: 1910958113787858595
+      vfx_heal_11: 2852936340760568575
+      vfx_heal_12: -1327477427210308425
+      vfx_heal_13: -4456161014264770693
+      vfx_heal_14: 4702566397847024391
+      vfx_heal_15: 2786962076417755568
+      vfx_heal_16: -283191518109023478
+      vfx_heal_17: -9129055049262809873
+      vfx_heal_18: 6232501069401755974
+      vfx_heal_19: 2537096679557552604
+      vfx_heal_2: -1887372544237538743
+      vfx_heal_20: 6343321432470373055
+      vfx_heal_21: -3618720809579312468
+      vfx_heal_22: -3672704196790013650
+      vfx_heal_23: 3016306614475315081
+      vfx_heal_24: 8270373414749073760
+      vfx_heal_25: -2071803026291740087
+      vfx_heal_26: -384487084317837281
+      vfx_heal_27: -6034830286830672398
+      vfx_heal_28: -4763862488294730603
+      vfx_heal_29: 7128697550310904939
+      vfx_heal_3: 359775454195999623
+      vfx_heal_30: -7167056596209310408
+      vfx_heal_31: -3412116247104014343
+      vfx_heal_32: -8127932612206382787
+      vfx_heal_33: -5028672074689526241
+      vfx_heal_34: -5824835346569867052
+      vfx_heal_35: -4751548338076621664
+      vfx_heal_36: -5394820846917137488
+      vfx_heal_37: -7050792202821200852
+      vfx_heal_38: 8374347759454576098
+      vfx_heal_39: 1842862903771314234
+      vfx_heal_4: -1000112765536524242
+      vfx_heal_40: -7217503439638453140
+      vfx_heal_41: -5523785874630368449
+      vfx_heal_42: -965929572377713976
+      vfx_heal_43: 5673554364486298224
+      vfx_heal_44: 8185129342112867397
+      vfx_heal_45: -6462707986682115899
+      vfx_heal_46: -2584932425583604452
+      vfx_heal_47: 8515715404786541446
+      vfx_heal_48: -4823893305992877987
+      vfx_heal_49: 6873209839562684713
+      vfx_heal_5: -1623753192621354827
+      vfx_heal_50: -39910872801319466
+      vfx_heal_51: -4722835273442809254
+      vfx_heal_52: -5730639561699318848
+      vfx_heal_53: -1504838158393435636
+      vfx_heal_54: 5327424464226829657
+      vfx_heal_55: 4010056452607975072
+      vfx_heal_56: -4004289538704146013
+      vfx_heal_57: -5295884872761911621
+      vfx_heal_58: 3786171920779719626
+      vfx_heal_59: -3474622693309816285
+      vfx_heal_6: 4098167688279528406
+      vfx_heal_60: 4659311802143841449
+      vfx_heal_61: -2397993026077759961
+      vfx_heal_62: -8226055879599603777
+      vfx_heal_63: -6601279782321573900
+      vfx_heal_64: -2312476226854789105
+      vfx_heal_65: -1131195436772293705
+      vfx_heal_66: -8053233252907766132
+      vfx_heal_67: 880998901990250508
+      vfx_heal_68: 648777161476981619
+      vfx_heal_69: -2936932890215944491
+      vfx_heal_7: -3889093567159869394
+      vfx_heal_70: -4681229200651358585
+      vfx_heal_71: -8342839324829094983
+      vfx_heal_72: -965169016921264913
+      vfx_heal_73: -7553480987711686261
+      vfx_heal_74: -8710280224997695235
+      vfx_heal_75: -4462830767214958611
+      vfx_heal_76: -8954522726839506627
+      vfx_heal_77: 8336118226807917636
+      vfx_heal_78: -9093542315259992266
+      vfx_heal_79: -5838933861554194103
+      vfx_heal_8: -2165974963186089844
+      vfx_heal_80: 7543337300062344229
+      vfx_heal_81: -5976495413041924139
+      vfx_heal_9: -8399848126189933353
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

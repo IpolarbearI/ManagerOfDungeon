@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 667bfe5ddb321d74eadda7f3d44c3c99
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1348931667250235173
+    second: frostslime_attack_sheet_0
+  - first:
+      213: 5679135750965792426
+    second: frostslime_attack_sheet_1
+  - first:
+      213: 8762074199924338120
+    second: frostslime_attack_sheet_2
+  - first:
+      213: 8817650466418931885
+    second: frostslime_attack_sheet_3
+  - first:
+      213: 6364394867726071627
+    second: frostslime_attack_sheet_4
+  - first:
+      213: 9074908892342795023
+    second: frostslime_attack_sheet_5
+  - first:
+      213: 2521616416303109181
+    second: frostslime_attack_sheet_6
+  - first:
+      213: -1596020878635837629
+    second: frostslime_attack_sheet_7
+  - first:
+      213: -1871578548510739312
+    second: frostslime_attack_sheet_8
+  - first:
+      213: -5977429201077247645
+    second: frostslime_attack_sheet_9
+  - first:
+      213: -1878426372228689467
+    second: frostslime_attack_sheet_10
+  - first:
+      213: 4621215157490663620
+    second: frostslime_attack_sheet_11
+  - first:
+      213: 3438611043059568567
+    second: frostslime_attack_sheet_12
+  - first:
+      213: -4721622934093104379
+    second: frostslime_attack_sheet_13
+  - first:
+      213: 417157811491972446
+    second: frostslime_attack_sheet_14
+  - first:
+      213: 3736623319395576597
+    second: frostslime_attack_sheet_15
+  - first:
+      213: 3874663068633311515
+    second: frostslime_attack_sheet_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: frostslime_attack_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 791
+        width: 138
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8364babc1a74de0800000000000000
+      internalID: -1348931667250235173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_attack_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 786
+        width: 146
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae898b40e750de40800000000000000
+      internalID: 5679135750965792426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_attack_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 785
+        width: 162
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdea16bf04299970800000000000000
+      internalID: 8762074199924338120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_attack_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 786
+        width: 141
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8357c91669e5a70800000000000000
+      internalID: 8817650466418931885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_attack_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 576
+        width: 138
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47b125896fd25850800000000000000
+      internalID: 6364394867726071627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_attack_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 572
+        width: 125
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b30218e8d80fd70800000000000000
+      internalID: 9074908892342795023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_attack_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 558
+        width: 152
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d345a8145c49ef220800000000000000
+      internalID: 2521616416303109181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_attack_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 567
+        width: 142
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347ddca877bc9d9e0800000000000000
+      internalID: -1596020878635837629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_attack_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 563
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094b6c6e931d606e0800000000000000
+      internalID: -1871578548510739312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_attack_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 350
+        width: 138
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3616eb7bfc7eb0da0800000000000000
+      internalID: -5977429201077247645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_attack_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 350
+        width: 134
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c15592ba2d7ee5e0800000000000000
+      internalID: -1878426372228689467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_attack_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 322
+        width: 178
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c0c1e493bad12040800000000000000
+      internalID: 4621215157490663620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_attack_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 346
+        width: 141
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf0d4e668668bf20800000000000000
+      internalID: 3438611043059568567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_attack_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 135
+        width: 139
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bfa0a25fc697eb0800000000000000
+      internalID: -4721622934093104379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_attack_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 136
+        width: 134
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e552241c1da0ac500800000000000000
+      internalID: 417157811491972446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_attack_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 102
+        width: 165
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ba30c8c172bd330800000000000000
+      internalID: 3736623319395576597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_attack_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 130
+        width: 138
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19a636388195c530800000000000000
+      internalID: 3874663068633311515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      frostslime_attack_sheet_0: -1348931667250235173
+      frostslime_attack_sheet_1: 5679135750965792426
+      frostslime_attack_sheet_10: -1878426372228689467
+      frostslime_attack_sheet_11: 4621215157490663620
+      frostslime_attack_sheet_12: 3438611043059568567
+      frostslime_attack_sheet_13: -4721622934093104379
+      frostslime_attack_sheet_14: 417157811491972446
+      frostslime_attack_sheet_15: 3736623319395576597
+      frostslime_attack_sheet_16: 3874663068633311515
+      frostslime_attack_sheet_2: 8762074199924338120
+      frostslime_attack_sheet_3: 8817650466418931885
+      frostslime_attack_sheet_4: 6364394867726071627
+      frostslime_attack_sheet_5: 9074908892342795023
+      frostslime_attack_sheet_6: 2521616416303109181
+      frostslime_attack_sheet_7: -1596020878635837629
+      frostslime_attack_sheet_8: -1871578548510739312
+      frostslime_attack_sheet_9: -5977429201077247645
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

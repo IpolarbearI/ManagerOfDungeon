@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: c19443faf5d986941a3dca9f12e879ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4345670704406130440
+    second: bat_hurt_sheet_0
+  - first:
+      213: 1822861658420764644
+    second: bat_hurt_sheet_1
+  - first:
+      213: 8450212603519094588
+    second: bat_hurt_sheet_2
+  - first:
+      213: 907311100902223178
+    second: bat_hurt_sheet_3
+  - first:
+      213: 1673587626365409793
+    second: bat_hurt_sheet_4
+  - first:
+      213: 8245555628297307763
+    second: bat_hurt_sheet_5
+  - first:
+      213: 5715228971883204518
+    second: bat_hurt_sheet_6
+  - first:
+      213: 8958380594673522331
+    second: bat_hurt_sheet_7
+  - first:
+      213: 4361635738243796706
+    second: bat_hurt_sheet_8
+  - first:
+      213: -8366878133018008008
+    second: bat_hurt_sheet_9
+  - first:
+      213: -1547157118913964645
+    second: bat_hurt_sheet_10
+  - first:
+      213: -4798942726090567324
+    second: bat_hurt_sheet_11
+  - first:
+      213: -804389306914523102
+    second: bat_hurt_sheet_12
+  - first:
+      213: -8169261852192549208
+    second: bat_hurt_sheet_13
+  - first:
+      213: -7719278794820124161
+    second: bat_hurt_sheet_14
+  - first:
+      213: 7363016613910987527
+    second: bat_hurt_sheet_15
+  - first:
+      213: 1644739801387312976
+    second: bat_hurt_sheet_16
+  - first:
+      213: -3740820379811849539
+    second: bat_hurt_sheet_17
+  - first:
+      213: -1780689465203407163
+    second: bat_hurt_sheet_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bat_hurt_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 805
+        width: 218
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80fe2f63b7cee4c30800000000000000
+      internalID: 4345670704406130440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_hurt_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 811
+        width: 187
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef59d8350b1c4910800000000000000
+      internalID: 1822861658420764644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_hurt_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 810
+        width: 180
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3fc84d779f254570800000000000000
+      internalID: 8450212603519094588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_hurt_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 805
+        width: 218
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4dab0e93aa679c00800000000000000
+      internalID: 907311100902223178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_hurt_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 601
+        width: 150
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10adff14417c93710800000000000000
+      internalID: 1673587626365409793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_hurt_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 601
+        width: 119
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376426838291e6270800000000000000
+      internalID: 8245555628297307763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_hurt_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 596
+        width: 150
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af8e172872905f40800000000000000
+      internalID: 5715228971883204518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_hurt_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 601
+        width: 151
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b969444ffaf825c70800000000000000
+      internalID: 8958380594673522331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_hurt_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 339
+        width: 218
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee8ba15894a78c30800000000000000
+      internalID: 4361635738243796706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_hurt_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 358
+        width: 166
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8366a7aeaa0e2eb80800000000000000
+      internalID: -8366878133018008008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_hurt_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 338
+        width: 165
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b959a6b2cc4678ae0800000000000000
+      internalID: -1547157118913964645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_hurt_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 466
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4615de9340bb66db0800000000000000
+      internalID: -4798942726090567324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_hurt_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 451
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228bc3cef2c36d4f0800000000000000
+      internalID: -804389306914523102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_hurt_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 339
+        width: 221
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6d9e6c0a3f0ae80800000000000000
+      internalID: -8169261852192549208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_hurt_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 121
+        width: 151
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff18a88a5dc9fd490800000000000000
+      internalID: -7719278794820124161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_hurt_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 134
+        width: 150
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703c6737990be2660800000000000000
+      internalID: 7363016613910987527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_hurt_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 239
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05723a9922a43d610800000000000000
+      internalID: 1644739801387312976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_hurt_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 134
+        width: 144
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbad5cc2fafe51cc0800000000000000
+      internalID: -3740820379811849539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat_hurt_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 121
+        width: 151
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6454bad58b947e0800000000000000
+      internalID: -1780689465203407163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bat_hurt_sheet_0: 4345670704406130440
+      bat_hurt_sheet_1: 1822861658420764644
+      bat_hurt_sheet_10: -1547157118913964645
+      bat_hurt_sheet_11: -4798942726090567324
+      bat_hurt_sheet_12: -804389306914523102
+      bat_hurt_sheet_13: -8169261852192549208
+      bat_hurt_sheet_14: -7719278794820124161
+      bat_hurt_sheet_15: 7363016613910987527
+      bat_hurt_sheet_16: 1644739801387312976
+      bat_hurt_sheet_17: -3740820379811849539
+      bat_hurt_sheet_18: -1780689465203407163
+      bat_hurt_sheet_2: 8450212603519094588
+      bat_hurt_sheet_3: 907311100902223178
+      bat_hurt_sheet_4: 1673587626365409793
+      bat_hurt_sheet_5: 8245555628297307763
+      bat_hurt_sheet_6: 5715228971883204518
+      bat_hurt_sheet_7: 8958380594673522331
+      bat_hurt_sheet_8: 4361635738243796706
+      bat_hurt_sheet_9: -8366878133018008008
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

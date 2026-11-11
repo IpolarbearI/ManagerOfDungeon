@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 00fb92627fd6a5549bd4c81d9c91027f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5533064655397419992
+    second: toxicbat_hurt_sheet_0
+  - first:
+      213: -8158066664603750538
+    second: toxicbat_hurt_sheet_1
+  - first:
+      213: 556645878572788348
+    second: toxicbat_hurt_sheet_2
+  - first:
+      213: 732735270589450745
+    second: toxicbat_hurt_sheet_3
+  - first:
+      213: -475295008872053103
+    second: toxicbat_hurt_sheet_4
+  - first:
+      213: -4519738259639192338
+    second: toxicbat_hurt_sheet_5
+  - first:
+      213: -6052349657122997742
+    second: toxicbat_hurt_sheet_6
+  - first:
+      213: -4904029452413248707
+    second: toxicbat_hurt_sheet_7
+  - first:
+      213: -2233532377852311116
+    second: toxicbat_hurt_sheet_8
+  - first:
+      213: 2327279166919312279
+    second: toxicbat_hurt_sheet_9
+  - first:
+      213: -5329480922032146312
+    second: toxicbat_hurt_sheet_10
+  - first:
+      213: -1418726489395138496
+    second: toxicbat_hurt_sheet_11
+  - first:
+      213: -1033549213857300871
+    second: toxicbat_hurt_sheet_12
+  - first:
+      213: -4693128538113108784
+    second: toxicbat_hurt_sheet_13
+  - first:
+      213: -3022410017996606349
+    second: toxicbat_hurt_sheet_14
+  - first:
+      213: -5503926989296306462
+    second: toxicbat_hurt_sheet_15
+  - first:
+      213: -6480074137521729298
+    second: toxicbat_hurt_sheet_16
+  - first:
+      213: 7514114933545038971
+    second: toxicbat_hurt_sheet_17
+  - first:
+      213: -3533071462397847441
+    second: toxicbat_hurt_sheet_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: toxicbat_hurt_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 805
+        width: 218
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db7b381df469cc40800000000000000
+      internalID: 5533064655397419992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_hurt_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 811
+        width: 187
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f66528799b8ce80800000000000000
+      internalID: -8158066664603750538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_hurt_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 810
+        width: 180
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a24023a7a99b700800000000000000
+      internalID: 556645878572788348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_hurt_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 805
+        width: 218
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f942eda8d23b2a00800000000000000
+      internalID: 732735270589450745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_hurt_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 601
+        width: 150
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1964aa825b96769f0800000000000000
+      internalID: -475295008872053103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_hurt_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 601
+        width: 119
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4b67cdff9a641c0800000000000000
+      internalID: -4519738259639192338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_hurt_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 596
+        width: 150
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21af9b6bd0cb10ca0800000000000000
+      internalID: -6052349657122997742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_hurt_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 601
+        width: 151
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3bdad8123361fbb0800000000000000
+      internalID: -4904029452413248707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_hurt_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 339
+        width: 218
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b987c7d226e001e0800000000000000
+      internalID: -2233532377852311116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_hurt_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 358
+        width: 166
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793846562182c4020800000000000000
+      internalID: 2327279166919312279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_hurt_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 338
+        width: 165
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8787d059651e906b0800000000000000
+      internalID: -5329480922032146312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_hurt_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 466
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0407a2e46cbaf4ce0800000000000000
+      internalID: -1418726489395138496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_hurt_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 451
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97eb62a477818a1f0800000000000000
+      internalID: -1033549213857300871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_hurt_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 339
+        width: 221
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d41588b578aedeb0800000000000000
+      internalID: -4693128538113108784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_hurt_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 121
+        width: 151
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374fabf1a1e3e06d0800000000000000
+      internalID: -3022410017996606349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_hurt_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 134
+        width: 150
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6fe45709f1e93b0800000000000000
+      internalID: -5503926989296306462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_hurt_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 239
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee052d2a7e62216a0800000000000000
+      internalID: -6480074137521729298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_hurt_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 134
+        width: 144
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74f86778bf774860800000000000000
+      internalID: 7514114933545038971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_hurt_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 121
+        width: 151
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68d4b5593208fec0800000000000000
+      internalID: -3533071462397847441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      toxicbat_hurt_sheet_0: 5533064655397419992
+      toxicbat_hurt_sheet_1: -8158066664603750538
+      toxicbat_hurt_sheet_10: -5329480922032146312
+      toxicbat_hurt_sheet_11: -1418726489395138496
+      toxicbat_hurt_sheet_12: -1033549213857300871
+      toxicbat_hurt_sheet_13: -4693128538113108784
+      toxicbat_hurt_sheet_14: -3022410017996606349
+      toxicbat_hurt_sheet_15: -5503926989296306462
+      toxicbat_hurt_sheet_16: -6480074137521729298
+      toxicbat_hurt_sheet_17: 7514114933545038971
+      toxicbat_hurt_sheet_18: -3533071462397847441
+      toxicbat_hurt_sheet_2: 556645878572788348
+      toxicbat_hurt_sheet_3: 732735270589450745
+      toxicbat_hurt_sheet_4: -475295008872053103
+      toxicbat_hurt_sheet_5: -4519738259639192338
+      toxicbat_hurt_sheet_6: -6052349657122997742
+      toxicbat_hurt_sheet_7: -4904029452413248707
+      toxicbat_hurt_sheet_8: -2233532377852311116
+      toxicbat_hurt_sheet_9: 2327279166919312279
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

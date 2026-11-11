@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: c8d427f54ee7bde479fda4feb8f253cd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1182999033129510832
+    second: frostslime_run_sheet_0
+  - first:
+      213: -8885105492746591234
+    second: frostslime_run_sheet_1
+  - first:
+      213: -1787033549090441285
+    second: frostslime_run_sheet_2
+  - first:
+      213: 5595260397486257464
+    second: frostslime_run_sheet_3
+  - first:
+      213: -7198816054993605577
+    second: frostslime_run_sheet_4
+  - first:
+      213: -293986096426223322
+    second: frostslime_run_sheet_5
+  - first:
+      213: -3315432415795355665
+    second: frostslime_run_sheet_6
+  - first:
+      213: 6134164599832146919
+    second: frostslime_run_sheet_7
+  - first:
+      213: -6710245509860755042
+    second: frostslime_run_sheet_8
+  - first:
+      213: 5143654892027504423
+    second: frostslime_run_sheet_9
+  - first:
+      213: -3619301948474311347
+    second: frostslime_run_sheet_10
+  - first:
+      213: -1198670446330657222
+    second: frostslime_run_sheet_11
+  - first:
+      213: 6960174888083951884
+    second: frostslime_run_sheet_12
+  - first:
+      213: -8019462700387385920
+    second: frostslime_run_sheet_13
+  - first:
+      213: 3211529980457352494
+    second: frostslime_run_sheet_14
+  - first:
+      213: -1586592114613926866
+    second: frostslime_run_sheet_15
+  - first:
+      213: 4195435820631159778
+    second: frostslime_run_sheet_16
+  - first:
+      213: -6924974723905042944
+    second: frostslime_run_sheet_17
+  - first:
+      213: 2590892007354665621
+    second: frostslime_run_sheet_18
+  - first:
+      213: 8468813932827165440
+    second: frostslime_run_sheet_19
+  - first:
+      213: 8227143742726760979
+    second: frostslime_run_sheet_20
+  - first:
+      213: -4846300860745115271
+    second: frostslime_run_sheet_21
+  - first:
+      213: 9003083969351248801
+    second: frostslime_run_sheet_22
+  - first:
+      213: -5392552913711176016
+    second: frostslime_run_sheet_23
+  - first:
+      213: -6928841177221949453
+    second: frostslime_run_sheet_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: frostslime_run_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 811
+        width: 154
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7a0535a5bda6010800000000000000
+      internalID: 1182999033129510832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 811
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3a7f031a3c1b480800000000000000
+      internalID: -8885105492746591234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 806
+        width: 149
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb732c8847e2337e0800000000000000
+      internalID: -1787033549090441285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 811
+        width: 168
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835baf1cfab56ad40800000000000000
+      internalID: 5595260397486257464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 806
+        width: 154
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c2abe50faa81c90800000000000000
+      internalID: -7198816054993605577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 578
+        width: 149
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6297c91f33d8bebf0800000000000000
+      internalID: -293986096426223322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 583
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fefd3b3a8c73df1d0800000000000000
+      internalID: -3315432415795355665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 573
+        width: 159
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e375ce043ee02550800000000000000
+      internalID: 6134164599832146919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 573
+        width: 158
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99f61dd24b60e2a0800000000000000
+      internalID: -6710245509860755042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 588
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727ef7e3fdee16740800000000000000
+      internalID: 5143654892027504423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 583
+        width: 144
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d3f42cd08a5cdc0800000000000000
+      internalID: -3619301948474311347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 578
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36c3b374977d5fe0800000000000000
+      internalID: -1198670446330657222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 354
+        width: 159
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0196d22f22879060800000000000000
+      internalID: 6960174888083951884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 359
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd3ae5b92525b090800000000000000
+      internalID: -8019462700387385920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 344
+        width: 150
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d7da67085a19c20800000000000000
+      internalID: 3211529980457352494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 344
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24400db0ea4bf9e0800000000000000
+      internalID: -1586592114613926866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 344
+        width: 174
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e37ba686ae293a30800000000000000
+      internalID: 4195435820631159778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 339
+        width: 159
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006c41fbd2c85ef90800000000000000
+      internalID: -6924974723905042944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 126
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a06c5bd82b4f320800000000000000
+      internalID: 2590892007354665621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 121
+        width: 144
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 003ca07f665478570800000000000000
+      internalID: 8468813932827165440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 111
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a6e4d05afac2270800000000000000
+      internalID: 8227143742726760979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 111
+        width: 150
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9791e904b0b7ebcb0800000000000000
+      internalID: -4846300860745115271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 106
+        width: 169
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1abe1347b2161fc70800000000000000
+      internalID: 9003083969351248801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 106
+        width: 139
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b66fb922bdc925b0800000000000000
+      internalID: -5392552913711176016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_run_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 101
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7169ee8afc7df90800000000000000
+      internalID: -6928841177221949453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      frostslime_run_sheet_0: 1182999033129510832
+      frostslime_run_sheet_1: -8885105492746591234
+      frostslime_run_sheet_10: -3619301948474311347
+      frostslime_run_sheet_11: -1198670446330657222
+      frostslime_run_sheet_12: 6960174888083951884
+      frostslime_run_sheet_13: -8019462700387385920
+      frostslime_run_sheet_14: 3211529980457352494
+      frostslime_run_sheet_15: -1586592114613926866
+      frostslime_run_sheet_16: 4195435820631159778
+      frostslime_run_sheet_17: -6924974723905042944
+      frostslime_run_sheet_18: 2590892007354665621
+      frostslime_run_sheet_19: 8468813932827165440
+      frostslime_run_sheet_2: -1787033549090441285
+      frostslime_run_sheet_20: 8227143742726760979
+      frostslime_run_sheet_21: -4846300860745115271
+      frostslime_run_sheet_22: 9003083969351248801
+      frostslime_run_sheet_23: -5392552913711176016
+      frostslime_run_sheet_24: -6928841177221949453
+      frostslime_run_sheet_3: 5595260397486257464
+      frostslime_run_sheet_4: -7198816054993605577
+      frostslime_run_sheet_5: -293986096426223322
+      frostslime_run_sheet_6: -3315432415795355665
+      frostslime_run_sheet_7: 6134164599832146919
+      frostslime_run_sheet_8: -6710245509860755042
+      frostslime_run_sheet_9: 5143654892027504423
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 9d5e64ec9856f1b408278ac266eb246e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6690967422797702288
+    second: hero_walk_sheet_0
+  - first:
+      213: 1982284566875744572
+    second: hero_walk_sheet_1
+  - first:
+      213: 8154661217222408667
+    second: hero_walk_sheet_2
+  - first:
+      213: 3650434694826331177
+    second: hero_walk_sheet_3
+  - first:
+      213: -4097712459571849599
+    second: hero_walk_sheet_4
+  - first:
+      213: 3360559485128618235
+    second: hero_walk_sheet_5
+  - first:
+      213: -247322809335852824
+    second: hero_walk_sheet_6
+  - first:
+      213: -5161107552326988984
+    second: hero_walk_sheet_7
+  - first:
+      213: 3886892221836489335
+    second: hero_walk_sheet_8
+  - first:
+      213: -5808755917816112318
+    second: hero_walk_sheet_9
+  - first:
+      213: 9097228982597951767
+    second: hero_walk_sheet_10
+  - first:
+      213: -4721820647795239254
+    second: hero_walk_sheet_11
+  - first:
+      213: -389787385492763046
+    second: hero_walk_sheet_12
+  - first:
+      213: 1808324998142311643
+    second: hero_walk_sheet_13
+  - first:
+      213: -1658087666313389101
+    second: hero_walk_sheet_14
+  - first:
+      213: -587779599440746712
+    second: hero_walk_sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hero_walk_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 787
+        width: 136
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b9e684498e423a0800000000000000
+      internalID: -6690967422797702288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_walk_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 780
+        width: 133
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c392e5c9f4d728b10800000000000000
+      internalID: 1982284566875744572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_walk_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 776
+        width: 135
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9323cfb2d2b2170800000000000000
+      internalID: 8154661217222408667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_walk_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 780
+        width: 132
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c82ec9303f8a230800000000000000
+      internalID: 3650434694826331177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_walk_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 554
+        width: 136
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18617878a300227c0800000000000000
+      internalID: -4097712459571849599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_walk_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 545
+        width: 136
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf039a5fb0b13ae20800000000000000
+      internalID: 3360559485128618235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_walk_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 549
+        width: 133
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e05fac1735519cf0800000000000000
+      internalID: -247322809335852824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_walk_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 549
+        width: 135
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84bc6ff96001068b0800000000000000
+      internalID: -5161107552326988984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_walk_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 331
+        width: 130
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772fac2d1e301f530800000000000000
+      internalID: 3886892221836489335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_walk_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 327
+        width: 131
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b5f93d447236fa0800000000000000
+      internalID: -5808755917816112318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_walk_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 327
+        width: 131
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711a32c7f89df3e70800000000000000
+      internalID: 9097228982597951767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_walk_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 328
+        width: 129
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa65f0b5329b87eb0800000000000000
+      internalID: -4721820647795239254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_walk_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 105
+        width: 123
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e86c52072379af0800000000000000
+      internalID: -389787385492763046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_walk_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 103
+        width: 123
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc3bb04106781910800000000000000
+      internalID: 1808324998142311643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_walk_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 106
+        width: 131
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db1fea6d0a4df8e0800000000000000
+      internalID: -1658087666313389101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_walk_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 103
+        width: 123
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827ec198199c7d7f0800000000000000
+      internalID: -587779599440746712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hero_walk_sheet_0: -6690967422797702288
+      hero_walk_sheet_1: 1982284566875744572
+      hero_walk_sheet_10: 9097228982597951767
+      hero_walk_sheet_11: -4721820647795239254
+      hero_walk_sheet_12: -389787385492763046
+      hero_walk_sheet_13: 1808324998142311643
+      hero_walk_sheet_14: -1658087666313389101
+      hero_walk_sheet_15: -587779599440746712
+      hero_walk_sheet_2: 8154661217222408667
+      hero_walk_sheet_3: 3650434694826331177
+      hero_walk_sheet_4: -4097712459571849599
+      hero_walk_sheet_5: 3360559485128618235
+      hero_walk_sheet_6: -247322809335852824
+      hero_walk_sheet_7: -5161107552326988984
+      hero_walk_sheet_8: 3886892221836489335
+      hero_walk_sheet_9: -5808755917816112318
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

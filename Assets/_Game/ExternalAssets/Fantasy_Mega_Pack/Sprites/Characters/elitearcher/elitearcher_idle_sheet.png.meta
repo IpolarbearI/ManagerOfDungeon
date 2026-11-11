@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 1f245e7a2b2c2234c834c158e608a215
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8539329062691501726
+    second: elitearcher_idle_sheet_0
+  - first:
+      213: 85887813649466268
+    second: elitearcher_idle_sheet_1
+  - first:
+      213: -1419413587338652783
+    second: elitearcher_idle_sheet_2
+  - first:
+      213: 1279741188449002508
+    second: elitearcher_idle_sheet_3
+  - first:
+      213: 2748724530754504497
+    second: elitearcher_idle_sheet_4
+  - first:
+      213: 1064529641124260316
+    second: elitearcher_idle_sheet_5
+  - first:
+      213: 1343033314818703571
+    second: elitearcher_idle_sheet_6
+  - first:
+      213: -2100571848407338759
+    second: elitearcher_idle_sheet_7
+  - first:
+      213: 4606513820040532065
+    second: elitearcher_idle_sheet_8
+  - first:
+      213: 7343305330549633208
+    second: elitearcher_idle_sheet_9
+  - first:
+      213: 127025057602486822
+    second: elitearcher_idle_sheet_10
+  - first:
+      213: 3536354173604226832
+    second: elitearcher_idle_sheet_11
+  - first:
+      213: 7018830883616942872
+    second: elitearcher_idle_sheet_12
+  - first:
+      213: -3454201811635218345
+    second: elitearcher_idle_sheet_13
+  - first:
+      213: -1014201716230309602
+    second: elitearcher_idle_sheet_14
+  - first:
+      213: 4516259133093288993
+    second: elitearcher_idle_sheet_15
+  - first:
+      213: -4661611698775150046
+    second: elitearcher_idle_sheet_16
+  - first:
+      213: -735253960659356656
+    second: elitearcher_idle_sheet_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: elitearcher_idle_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 805
+        width: 123
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2698a16f5753e7980800000000000000
+      internalID: -8539329062691501726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_idle_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 805
+        width: 123
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c938c1fe282213100800000000000000
+      internalID: 85887813649466268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_idle_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 801
+        width: 123
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1931159dcda3d4ce0800000000000000
+      internalID: -1419413587338652783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_idle_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 801
+        width: 123
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0460fd94dd82c110800000000000000
+      internalID: 1279741188449002508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_idle_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 568
+        width: 120
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1374609b56e652620800000000000000
+      internalID: 2748724530754504497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_idle_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 568
+        width: 120
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9e5188118f5ce00800000000000000
+      internalID: 1064529641124260316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_idle_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 564
+        width: 120
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0c8432fa963a210800000000000000
+      internalID: 1343033314818703571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_idle_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 564
+        width: 120
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0be7e780549d2e0800000000000000
+      internalID: -2100571848407338759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_idle_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 340
+        width: 104
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1609178b9ef9def30800000000000000
+      internalID: 4606513820040532065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_idle_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 340
+        width: 104
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0b4a8aa49a8e560800000000000000
+      internalID: 7343305330549633208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_idle_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 336
+        width: 104
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62248fbed9843c100800000000000000
+      internalID: 127025057602486822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_idle_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 336
+        width: 104
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01766ad6267a31130800000000000000
+      internalID: 3536354173604226832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_idle_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 110
+        width: 120
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b67845085e76160800000000000000
+      internalID: 7018830883616942872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_idle_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 110
+        width: 120
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758d8f2e0c53010d0800000000000000
+      internalID: -3454201811635218345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_idle_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 255
+        width: 48
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19308d99e4dce1f0800000000000000
+      internalID: -1014201716230309602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_idle_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 255
+        width: 48
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c93add0c9fcae30800000000000000
+      internalID: 4516259133093288993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_idle_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 106
+        width: 120
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222b3b5bbd0ae4fb0800000000000000
+      internalID: -4661611698775150046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elitearcher_idle_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 106
+        width: 120
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01433371b6adbc5f0800000000000000
+      internalID: -735253960659356656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      elitearcher_idle_sheet_0: -8539329062691501726
+      elitearcher_idle_sheet_1: 85887813649466268
+      elitearcher_idle_sheet_10: 127025057602486822
+      elitearcher_idle_sheet_11: 3536354173604226832
+      elitearcher_idle_sheet_12: 7018830883616942872
+      elitearcher_idle_sheet_13: -3454201811635218345
+      elitearcher_idle_sheet_14: -1014201716230309602
+      elitearcher_idle_sheet_15: 4516259133093288993
+      elitearcher_idle_sheet_16: -4661611698775150046
+      elitearcher_idle_sheet_17: -735253960659356656
+      elitearcher_idle_sheet_2: -1419413587338652783
+      elitearcher_idle_sheet_3: 1279741188449002508
+      elitearcher_idle_sheet_4: 2748724530754504497
+      elitearcher_idle_sheet_5: 1064529641124260316
+      elitearcher_idle_sheet_6: 1343033314818703571
+      elitearcher_idle_sheet_7: -2100571848407338759
+      elitearcher_idle_sheet_8: 4606513820040532065
+      elitearcher_idle_sheet_9: 7343305330549633208
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

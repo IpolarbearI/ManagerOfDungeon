@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8482730c8d85fc4438956280456fb12b, type: 3}
+  m_Name: GreaterManaPotion
+  m_EditorClassIdentifier: Assembly-CSharp::FantasyDungeonPixelPack.ItemSO
+  itemName: Greater Mana Potion
+  description: 
+  icon: {fileID: -6212904085613963113, guid: e29dd7e6dcf18c947bf4c469369855d6, type: 3}
+  type: 3
+  rarity: 2
+  stackable: 1
+  maxStack: 99
+  value: 70
+  bonusAttack: 0
+  bonusDefense: 0
+  bonusMaxHP: 0
+  bonusMaxMP: 0
+  healHP: 0
+  restoreMP: 60

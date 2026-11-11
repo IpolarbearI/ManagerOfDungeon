@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 2de99ff2df7c1284daf60e458ad80425
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1209467443098371765
+    second: necromancer_walk_sheet_0
+  - first:
+      213: -5239977547070132239
+    second: necromancer_walk_sheet_1
+  - first:
+      213: 7729133203340523624
+    second: necromancer_walk_sheet_2
+  - first:
+      213: -8193301080257342500
+    second: necromancer_walk_sheet_3
+  - first:
+      213: -364918317141183736
+    second: necromancer_walk_sheet_4
+  - first:
+      213: -636107341129354720
+    second: necromancer_walk_sheet_5
+  - first:
+      213: 7579129200019670124
+    second: necromancer_walk_sheet_6
+  - first:
+      213: 2372580830680241318
+    second: necromancer_walk_sheet_7
+  - first:
+      213: 1804782462752326035
+    second: necromancer_walk_sheet_8
+  - first:
+      213: 6979431550041788604
+    second: necromancer_walk_sheet_9
+  - first:
+      213: -5311917452291507111
+    second: necromancer_walk_sheet_10
+  - first:
+      213: 7927556706668539379
+    second: necromancer_walk_sheet_11
+  - first:
+      213: 9196109709595038776
+    second: necromancer_walk_sheet_12
+  - first:
+      213: 1689351116614178417
+    second: necromancer_walk_sheet_13
+  - first:
+      213: -210033757320221243
+    second: necromancer_walk_sheet_14
+  - first:
+      213: -108751774180751517
+    second: necromancer_walk_sheet_15
+  - first:
+      213: -3983307812754019454
+    second: necromancer_walk_sheet_16
+  - first:
+      213: -7039006330168659695
+    second: necromancer_walk_sheet_17
+  - first:
+      213: 3756716274462148894
+    second: necromancer_walk_sheet_18
+  - first:
+      213: -5591747410995490914
+    second: necromancer_walk_sheet_19
+  - first:
+      213: 8810006380865240710
+    second: necromancer_walk_sheet_20
+  - first:
+      213: 80658931481892532
+    second: necromancer_walk_sheet_21
+  - first:
+      213: 4413029220571779459
+    second: necromancer_walk_sheet_22
+  - first:
+      213: -5487895945288329608
+    second: necromancer_walk_sheet_23
+  - first:
+      213: -1542100312481785611
+    second: necromancer_walk_sheet_24
+  - first:
+      213: 4214361540413443361
+    second: necromancer_walk_sheet_25
+  - first:
+      213: 4413943935559067629
+    second: necromancer_walk_sheet_26
+  - first:
+      213: -8513012059429385183
+    second: necromancer_walk_sheet_27
+  - first:
+      213: -9073218862667029384
+    second: necromancer_walk_sheet_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 795
+        width: 113
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b647414b34e8c010800000000000000
+      internalID: 1209467443098371765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 789
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ffacdbfe2cd747b0800000000000000
+      internalID: -5239977547070132239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 786
+        width: 115
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868f9ce92b5634b60800000000000000
+      internalID: 7729133203340523624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 786
+        width: 120
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3df65d31c8b4e80800000000000000
+      internalID: -8193301080257342500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 813
+        width: 129
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80334c659bc8feaf0800000000000000
+      internalID: -364918317141183736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 789
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02277f45eb71c27f0800000000000000
+      internalID: -636107341129354720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 789
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6486f9f9d97e2960800000000000000
+      internalID: 7579129200019670124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 596
+        width: 114
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4d89de1b91de020800000000000000
+      internalID: 2372580830680241318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 570
+        width: 127
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39105357610eb0910800000000000000
+      internalID: 1804782462752326035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 596
+        width: 112
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb01562240cebd060800000000000000
+      internalID: 6979431550041788604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 590
+        width: 124
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c77fb88374846b0800000000000000
+      internalID: -5311917452291507111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 565
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd6ebd92d6540e60800000000000000
+      internalID: 7927556706668539379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 565
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834deebce052f9f70800000000000000
+      internalID: 9196109709595038776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 565
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17692b6d3e7c17710800000000000000
+      internalID: 1689351116614178417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 565
+        width: 48
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd6618196fc51df0800000000000000
+      internalID: -210033757320221243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 565
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367434b66d2ad7ef0800000000000000
+      internalID: -108751774180751517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 565
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b22c516a278b8c0800000000000000
+      internalID: -3983307812754019454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 355
+        width: 97
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1113296790d605e90800000000000000
+      internalID: -7039006330168659695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 354
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19ce353c89822430800000000000000
+      internalID: 3756716274462148894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 354
+        width: 99
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f47e52b5f1662b0800000000000000
+      internalID: -5591747410995490914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 358
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68eb560402e634a70800000000000000
+      internalID: 8810006380865240710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 354
+        width: 107
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6d0feeede8e1100800000000000000
+      internalID: 80658931481892532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 358
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3819993e1ba3e3d30800000000000000
+      internalID: 4413029220571779459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 355
+        width: 92
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87658c0c6b317d3b0800000000000000
+      internalID: -5487895945288329608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 355
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8118aafeb599ae0800000000000000
+      internalID: -1542100312481785611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 130
+        width: 99
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d496b0e7b6c7a30800000000000000
+      internalID: 4214361540413443361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 131
+        width: 99
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7ec719f9a714d30800000000000000
+      internalID: 4413943935559067629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 129
+        width: 94
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c4815c2a4bbd980800000000000000
+      internalID: -8513012059429385183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_walk_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 130
+        width: 95
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874ab513483751280800000000000000
+      internalID: -9073218862667029384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      necromancer_walk_sheet_0: 1209467443098371765
+      necromancer_walk_sheet_1: -5239977547070132239
+      necromancer_walk_sheet_10: -5311917452291507111
+      necromancer_walk_sheet_11: 7927556706668539379
+      necromancer_walk_sheet_12: 9196109709595038776
+      necromancer_walk_sheet_13: 1689351116614178417
+      necromancer_walk_sheet_14: -210033757320221243
+      necromancer_walk_sheet_15: -108751774180751517
+      necromancer_walk_sheet_16: -3983307812754019454
+      necromancer_walk_sheet_17: -7039006330168659695
+      necromancer_walk_sheet_18: 3756716274462148894
+      necromancer_walk_sheet_19: -5591747410995490914
+      necromancer_walk_sheet_2: 7729133203340523624
+      necromancer_walk_sheet_20: 8810006380865240710
+      necromancer_walk_sheet_21: 80658931481892532
+      necromancer_walk_sheet_22: 4413029220571779459
+      necromancer_walk_sheet_23: -5487895945288329608
+      necromancer_walk_sheet_24: -1542100312481785611
+      necromancer_walk_sheet_25: 4214361540413443361
+      necromancer_walk_sheet_26: 4413943935559067629
+      necromancer_walk_sheet_27: -8513012059429385183
+      necromancer_walk_sheet_28: -9073218862667029384
+      necromancer_walk_sheet_3: -8193301080257342500
+      necromancer_walk_sheet_4: -364918317141183736
+      necromancer_walk_sheet_5: -636107341129354720
+      necromancer_walk_sheet_6: 7579129200019670124
+      necromancer_walk_sheet_7: 2372580830680241318
+      necromancer_walk_sheet_8: 1804782462752326035
+      necromancer_walk_sheet_9: 6979431550041788604
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

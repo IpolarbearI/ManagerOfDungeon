@@ -1,0 +1,1547 @@
+fileFormatVersion: 2
+guid: 23b4db042bd121944a94439c675b4b38
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8867989258664811245
+    second: toxicbat_death_sheet_0
+  - first:
+      213: -7970429064620417322
+    second: toxicbat_death_sheet_1
+  - first:
+      213: 4389268035831052846
+    second: toxicbat_death_sheet_2
+  - first:
+      213: -1029565625030140960
+    second: toxicbat_death_sheet_3
+  - first:
+      213: -3523133989361907388
+    second: toxicbat_death_sheet_4
+  - first:
+      213: -2094997001575359077
+    second: toxicbat_death_sheet_5
+  - first:
+      213: 2971106941806829819
+    second: toxicbat_death_sheet_6
+  - first:
+      213: -7404637365042928291
+    second: toxicbat_death_sheet_7
+  - first:
+      213: 7327768450727922816
+    second: toxicbat_death_sheet_8
+  - first:
+      213: 107306935563033171
+    second: toxicbat_death_sheet_9
+  - first:
+      213: -8906890892244066623
+    second: toxicbat_death_sheet_10
+  - first:
+      213: -2678906144890314730
+    second: toxicbat_death_sheet_11
+  - first:
+      213: -6559974807963965761
+    second: toxicbat_death_sheet_12
+  - first:
+      213: -5961352503079142356
+    second: toxicbat_death_sheet_13
+  - first:
+      213: -4182410104893959812
+    second: toxicbat_death_sheet_14
+  - first:
+      213: 3955667564146851927
+    second: toxicbat_death_sheet_15
+  - first:
+      213: 3707883976979171832
+    second: toxicbat_death_sheet_16
+  - first:
+      213: 143388383509373701
+    second: toxicbat_death_sheet_17
+  - first:
+      213: -1995208178180907992
+    second: toxicbat_death_sheet_18
+  - first:
+      213: -3604707886826529839
+    second: toxicbat_death_sheet_19
+  - first:
+      213: -6043570770671574706
+    second: toxicbat_death_sheet_20
+  - first:
+      213: 6378126120779812102
+    second: toxicbat_death_sheet_21
+  - first:
+      213: -8067646947702651819
+    second: toxicbat_death_sheet_22
+  - first:
+      213: -5566446221156623381
+    second: toxicbat_death_sheet_23
+  - first:
+      213: 5965221577228624208
+    second: toxicbat_death_sheet_24
+  - first:
+      213: 2782082840317616242
+    second: toxicbat_death_sheet_25
+  - first:
+      213: -4948592031084848263
+    second: toxicbat_death_sheet_26
+  - first:
+      213: 7461745927549221377
+    second: toxicbat_death_sheet_27
+  - first:
+      213: 2117173958524244769
+    second: toxicbat_death_sheet_28
+  - first:
+      213: -192645536650729479
+    second: toxicbat_death_sheet_29
+  - first:
+      213: 279297429540233765
+    second: toxicbat_death_sheet_30
+  - first:
+      213: 7503207728169492471
+    second: toxicbat_death_sheet_31
+  - first:
+      213: 2459956936323492682
+    second: toxicbat_death_sheet_32
+  - first:
+      213: 2744618291811519084
+    second: toxicbat_death_sheet_33
+  - first:
+      213: 2391936345034771604
+    second: toxicbat_death_sheet_34
+  - first:
+      213: 2145523281470955596
+    second: toxicbat_death_sheet_35
+  - first:
+      213: 6138747269873159553
+    second: toxicbat_death_sheet_36
+  - first:
+      213: 7672666629361745677
+    second: toxicbat_death_sheet_37
+  - first:
+      213: 6811153113060618632
+    second: toxicbat_death_sheet_38
+  - first:
+      213: -1578179428874645654
+    second: toxicbat_death_sheet_39
+  - first:
+      213: -5489443494639700981
+    second: toxicbat_death_sheet_40
+  - first:
+      213: -4129573991902010717
+    second: toxicbat_death_sheet_41
+  - first:
+      213: -6566706151092211203
+    second: toxicbat_death_sheet_42
+  - first:
+      213: 4198229961062120013
+    second: toxicbat_death_sheet_43
+  - first:
+      213: 8887644850756688063
+    second: toxicbat_death_sheet_44
+  - first:
+      213: 2161270034513508877
+    second: toxicbat_death_sheet_45
+  - first:
+      213: 4604687076577140732
+    second: toxicbat_death_sheet_46
+  - first:
+      213: 4213918836632820285
+    second: toxicbat_death_sheet_47
+  - first:
+      213: 1896936370360222232
+    second: toxicbat_death_sheet_48
+  - first:
+      213: -5368061437241297172
+    second: toxicbat_death_sheet_49
+  - first:
+      213: -5582998039051683361
+    second: toxicbat_death_sheet_50
+  - first:
+      213: 7886113446894974396
+    second: toxicbat_death_sheet_51
+  - first:
+      213: 7129885452056256869
+    second: toxicbat_death_sheet_52
+  - first:
+      213: -7669951067213495447
+    second: toxicbat_death_sheet_53
+  - first:
+      213: -1226303060493126058
+    second: toxicbat_death_sheet_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 820
+        width: 181
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315ed4df0c29ee480800000000000000
+      internalID: -8867989258664811245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 792
+        width: 191
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ded9dfaef8536190800000000000000
+      internalID: -7970429064620417322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 781
+        width: 206
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2abfa3f500d9ec30800000000000000
+      internalID: 4389268035831052846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 786
+        width: 218
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb1027d48f36b1f0800000000000000
+      internalID: -1029565625030140960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4498af39d405b1fc0800000000000000
+      internalID: -3523133989361907388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 801
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d979ba3531de2e0800000000000000
+      internalID: -2094997001575359077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 569
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0e710a50e7b3920800000000000000
+      internalID: 2971106941806829819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 568
+        width: 131
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5528064c817d3990800000000000000
+      internalID: -7404637365042928291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 567
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cc3fde49671b560800000000000000
+      internalID: 7327768450727922816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 567
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a9b20e61b3d7100800000000000000
+      internalID: 107306935563033171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 551
+        width: 162
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce51aa9ced546480800000000000000
+      internalID: -8906890892244066623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 559
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610a33ffd0d92dad0800000000000000
+      internalID: -2678906144890314730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 568
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6ebcb1ba946f4a0800000000000000
+      internalID: -6559974807963965761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 550
+        width: 154
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2cf419ab75054da0800000000000000
+      internalID: -5961352503079142356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 561
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c719ac04b2815f5c0800000000000000
+      internalID: -4182410104893959812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 560
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750028a01ba55e630800000000000000
+      internalID: 3955667564146851927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 355
+        width: 174
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9c434f4dc057330800000000000000
+      internalID: 3707883976979171832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 305
+        width: 168
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5036eff99fa6df100800000000000000
+      internalID: 143388383509373701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 388
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c9296abb89f44e0800000000000000
+      internalID: -1995208178180907992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 378
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbd7a6864189fdc0800000000000000
+      internalID: -3604707886826529839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 388
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41ef2f776ce02ca0800000000000000
+      internalID: -6043570770671574706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 379
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d88b10ae7a38850800000000000000
+      internalID: 6378126120779812102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 379
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5544be468d5f90090800000000000000
+      internalID: -8067646947702651819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 315
+        width: 181
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bebd4a677a200c2b0800000000000000
+      internalID: -5566446221156623381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 378
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051253d5b69b8c250800000000000000
+      internalID: 5965221577228624208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 329
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27067d86a91fb9620800000000000000
+      internalID: 2782082840317616242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 341
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97bdbd834c1135bb0800000000000000
+      internalID: -4948592031084848263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 336
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10af9c713627d8760800000000000000
+      internalID: 7461745927549221377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 340
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1239b8d7f76b16d10800000000000000
+      internalID: 2117173958524244769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 312
+        width: 181
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f76e54b7e5935df0800000000000000
+      internalID: -192645536650729479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 329
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522ec6a488340e300800000000000000
+      internalID: 279297429540233765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 334
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff1281dcafb02860800000000000000
+      internalID: 7503207728169492471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 325
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4be158dcc5832220800000000000000
+      internalID: 2459956936323492682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 325
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a07777bc7d61620800000000000000
+      internalID: 2744618291811519084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 313
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49cc42bce6dd13120800000000000000
+      internalID: 2391936345034771604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 305
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4028699e0e66cd10800000000000000
+      internalID: 2145523281470955596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 311
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d40b21e16313550800000000000000
+      internalID: 6138747269873159553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 312
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fb91bd5a9ca7a60800000000000000
+      internalID: 7672666629361745677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 307
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88136c65ba3168e50800000000000000
+      internalID: 6811153113060618632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 307
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f0916cb2e291ae0800000000000000
+      internalID: -1578179428874645654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 73
+        width: 119
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04fb67d93491d3b0800000000000000
+      internalID: -5489443494639700981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 64
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a22df2755ec0b6c0800000000000000
+      internalID: -4129573991902010717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 63
+        width: 130
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1b6c72c8f5ed4a0800000000000000
+      internalID: -6566706151092211203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 60
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a728a08eb134a30800000000000000
+      internalID: 4198229961062120013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 51
+        width: 147
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb89e2b27e1475b70800000000000000
+      internalID: 8887644850756688063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 43
+        width: 168
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0abfde35af5efd10800000000000000
+      internalID: 2161270034513508877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 54
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff563ddf7227ef30800000000000000
+      internalID: 4604687076577140732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 54
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a93d90bd8da7a30800000000000000
+      internalID: 4213918836632820285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81207d41495435a10800000000000000
+      internalID: 1896936370360222232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 55
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce672c46090d085b0800000000000000
+      internalID: -5368061437241297172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 55
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd93f9c0dd43582b0800000000000000
+      internalID: -5582998039051683361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 60
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb53b94c56a117d60800000000000000
+      internalID: 7886113446894974396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 55
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561e90bfa0172f260800000000000000
+      internalID: 7129885452056256869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9638c1a342cde8590800000000000000
+      internalID: -7669951067213495447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_death_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 45
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656355c1ddb4bfee0800000000000000
+      internalID: -1226303060493126058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      toxicbat_death_sheet_0: -8867989258664811245
+      toxicbat_death_sheet_1: -7970429064620417322
+      toxicbat_death_sheet_10: -8906890892244066623
+      toxicbat_death_sheet_11: -2678906144890314730
+      toxicbat_death_sheet_12: -6559974807963965761
+      toxicbat_death_sheet_13: -5961352503079142356
+      toxicbat_death_sheet_14: -4182410104893959812
+      toxicbat_death_sheet_15: 3955667564146851927
+      toxicbat_death_sheet_16: 3707883976979171832
+      toxicbat_death_sheet_17: 143388383509373701
+      toxicbat_death_sheet_18: -1995208178180907992
+      toxicbat_death_sheet_19: -3604707886826529839
+      toxicbat_death_sheet_2: 4389268035831052846
+      toxicbat_death_sheet_20: -6043570770671574706
+      toxicbat_death_sheet_21: 6378126120779812102
+      toxicbat_death_sheet_22: -8067646947702651819
+      toxicbat_death_sheet_23: -5566446221156623381
+      toxicbat_death_sheet_24: 5965221577228624208
+      toxicbat_death_sheet_25: 2782082840317616242
+      toxicbat_death_sheet_26: -4948592031084848263
+      toxicbat_death_sheet_27: 7461745927549221377
+      toxicbat_death_sheet_28: 2117173958524244769
+      toxicbat_death_sheet_29: -192645536650729479
+      toxicbat_death_sheet_3: -1029565625030140960
+      toxicbat_death_sheet_30: 279297429540233765
+      toxicbat_death_sheet_31: 7503207728169492471
+      toxicbat_death_sheet_32: 2459956936323492682
+      toxicbat_death_sheet_33: 2744618291811519084
+      toxicbat_death_sheet_34: 2391936345034771604
+      toxicbat_death_sheet_35: 2145523281470955596
+      toxicbat_death_sheet_36: 6138747269873159553
+      toxicbat_death_sheet_37: 7672666629361745677
+      toxicbat_death_sheet_38: 6811153113060618632
+      toxicbat_death_sheet_39: -1578179428874645654
+      toxicbat_death_sheet_4: -3523133989361907388
+      toxicbat_death_sheet_40: -5489443494639700981
+      toxicbat_death_sheet_41: -4129573991902010717
+      toxicbat_death_sheet_42: -6566706151092211203
+      toxicbat_death_sheet_43: 4198229961062120013
+      toxicbat_death_sheet_44: 8887644850756688063
+      toxicbat_death_sheet_45: 2161270034513508877
+      toxicbat_death_sheet_46: 4604687076577140732
+      toxicbat_death_sheet_47: 4213918836632820285
+      toxicbat_death_sheet_48: 1896936370360222232
+      toxicbat_death_sheet_49: -5368061437241297172
+      toxicbat_death_sheet_5: -2094997001575359077
+      toxicbat_death_sheet_50: -5582998039051683361
+      toxicbat_death_sheet_51: 7886113446894974396
+      toxicbat_death_sheet_52: 7129885452056256869
+      toxicbat_death_sheet_53: -7669951067213495447
+      toxicbat_death_sheet_54: -1226303060493126058
+      toxicbat_death_sheet_6: 2971106941806829819
+      toxicbat_death_sheet_7: -7404637365042928291
+      toxicbat_death_sheet_8: 7327768450727922816
+      toxicbat_death_sheet_9: 107306935563033171
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

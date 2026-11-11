@@ -1,0 +1,11 @@
+FANTASY DUNGEON — TOP-DOWN PIXEL PACK / OMNIKA ASSETS
+Licensed under the Unity Asset Store EULA (https://unity.com/legal/as-terms) / itch.io & Fab standard licenses.
+
+You MAY: use these assets in unlimited commercial and non-commercial games/projects.
+You MAY NOT: resell, redistribute, or sublicense the assets themselves (as an asset pack or template).
+
+AI DISCLOSURE: 2D sprite art was created with AI image-generation tools (Higgsfield / GPT-Image / Nano Banana),
+then curated, cleaned, sliced, color-matched and assembled by hand. All C# scripts, animator controllers,
+Tile assets, prefabs, scenes and documentation are human-made.
+
+(c) Omnika Assets.

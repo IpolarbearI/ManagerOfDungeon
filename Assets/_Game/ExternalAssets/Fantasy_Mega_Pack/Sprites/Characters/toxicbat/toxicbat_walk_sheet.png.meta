@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: c45e9adb428c73944beff3dbf13e79ec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -836273906272654185
+    second: toxicbat_walk_sheet_0
+  - first:
+      213: -6942940778667380862
+    second: toxicbat_walk_sheet_1
+  - first:
+      213: -6789790833845522513
+    second: toxicbat_walk_sheet_2
+  - first:
+      213: 2288369890452184472
+    second: toxicbat_walk_sheet_3
+  - first:
+      213: 5035069314502455183
+    second: toxicbat_walk_sheet_4
+  - first:
+      213: -5192864222825880087
+    second: toxicbat_walk_sheet_5
+  - first:
+      213: 2920706329647514397
+    second: toxicbat_walk_sheet_6
+  - first:
+      213: -3228368630406176509
+    second: toxicbat_walk_sheet_7
+  - first:
+      213: -2634021294669352689
+    second: toxicbat_walk_sheet_8
+  - first:
+      213: 7018447190068363497
+    second: toxicbat_walk_sheet_9
+  - first:
+      213: 3212700591260953828
+    second: toxicbat_walk_sheet_10
+  - first:
+      213: 2867743756278832931
+    second: toxicbat_walk_sheet_11
+  - first:
+      213: 7375194363552230475
+    second: toxicbat_walk_sheet_12
+  - first:
+      213: -8979580606729235048
+    second: toxicbat_walk_sheet_13
+  - first:
+      213: 1178453437426077640
+    second: toxicbat_walk_sheet_14
+  - first:
+      213: 6293924968635531722
+    second: toxicbat_walk_sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: toxicbat_walk_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 822
+        width: 190
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ca0b12055f464f0800000000000000
+      internalID: -836273906272654185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_walk_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 820
+        width: 209
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28fe4f6a528b5af90800000000000000
+      internalID: -6942940778667380862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_walk_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 812
+        width: 212
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf2f61e531d5c1a0800000000000000
+      internalID: -6789790833845522513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_walk_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 809
+        width: 194
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d1a138a4ce1cf10800000000000000
+      internalID: 2288369890452184472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_walk_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 589
+        width: 110
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f63665dd820e540800000000000000
+      internalID: 5035069314502455183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_walk_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 591
+        width: 151
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5e0a7908d3fe7b0800000000000000
+      internalID: -5192864222825880087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_walk_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 592
+        width: 146
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1300e7aeee688820800000000000000
+      internalID: 2920706329647514397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_walk_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 593
+        width: 112
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30120a4d5d78233d0800000000000000
+      internalID: -3228368630406176509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_walk_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 377
+        width: 193
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f013b609693127bd0800000000000000
+      internalID: -2634021294669352689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_walk_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 372
+        width: 205
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e00dd6b888866160800000000000000
+      internalID: 7018447190068363497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_walk_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 367
+        width: 222
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ecebc78a2ec59c20800000000000000
+      internalID: 3212700591260953828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_walk_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 364
+        width: 197
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f18db90c54cc720800000000000000
+      internalID: 2867743756278832931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_walk_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 126
+        width: 109
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c6efcb234f95660800000000000000
+      internalID: 7375194363552230475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_walk_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 128
+        width: 138
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895dae7930f126380800000000000000
+      internalID: -8979580606729235048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_walk_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 124
+        width: 152
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf8e1a5825ba5010800000000000000
+      internalID: 1178453437426077640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxicbat_walk_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 111
+        width: 105
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac18b7e8963885750800000000000000
+      internalID: 6293924968635531722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      toxicbat_walk_sheet_0: -836273906272654185
+      toxicbat_walk_sheet_1: -6942940778667380862
+      toxicbat_walk_sheet_10: 3212700591260953828
+      toxicbat_walk_sheet_11: 2867743756278832931
+      toxicbat_walk_sheet_12: 7375194363552230475
+      toxicbat_walk_sheet_13: -8979580606729235048
+      toxicbat_walk_sheet_14: 1178453437426077640
+      toxicbat_walk_sheet_15: 6293924968635531722
+      toxicbat_walk_sheet_2: -6789790833845522513
+      toxicbat_walk_sheet_3: 2288369890452184472
+      toxicbat_walk_sheet_4: 5035069314502455183
+      toxicbat_walk_sheet_5: -5192864222825880087
+      toxicbat_walk_sheet_6: 2920706329647514397
+      toxicbat_walk_sheet_7: -3228368630406176509
+      toxicbat_walk_sheet_8: -2634021294669352689
+      toxicbat_walk_sheet_9: 7018447190068363497
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

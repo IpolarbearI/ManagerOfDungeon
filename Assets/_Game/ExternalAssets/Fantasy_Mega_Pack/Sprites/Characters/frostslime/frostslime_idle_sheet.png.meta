@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 1055f8f55250b6a4ab2001b8c939055b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -797873912277347748
+    second: frostslime_idle_sheet_0
+  - first:
+      213: 700297220935644738
+    second: frostslime_idle_sheet_1
+  - first:
+      213: 1037343809848470894
+    second: frostslime_idle_sheet_2
+  - first:
+      213: 1286325888950716462
+    second: frostslime_idle_sheet_3
+  - first:
+      213: 1599971523163833791
+    second: frostslime_idle_sheet_4
+  - first:
+      213: -5416555553630043391
+    second: frostslime_idle_sheet_5
+  - first:
+      213: -3604573490693955279
+    second: frostslime_idle_sheet_6
+  - first:
+      213: 2947984979671073466
+    second: frostslime_idle_sheet_7
+  - first:
+      213: -9158234956473247981
+    second: frostslime_idle_sheet_8
+  - first:
+      213: 1446799521222004154
+    second: frostslime_idle_sheet_9
+  - first:
+      213: -490631150673989478
+    second: frostslime_idle_sheet_10
+  - first:
+      213: -3329493315483099887
+    second: frostslime_idle_sheet_11
+  - first:
+      213: 5998110331380496330
+    second: frostslime_idle_sheet_12
+  - first:
+      213: -353802950648483990
+    second: frostslime_idle_sheet_13
+  - first:
+      213: 6880413670328691200
+    second: frostslime_idle_sheet_14
+  - first:
+      213: 933920973915156390
+    second: frostslime_idle_sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: frostslime_idle_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 791
+        width: 138
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52582377e16de4f0800000000000000
+      internalID: -797873912277347748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_idle_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 791
+        width: 138
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246ff03bc94f7b900800000000000000
+      internalID: 700297220935644738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_idle_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 787
+        width: 138
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6de7ffe2b2656e00800000000000000
+      internalID: 1037343809848470894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_idle_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 787
+        width: 138
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28cb4ca492f9d110800000000000000
+      internalID: 1286325888950716462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_idle_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 577
+        width: 138
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5cbe09f9d343610800000000000000
+      internalID: 1599971523163833791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_idle_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 577
+        width: 138
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10346bf0c6784d4b0800000000000000
+      internalID: -5416555553630043391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_idle_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 573
+        width: 138
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131a560128bf9fdc0800000000000000
+      internalID: -3604573490693955279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_idle_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 573
+        width: 138
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab24b7c48b859e820800000000000000
+      internalID: 2947984979671073466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_idle_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 350
+        width: 138
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317d8d954d967e080800000000000000
+      internalID: -9158234956473247981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_idle_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 350
+        width: 138
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd84a3cf70141410800000000000000
+      internalID: 1446799521222004154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_idle_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 346
+        width: 138
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90f554619de039f0800000000000000
+      internalID: -490631150673989478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_idle_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 346
+        width: 138
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d979058734bc1d0800000000000000
+      internalID: -3329493315483099887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_idle_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 136
+        width: 139
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7f88921919d3350800000000000000
+      internalID: 5998110331380496330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_idle_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 136
+        width: 139
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fac16471a071bf0800000000000000
+      internalID: -353802950648483990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_idle_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 132
+        width: 139
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00aeea777c32c7f50800000000000000
+      internalID: 6880413670328691200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frostslime_idle_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 132
+        width: 139
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6afef7a7d24f5fc00800000000000000
+      internalID: 933920973915156390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      frostslime_idle_sheet_0: -797873912277347748
+      frostslime_idle_sheet_1: 700297220935644738
+      frostslime_idle_sheet_10: -490631150673989478
+      frostslime_idle_sheet_11: -3329493315483099887
+      frostslime_idle_sheet_12: 5998110331380496330
+      frostslime_idle_sheet_13: -353802950648483990
+      frostslime_idle_sheet_14: 6880413670328691200
+      frostslime_idle_sheet_15: 933920973915156390
+      frostslime_idle_sheet_2: 1037343809848470894
+      frostslime_idle_sheet_3: 1286325888950716462
+      frostslime_idle_sheet_4: 1599971523163833791
+      frostslime_idle_sheet_5: -5416555553630043391
+      frostslime_idle_sheet_6: -3604573490693955279
+      frostslime_idle_sheet_7: 2947984979671073466
+      frostslime_idle_sheet_8: -9158234956473247981
+      frostslime_idle_sheet_9: 1446799521222004154
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

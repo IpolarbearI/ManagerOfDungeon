@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 2a099656713896c44b9c8684c8310951
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2484270447918113903
+    second: necromancer_hurt_sheet_0
+  - first:
+      213: -2253488781788054639
+    second: necromancer_hurt_sheet_1
+  - first:
+      213: -7739534110554365958
+    second: necromancer_hurt_sheet_2
+  - first:
+      213: -7288452167586644539
+    second: necromancer_hurt_sheet_3
+  - first:
+      213: 6492961946739620018
+    second: necromancer_hurt_sheet_4
+  - first:
+      213: -8009021684558131907
+    second: necromancer_hurt_sheet_5
+  - first:
+      213: 5187362204148669636
+    second: necromancer_hurt_sheet_6
+  - first:
+      213: -6887534384381934501
+    second: necromancer_hurt_sheet_7
+  - first:
+      213: -3786092996487249477
+    second: necromancer_hurt_sheet_8
+  - first:
+      213: -5821364428051605500
+    second: necromancer_hurt_sheet_9
+  - first:
+      213: -9025895163054168926
+    second: necromancer_hurt_sheet_10
+  - first:
+      213: -6488247112574786662
+    second: necromancer_hurt_sheet_11
+  - first:
+      213: -1709218098307835996
+    second: necromancer_hurt_sheet_12
+  - first:
+      213: 5477222916374509674
+    second: necromancer_hurt_sheet_13
+  - first:
+      213: -1990082619019692574
+    second: necromancer_hurt_sheet_14
+  - first:
+      213: -6333290097614481600
+    second: necromancer_hurt_sheet_15
+  - first:
+      213: 87301350514171760
+    second: necromancer_hurt_sheet_16
+  - first:
+      213: -9102884538984015537
+    second: necromancer_hurt_sheet_17
+  - first:
+      213: -6681643621346529459
+    second: necromancer_hurt_sheet_18
+  - first:
+      213: -817687787240488359
+    second: necromancer_hurt_sheet_19
+  - first:
+      213: -7759345592296971297
+    second: necromancer_hurt_sheet_20
+  - first:
+      213: 4723625544124040218
+    second: necromancer_hurt_sheet_21
+  - first:
+      213: 6848559590611589256
+    second: necromancer_hurt_sheet_22
+  - first:
+      213: -6942884680028605543
+    second: necromancer_hurt_sheet_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 756
+        width: 140
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b17d99039168dd0800000000000000
+      internalID: -2484270447918113903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 756
+        width: 141
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19bf13874eff9b0e0800000000000000
+      internalID: -2253488781788054639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 757
+        width: 119
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff53657bb6a79490800000000000000
+      internalID: -7739534110554365958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 750
+        width: 139
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd72949e573ada90800000000000000
+      internalID: -7288452167586644539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 862
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b83b874d72ab1a50800000000000000
+      internalID: 6492961946739620018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 533
+        width: 138
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d0385263d3ad090800000000000000
+      internalID: -8009021684558131907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 639
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc919bd0763df740800000000000000
+      internalID: 5187362204148669636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 532
+        width: 124
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5440a818ff8a60a0800000000000000
+      internalID: -6887534384381934501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 627
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb188c1ba78157bc0800000000000000
+      internalID: -3786092996487249477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 535
+        width: 101
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40893e545eb563fa0800000000000000
+      internalID: -5821364428051605500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 522
+        width: 141
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a46d32ab249db280800000000000000
+      internalID: -9025895163054168926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 633
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93a60890ad15f5a0800000000000000
+      internalID: -6488247112574786662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 569
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a751b60233a748e0800000000000000
+      internalID: -1709218098307835996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 546
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68b12e0931030c40800000000000000
+      internalID: 5477222916374509674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 323
+        width: 108
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5f6a3e66ec164e0800000000000000
+      internalID: -1990082619019692574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 322
+        width: 126
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04790302632ab18a0800000000000000
+      internalID: -6333290097614481600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 327
+        width: 109
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f1fc1ad18263100800000000000000
+      internalID: 87301350514171760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 318
+        width: 153
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49567eadbe0ca180800000000000000
+      internalID: -9102884538984015537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 405
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4fa2e9f6880643a0800000000000000
+      internalID: -6681643621346529459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 104
+        width: 109
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9520b503a4df6a4f0800000000000000
+      internalID: -817687787240488359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 114
+        width: 118
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd365a96b44415490800000000000000
+      internalID: -7759345592296971297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 118
+        width: 106
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a148971d760bd8140800000000000000
+      internalID: 4723625544124040218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 109
+        width: 141
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8889f7599a8fa0f50800000000000000
+      internalID: 6848559590611589256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_hurt_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 198
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993b4622b2be5af90800000000000000
+      internalID: -6942884680028605543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      necromancer_hurt_sheet_0: -2484270447918113903
+      necromancer_hurt_sheet_1: -2253488781788054639
+      necromancer_hurt_sheet_10: -9025895163054168926
+      necromancer_hurt_sheet_11: -6488247112574786662
+      necromancer_hurt_sheet_12: -1709218098307835996
+      necromancer_hurt_sheet_13: 5477222916374509674
+      necromancer_hurt_sheet_14: -1990082619019692574
+      necromancer_hurt_sheet_15: -6333290097614481600
+      necromancer_hurt_sheet_16: 87301350514171760
+      necromancer_hurt_sheet_17: -9102884538984015537
+      necromancer_hurt_sheet_18: -6681643621346529459
+      necromancer_hurt_sheet_19: -817687787240488359
+      necromancer_hurt_sheet_2: -7739534110554365958
+      necromancer_hurt_sheet_20: -7759345592296971297
+      necromancer_hurt_sheet_21: 4723625544124040218
+      necromancer_hurt_sheet_22: 6848559590611589256
+      necromancer_hurt_sheet_23: -6942884680028605543
+      necromancer_hurt_sheet_3: -7288452167586644539
+      necromancer_hurt_sheet_4: 6492961946739620018
+      necromancer_hurt_sheet_5: -8009021684558131907
+      necromancer_hurt_sheet_6: 5187362204148669636
+      necromancer_hurt_sheet_7: -6887534384381934501
+      necromancer_hurt_sheet_8: -3786092996487249477
+      necromancer_hurt_sheet_9: -5821364428051605500
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

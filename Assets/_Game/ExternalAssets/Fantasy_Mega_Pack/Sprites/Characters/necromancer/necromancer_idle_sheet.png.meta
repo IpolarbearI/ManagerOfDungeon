@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 6853b5ae872b9914f802d12dd0a5babd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8444960548360726589
+    second: necromancer_idle_sheet_0
+  - first:
+      213: -224859803890540063
+    second: necromancer_idle_sheet_1
+  - first:
+      213: 7094945647882182475
+    second: necromancer_idle_sheet_2
+  - first:
+      213: -7881988732094157495
+    second: necromancer_idle_sheet_3
+  - first:
+      213: 1203735225796962660
+    second: necromancer_idle_sheet_4
+  - first:
+      213: 7912812692751716339
+    second: necromancer_idle_sheet_5
+  - first:
+      213: 278754116814078201
+    second: necromancer_idle_sheet_6
+  - first:
+      213: 4668983641130639173
+    second: necromancer_idle_sheet_7
+  - first:
+      213: 8618864022513164722
+    second: necromancer_idle_sheet_8
+  - first:
+      213: -5459070498770470148
+    second: necromancer_idle_sheet_9
+  - first:
+      213: -3326450652682741411
+    second: necromancer_idle_sheet_10
+  - first:
+      213: 5428057819618056893
+    second: necromancer_idle_sheet_11
+  - first:
+      213: 7440329910110982478
+    second: necromancer_idle_sheet_12
+  - first:
+      213: -4067929078083601808
+    second: necromancer_idle_sheet_13
+  - first:
+      213: -2602895650859775098
+    second: necromancer_idle_sheet_14
+  - first:
+      213: -7992394995873259788
+    second: necromancer_idle_sheet_15
+  - first:
+      213: 5269764928950463361
+    second: necromancer_idle_sheet_16
+  - first:
+      213: 6272783156168346422
+    second: necromancer_idle_sheet_17
+  - first:
+      213: 8921269376104766802
+    second: necromancer_idle_sheet_18
+  - first:
+      213: -381975734409411798
+    second: necromancer_idle_sheet_19
+  - first:
+      213: -508294679771079043
+    second: necromancer_idle_sheet_20
+  - first:
+      213: -4985078793655068416
+    second: necromancer_idle_sheet_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: necromancer_idle_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 761
+        width: 55
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c755c4ef197dca80800000000000000
+      internalID: -8444960548360726589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_idle_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 761
+        width: 55
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e127d0233321ecf0800000000000000
+      internalID: -224859803890540063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_idle_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 757
+        width: 55
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f98b2e97f467260800000000000000
+      internalID: 7094945647882182475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_idle_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 757
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d65eb320d8d9290800000000000000
+      internalID: -7881988732094157495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_idle_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 757
+        width: 54
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469a0496fc684b010800000000000000
+      internalID: 1203735225796962660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_idle_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 757
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff0bad5835ffcd60800000000000000
+      internalID: 7912812692751716339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_idle_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 557
+        width: 56
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0816074655ed300800000000000000
+      internalID: 278754116814078201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_idle_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 557
+        width: 56
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f93bf52ef8bc040800000000000000
+      internalID: 4668983641130639173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_idle_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 553
+        width: 56
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1aa4de92b5c9770800000000000000
+      internalID: 8618864022513164722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_idle_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 553
+        width: 55
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfab8f40e4c7d34b0800000000000000
+      internalID: -5459070498770470148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_idle_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 343
+        width: 35
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d599af371c216d1d0800000000000000
+      internalID: -3326450652682741411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_idle_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 343
+        width: 35
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba9d9ee3d5545b40800000000000000
+      internalID: 5428057819618056893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_idle_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 511
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4111e7f1ac514760800000000000000
+      internalID: 7440329910110982478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_idle_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 511
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a38596e00db87c0800000000000000
+      internalID: -4067929078083601808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_idle_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 339
+        width: 35
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b081f3238a0ebd0800000000000000
+      internalID: -2602895650859775098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_idle_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 339
+        width: 34
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe5d56c81f451190800000000000000
+      internalID: -7992394995873259788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_idle_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 122
+        width: 42
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b67ef4847f12940800000000000000
+      internalID: 5269764928950463361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_idle_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 122
+        width: 42
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bc770cb076d0750800000000000000
+      internalID: 6272783156168346422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_idle_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 255
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d9b4c0b37becb70800000000000000
+      internalID: 8921269376104766802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_idle_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 255
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2345b5e713f2baf0800000000000000
+      internalID: -381975734409411798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_idle_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 118
+        width: 42
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e160b8eac22f8f0800000000000000
+      internalID: -508294679771079043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: necromancer_idle_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 118
+        width: 41
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0095bdecf3171dab0800000000000000
+      internalID: -4985078793655068416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      necromancer_idle_sheet_0: -8444960548360726589
+      necromancer_idle_sheet_1: -224859803890540063
+      necromancer_idle_sheet_10: -3326450652682741411
+      necromancer_idle_sheet_11: 5428057819618056893
+      necromancer_idle_sheet_12: 7440329910110982478
+      necromancer_idle_sheet_13: -4067929078083601808
+      necromancer_idle_sheet_14: -2602895650859775098
+      necromancer_idle_sheet_15: -7992394995873259788
+      necromancer_idle_sheet_16: 5269764928950463361
+      necromancer_idle_sheet_17: 6272783156168346422
+      necromancer_idle_sheet_18: 8921269376104766802
+      necromancer_idle_sheet_19: -381975734409411798
+      necromancer_idle_sheet_2: 7094945647882182475
+      necromancer_idle_sheet_20: -508294679771079043
+      necromancer_idle_sheet_21: -4985078793655068416
+      necromancer_idle_sheet_3: -7881988732094157495
+      necromancer_idle_sheet_4: 1203735225796962660
+      necromancer_idle_sheet_5: 7912812692751716339
+      necromancer_idle_sheet_6: 278754116814078201
+      necromancer_idle_sheet_7: 4668983641130639173
+      necromancer_idle_sheet_8: 8618864022513164722
+      necromancer_idle_sheet_9: -5459070498770470148
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

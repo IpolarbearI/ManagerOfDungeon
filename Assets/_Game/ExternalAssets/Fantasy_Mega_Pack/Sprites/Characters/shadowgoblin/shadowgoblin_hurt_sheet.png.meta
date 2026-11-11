@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 4d0834be55c2dd248a7862de77e77054
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1383464012708364462
+    second: shadowgoblin_hurt_sheet_0
+  - first:
+      213: 7513256281443738983
+    second: shadowgoblin_hurt_sheet_1
+  - first:
+      213: -1130165496763518663
+    second: shadowgoblin_hurt_sheet_2
+  - first:
+      213: 4625698270574503915
+    second: shadowgoblin_hurt_sheet_3
+  - first:
+      213: -7889577901367895369
+    second: shadowgoblin_hurt_sheet_4
+  - first:
+      213: 3044914173373337315
+    second: shadowgoblin_hurt_sheet_5
+  - first:
+      213: -8101028637476220273
+    second: shadowgoblin_hurt_sheet_6
+  - first:
+      213: -8845379254765335906
+    second: shadowgoblin_hurt_sheet_7
+  - first:
+      213: -3528847151856717456
+    second: shadowgoblin_hurt_sheet_8
+  - first:
+      213: -6747165444799481827
+    second: shadowgoblin_hurt_sheet_9
+  - first:
+      213: 120900521671707005
+    second: shadowgoblin_hurt_sheet_10
+  - first:
+      213: -8901906684804322708
+    second: shadowgoblin_hurt_sheet_11
+  - first:
+      213: -2534747061164543540
+    second: shadowgoblin_hurt_sheet_12
+  - first:
+      213: 3004111820905379987
+    second: shadowgoblin_hurt_sheet_13
+  - first:
+      213: 4941751336526219487
+    second: shadowgoblin_hurt_sheet_14
+  - first:
+      213: -4414091467291295413
+    second: shadowgoblin_hurt_sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shadowgoblin_hurt_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 792
+        width: 131
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f3bf27fc2fccce0800000000000000
+      internalID: -1383464012708364462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_hurt_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 792
+        width: 137
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7652de1f7c2744860800000000000000
+      internalID: 7513256281443738983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_hurt_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 784
+        width: 142
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931f104f778d050f0800000000000000
+      internalID: -1130165496763518663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_hurt_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 792
+        width: 130
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be76bbfa118c13040800000000000000
+      internalID: 4625698270574503915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_hurt_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 565
+        width: 128
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bad13113b6928290800000000000000
+      internalID: -7889577901367895369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_hurt_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 568
+        width: 134
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee487bde45b14a20800000000000000
+      internalID: 3044914173373337315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_hurt_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 564
+        width: 134
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8296f3106d539f80800000000000000
+      internalID: -8101028637476220273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_hurt_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 560
+        width: 127
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a4a10ce66ee3580800000000000000
+      internalID: -8845379254765335906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_hurt_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 343
+        width: 123
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0717ee64634070fc0800000000000000
+      internalID: -3528847151856717456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_hurt_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 340
+        width: 123
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18bfe5a6c04d52a0800000000000000
+      internalID: -6747165444799481827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_hurt_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 345
+        width: 170
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79c66742668da100800000000000000
+      internalID: 120900521671707005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_hurt_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 338
+        width: 125
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a2094d803167480800000000000000
+      internalID: -8901906684804322708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_hurt_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 124
+        width: 132
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc172df3af4c2dcd0800000000000000
+      internalID: -2534747061164543540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_hurt_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 117
+        width: 116
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398fd9ed8cfb0b920800000000000000
+      internalID: 3004111820905379987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_hurt_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 128
+        width: 137
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd805f578a0a49440800000000000000
+      internalID: 4941751336526219487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shadowgoblin_hurt_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 112
+        width: 124
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b410506823ffdb2c0800000000000000
+      internalID: -4414091467291295413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      shadowgoblin_hurt_sheet_0: -1383464012708364462
+      shadowgoblin_hurt_sheet_1: 7513256281443738983
+      shadowgoblin_hurt_sheet_10: 120900521671707005
+      shadowgoblin_hurt_sheet_11: -8901906684804322708
+      shadowgoblin_hurt_sheet_12: -2534747061164543540
+      shadowgoblin_hurt_sheet_13: 3004111820905379987
+      shadowgoblin_hurt_sheet_14: 4941751336526219487
+      shadowgoblin_hurt_sheet_15: -4414091467291295413
+      shadowgoblin_hurt_sheet_2: -1130165496763518663
+      shadowgoblin_hurt_sheet_3: 4625698270574503915
+      shadowgoblin_hurt_sheet_4: -7889577901367895369
+      shadowgoblin_hurt_sheet_5: 3044914173373337315
+      shadowgoblin_hurt_sheet_6: -8101028637476220273
+      shadowgoblin_hurt_sheet_7: -8845379254765335906
+      shadowgoblin_hurt_sheet_8: -3528847151856717456
+      shadowgoblin_hurt_sheet_9: -6747165444799481827
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

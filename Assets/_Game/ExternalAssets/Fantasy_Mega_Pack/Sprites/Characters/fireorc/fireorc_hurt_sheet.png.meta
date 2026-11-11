@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 7e8c4b7162d35994cba88a294bf7f44e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1668839811661128186
+    second: fireorc_hurt_sheet_0
+  - first:
+      213: -8651810696465262073
+    second: fireorc_hurt_sheet_1
+  - first:
+      213: -7049943717806665512
+    second: fireorc_hurt_sheet_2
+  - first:
+      213: -7805553958394141493
+    second: fireorc_hurt_sheet_3
+  - first:
+      213: -7182437929808425876
+    second: fireorc_hurt_sheet_4
+  - first:
+      213: -672503834917833223
+    second: fireorc_hurt_sheet_5
+  - first:
+      213: 8676106390431940778
+    second: fireorc_hurt_sheet_6
+  - first:
+      213: 78355250009101413
+    second: fireorc_hurt_sheet_7
+  - first:
+      213: -4540738166413588891
+    second: fireorc_hurt_sheet_8
+  - first:
+      213: 2377631593536056273
+    second: fireorc_hurt_sheet_9
+  - first:
+      213: -485126045846449313
+    second: fireorc_hurt_sheet_10
+  - first:
+      213: 2447292243586284542
+    second: fireorc_hurt_sheet_11
+  - first:
+      213: -6084096637567930673
+    second: fireorc_hurt_sheet_12
+  - first:
+      213: 9009739319409457019
+    second: fireorc_hurt_sheet_13
+  - first:
+      213: 7314588859494528964
+    second: fireorc_hurt_sheet_14
+  - first:
+      213: -8932686603799884988
+    second: fireorc_hurt_sheet_15
+  - first:
+      213: -1293706003010474121
+    second: fireorc_hurt_sheet_16
+  - first:
+      213: -7916576001484216198
+    second: fireorc_hurt_sheet_17
+  - first:
+      213: -4754147227920167376
+    second: fireorc_hurt_sheet_18
+  - first:
+      213: 6328887907840703348
+    second: fireorc_hurt_sheet_19
+  - first:
+      213: -6952248472838712859
+    second: fireorc_hurt_sheet_20
+  - first:
+      213: -7603820305835016412
+    second: fireorc_hurt_sheet_21
+  - first:
+      213: -7434942363871677153
+    second: fireorc_hurt_sheet_22
+  - first:
+      213: 4774992313907384928
+    second: fireorc_hurt_sheet_23
+  - first:
+      213: -2914226826508752762
+    second: fireorc_hurt_sheet_24
+  - first:
+      213: -8825140672732445009
+    second: fireorc_hurt_sheet_25
+  - first:
+      213: 1162876698527363195
+    second: fireorc_hurt_sheet_26
+  - first:
+      213: -1636388119359437310
+    second: fireorc_hurt_sheet_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 795
+        width: 153
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1671187f8e82710800000000000000
+      internalID: 1668839811661128186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 798
+        width: 173
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a5345c2089ee780800000000000000
+      internalID: -8651810696465262073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 798
+        width: 164
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d013a57a81992e90800000000000000
+      internalID: -7049943717806665512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 959
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4e5cac70a1da390800000000000000
+      internalID: -7805553958394141493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 798
+        width: 175
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c0a7cc1cad25c90800000000000000
+      internalID: -7182437929808425876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 951
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f572a14359caa6f0800000000000000
+      internalID: -672503834917833223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 564
+        width: 151
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0413b4bc8b76870800000000000000
+      internalID: 8676106390431940778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 567
+        width: 168
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564541b4faf561100800000000000000
+      internalID: 78355250009101413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 569
+        width: 158
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5660cdc02be0cf0c0800000000000000
+      internalID: -4540738166413588891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 733
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db667b465b0ff020800000000000000
+      internalID: 2377631593536056273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 733
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53580e7e6c7449f0800000000000000
+      internalID: -485126045846449313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 717
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb7788445786f120800000000000000
+      internalID: 2447292243586284542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 568
+        width: 177
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce6d92d752f09ba0800000000000000
+      internalID: -6084096637567930673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 344
+        width: 139
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b773544ec26090d70800000000000000
+      internalID: 9009739319409457019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 511
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7733830d3a28560800000000000000
+      internalID: 7314588859494528964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 503
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b0e9a7cd8b80480800000000000000
+      internalID: -8932686603799884988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 343
+        width: 134
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f25ce9e35db0ee0800000000000000
+      internalID: -1293706003010474121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 342
+        width: 138
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78a62a021ca22290800000000000000
+      internalID: -7916576001484216198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 336
+        width: 145
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e09e5e840e50eb0800000000000000
+      internalID: -4754147227920167376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 484
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b3c12350ab4d750800000000000000
+      internalID: 6328887907840703348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 497
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1523a39d6a48f90800000000000000
+      internalID: -6952248472838712859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 109
+        width: 137
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f3dc6f7bdc97690800000000000000
+      internalID: -7603820305835016412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 108
+        width: 141
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15fce3ef47c1d890800000000000000
+      internalID: -7434942363871677153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 265
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0629ba3e53e244240800000000000000
+      internalID: 4774992313907384928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 273
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 688280b34269e87d0800000000000000
+      internalID: -2914226826508752762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 254
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa64ee4d05dc68580800000000000000
+      internalID: -8825140672732445009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 109
+        width: 129
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b707d45323e532010800000000000000
+      internalID: 1162876698527363195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireorc_hurt_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 110
+        width: 148
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20649e6eca16a49e0800000000000000
+      internalID: -1636388119359437310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fireorc_hurt_sheet_0: 1668839811661128186
+      fireorc_hurt_sheet_1: -8651810696465262073
+      fireorc_hurt_sheet_10: -485126045846449313
+      fireorc_hurt_sheet_11: 2447292243586284542
+      fireorc_hurt_sheet_12: -6084096637567930673
+      fireorc_hurt_sheet_13: 9009739319409457019
+      fireorc_hurt_sheet_14: 7314588859494528964
+      fireorc_hurt_sheet_15: -8932686603799884988
+      fireorc_hurt_sheet_16: -1293706003010474121
+      fireorc_hurt_sheet_17: -7916576001484216198
+      fireorc_hurt_sheet_18: -4754147227920167376
+      fireorc_hurt_sheet_19: 6328887907840703348
+      fireorc_hurt_sheet_2: -7049943717806665512
+      fireorc_hurt_sheet_20: -6952248472838712859
+      fireorc_hurt_sheet_21: -7603820305835016412
+      fireorc_hurt_sheet_22: -7434942363871677153
+      fireorc_hurt_sheet_23: 4774992313907384928
+      fireorc_hurt_sheet_24: -2914226826508752762
+      fireorc_hurt_sheet_25: -8825140672732445009
+      fireorc_hurt_sheet_26: 1162876698527363195
+      fireorc_hurt_sheet_27: -1636388119359437310
+      fireorc_hurt_sheet_3: -7805553958394141493
+      fireorc_hurt_sheet_4: -7182437929808425876
+      fireorc_hurt_sheet_5: -672503834917833223
+      fireorc_hurt_sheet_6: 8676106390431940778
+      fireorc_hurt_sheet_7: 78355250009101413
+      fireorc_hurt_sheet_8: -4540738166413588891
+      fireorc_hurt_sheet_9: 2377631593536056273
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

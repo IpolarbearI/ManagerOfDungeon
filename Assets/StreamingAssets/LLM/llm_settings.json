@@ -1,0 +1,17 @@
+{
+    "enabled": true,
+    "externalServerUrl": "",
+    "serverExecutable": "bin/llama-server.exe",
+    "modelFile": "models/Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+    "port": 0,
+    "contextSize": 4096,
+    "gpuLayers": 99,
+    "threads": 0,
+    "extraArgs": "",
+    "startupTimeoutSeconds": 120.0,
+    "requestTimeoutSeconds": 12.0,
+    "maxTokens": 320,
+    "temperature": 0.8,
+    "topP": 0.9,
+    "logPrompts": false
+}

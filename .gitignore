@@ -104,3 +104,11 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Local LLM (용량 큼: 각자 내려받기)
+/[Aa]ssets/StreamingAssets/bin/
+/[Aa]ssets/StreamingAssets/bin.meta
+/[Aa]ssets/StreamingAssets/models/
+/[Aa]ssets/StreamingAssets/models.meta
+*.gguf
+*.gguf.meta

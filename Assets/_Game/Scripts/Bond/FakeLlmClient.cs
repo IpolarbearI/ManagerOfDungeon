@@ -1,25 +1,45 @@
 using System.Collections.Generic;
+using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace ManagerOfDungeon
 {
+    /// <summary>
+    /// 준비된 대사 클라이언트. 쓰는 곳:
+    /// - AI 대화 꺼짐/LLM 서버 사용 불가 상태(정상 교감으로 처리, EXP 지급)
+    /// - 실제 LLM 요청 실패 시 표시할 폴백 대사(이때는 CommunionService가 EXP를 주지 않음)
+    /// - 테스트(SimulatedDelayMs로 지연 흉내)
+    /// </summary>
     public sealed class FakeLlmClient : ILlmClient
     {
-        public Task<string> Complete(LlmPrompt prompt)
+        public int SimulatedDelayMs { get; set; }
+
+        public async Task<LlmResponse> CompleteAsync(LlmPrompt prompt, CancellationToken ct)
         {
+            if (SimulatedDelayMs > 0)
+            {
+                try
+                {
+                    await Task.Delay(SimulatedDelayMs, ct);
+                }
+                catch (TaskCanceledException)
+                {
+                    return LlmResponse.Failure("취소됨");
+                }
+            }
+
             string topicId = ReadTopicId(prompt != null ? prompt.User : string.Empty);
-            string json = BuildJson(topicId);
-            return Task.FromResult(json);
+            return LlmResponse.Success(BuildJson(topicId), SimulatedDelayMs, scripted: true);
         }
 
         static string ReadTopicId(string user)
         {
-            const string marker = "주제 ID: ";
-            int i = user.IndexOf(marker, System.StringComparison.Ordinal);
+            int i = user.IndexOf(CommunionPromptBuilder.TopicIdMarker, System.StringComparison.Ordinal);
             if (i < 0)
                 return string.Empty;
 
-            int start = i + marker.Length;
+            int start = i + CommunionPromptBuilder.TopicIdMarker.Length;
             int end = user.IndexOf('\n', start);
             if (end < 0)
                 end = user.Length;
@@ -29,21 +49,26 @@ namespace ManagerOfDungeon
         static string BuildJson(string topicId)
         {
             IReadOnlyList<DialogueLine> lines = LinesFor(topicId);
-            string summary = SummaryFor(topicId);
-            var sb = new System.Text.StringBuilder();
-            sb.Append("{\"speaker\":\"").Append(Escape(lines[0].Speaker)).Append("\",\"lines\":[");
+            var sb = new StringBuilder();
+            sb.Append("{\"lines\":[");
             for (int i = 0; i < lines.Count; i++)
             {
                 if (i > 0)
                     sb.Append(',');
-                sb.Append("{\"speaker\":\"").Append(Escape(lines[i].Speaker))
-                    .Append("\",\"text\":\"").Append(Escape(lines[i].Text)).Append("\"}");
+                sb.Append("{\"speaker\":");
+                MiniJson.AppendQuoted(sb, lines[i].Speaker);
+                sb.Append(",\"text\":");
+                MiniJson.AppendQuoted(sb, lines[i].Text);
+                sb.Append('}');
             }
 
-            sb.Append("],\"memorySummary\":\"").Append(Escape(summary)).Append("\"}");
+            sb.Append("],\"memorySummary\":");
+            MiniJson.AppendQuoted(sb, SummaryFor(topicId));
+            sb.Append('}');
             return sb.ToString();
         }
 
+        /// <summary>주제별 준비 대사. 화자 '고블린'은 파서/서비스에서 실제 몬스터 이름으로 바뀐다.</summary>
         public static IReadOnlyList<DialogueLine> LinesFor(string topicId)
         {
             switch (topicId)
@@ -121,13 +146,6 @@ namespace ManagerOfDungeon
             if (WorryCatalog.TryGet(topicId, out var worry))
                 return "고민을 말했다: " + worry.Title;
             return "마왕과 짧게 이야기했다.";
-        }
-
-        static string Escape(string value)
-        {
-            if (string.IsNullOrEmpty(value))
-                return string.Empty;
-            return value.Replace("\\", "\\\\").Replace("\"", "\\\"");
         }
     }
 }

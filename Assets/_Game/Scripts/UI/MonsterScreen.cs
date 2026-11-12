@@ -35,6 +35,9 @@ namespace ManagerOfDungeon
         MonsterState _gameMonster;
         IReadOnlyList<DialogueLine> _gameLines;
         int _gameExp;
+        // LLM 응답 대기 중(대사 넘기기 잠금)
+        bool _gameLoading;
+        System.Threading.CancellationTokenSource _llmCts;
 
         bool IsGameMode => GameSession.IsGame && _gameMonster != null;
 
@@ -56,6 +59,7 @@ namespace ManagerOfDungeon
 #if UNITY_EDITOR
             UnityEditor.EditorApplication.delayCall -= EnsureUi;
 #endif
+            CancelLlmRequest();
         }
 
         void EnsureUi()
@@ -489,8 +493,11 @@ namespace ManagerOfDungeon
 
         // ───────────── 본 게임(A2) 교감 ─────────────
 
-        void BeginGameInteraction()
+        async void BeginGameInteraction()
         {
+            if (_gameLoading)
+                return;
+
             var state = GameSession.Current;
             if (state == null || state.monsters.Count == 0)
                 return;
@@ -503,18 +510,51 @@ namespace ManagerOfDungeon
             var def = GameDefs.GetMonster(_gameMonster.speciesId);
             var profile = new MonsterProfile(_gameMonster.id, def != null ? def.DisplayName : _gameMonster.speciesId, _gameMonster.name, _gameMonster.personalityId);
 
-            CommunionResult result = null;
+            System.Threading.Tasks.Task<CommunionResult> request = null;
+            CancelLlmRequest();
+            _llmCts = new System.Threading.CancellationTokenSource();
+            var token = _llmCts.Token;
             if (_gameMonster.hasWorry)
             {
-                result = _communion.StartWorry(new CommunionRequest(profile, _gameMonster.CreateBond(), CommunionKind.Worry,
-                    _gameMonster.worryTopicId, string.Empty, state.day, state.monsters.Count - 1));
+                request = _communion.StartWorryAsync(new CommunionRequest(profile, _gameMonster.CreateBond(), CommunionKind.Worry,
+                    _gameMonster.worryTopicId, string.Empty, state.day, state.monsters.Count - 1), token);
             }
             else if (_communion.CanTalk(_gameMonster.id, state.day))
             {
                 var topics = TalkCatalog.All;
                 string topicId = topics[state.rng.Range(0, topics.Count)].Id;
-                result = _communion.StartTalk(new CommunionRequest(profile, _gameMonster.CreateBond(), CommunionKind.Talk,
-                    topicId, string.Empty, state.day, state.monsters.Count - 1));
+                request = _communion.StartTalkAsync(new CommunionRequest(profile, _gameMonster.CreateBond(), CommunionKind.Talk,
+                    topicId, string.Empty, state.day, state.monsters.Count - 1), token);
+            }
+
+            CommunionResult result = null;
+            if (request != null)
+            {
+                // 응답 대기 중 표시. 대사 넘기기 버튼은 잠근다.
+                _gameLoading = true;
+                _gameLines = new[] { new DialogueLine(_gameMonster.name, "……") };
+                _gameExp = 0;
+                _dialogueOpen = true;
+                _dialogueIndex = 0;
+                RefreshGameUi();
+
+                try
+                {
+                    result = await request;
+                }
+                catch (System.Exception e)
+                {
+                    Debug.LogWarning("[LLM] 교감 요청 오류: " + e.Message);
+                    result = null;
+                }
+                finally
+                {
+                    _gameLoading = false;
+                }
+
+                // 기다리는 동안 화면이 닫혔으면 아무것도 하지 않는다.
+                if (this == null || token.IsCancellationRequested)
+                    return;
             }
 
             if (result != null && result.Ok)
@@ -533,9 +573,18 @@ namespace ManagerOfDungeon
             RefreshGameUi();
         }
 
+        void CancelLlmRequest()
+        {
+            if (_llmCts == null)
+                return;
+            _llmCts.Cancel();
+            _llmCts.Dispose();
+            _llmCts = null;
+        }
+
         void AdvanceGameDialogue()
         {
-            if (!_dialogueOpen || _gameLines == null)
+            if (!_dialogueOpen || _gameLines == null || _gameLoading)
                 return;
 
             if (_dialogueIndex < _gameLines.Count - 1)
@@ -551,17 +600,23 @@ namespace ManagerOfDungeon
             {
                 int levelBefore = _gameMonster.bondLevel;
                 bool wasWorry = pending.Kind == CommunionKind.Worry;
-                _communion.Complete();
-                _gameMonster.StoreBond(pending.Bond);
-                if (wasWorry)
+                // 폴백(LLM 실패)이면 Complete()가 false: EXP·기억·기회·고민 상태를 그대로 둔다(명세 6.1).
+                bool applied = _communion.Complete();
+                if (applied)
                 {
-                    _gameMonster.hasWorry = false;
-                    _gameMonster.worryTopicId = string.Empty;
+                    _gameMonster.StoreBond(pending.Bond);
+                    if (wasWorry)
+                    {
+                        _gameMonster.hasWorry = false;
+                        _gameMonster.worryTopicId = string.Empty;
+                    }
                 }
 
-                string message = _gameMonster.bondLevel > levelBefore
-                    ? $"{_gameMonster.name} 유대감 Lv.{_gameMonster.bondLevel} 달성!"
-                    : $"{_gameMonster.name} 유대감 EXP +{_gameExp}";
+                string message = !applied
+                    ? $"{_gameMonster.name}와(과)의 대화가 잘 이어지지 않았어요 · 유대감 변화 없음 (다시 말을 걸 수 있어요)"
+                    : _gameMonster.bondLevel > levelBefore
+                        ? $"{_gameMonster.name} 유대감 Lv.{_gameMonster.bondLevel} 달성!"
+                        : $"{_gameMonster.name} 유대감 EXP +{_gameExp}";
                 if (_gameMonster.bondLevel > levelBefore)
                 {
                     var up = new BondLevelUp();
@@ -650,7 +705,7 @@ namespace ManagerOfDungeon
                     bool last = index >= _gameLines.Count - 1;
                     SetText("Dialogue/Speaker", _gameLines[index].Speaker);
                     SetText("Dialogue/Body", _gameLines[index].Text);
-                    SetText("Dialogue/NextLine/Label", last ? (_gameExp > 0 ? $"유대감 +{_gameExp}" : "닫기") : "다음");
+                    SetText("Dialogue/NextLine/Label", _gameLoading ? "생각 중…" : last ? (_gameExp > 0 ? $"유대감 +{_gameExp}" : "닫기") : "다음");
                 }
             }
         }

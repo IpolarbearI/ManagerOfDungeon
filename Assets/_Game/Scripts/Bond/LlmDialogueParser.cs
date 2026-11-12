@@ -5,152 +5,167 @@ namespace ManagerOfDungeon
 {
     public readonly struct ParsedLlmDialogue
     {
-        public ParsedLlmDialogue(string speaker, IReadOnlyList<DialogueLine> lines, string memorySummary, bool ok)
+        public ParsedLlmDialogue(string speaker, IReadOnlyList<DialogueLine> lines, string memorySummary, bool ok, string error = null)
         {
             Speaker = speaker ?? string.Empty;
             Lines = lines ?? System.Array.Empty<DialogueLine>();
             MemorySummary = memorySummary ?? string.Empty;
             Ok = ok;
+            Error = error ?? string.Empty;
         }
 
         public string Speaker { get; }
         public IReadOnlyList<DialogueLine> Lines { get; }
         public string MemorySummary { get; }
         public bool Ok { get; }
+        public string Error { get; }
     }
 
+    /// <summary>
+    /// LLM 응답 JSON 검증 (명세 6.1 JSON 검증 단계).
+    /// 형식: {"lines":[{"speaker":"이름|마왕","text":"..."}], "memorySummary":"..."}
+    /// 문자열 배열 lines도 허용(구형). 하나라도 규칙을 어기면 Ok=false → 폴백.
+    /// </summary>
     public static class LlmDialogueParser
     {
-        public static ParsedLlmDialogue Parse(string json, string fallbackSpeaker)
+        const int HardMaxLineChars = 90;
+        const int HardMaxSummaryChars = 80;
+        const int HardMaxLines = 5;
+
+        static readonly string[] Forbidden = { "<|", "|>", "```", "{", "}", "assistant", "system" };
+
+        public static ParsedLlmDialogue Parse(string raw, string monsterName)
         {
-            if (string.IsNullOrEmpty(json))
-                return new ParsedLlmDialogue(fallbackSpeaker, System.Array.Empty<DialogueLine>(), string.Empty, false);
+            if (string.IsNullOrWhiteSpace(raw))
+                return Fail(monsterName, "빈 응답");
 
-            string speaker = ReadString(json, "speaker");
-            if (string.IsNullOrEmpty(speaker))
-                speaker = fallbackSpeaker;
+            string json = ExtractObject(raw);
+            if (json == null)
+                return Fail(monsterName, "JSON 객체 없음");
 
-            string summary = ReadString(json, "memorySummary");
-            var lines = ReadLines(json, speaker);
-            if (lines.Count == 0)
-                return new ParsedLlmDialogue(speaker, System.Array.Empty<DialogueLine>(), summary, false);
+            if (!MiniJson.TryParse(json, out object rootValue) || !(rootValue is Dictionary<string, object> root))
+                return Fail(monsterName, "JSON 파싱 실패");
 
-            return new ParsedLlmDialogue(speaker, lines, summary, true);
-        }
+            if (!root.TryGetValue("lines", out object linesValue) || !(linesValue is List<object> rawLines))
+                return Fail(monsterName, "lines 없음");
 
-        static string ReadString(string json, string key)
-        {
-            string token = "\"" + key + "\"";
-            int keyIndex = json.IndexOf(token, System.StringComparison.Ordinal);
-            if (keyIndex < 0)
-                return string.Empty;
-
-            int colon = json.IndexOf(':', keyIndex + token.Length);
-            if (colon < 0)
-                return string.Empty;
-
-            int first = json.IndexOf('"', colon + 1);
-            if (first < 0)
-                return string.Empty;
-
-            return Unescape(ReadQuoted(json, first));
-        }
-
-        static List<DialogueLine> ReadLines(string json, string fallbackSpeaker)
-        {
-            var result = new List<DialogueLine>();
-            const string token = "\"lines\"";
-            int keyIndex = json.IndexOf(token, System.StringComparison.Ordinal);
-            if (keyIndex < 0)
-                return result;
-
-            int bracket = json.IndexOf('[', keyIndex + token.Length);
-            if (bracket < 0)
-                return result;
-
-            int depth = 0;
-            int end = -1;
-            for (int i = bracket; i < json.Length; i++)
+            var lines = new List<DialogueLine>(rawLines.Count);
+            bool monsterSpoke = false;
+            for (int i = 0; i < rawLines.Count && lines.Count < HardMaxLines; i++)
             {
-                if (json[i] == '[')
-                    depth++;
-                else if (json[i] == ']')
+                string speaker;
+                string text;
+                if (rawLines[i] is string s)
                 {
-                    depth--;
-                    if (depth == 0)
-                    {
-                        end = i;
-                        break;
-                    }
+                    speaker = monsterName;
+                    text = s;
                 }
-            }
-
-            if (end < 0)
-                return result;
-
-            int cursor = bracket + 1;
-            while (cursor < end)
-            {
-                while (cursor < end && (json[cursor] == ',' || json[cursor] == ' ' || json[cursor] == '\n'))
-                    cursor++;
-                if (cursor >= end)
-                    break;
-
-                if (json[cursor] == '{')
+                else if (rawLines[i] is Dictionary<string, object> obj)
                 {
-                    int close = json.IndexOf('}', cursor);
-                    if (close < 0 || close > end)
-                        break;
-                    string obj = json.Substring(cursor, close - cursor + 1);
-                    string lineSpeaker = ReadString(obj, "speaker");
-                    string text = ReadString(obj, "text");
+                    speaker = MiniJson.GetString(obj, "speaker");
+                    text = MiniJson.GetString(obj, "text");
                     if (string.IsNullOrEmpty(text))
-                        text = ReadString(obj, "line");
-                    if (!string.IsNullOrEmpty(text))
-                        result.Add(new DialogueLine(string.IsNullOrEmpty(lineSpeaker) ? fallbackSpeaker : lineSpeaker, text));
-                    cursor = close + 1;
-                    continue;
+                        text = MiniJson.GetString(obj, "line");
                 }
-
-                if (json[cursor] == '"')
+                else
                 {
-                    string text = Unescape(ReadQuoted(json, cursor));
-                    if (!string.IsNullOrEmpty(text))
-                        result.Add(new DialogueLine(fallbackSpeaker, text));
-                    cursor += text.Length + 2;
                     continue;
                 }
 
-                cursor++;
+                text = Clean(text, HardMaxLineChars);
+                if (text.Length == 0)
+                    continue;
+                if (ContainsForbidden(text))
+                    return Fail(monsterName, "금지 문자열: " + text);
+
+                bool isPlayer = speaker == CommunionPromptBuilder.PlayerSpeaker;
+                if (!isPlayer)
+                    monsterSpoke = true;
+                lines.Add(new DialogueLine(isPlayer ? CommunionPromptBuilder.PlayerSpeaker : monsterName, text));
             }
 
-            return result;
+            if (lines.Count == 0)
+                return Fail(monsterName, "대사 없음");
+            if (!monsterSpoke)
+                return Fail(monsterName, "몬스터 대사 없음");
+
+            string summary = Clean(MiniJson.GetString(root, "memorySummary"), HardMaxSummaryChars);
+            if (ContainsForbidden(summary))
+                summary = string.Empty;
+            if (summary.Length == 0)
+                summary = Clean(FirstMonsterLine(lines), 40);
+
+            return new ParsedLlmDialogue(monsterName, lines, summary, true);
         }
 
-        static string ReadQuoted(string json, int firstQuote)
+        static ParsedLlmDialogue Fail(string monsterName, string error)
         {
-            var sb = new StringBuilder();
-            for (int i = firstQuote + 1; i < json.Length; i++)
+            return new ParsedLlmDialogue(monsterName, System.Array.Empty<DialogueLine>(), string.Empty, false, error);
+        }
+
+        /// <summary>앞뒤 설명문·코드펜스·&lt;think&gt; 블록이 붙어도 첫 '{' ~ 마지막 '}'만 꺼낸다.</summary>
+        static string ExtractObject(string raw)
+        {
+            int think = raw.IndexOf("</think>", System.StringComparison.Ordinal);
+            if (think >= 0)
+                raw = raw.Substring(think + "</think>".Length);
+
+            int first = raw.IndexOf('{');
+            int last = raw.LastIndexOf('}');
+            if (first < 0 || last <= first)
+                return null;
+            return raw.Substring(first, last - first + 1);
+        }
+
+        static string Clean(string text, int maxChars)
+        {
+            if (string.IsNullOrEmpty(text))
+                return string.Empty;
+
+            var sb = new StringBuilder(text.Length);
+            bool space = false;
+            for (int i = 0; i < text.Length; i++)
             {
-                char c = json[i];
-                if (c == '\\' && i + 1 < json.Length)
+                char c = text[i];
+                if (char.IsWhiteSpace(c))
                 {
-                    sb.Append(json[i + 1]);
-                    i++;
+                    space = sb.Length > 0;
                     continue;
                 }
-
-                if (c == '"')
-                    break;
+                if (char.IsControl(c))
+                    continue;
+                if (space)
+                {
+                    sb.Append(' ');
+                    space = false;
+                }
                 sb.Append(c);
             }
 
-            return sb.ToString();
+            string result = sb.ToString().Trim('"', '\'', ' ');
+            if (result.Length > maxChars)
+                result = result.Substring(0, maxChars - 1) + "…";
+            return result;
         }
 
-        static string Unescape(string value)
+        static bool ContainsForbidden(string text)
         {
-            return value.Replace("\\n", "\n");
+            for (int i = 0; i < Forbidden.Length; i++)
+            {
+                if (text.IndexOf(Forbidden[i], System.StringComparison.OrdinalIgnoreCase) >= 0)
+                    return true;
+            }
+            return false;
+        }
+
+        static string FirstMonsterLine(List<DialogueLine> lines)
+        {
+            for (int i = 0; i < lines.Count; i++)
+            {
+                if (lines[i].Speaker != CommunionPromptBuilder.PlayerSpeaker)
+                    return lines[i].Text;
+            }
+            return string.Empty;
         }
     }
 }
